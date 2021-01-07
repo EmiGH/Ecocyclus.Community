@@ -148,7 +148,7 @@
     <value>Las contraseñas no coinciden.</value>
   </data>
   <data name="AccountRegistrationRequiredCompanyName" xml:space="preserve">
-    <value>Por favor ingrese el nombre del Sitio</value>
+    <value>Por favor ingrese el nombre de su organización</value>
   </data>
   <data name="AccountRegistrationRequiredEmail" xml:space="preserve">
     <value>Por favor ingrese un correo electrónico válido.</value>
@@ -163,7 +163,7 @@
     <value>Por favor ingrese su apellido.</value>
   </data>
   <data name="AccountRegistrationRequiredLocation" xml:space="preserve">
-    <value>Por favor seleccione la ubicación de la Instalación.</value>
+    <value>Por favor seleccione la ubicación de su organización</value>
   </data>
   <data name="AccountRegistrationRequiredPassword" xml:space="preserve">
     <value>Por favor ingrese su contraseña.</value>

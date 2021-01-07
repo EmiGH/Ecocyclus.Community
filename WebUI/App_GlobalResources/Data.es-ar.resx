@@ -703,7 +703,7 @@
     <value>Al hacer clic en Registrarse, usted acepta nuestras &lt;ahref="/Registration/DataPolicy.aspx"&gt;Condiciones &lt;/a&gt; y ha leído nuestra &lt;ahref="/Registration/DataPolicy.aspx"&gt;Política de Uso de Datos&lt;/a&gt;, incluido el uso de cookies.</value>
   </data>
   <data name="RegistrationCompanyName" xml:space="preserve">
-    <value>El nombre de su Sitio</value>
+    <value>El nombre de su organización</value>
   </data>
   <data name="RegistrationEmail" xml:space="preserve">
     <value>Su correo electrónico</value>
@@ -712,7 +712,7 @@
     <value>Reingrese su correo electrónico</value>
   </data>
   <data name="RegistrationLocation" xml:space="preserve">
-    <value>La ubicación de su Sitio</value>
+    <value>La ubicación de su organización</value>
   </data>
   <data name="RegistrationPasswordRetype" xml:space="preserve">
     <value>Reingrese su contraseña</value>

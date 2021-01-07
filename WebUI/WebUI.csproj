@@ -862,8 +862,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\PublishProfiles\CSI Azure.pubxml" />
-    <None Include="Properties\PublishProfiles\CSI.pubxml" />
-    <None Include="Properties\PublishProfiles\File System.pubxml" />
+    <None Include="Properties\PublishProfiles\Ecocyclus.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_GlobalResources\Data.es-ar.resx">
