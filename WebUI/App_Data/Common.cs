@@ -35,7 +35,7 @@ namespace CSI.WebUI
         { Root, Images, Scripts, Style, Console, Directory, Dashboard, Permissions, EmissionFactors, Meters, Payments, Reports, Targets, Common }
         public static String GetPath(eFolders folder, HttpRequest request)
         {
-            String _uri = new UriBuilder(request.Url.Scheme, request.Url.Host, request.Url.Port).ToString();
+            String _uri = new UriBuilder(request.Url.Scheme, request.Url.Host, request.Url.Port, !string.IsNullOrEmpty(request.ApplicationPath) ? request.ApplicationPath +"/" : "").ToString();
 
             switch (folder)
             {
