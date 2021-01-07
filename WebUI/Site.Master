@@ -1,0 +1,394 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="CSI.WebUI.Site" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+<%@ Register TagPrefix="rad" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+
+<html>
+<head runat="server">
+    <title>CSI</title>
+    <link href="Styles/Login.css" rel="Stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic'
+        rel='stylesheet' type='text/css' />
+    <link rel="Stylesheet" href="../Styles/jquery-ui.css" />
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script> 
+    
+    <script type="text/javascript" src="/Scripts/map.js"></script>
+    <script type="text/javascript" src="/Scripts/confirm.js"></script>
+    <script type="text/javascript" src="/Scripts/msBeautify.js"></script>
+    <script type="text/javascript" src="/Scripts/prettyCheckable.js"></script>
+
+    <asp:ContentPlaceHolder ID="cphhead" runat="server"></asp:ContentPlaceHolder>
+
+</head>
+
+<body>
+    <form id="frmSite" runat="server" >
+
+        <ajaxToolkit:ToolkitScriptManager ID="smSite" runat="server"></ajaxToolkit:ToolkitScriptManager>
+  
+        <script type="text/javascript" lang="javascript">
+
+            $(document).ready(loadMap());
+
+            function loadMap() {
+                var _script = document.createElement("script");
+                _script.type = "text/javascript";
+                _script.src = "http://maps.googleapis.com/maps/api/js?key=AIzaSyDzj5Mp1wUYuTzITA9F_Vw0Yjaid30o6dg&sensor=false&callback=mapsLoaded&libraries=places";
+                document.body.appendChild(_script);
+            }
+        
+             function mapShow() {
+                $('#divMapPickup').css('left','50%');
+            }
+            
+            function mapHide() {
+                $('#divMapPickup').css('left', '-10000');
+            }
+
+            function mapCancel() {
+                mapClean();
+                mapHide();
+            }
+
+            function mapConfirm() {
+                mapPickup();
+                $('#divMapPickup').css('left', '-10000');
+            }
+
+            //**********************************************************************//
+            //***************** Load Variables for Postback  ***********************//
+            //**********************************************************************//
+            function mapPickup() {
+
+                var _coordenates = $('#hdnMapPoint').val();
+                var _address = $('#hdnMapAddress').val();
+
+                var _hdnAddress = $get('<%=hdnMapLocationAddress.ClientID%>');
+                var _hdnCoords = $get('<%=hdnMapLocationPoint.ClientID%>');
+                var _lblAddress = $get('<%=lblMapLocationSelected.ClientID%>');
+
+                if (_coordenates != '') {
+                    _hdnCoords.value = _coordenates;
+                    _hdnAddress.value = _address;
+                    _lblAddress.innerText = _address;
+
+                }
+                else {
+                    _hdnCoords.value = "";
+                    _hdnAddress.value = "";
+                    _lblAddress.innerText = "";
+                }
+            }
+
+            function mapClean() {
+
+                $get('hdnMapPoint').value = "";
+                $get('hdnMapAddress').value = "";
+                mapPickup();
+            }
+
+        </script>
+        <script lang="javascript" type="text/javascript">
+
+            function validateRegisterLocation(source, args) {
+
+                var _lbl = $get('<%=hdnMapLocationPoint.ClientID%>');
+
+                if (_lbl.value == '') {
+                    args.IsValid = true;  //false;
+                }
+                else {
+                    args.IsValid = true;
+                }
+            }
+
+            window.onload = function () {
+                var _email2 = $get('<%=txtRegisterEmail2.ClientID%>');
+                _email2.onpaste = function (e) {
+                    e.preventDefault();
+                }
+                var _password2 = $get('<%=txtRegisterPassword2.ClientID%>');
+                _password2.onpaste = function (e) {
+                    e.preventDefault();
+                }
+            }
+        
+        </script>
+        <script type="text/javascript">
+
+            $(document).ready(function () {
+
+                $('input#chkLoginRememberMe').prettyCheckable();
+                $('input#chkLoginKeepMeLoggedIn').prettyCheckable();
+
+                $('#<%=lnkCookieWarningHide.ClientID%>').click(function (event) {
+                    $('#divCookieWarning').hide();
+                    event.preventDefault();
+                });
+            });
+        </script>
+
+        <!-- ***************************************-->
+        <!-- ************ Login Fields *************-->
+        <!-- ***************************************-->
+        <div id="divLogin">
+            <div class="wrap">
+          
+              <div id="divLoginForm">
+                    <!-- Email -->
+                    <div id="divEmail">
+                        <asp:TextBox ID="txtLoginEmail" runat="server" AutoCompleteType="Email"></asp:TextBox>
+                        <ajaxToolkit:TextBoxWatermarkExtender ID="wmLoginEmail" runat="server" TargetControlID="txtLoginEmail" WatermarkCssClass="" />
+                        <asp:RequiredFieldValidator ID="rfvLoginEmail" runat="server" ValidationGroup="Login"
+                            ControlToValidate="txtLoginEmail" Display="None"></asp:RequiredFieldValidator>
+                    </div>
+                    <!-- Password -->
+                    <div id="divPass">
+                        <asp:TextBox ID="txtLoginPassword" runat="server" TextMode="Password"></asp:TextBox>
+                        <ajaxToolkit:TextBoxWatermarkExtender ID="wmLoginPassword" runat="server" TargetControlID="txtLoginPassword" WatermarkCssClass="" />
+                        <asp:RequiredFieldValidator ID="rfvLoginPassword" runat="server" ValidationGroup="Login"
+                            ControlToValidate="txtLoginPassword" Display="None"></asp:RequiredFieldValidator>            
+                    </div>
+                    <asp:Button ID="btnLogin" runat="server" ValidationGroup="Login" />
+                
+                    <div class="clear"></div>
+                </div>
+                <div id="divOptionsLogin">
+                
+                    <!-- Remember-->
+                    <asp:CheckBox ID="chkLoginRememberMe" runat="server" />
+                    <asp:Label ID="lblLoginRememberMe" runat="server"></asp:Label>
+
+                    <!-- Keep -->
+                    <asp:CheckBox ID="chkLoginKeepMeLoggedIn" runat="server" />
+                    <asp:Label ID="lblLoginKeepMeLoggedIn" runat="server"></asp:Label>
+                
+                    <!-- Forgot Password -->
+                    <asp:HyperLink ID="hplForgotPassword" runat="server" NavigateUrl="~/Registration/PasswordRecovery.aspx"></asp:HyperLink>
+           
+                </div>
+            
+                <!-- Error Messages -->
+                <asp:Panel runat="server" ID="pnlLoginError">
+                    <asp:Label runat="server" ID="lblLoginError" />
+                </asp:Panel>
+            </div>
+        </div>
+        <!-- ***************************************-->
+        <!-- ************* Cookie Policy ***********-->
+        <!-- ***************************************-->
+        <div id="divCookieWarning">
+            <div class="wrap">
+                <asp:Label ID="lblCookiePolicyWarning" runat="server"></asp:Label>
+                <asp:LinkButton ID="lnkCookieWarningHide" runat="server"></asp:LinkButton>
+                <asp:LinkButton ID="lnkCookieWarningGotoPage" runat="server" PostBackUrl="~/Registration/DataPolicy.aspx"></asp:LinkButton>
+            </div>
+        </div>
+        <!-- ***************************************-->
+        <!-- ************* Registration ************-->
+        <!-- ***************************************-->
+        <div id="divContent">
+            <div class="wrap">
+                <div id="divBanner">
+                    <div>
+                          <img src="Images/Login/logo.png" alt="" />
+                    </div>
+                
+                    <asp:ContentPlaceHolder ID="cphContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+
+                <!-- ***************************************-->
+                <!-- ********** Register Fields ************-->
+                <!-- ***************************************-->
+                <div id="divRegister" runat="server">
+                
+                <asp:Label ID="lblRegistrationResult" runat="server" Style="visibility: hidden"></asp:Label>
+                
+                <asp:ValidationSummary ValidationGroup="Register" ID="vsRegister" DisplayMode="SingleParagraph"
+                    runat="server" EnableClientScript="true" ShowMessageBox="false" ShowSummary="true" />
+                                    
+                <!-- Company Name -->
+                <asp:TextBox AutoCompleteType="Company" ID="txtRegisterCompany" runat="server" ValidationGroup="Register"></asp:TextBox>
+                <ajaxToolkit:TextBoxWatermarkExtender ID="wmRegisterCompany" runat="server" TargetControlID="txtRegisterCompany"
+                    WatermarkCssClass="" />
+                <asp:RequiredFieldValidator ID="rfvRegisterCompany" runat="server" ValidationGroup="Register"
+                    ControlToValidate="txtRegisterCompany" EnableClientScript="true" CssClass="rfvRegister"></asp:RequiredFieldValidator><br />
+                
+                <!-- Location -->
+                <div id="divLocation">        
+                    <input type="hidden" id="hdnMapLocationPoint" runat="server" />
+                    <input type="hidden" id="hdnMapLocationAddress" runat="server" />
+                    <asp:Label ID="lblMapLocationSelected" runat="server"></asp:Label>
+                    <asp:ImageButton ID="ibtRegisterLocation" ImageUrl="~/Images/Login/btn-Location.png" runat="server" OnClientClick="mapShow();return false;" />
+                    <asp:CustomValidator ID="cuvRegisterLocation" runat="server" ValidationGroup="Register"
+                        EnableClientScript="true" ClientValidationFunction="validateRegisterLocation" CssClass="rfvRegister"></asp:CustomValidator>
+                </div>
+
+                <!-- Firstname -->
+                <asp:TextBox ID="txtRegisterFirstname" runat="server" AutoCompleteType="FirstName"
+                    ValidationGroup="Register"></asp:TextBox>
+                <ajaxToolkit:TextBoxWatermarkExtender ID="wmRegisterFirstname" runat="server" TargetControlID="txtRegisterFirstname"
+                    WatermarkCssClass="watermarked" />
+                <asp:RequiredFieldValidator ID="rfvRegisterFirstname" runat="server" ValidationGroup="Register"
+                    ControlToValidate="txtRegisterFirstname" EnableClientScript="true" CssClass="rfvRegister"></asp:RequiredFieldValidator><br />
+                
+                <!-- Lastname -->
+                <asp:TextBox ID="txtRegisterLastname" runat="server" AutoCompleteType="LastName"
+                    ValidationGroup="Register"></asp:TextBox>
+                <ajaxToolkit:TextBoxWatermarkExtender ID="wmRegisterLastname" runat="server" TargetControlID="txtRegisterLastname"
+                    WatermarkCssClass="" />
+                <asp:RequiredFieldValidator ID="rfvRegisterLastname" runat="server" ValidationGroup="Register"
+                    ControlToValidate="txtRegisterLastname" EnableClientScript="true" CssClass="rfvRegister"></asp:RequiredFieldValidator><br />
+                
+                <!-- Language -->
+                <asp:DropDownList ID="ddlRegisterLanguage" runat="server" AutoPostBack="false" ValidationGroup="Register">
+                </asp:DropDownList>
+                <asp:CompareValidator ID="cvRegisterLanguage" runat="server" ValidationGroup="Register"
+                    ControlToValidate="ddlRegisterLanguage" Operator="NotEqual" ValueToCompare="0" CssClass="rfvRegister"></asp:CompareValidator>
+                
+                <!-- Email -->
+                <asp:TextBox ID="txtRegisterEmail" runat="server" AutoCompleteType="Email" ValidationGroup="Register"></asp:TextBox>
+                <ajaxToolkit:TextBoxWatermarkExtender ID="wmRegisterEmail" runat="server" TargetControlID="txtRegisterEmail"
+                    WatermarkCssClass="" />
+                <asp:RequiredFieldValidator ID="rfvRegisterEmail" runat="server" ValidationGroup="Register"
+                    ControlToValidate="txtRegisterEmail" EnableClientScript="true" CssClass="rfvRegister"></asp:RequiredFieldValidator>
+                <asp:RegularExpressionValidator ID="revRegisterEmail" runat="server" ValidationGroup="Register"
+                    ControlToValidate="txtRegisterEmail" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" CssClass="rfvRegister"></asp:RegularExpressionValidator><br />
+               
+                <!-- Retype Email -->
+                <asp:TextBox ID="txtRegisterEmail2" runat="server" AutoCompleteType="Email" ValidationGroup="Register"></asp:TextBox>
+                <ajaxToolkit:TextBoxWatermarkExtender ID="wmRegisterEmail2" runat="server" TargetControlID="txtRegisterEmail2"
+                    WatermarkCssClass="" />
+                <asp:RequiredFieldValidator ID="rfvRegisterEmail2" runat="server" ValidationGroup="Register"
+                    ControlToValidate="txtRegisterEmail2" EnableClientScript="true" CssClass="rfvRegister"></asp:RequiredFieldValidator>
+                <asp:CompareValidator ID="cvRegisterEmail" ControlToValidate="txtRegisterEmail2"
+                    ControlToCompare="txtRegisterEmail" Operator="Equal" Type="String" ValidationGroup="Register"
+                    runat="server" CssClass="rfvRegister" />
+                
+                <!-- Password -->
+                <asp:TextBox ID="txtRegisterPassword" runat="server" TextMode="Password" ValidationGroup="Register"></asp:TextBox>
+                <ajaxToolkit:TextBoxWatermarkExtender ID="wmRegisterPassword" runat="server" TargetControlID="txtRegisterPassword"
+                    WatermarkCssClass="" />
+                <asp:RequiredFieldValidator ID="rfvRegisterPassword" runat="server" ValidationGroup="Register"
+                    ControlToValidate="txtRegisterPassword" EnableClientScript="true" CssClass="rfvRegister"></asp:RequiredFieldValidator>
+                <asp:RegularExpressionValidator ControlToValidate="txtRegisterPassword" ID="revRegisterPassword"
+                    runat="server" ValidationGroup="Register" ValidationExpression="^(?=.{6,}$)(?=.*[a-z])(?=.*[A-Z])(?=.*\d)\S*$" CssClass="rfvRegister">
+                </asp:RegularExpressionValidator>
+                
+                <!-- Retype Password-->
+                <asp:TextBox ID="txtRegisterPassword2" runat="server" TextMode="Password" ValidationGroup="Register"></asp:TextBox>
+                <ajaxToolkit:TextBoxWatermarkExtender ID="wmRegisterPassword2" runat="server" TargetControlID="txtRegisterPassword2"
+                    WatermarkCssClass="" />
+                <asp:RequiredFieldValidator ID="rfvRegisterPassword2" runat="server" ValidationGroup="Register"
+                    ControlToValidate="txtRegisterPassword2" EnableClientScript="true" CssClass="rfvRegister"></asp:RequiredFieldValidator>
+                <asp:CompareValidator ID="cvRegisterPassword" ControlToValidate="txtRegisterPassword2"
+                    ControlToCompare="txtRegisterPassword" Operator="Equal" Type="String" ValidationGroup="Register"
+                    runat="server" CssClass="rfvRegister"/>
+                
+                <asp:Label ID="lblRegistrationAgree" runat="server"></asp:Label>
+                
+                <asp:Button ID="btnRegister" ValidationGroup="Register" runat="server" />
+
+                <!-- Message -->
+                <asp:HiddenField ID="hdnMessageTitle" runat="server" />
+                <asp:HiddenField ID="hdnMessage" runat="server" />
+   
+            </div>
+                <div class="clear">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ***************************************-->
+        <!-- ************* Languages ***************-->
+        <!-- ***************************************-->
+        <div id="divLanguage">
+            <div class="wrap">
+                <div id="divSocial">
+                    <asp:LinkButton ID="lnkFacebook" runat="server"></asp:LinkButton>
+                    <asp:LinkButton ID="lnkTwitter" runat="server"></asp:LinkButton>
+                    <asp:LinkButton ID="linkedin" runat="server"></asp:LinkButton>
+                    <asp:LinkButton ID="lnkEmail" runat="server"></asp:LinkButton>
+                </div>
+                <asp:Panel ID="pnlLanguages" runat="server">
+                </asp:Panel>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <!-- ***************************************-->
+        <!-- ************* Footer ***************-->
+        <!-- ***************************************-->
+        <div id="divFooter">
+            <div class="wrap">
+                <asp:Label ID="lblCopyright" runat="server"></asp:Label>
+            </div>
+        </div>
+
+
+        
+        <!-- ***************************************-->
+        <!-- ************* Map Pickup **************-->
+        <!-- ***************************************-->
+        <div id="divMapPickup" style="left:-10000">
+            <div id="divMapLocator">
+                <asp:Label ID="lblMapLocator" runat="server"></asp:Label>
+                <input type="text" id="txtMapLocator" value="" />
+            </div>
+            <div id="divMapCanvas"></div>
+            <div id="divMapGeocoding"></div>
+            <div id="divMapButton">
+                <input id="hdnMapPoint" type="hidden" />
+                <input id="hdnMapAddress" type="hidden" />
+                <asp:Button ID="btnMapConfirm" runat="server" OnClientClick="mapConfirm(); return false;"
+                    CausesValidation="False" Text=""  />
+                <asp:Button ID="btnMapCancel" runat="server" Text="" OnClientClick="mapCancel(); return false;"
+                    CausesValidation="False" />
+            </div>
+        </div>
+
+        <!--**************************************************************-->
+        <!--********************* Result Box **************************-->
+        <!--**************************************************************-->
+        <div id="divMessageBox"></div>
+        <script type="text/javascript">
+            $(document).ready(CheckServerMessage());
+
+            function CheckServerMessage() {
+
+                var _message = $('#<%=hdnMessage.ClientID%>').val();
+                if (_message != '') {
+
+                    $("#divMessageBox").html(_message).dialog({
+                        autoOpen: true,
+                        modal: true,
+                        title: $('#<%=hdnMessageTitle.ClientID%>').val(),
+                        draggable: true,
+                        resizable: false,
+                        close: function (event, ui) { $(this).dialog("destroy"); },
+                        buttons: {
+                            'Ok': function () {
+                                $(this).dialog("destroy");
+                            }
+                        },
+                        overlay: {
+                            opacity: 0.45,
+                            background: "black"
+                        }
+                    });
+                }
+
+                //Clean Messages
+                $get('<%=hdnMessageTitle.ClientID%>').value = "";
+                $get('<%=hdnMessage.ClientID%>').value = "";
+            }
+        </script>
+            
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+﻿dataTables_processing
+{
+}
+
+dataTables_length
+{
+
+}
+dataTables_filter
+{
+	
+}
+dataTables_paginate
+{
+}
+paginate_disabled_previous 
+{}
+paginate_enabled_previous
+{}
+paginate_disabled_next 
+{
+
+}
+paginate_enabled_next
+{}
+dataTables_info
+{}
+sorting_asc 
+{}
+sorting_desc
+{}
+sorting_1
+{}
+sorting_2
+{}
+sorting_3
+{}
+dataTables_wrapper
+{}
+dataTables_empty
+{}
+
+.dataTables_wrapper{}
+.dataTables_length
+{
+	float:right;
+	margin: 6px 10px 6px 0px;
+	height:24px;
+	line-height:24px;	
+}
+.dataTables_length select
+{
+	height:24px;
+}
+
+.dataTables_filter
+{
+	float:right;
+	height:24px;
+	line-height:24px;
+	margin-right:10px;
+	margin-top: 4px;			
+}
+.dataTable
+{
+	clear:both;
+}
+
+.dataTables_info
+{
+	float:right;
+	margin: 6px 10px 6px 0px;
+}
+.dataTables_paginate
+{
+	float:left;
+	margin: 6px 0px 6px 10px;
+}
+.dataTables_paginate a
+{
+	margin-left:5px;
+	clear:both;
+	cursor:pointer;
+}
+	

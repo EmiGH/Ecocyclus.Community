@@ -1,0 +1,625 @@
+﻿html { height: 100%; }
+body 
+{
+	margin:0px;
+	padding:0px;
+	width: 100%;
+	height:100%;
+	min-height: 100%;
+	background-color: #77736C;
+	font-family:Arial;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+.dataPolicy 
+{
+	background-image:url(../Images/Login/bg.png);
+	background-position: bottom center;
+	background-repeat:no-repeat; 
+	background-color:#f7f6ed;
+	background-attachment:fixed;
+	overflow:auto !important;
+	min-height: 100% !important;
+	width:auto;
+	height: auto;
+	font-size:12px;
+}
+.dataPolicy div
+{
+	margin:auto;
+	width: 940px;
+	padding: 10px 0 30px 0;
+}
+
+*:focus  
+{  
+    outline: none;  
+}  
+.wrap
+{
+ width:1000px;
+ min-width:1000px;
+ margin:auto;
+}
+.clear
+{
+	clear:both;
+}
+
+
+/**** LOGIN  ****/
+
+#divLogin
+{
+	background-color:#3B323A;
+	height: 110px;
+    width:100%;
+}
+#divLoginForm
+{
+	float:right;	
+}
+#divLogin input[type="text"],
+#divLogin input[type="password"]
+{
+	background-color:transparent;
+	border:0px;
+	width: 230px;
+	margin: 8px 0 0 0;	
+	font-size: 12px;
+	color:#8E8880;	
+}
+#divLogin #btnLogin
+{
+	float:left;	
+	width:114px;
+	height:33px;
+	display:block;
+	cursor:pointer;
+
+	border:0px;
+	margin: 17px 0 0 20px;
+	
+	background-color:#85D0CC;
+	
+	font-size:14px;
+	font-weight:bold;
+	color: #fff;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#divEmail,
+#divPass
+{
+	background-color:#E5E4DD;
+	height: 33px;
+    width:232px;
+    padding-left: 35px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;    
+	float:left;
+	margin:17px 0 0 20px;
+}
+#divEmail
+{
+	background-image:url(../Images/Login/email-user.png);
+	background-position: 7px center;
+	background-repeat:no-repeat; 
+}
+#divPass
+{
+	background-image:url(../Images/Login/password-user.png);
+	background-position: 7px center;
+	background-repeat:no-repeat; 
+}
+#divOptionsLogin
+{
+	float:left;	
+	font-size: 11px;
+	color:#8E8880;
+	margin: 16px 0 0 600px;
+	position:relative;
+}
+
+#divOptionsLogin span
+{
+	display:inline-block;
+	margin-left: 33px;	
+}
+
+#divOptionsLogin a
+{
+	margin-left: 10px;
+	color:#8E8880;
+	text-decoration: none;
+}
+
+#pnlLoginError
+{
+	float:left;	
+	font-size: 11px;
+	color:#85D0CC;
+	margin: -15px 0 0 313px;
+}
+
+
+/**** CONTENT  ****/
+
+#divContent
+{
+	background-image:url(../Images/Login/bg.png);
+	background-position: bottom center;
+	background-repeat:no-repeat; 
+	background-color:#f7f6ed;
+	height:607px;
+}
+
+
+/**** BANNER  ****/
+
+#divBanner
+{
+	float:left;
+	width:550px;
+	height: 467px;
+	text-align:center;
+	display:table;
+}
+#divBanner div
+{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+
+/**** REGISTER  ****/
+
+#divRegister
+{
+	margin: 60px 0 60px 0;
+	float:right;
+	width:312px;
+	background-color: #E5E4DD;
+	margin-right: 80px;
+	position:relative;
+}
+#divRegister input[type="text"],
+#divRegister input[type="password"],
+#divRegister #divLocation
+{
+	background-color:#D8D7D2;
+	padding: 0 15px;
+	border:0px;
+	width: 255px;
+	height: 27px;
+	margin:	12px 0 0 28px;	
+	font-size: 12px;
+	color:#8E8880;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;    		
+}
+#divRegister input[type="text"]:focus,
+#divRegister input[type="password"]:focus,
+#divRegister #divLocation:hover,
+#divRegister input[type="text"]:hover,
+#divRegister input[type="password"]:hover,
+.ddcommon:hover,
+.ddcommon:focus
+
+{
+	background-color:#D1CFC5;
+}
+
+#divRegister #divLocation
+{
+	width: 225px;
+	height: auto;	
+	padding: 6px 15px;
+	position: relative;
+}
+#divRegister #ibtRegisterLocation
+{
+	position:absolute;
+	right: 10px;
+	bottom: 6px;
+}
+#lblRegistrationAgree
+{
+	color:#8E8880;
+	font-size: 11px;
+	padding: 15px 40px;
+	display:block;
+}
+#lblRegistrationAgree a
+{
+	color:#8E8880;
+}
+#divRegister #btnRegister
+{
+	bottom: 0px;
+	width:114px;
+	height:33px;
+	display:block;
+	cursor:pointer;
+
+	border:0px;
+	margin: auto;
+	
+	background-color:#E9837A;
+	
+	font-size:14px;
+	font-weight:bold;
+	color: #F6F3EA;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#divRegister #btnRegister:hover
+{
+	
+	background-color:#E27771;
+
+}
+#vsRegister
+{
+	color:#E9837A;
+	font-size: 11px;
+	padding: 15px 35px 0 35px;
+}
+#lblRegistrationResult
+{
+	color:#37b20d;
+	display:block;	
+	font-size: 11px;
+	padding: 15px 35px 0 35px;
+}
+
+
+.rfvRegister
+{
+	color:#E9837A;
+	font-size: 15pX;
+}
+
+
+/**** Cookie  ****/
+
+#divCookieWarning
+{
+	background-color:#A9A49D;
+	height: 38px;
+	line-height: 38px;
+
+    color:#F6F3EA;
+    font-size: 12px;
+    text-align:center;
+}
+#divCookieWarning span
+{
+	padding-right:20px;
+}
+#divCookieWarning a
+{
+	color:#fff;
+    font-size: 12px;
+    margin-right:10px;	
+}
+
+/**** LANGUAGE  ****/
+
+#divLanguage
+{
+	background-color:#8F8981;
+	height: 58px;
+	line-height: 58px;
+
+    color:#F6F3EA;
+    font-size: 13px;
+}
+#divLanguage #divSocial
+{
+    color:#F6F3EA;
+	float:left;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+#divLanguage #divSocial a
+{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-right: 1px;
+	background-image:url(../Images/Login/btn-social.png);
+}
+#divLanguage #divSocial a#lnkFacebook
+{
+}
+#divLanguage #divSocial a#lnkTwitter
+{
+	background-position: -30px top;
+}
+#divLanguage #divSocial a#linkedin
+{
+	background-position: -60px top;
+}
+#divLanguage #divSocial a#lnkEmail
+{
+	background-position: -90px top;
+}
+#divLanguage #pnlLanguages
+{
+    color:#F6F3EA;
+	float:right;
+	text-align:right;
+}
+#divLanguage #pnlLanguages span
+{
+	font-size: 11px;
+}
+#divLanguage a
+{
+    color:#F6F3EA;
+	text-decoration: none;
+}
+
+/**** FOOTER  ****/
+
+#divFooter
+{
+	background-color:#77736C;
+	height: 47px;
+    width:100%;
+}
+#divFooter div
+{
+	text-align:center;
+	font-size: 12px;
+	color:#F6F3EA;
+	padding: 30px 20px;   
+}
+
+
+
+
+
+/**** MAP  ****/
+
+#divMapPickup
+{
+	width: 980px;
+	height: 493px;
+	position: fixed;	
+	margin-left: -490px;
+	margin-top: -250px;
+	top: 50%;
+	left:50%;
+	background-color:#E5E4DD;
+	border-top: 12px solid #8E8880;
+}
+
+#divMapLocator
+{
+	width: 940px;
+	margin: auto;
+	
+}
+#divMapLocator span#lblMapLocator,
+#divMapLocator #txtMapLocator,
+#divMapLocator #btnMapSearch
+{
+	float:left;
+}
+
+#divMapLocator span#lblMapLocator
+{
+    color:#8E8880;
+    font-size: 13px;
+    margin-top: 13px;	
+    display:block;
+}
+#divMapLocator #txtMapLocator
+{
+	background-color:#D8D7D2;
+	font-size:13px;
+	line-height: 28px;
+	border:0px;
+    color:#8E8880;
+   	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;   
+	width: 800px; 
+	margin: 10px;
+	padding: 0 10px;
+}
+#divMapLocator #btnMapSearch
+{
+	width:77px;
+	line-height: 26px;
+	display:block;
+	cursor:pointer;
+	margin-top:10px;
+
+	border:0px;
+	
+	background-color:#8E8880;
+	
+	font-size:14px;
+	font-weight:bold;
+	color: #E5E4DD;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;	
+}
+#divMapButton
+{
+	width: 940px;
+	margin: auto;
+	text-align: center;
+}
+#divMapButton input
+{
+	padding: 0 12px;
+	line-height: 23px;
+	display: inline-block;
+	cursor:pointer;
+	margin-top:10px;
+
+	border:0px;
+	
+	background-color:#8E8880;
+	
+	font-size:13px;
+	font-weight:bold;
+	color: #E5E4DD;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;	
+}
+
+#divMapCanvas
+{
+	width: 940px;
+	margin: auto;
+	height: 392px;
+	border: 4px solid #8E8880;		
+}
+
+/**** COMBOBOX  ****/
+
+.borderRadius{-moz-border-radius:3px; border-radius:3px; }
+.borderRadiusTp{-moz-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0;}
+.borderRadiusBtm{-moz-border-radius:0 0 5px 5px ; border-radius:0 0 5px 5px;}
+
+.ddcommon {position:relative;display:-moz-inline-stack; zoom:1; display:inline-block; *display:inline; cursor:default;}
+.ddcommon ul{padding:0;margin:0;}
+.ddcommon ul li{list-style-type:none;}
+.borderRadiusTp ul li:last-child{-moz-border-radius:0 0 5px 5px ; border-radius:0 0 5px 5px;border-bottom:0 none #c3c3c3; }
+.borderRadiusBtm ul li:first-child{-moz-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0 ;border-bottom:1 solid #c3c3c3; }
+
+.ddcommon .disabled img, .ddcommon .disabled span, .ddcommon.disabledAll{
+opacity: .5; /* standard: ff gt 1.5, opera, safari */
+-ms-filter:"alpha(opacity=50)"; /* ie 8 */
+filter:alpha(opacity=50); /* ie lt 7 */
+-khtml-opacity:.5; /* safari 1.x */
+-moz-opacity:.5; /* ff lt 1.5, netscape */
+color:#999999;
+}
+.ddcommon .clear{clear:both}
+.ddcommon .shadow{-moz-box-shadow:5px 5px 5px -5px #888888;-webkit-box-shadow:5px 5px 5px -5px #888888;box-shadow: 5px 5px 5px -5px #888888;}
+.ddcommon input.text{color:#7e7e7e;padding:0 0 0 0; position:absolute; background:#fff; display:block; width:98%; height:98%; left:2px; top:0; border:none;}
+.ddOutOfVision{position:relative; display:-moz-inline-stack; display:inline-block; zoom:1; *display:inline;}
+.borderRadius .shadow{-moz-box-shadow:5px 5px 5px -5px #888888;-webkit-box-shadow:5px 5px 5px -5px #888888;box-shadow: 5px 5px 5px -5px #888888;}
+.borderRadiusBtm .shadow{-moz-box-shadow:-5px -5px 5px -5px #888888;-webkit-box-shadow:-5px -5px 5px -5px #888888;box-shadow: -5px -5px 5px -5px #888888}
+.borderRadiusTp .border, .borderRadius .border{-moz-border-radius:0 0 5px 5px ; border-radius:0 0 5px 5px;}
+.borderRadiusBtm .border{-moz-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0;}
+img.fnone{float:none !important}
+.ddcommon .divider{width:0; height:100%; position:absolute;}
+.ddcommon .ddArrow{display:inline-block; position:absolute; top:50%; right:-10px;}
+.ddcommon .ddTitle{padding:0; position:relative; display:inline-block; width:100%}
+.ddcommon .ddTitle .ddTitleText{display:block;}
+.ddcommon .ddTitle .ddTitleText .ddTitleText{padding:0;}
+.ddcommon .ddTitle .description{display:block;}
+.ddcommon .ddTitle .ddTitleText img{position:relative; vertical-align:middle; float:left}
+.ddcommon .ddChild{position:absolute;display:none;width:100%;overflow-y:auto; overflow-x:hidden; zoom:1; z-index:9999}
+.ddcommon .ddChild li{clear:both;}
+.ddcommon .ddChild li .description{display:block;}
+.ddcommon .ddChild li img{border:0 none; position:relative;vertical-align:middle;float:left}
+.ddcommon .ddChild li.optgroup{padding:0;}
+.ddcommon .ddChild li.optgroup .optgroupTitle{padding:0 5px; font-weight:bold; font-style:italic}
+.ddcommon .ddChild li.optgroup ul li{padding:5px 5px 5px 15px}
+.ddcommon .noBorderTop{border-top:none 0  !important; padding:0; margin:0;}
+
+/*************** default theme **********************/
+.dd{border:0px solid #fff; height:27px; background-color:#D8D7D2; width: 255px !important; 	margin:	12px 0 0 28px;}
+.dd .divider{border-left:0px solid #c3c3c3; border-right:0px solid #fff; right:24px;}
+.dd .ddArrow{width:27px;height:27px; margin-top:-5px; background:url(../Images/Login/bg-dd.png) no-repeat;}
+.dd .ddTitle{color:#000;}
+.dd .ddTitle .ddTitleText{padding:0px 15px 0px 15px;  height:27px; background-repeat:no-repeat;}
+.dd .ddTitle .ddTitleText .ddTitleText{padding:0; line-height:27px;}
+.dd .ddTitle .ddTitleText .ddlabel{padding:0; line-height:27px; font-family:Arial; font-size: 12px; color:#8E8880;}
+.dd .ddTitle .description{font-size:12px; color:#666}
+.dd .ddTitle .ddTitleText img{padding-right:5px;}
+.dd .ddChild{border:1px solid #D1CFC5; background-color:#E5E4DD; left:-1px;}
+.dd .ddChild li{padding:5px; background-color:#E5E4DD; border-bottom:1px solid #D1CFC5;}
+.dd .ddChild li .description{color:#666;}
+.dd .ddChild li .ddlabel{font-family:Arial; font-size: 12px; color:#8E8880;}
+.dd .ddChild li.hover{background-color:#D8D7D2}
+.dd .ddChild li img{padding:0 6px 0 0;}
+.dd .ddChild li.optgroup{padding:0;}
+.dd .ddChild li.optgroup .optgroupTitle{padding:0 5px; font-weight:bold; font-style:italic}
+.dd .ddChild li.optgroup ul li{padding:5px 5px 5px 15px}
+.dd .ddChild li.selected{background-color:#d5d5d5; color:#000;}
+
+/**** CHECKBOX  ****/
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {clear: both;}
+
+.clearfix {*zoom: 1;}
+
+.prettycheckbox,
+.prettyradio {
+    display: inline-block;
+    padding:0;
+    margin:0;
+    position:absolute;
+    top:-1px;
+}
+
+.prettycheckbox a,
+.prettyradio a{
+    width: 16px;
+    height: 15px;
+    background: url(../Images/Login/bg-checkbox.png) top left no-repeat;
+    display: block;
+    float: left;
+    cursor: pointer;
+    margin:0;
+}
+
+.prettyradio a {background-position: 0 -120px;}
+
+.prettycheckbox a:focus,
+.prettyradio a:focus {outline: 0 none;}
+
+.prettycheckbox a:focus{background-position: 0 -15px;}
+.prettyradio a:focus{background-position: 0 -150px;}
+
+.prettycheckbox a.checked{ background-position: 0 -30px; }
+.prettyradio a.checked { background-position: 0 -30px; }
+
+.prettycheckbox a.checked:focus{ background-position: 0 -90px; }
+.prettyradio a.checked:focus { background-position: 0 -210px; }
+
+.prettycheckbox label,
+.prettyradio label {
+  display: block;
+  float: left;
+  margin: 6px 2px;
+  cursor: pointer;
+}
+
+.prettycheckbox.disabled a,
+.prettyradio.disabled a,
+.prettycheckbox.disabled label,
+.prettyradio.disabled label{
+  cursor:not-allowed;
+}
+
+.prettycheckbox.disabled a {
+  background-position: 0 -240px;
+}
+
+.prettyradio.disabled a {
+  background-position: 0 -270px;
+}
+
+
+

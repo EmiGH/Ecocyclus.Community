@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Print.master.cs" Inherits="CSI.WebUI.Console.Print" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+<%@ Register TagPrefix="rad" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Charting" TagPrefix="telerik" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="headPrint" runat="server">
+    <title></title>
+    <link rel="Stylesheet" href="../Styles/Print.css" media="screen" />
+    <link rel="Stylesheet" href="../Styles/Print-m.css"  media="print"/>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+    
+</head>
+<body>
+    <form id="frmReport" runat="server">
+    <asp:ScriptManager ID="smManager" runat="server">
+    </asp:ScriptManager>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('#<%=lnkPrint.ClientID%>').click(function (event) {
+                window.print();
+                event.preventDefault();
+            });
+        });
+
+
+    </script>
+    <div id="divHeader">
+    </div>
+    <div id="divContent">
+        <img src="../../../Images/logo-prints.png" />
+        <asp:LinkButton ID="lnkPrint" runat="server"></asp:LinkButton>
+        <br /><br />
+        <asp:ContentPlaceHolder ID="cphContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="divFooter">
+    </div>
+    </form>
+</body>
+</html>

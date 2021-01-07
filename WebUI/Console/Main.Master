@@ -1,0 +1,246 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.Master.cs" Inherits="CSI.WebUI.Console.Main" %>
+
+<%@ Register TagPrefix="uc" TagName="ErrorHandler" Src="~/Console/Controls/ucErrorHandler.ascx" %>
+<%@ Register TagPrefix="uc" TagName="MenuNavigation" Src="~/Console/Controls/ucMenuNavigation.ascx" %>
+<%@ Register TagPrefix="uc" TagName="MenuGlobal" Src="~/Console/Controls/ucMenuGlobal.ascx" %>
+<%@ Register TagPrefix="uc" TagName="Guide" Src="~/Console/Controls/ucGuide.ascx" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic'
+        rel='stylesheet' type='text/css' />
+   
+    <link rel="Stylesheet" href="../Styles/Site.css" />
+    <link rel="Stylesheet" href="../Styles/Master.css" />
+    <link rel="Stylesheet" href="../Styles/Nav.css" />
+    <link rel="Stylesheet" href="../Styles/Table.css" />
+    <link rel="Stylesheet" href="../Styles/DataTables.css" />
+    <link rel="Stylesheet" href="../Styles/Column.css" />
+    <link rel="Stylesheet" href="../Styles/Form.css" />    
+    <link rel="Stylesheet" href="../Styles/Detail.css" />
+    <link rel="Stylesheet" href="../Styles/button.css" />    
+    <link rel="Stylesheet" href="../Styles/Map.css" />
+    <link rel="Stylesheet" href="../Styles/Chart.css" />
+    <link rel="Stylesheet" href="../Styles/jquery-ui.css" />
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+    <asp:ContentPlaceHolder ID="cphhead" runat="server"></asp:ContentPlaceHolder>
+
+</head>
+<body>
+
+    <form id="frmConsole" runat="server" enctype="multipart/form-data">
+
+        <script type="text/javascript">
+
+            function toogleCompanyPanel() {
+                $('#divHeaderMenuCompany').toggle();
+                $('#divHeaderMenuUser').hide();
+            }
+
+            function toogleUserPanel() {
+                $('#divHeaderMenuUser').toggle();
+                $('#divHeaderMenuCompany').hide();
+            }
+        </script>
+
+        <asp:ScriptManager ID="smConsole" runat="server" EnablePageMethods="true" EnableScriptGlobalization="true">
+            <Scripts>
+                <asp:ScriptReference Path="~/Scripts/helper.js" />
+                <asp:ScriptReference Path="~/Scripts/confirm.js" />
+                <asp:ScriptReference Path="~/Scripts/msBeautify.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery.datatables.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery.blink.js" />
+                <asp:ScriptReference Path="~/Scripts/jquery.maskedInput.js" />
+                <asp:ScriptReference Path="~/Scripts/viget.js" />
+            </Scripts>
+        </asp:ScriptManager>
+
+        <!--************************************* -->
+        <!--************* Body ****************** -->
+        <!--************************************* -->
+        <div id="divBody">
+
+            <!--************************************* -->
+            <!--********** Header Section *********** -->
+            <!--************************************* -->
+            <div class="wrap" style="position:relative; overflow:inherit; z-index:1000;">
+                <div id="divHeaderMenuCompany" style="display: none;">
+                    <asp:LinkButton ID="lnkCompanyProfile" runat="server" PostBackUrl="~/Console/Directory/Company.aspx"></asp:LinkButton>
+                    <asp:LinkButton ID="lnkCompanyUserAdd" runat="server" PostBackUrl="~/Console/Directory/UserAdd.aspx"></asp:LinkButton>
+                    <asp:LinkButton ID="lnkCompanyUrl" runat="server"></asp:LinkButton>
+                </div>
+                <div id="divHeaderMenuUser" style="display: none; float: inherit">
+                    <asp:ImageButton ID="ibtUser" runat="server" style="display:none;" />
+                    <asp:Label ID="lblUser" runat="server"></asp:Label>
+                    <asp:Label ID="lblUserEmail" runat="server"></asp:Label><br />
+                    <asp:LinkButton ID="lnkUserProfile" runat="server" PostBackUrl="~/Console/Directory/Profile.aspx"></asp:LinkButton>
+                    <asp:LinkButton ID="lnkUserChangePassword" runat="server" PostBackUrl="~/Console/Directory/ProfileChangePassword.aspx"></asp:LinkButton>
+                    <asp:LinkButton ID="lnkSignOut" runat="server"></asp:LinkButton>
+                </div>
+            </div >
+            <div id="divHeader">
+                <div class="wrap">
+                    <asp:LinkButton CssClass="lnkLogo" ID="lnkSitesByLogo" PostBackUrl="~/Console/Dashboard/Sites.aspx"
+                        runat="server"></asp:LinkButton>
+
+                    <!--*********************************************** -->
+                    <!--*************** Menu Session ****************** -->
+                    <!--*********************************************** -->
+                    <div id="divHeaderMenu">
+                        <menu id="menuHeadermenu">
+                            
+                            <asp:Panel ID="pnlMenuHeader" runat="server">
+                                
+                                <asp:HyperLink ID="hplHelp" runat="server" NavigateUrl="http://www.siteimpacts.com/support.htm" Target="_blank" CssClass="lnkSupport"></asp:HyperLink>
+                                <div class="pnlSeparatorUser"></div>                                
+                                <asp:LinkButton ID="lnkCompany" runat="server" OnClientClick="toogleCompanyPanel(); return false;"></asp:LinkButton>
+                                <div class="pnlSeparatorUser"></div>
+                                <asp:Panel runat="server" ID="pnlContentUser" style="display:none;">
+                                    <asp:Button ID="btnUser" runat="server" OnClientClick="toogleUserPanel(); return false;" />
+                                
+                                </asp:Panel>
+                                <asp:LinkButton ID="lnkUser" runat="server" OnClientClick="toogleUserPanel(); return false;" />
+                                <asp:Panel runat="server" ID="pnlClearMenu" CssClass="clear">
+                                </asp:Panel>
+                            </asp:Panel>
+                        </menu>
+                    </div>
+                    <div class="clear">
+                    </div>
+                </div>
+            </div>
+            <div id="divContent" class="wrap">
+                <table id="tblContent" cellpadding="0" cellspacing="0">
+
+                    <!--************************************* -->
+                    <!--********** Content Section ********** -->
+                    <!--************************************* -->
+                    <tr>
+                        <td id="tbLeftPane">
+                            <div id="divLeftPane">
+
+                                <!--************************************* -->
+                                <!--************ Menu Global ************ -->
+                                <!--************************************* -->
+                                <uc:MenuGlobal ID="mnGlobal" runat="server"></uc:MenuGlobal>
+                                <!--<div id="divMenu">
+                                    <menu>
+                                        <ul>
+                                            <li id="liDashboard" runat="server">
+                                                <asp:LinkButton ID="lnkDashboard" runat="server" PostBackUrl="~/Console/Dashboard/Dashboard.aspx">
+                                                    <span class="spanIcon" runat="server"></span><asp:Label ID="lblDashboard" CssClass="lblItem" runat="server"></asp:Label>    
+                                                </asp:LinkButton>
+                                            </li>
+                                            <li>
+                                                <asp:LinkButton ID="lnkSites" runat="server" PostBackUrl="~/Console/Dashboard/Sites.aspx">
+                                                    <span class="spanIcon" runat="server"></span>
+                                                    <asp:Label ID="lblSites" runat="server" CssClass="lblItem"></asp:Label>    
+                                                </asp:LinkButton>
+                                            </li>
+                                            <li id="liAddSite" runat="server">
+                                                <asp:LinkButton ID="lnkAddSite" runat="server" PostBackUrl="~/Console/Dashboard/SiteAdd.aspx">
+                                                    <span class="spanIcon" runat="server"></span>
+                                                    <asp:Label ID="lblAddSite" runat="server" CssClass="lblItem"></asp:Label>    
+                                                </asp:LinkButton>
+                                            </li>
+                                            
+                                            <uc:MenuNavigation ID="mnMenu" runat="server" />
+                                            <asp:ContentPlaceHolder ID="cphMenu" runat="server">
+                                                
+                                            </asp:ContentPlaceHolder>
+                                        </ul>
+                                    </menu>
+                                </div>-->
+                            </div>
+                        </td>
+                        <td id="tdRightPane">
+
+                            <!--************************************* -->
+                            <!--*************** Content ************** -->
+                            <!--************************************* -->
+                            <div id="divRightPane">
+                                <asp:ContentPlaceHolder ID="cphContent" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="clear">
+            </div>
+            <!--*********************************************** -->
+            <!--*************** Footer ******************* -->
+            <!--*********************************************** -->
+        </div>
+
+        <!--************************************* -->
+        <!--*********** Footer******************* -->
+        <!--************************************* -->
+        <footer>
+            <div class="wrap">
+                <div class="divSocial">
+                     <a href="https://www.facebook.com/constructionsiteimpacts" target="_blank" class="facebook">
+                        <div class="bottom"></div>
+                        <div class="top"></div>
+                     </a>
+                     <a href="https://twitter.com/SiteImpacts" target="_blank" class="twitter">
+                        <div class="bottom"></div>
+                        <div class="top"></div>
+                     </a>
+                     <a href="http://www.linkedin.com/company/siteimpacts?trk=top_nav_home"  target="_blank" class="linkedin">
+                        <div class="bottom"></div>
+                        <div class="top"></div>
+                     </a>
+                </div>
+                <asp:Label ID="lblFooter" runat="server"></asp:Label>
+            </div>
+        </footer>
+
+        <!--**************************************************************-->
+        <!--********************* Progress Icon **************************-->
+        <!--**************************************************************-->
+        <asp:UpdateProgress ID="upProgress" runat="server">
+            <ProgressTemplate>
+                <img src="../../../Images/ProgressIndicator.gif" alt="<%=Resources.Data.Loading%>" />
+                <div id="divLoading">
+                    <%=Resources.Data.Loading%></div>
+            </ProgressTemplate>
+        </asp:UpdateProgress>
+
+        <!--**************************************************************-->
+        <!--********************* Confirm Box ****************************-->
+        <!--**************************************************************-->
+        <div id="divConfirm"></div>
+        
+        <!--*********************************************** -->
+        <!--***************** Alert Box  ****************** -->
+        <!--*********************************************** -->
+        <div id="divAlert" style="display: none">
+            <span id="spAlert">
+                <%=Resources.Messages.AlertDeleteLoad%></span>
+        </div>
+
+        <!--*********************************************** -->
+        <!--***************** Helper ********************** -->
+        <!--*********************************************** -->
+        <div id="divHelper" style="display:none;background-color:White;border-color:Black;padding:10px 10px 10px 10px;"></div>
+    
+        <!--*********************************************** -->
+        <!--***************** Error Handler *************** -->
+        <!--*********************************************** -->
+        <uc:ErrorHandler id="ehHandler" runat="server"></uc:ErrorHandler>
+
+        <!--*********************************************** -->
+        <!--***************** Guide Handler *************** -->
+        <!--*********************************************** -->
+        <uc:Guide id="gGuide" runat="server"></uc:Guide>
+
+    </form>
+
+</body>
+</html>

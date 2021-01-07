@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D836D29F-AE3D-4B45-B7E1-81FF295008F3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CSI.Library</RootNamespace>
+    <AssemblyName>Library</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=e44a2bc38ed2c13c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Device" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administration.cs" />
+    <Compile Include="Handlers\Auxiliaries\Common.cs" />
+    <Compile Include="Handlers\Auxiliaries\Globalization\Countries.cs" />
+    <Compile Include="Handlers\Auxiliaries\EmissionFactors\EmissionFactorLanguageOptions.cs" />
+    <Compile Include="Handlers\Auxiliaries\EmissionFactors\EmissionFactors.cs" />
+    <Compile Include="Handlers\Auxiliaries\EmissionFactors\ElectricityEmissionFactors.cs" />
+    <Compile Include="Handlers\Auxiliaries\Globalization\CountryLanguageOptions.cs" />
+    <Compile Include="Handlers\Auxiliaries\EmissionFactors\FuelTypeEmissionFactor.cs" />
+    <Compile Include="Handlers\Auxiliaries\EmissionFactors\TransportTypeEmissionFactors.cs" />
+    <Compile Include="Handlers\Auxiliaries\EmissionFactors\WasteTypeEmissionFactors.cs" />
+    <Compile Include="Handlers\Auxiliaries\EmissionFactors\WaterEmissionFactors.cs" />
+    <Compile Include="Handlers\Notifications\Notifications.cs" />
+    <Compile Include="Handlers\Auxiliaries\Types\FuelTypeLanguageOptions.cs" />
+    <Compile Include="Handlers\Auxiliaries\Types\FuelTypes.cs" />
+    <Compile Include="Handlers\Auxiliaries\Types\SiteStatusTypeLanguageOptions.cs" />
+    <Compile Include="Handlers\Auxiliaries\Types\SiteStatusTypes.cs" />
+    <Compile Include="Handlers\Auxiliaries\Types\SiteTypeLanguageOptions.cs" />
+    <Compile Include="Handlers\Auxiliaries\Types\SiteTypes.cs" />
+    <Compile Include="Handlers\Auxiliaries\Units\CO2Units.cs" />
+    <Compile Include="Handlers\Auxiliaries\Units\Currencies.cs" />
+    <Compile Include="Handlers\Auxiliaries\Units\CurrencyLanguageOptions.cs" />
+    <Compile Include="Handlers\Auxiliaries\Units\FuelsUnits.cs" />
+    <Compile Include="Handlers\Auxiliaries\Mail.cs" />
+    <Compile Include="Handlers\Auxiliaries\Units\TransportUnits.cs" />
+    <Compile Include="Handlers\Auxiliaries\Units\Units.cs" />
+    <Compile Include="Handlers\Auxiliaries\Units\WasteUnits.cs" />
+    <Compile Include="Handlers\Auxiliaries\Units\WaterUnits.cs" />
+    <Compile Include="Handlers\Auxiliaries\Types\WasteTypeLanguageOptions.cs" />
+    <Compile Include="Handlers\Auxiliaries\Types\WasteTypes.cs" />
+    <Compile Include="Handlers\Log\LogManager.cs" />
+    <Compile Include="Handlers\Series\CO2Series.cs" />
+    <Compile Include="Handlers\Series\FuelSeries.cs" />
+    <Compile Include="Handlers\Series\WasteSeries.cs" />
+    <Compile Include="Handlers\Sites\Exceptions\SiteExceptionMeters.cs" />
+    <Compile Include="Handlers\Sites\Exceptions\SiteExceptionTargets.cs" />
+    <Compile Include="Handlers\Sites\Meters\EmissionFactors\TransportMeterEmissionFactors.cs" />
+    <Compile Include="Handlers\Sites\Meters\Series\MeterLoadFunctions.cs" />
+    <Compile Include="Handlers\Sites\Meters\Series\ElectricityMeterLoads.cs" />
+    <Compile Include="Handlers\Sites\Meters\Series\ElectricityMeterSeries.cs" />
+    <Compile Include="Handlers\Sites\Meters\EmissionFactors\FuelMeterEmissionFactors.cs" />
+    <Compile Include="Handlers\Sites\Meters\FuelsMeterLanguageOptions.cs" />
+    <Compile Include="Handlers\Sites\Meters\FuelsMeters.cs" />
+    <Compile Include="Handlers\Sites\Meters\Series\FuelMeterSeries.cs" />
+    <Compile Include="Handlers\Sites\Meters\TransportMeterLanguageOptions.cs" />
+    <Compile Include="Handlers\Sites\Meters\TransportMeters.cs" />
+    <Compile Include="Handlers\Sites\Meters\Series\TransportMeterSeries.cs" />
+    <Compile Include="Handlers\Sites\Meters\EmissionFactors\WasteMeterEmissionFactors.cs" />
+    <Compile Include="Handlers\Sites\Meters\WasteMeterLanguageOptions.cs" />
+    <Compile Include="Handlers\Sites\Meters\WasteMeters.cs" />
+    <Compile Include="Handlers\Sites\Meters\Series\WasteMeterSeries.cs" />
+    <Compile Include="Handlers\Sites\Meters\Series\WaterMeterLoads.cs" />
+    <Compile Include="Handlers\Sites\Meters\Series\WaterMeterSeries.cs" />
+    <Compile Include="Handlers\Auxiliaries\Units\UnitLanguageOptions.cs" />
+    <Compile Include="Handlers\Auxiliaries\Units\ElectricityUnits.cs" />
+    <Compile Include="Handlers\Sites\Payments\PaymentScales.cs" />
+    <Compile Include="Handlers\Sites\Payments\SitePayments.cs" />
+    <Compile Include="Handlers\Sites\Targets\SiteTargets.cs" />
+    <Compile Include="Objects\Auxiliaries\EmissionFactors\ElectricityEmissionFactor.cs" />
+    <Compile Include="Objects\Auxiliaries\EmissionFactors\TransportTypeEmissionFactor.cs" />
+    <Compile Include="Objects\Auxiliaries\EmissionFactors\WaterEmissionFactor.cs" />
+    <Compile Include="Objects\Auxiliaries\Geographic\Country.cs" />
+    <Compile Include="Objects\Auxiliaries\Geographic\CountryLanguageOption.cs" />
+    <Compile Include="Objects\Auxiliaries\EmissionFactors\EmissionFactor.cs" />
+    <Compile Include="Objects\Auxiliaries\EmissionFactors\EmissionFactorLanguageOption.cs" />
+    <Compile Include="Objects\Notifications\Notification.cs" />
+    <Compile Include="Objects\Auxiliaries\Types\FuelType.cs" />
+    <Compile Include="Objects\Auxiliaries\Types\FuelTypeLanguageOption.cs" />
+    <Compile Include="Objects\Auxiliaries\Types\SiteType.cs" />
+    <Compile Include="Objects\Auxiliaries\Types\SiteTypeLanguageOption.cs" />
+    <Compile Include="Objects\Auxiliaries\Types\StatusType.cs" />
+    <Compile Include="Objects\Auxiliaries\Types\StatusTypeLanguageOption.cs" />
+    <Compile Include="Objects\Auxiliaries\Types\WasteType.cs" />
+    <Compile Include="Objects\Auxiliaries\Types\WasteTypeLanguageOption.cs" />
+    <Compile Include="Objects\Auxiliaries\Units\Cost.cs" />
+    <Compile Include="Objects\Auxiliaries\Units\Currency.cs" />
+    <Compile Include="Objects\Auxiliaries\Units\CurrencyLanguageOption.cs" />
+    <Compile Include="Objects\Auxiliaries\Units\Magnitude.cs" />
+    <Compile Include="Objects\Auxiliaries\Units\TimeRange.cs" />
+    <Compile Include="Objects\Metrics\Evolution.cs" />
+    <Compile Include="Objects\Metrics\EvolutionPoint.cs" />
+    <Compile Include="Objects\Metrics\EvolutionPointProtocol.cs" />
+    <Compile Include="Objects\Metrics\MetricComponent.cs" />
+    <Compile Include="Objects\Metrics\MetricComposite.cs" />
+    <Compile Include="Objects\Sites\Exceptions\Exception.cs" />
+    <Compile Include="Objects\Sites\Exceptions\ExceptionMeter.cs" />
+    <Compile Include="Objects\Sites\Exceptions\ExceptionMeterElectricity.cs" />
+    <Compile Include="Objects\Sites\Exceptions\ExceptionMeterFuel.cs" />
+    <Compile Include="Objects\Sites\Exceptions\ExceptionMeterTransport.cs" />
+    <Compile Include="Objects\Sites\Exceptions\ExceptionMeterWaste.cs" />
+    <Compile Include="Objects\Sites\Exceptions\ExceptionMeterWater.cs" />
+    <Compile Include="Objects\Sites\Exceptions\ExceptionTarget.cs" />
+    <Compile Include="Objects\Sites\Meters\ElectricityMeterPhysical.cs" />
+    <Compile Include="Objects\Auxiliaries\EmissionFactors\FuelTypeEmissionFactor.cs" />
+    <Compile Include="Objects\Auxiliaries\EmissionFactors\WasteTypeEmissionFactor.cs" />
+    <Compile Include="Objects\Sites\Meters\EmissionFactors\FuelMeterEmissionFactor.cs" />
+    <Compile Include="Objects\Sites\Meters\EmissionFactors\TransportMeterEmissionFactor.cs" />
+    <Compile Include="Objects\Sites\Meters\EmissionFactors\WasteMeterEmissionFactor.cs" />
+    <Compile Include="Objects\Sites\Meters\fElectricityMeter.cs" />
+    <Compile Include="Objects\Sites\Meters\fWaterMeter.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\DataEmissionFactor.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\ElectricityDataEmissionFactor.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\ElectricityLoad.cs" />
+    <Compile Include="Objects\Auxiliaries\Units\Unit.cs" />
+    <Compile Include="Objects\Auxiliaries\Units\UnitLanguageOption.cs" />
+    <Compile Include="Objects\Notifications\Configuration.cs" />
+    <Compile Include="Objects\Common\Utilities.cs" />
+    <Compile Include="Objects\Sites\fSite.cs" />
+    <Compile Include="Objects\Sites\Meters\FuelMeter.cs" />
+    <Compile Include="Objects\Sites\Meters\FuelMeterLanguageOption.cs" />
+    <Compile Include="Objects\Sites\Meters\Meter.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\FuelData.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\FuelDataEmissionFactor.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\FuelSerie.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\TransportData.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\TransportDataDistance.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\TransportDataEmissionFactor.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\TransportDataLocation.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\TransportSerieDistance.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\TransportSerieLocation.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\WasteData.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\WasteDataEmissionFactor.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\WasteSerie.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\WaterData.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\WaterDataEmissionFactor.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\WaterLoad.cs" />
+    <Compile Include="Objects\Sites\Meters\TransportMeter.cs" />
+    <Compile Include="Objects\Sites\Meters\TransportMeterLanguageOption.cs" />
+    <Compile Include="Objects\Sites\Meters\WasteMeter.cs" />
+    <Compile Include="Objects\Sites\Meters\WasteMeterLanguageOption.cs" />
+    <Compile Include="Objects\Metrics\Metric.cs" />
+    <Compile Include="Objects\Metrics\MetricInstant.cs" />
+    <Compile Include="Objects\Metrics\MetricPeriod.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\ElectricityData.cs" />
+    <Compile Include="Objects\Auxiliaries\Units\TimeUnit.cs" />
+    <Compile Include="Objects\Sites\Meters\WaterMeterPhysical.cs" />
+    <Compile Include="Objects\Sites\Payments\PaymentScale.cs" />
+    <Compile Include="Objects\Sites\Payments\Payment.cs" />
+    <Compile Include="Objects\Sites\SiteMine.cs" />
+    <Compile Include="Objects\Sites\SiteMineOpen.cs" />
+    <Compile Include="Objects\Sites\Targets\Targets.cs" />
+    <Compile Include="Objects\Users\Administrators\fAdministrators.cs" />
+    <Compile Include="Objects\Users\UserAnonymous.cs" />
+    <Compile Include="Handlers\Auxiliaries\Files.cs" />
+    <Compile Include="Handlers\Auxiliaries\Globalization\Languages.cs" />
+    <Compile Include="Handlers\Auxiliaries\Types\TransportTypeLanguageOptions.cs" />
+    <Compile Include="Handlers\Auxiliaries\Types\TransportTypes.cs" />
+    <Compile Include="Handlers\Companies\Companies.cs" />
+    <Compile Include="Handlers\Users\Operators.cs" />
+    <Compile Include="Handlers\Sites\Meters\ElectricityMeterLanguageOptions.cs" />
+    <Compile Include="Handlers\Sites\Meters\ElectricityMeters.cs" />
+    <Compile Include="Handlers\Sites\Meters\WaterMeterLanguageOptions.cs" />
+    <Compile Include="Handlers\Series\ElectricitySeries.cs" />
+    <Compile Include="Handlers\Sites\SiteLanguageOptions.cs" />
+    <Compile Include="Handlers\Sites\Sites.cs" />
+    <Compile Include="Handlers\Series\TransportSeries.cs" />
+    <Compile Include="Handlers\Sites\Meters\WaterMeters.cs" />
+    <Compile Include="Handlers\Series\WaterSeries.cs" />
+    <Compile Include="Handlers\Sites\Users\Permissions.cs" />
+    <Compile Include="Handlers\Users\Administrators.cs" />
+    <Compile Include="Handlers\Users\Users.cs" />
+    <Compile Include="Objects\Notifications\Mailer.cs" />
+    <Compile Include="Resources\Data.Designer.cs">
+      <DependentUpon>Data.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Messages.Designer.cs">
+      <DependentUpon>Messages.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Resources\Data.es-ar.Designer.cs">
+      <DependentUpon>Data.es-ar.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Security\Credential.cs" />
+    <Compile Include="Security\CustomException.cs" />
+    <Compile Include="Storage\Auxiliaries\Common.cs" />
+    <Compile Include="Storage\Auxiliaries\Globalization\Countries.cs" />
+    <Compile Include="Storage\Auxiliaries\Globalization\CountryLanguageOptions.cs" />
+    <Compile Include="Storage\Auxiliaries\EmissionFactors\FuelTypeEmissionFactors.cs" />
+    <Compile Include="Storage\Auxiliaries\EmissionFactors\TransportTypeEmissionFactors.cs" />
+    <Compile Include="Storage\Auxiliaries\EmissionFactors\WasteTypeEmissionFactors.cs" />
+    <Compile Include="Storage\Auxiliaries\EmissionFactors\WaterEmissionFactors.cs" />
+    <Compile Include="Storage\Auxiliaries\EmissionFactors\EmissionFactorLanguageOptions.cs" />
+    <Compile Include="Storage\Auxiliaries\EmissionFactors\EmissionFactors.cs" />
+    <Compile Include="Storage\Auxiliaries\EmissionFactors\ElectricityEmissionFactors.cs" />
+    <Compile Include="Storage\Auxiliaries\Types\SiteStatusTypeLanguageOptions.cs" />
+    <Compile Include="Storage\Auxiliaries\Types\SiteStatusTypes.cs" />
+    <Compile Include="Storage\Auxiliaries\Types\SiteTypeLanguageOptions.cs" />
+    <Compile Include="Storage\Auxiliaries\Types\SiteTypes.cs" />
+    <Compile Include="Storage\Auxiliaries\Units\CO2Units.cs" />
+    <Compile Include="Storage\Auxiliaries\Units\Currencies.cs" />
+    <Compile Include="Storage\Auxiliaries\Units\CurrencyLanguageOptions.cs" />
+    <Compile Include="Storage\Auxiliaries\Types\FuelsTypeLanguageOptions.cs" />
+    <Compile Include="Storage\Auxiliaries\Types\FuelsTypes.cs" />
+    <Compile Include="Storage\Auxiliaries\Units\FuelUnits.cs" />
+    <Compile Include="Storage\Auxiliaries\Mail.cs" />
+    <Compile Include="Storage\Auxiliaries\Types\TransportTypeLanguageOptions.cs" />
+    <Compile Include="Storage\Auxiliaries\Units\TransportUnits.cs" />
+    <Compile Include="Storage\Auxiliaries\Units\Units.cs" />
+    <Compile Include="Storage\Auxiliaries\Units\WasteUnits.cs" />
+    <Compile Include="Storage\Auxiliaries\Units\WaterUnits.cs" />
+    <Compile Include="Storage\Auxiliaries\Types\WasteTypeLanguageOptions.cs" />
+    <Compile Include="Storage\Auxiliaries\Types\WasteTypes.cs" />
+    <Compile Include="Storage\Log\LogManager.cs" />
+    <Compile Include="Storage\Notifications\Notifications.cs" />
+    <Compile Include="Storage\Series\CO2Series.cs" />
+    <Compile Include="Storage\Series\FuelSeries.cs" />
+    <Compile Include="Storage\Series\WasteSeries.cs" />
+    <Compile Include="Storage\Sites\Exceptions\SiteExceptionMeters.cs" />
+    <Compile Include="Storage\Sites\Exceptions\SiteExceptionTarget.cs" />
+    <Compile Include="Storage\Sites\Meters\ElectricityMeterLanguageOptions.cs" />
+    <Compile Include="Storage\Sites\Meters\EmissionFactors\TransportMeterEmissionFactor.cs" />
+    <Compile Include="Storage\Sites\Meters\Series\ElectricityMeterLoads.cs" />
+    <Compile Include="Storage\Sites\Meters\EmissionFactors\FuelMeterEmissionFactors.cs" />
+    <Compile Include="Storage\Sites\Meters\FuelMeterLanguageOptions.cs" />
+    <Compile Include="Storage\Sites\Meters\FuelMeters.cs" />
+    <Compile Include="Storage\Sites\Meters\Series\ElectricityMeterSeries.cs" />
+    <Compile Include="Storage\Sites\Meters\Series\FuelMeterSeries.cs" />
+    <Compile Include="Storage\Sites\Meters\TransportMeterLanguageOptions.cs" />
+    <Compile Include="Storage\Sites\Meters\TransportMeters.cs" />
+    <Compile Include="Storage\Sites\Meters\Series\TransportMeterSeries.cs" />
+    <Compile Include="Storage\Sites\Meters\WasteMeters.cs" />
+    <Compile Include="Storage\Sites\Meters\EmissionFactors\WasteMeterEmissionFactors.cs" />
+    <Compile Include="Storage\Sites\Meters\WasteMeterLanguageOptions.cs" />
+    <Compile Include="Storage\Sites\Meters\Series\WasteMeterSeries.cs" />
+    <Compile Include="Storage\Sites\Meters\WaterMeterLanguageOptions.cs" />
+    <Compile Include="Storage\Sites\Meters\Series\WaterMeterLoads.cs" />
+    <Compile Include="Storage\Sites\Meters\WaterMeterSeries.cs" />
+    <Compile Include="Storage\Auxiliaries\Units\ElectricityUnits.cs" />
+    <Compile Include="Storage\Auxiliaries\Units\UnitLanguageOptions.cs" />
+    <Compile Include="Storage\Sites\Payments\SitePaymentScales.cs" />
+    <Compile Include="Storage\Sites\Payments\SitePayments.cs" />
+    <Compile Include="Storage\Sites\SiteLanguageOptions.cs" />
+    <Compile Include="Storage\Sites\Targets\SiteTargets.cs" />
+    <Compile Include="Storage\Statistics\Statistics.cs" />
+    <Compile Include="Storage\Users\Administrators.cs" />
+    <Compile Include="Storage\Users\Operators.cs" />
+    <Compile Include="Storage\Sites\Meters\ElectricityMeters.cs" />
+    <Compile Include="Storage\Series\ElectricitySeries.cs" />
+    <Compile Include="Storage\Sites\Users\Permissions.cs" />
+    <Compile Include="Storage\Series\TransportSeries.cs" />
+    <Compile Include="Storage\Sites\Meters\WaterMeters.cs" />
+    <Compile Include="Storage\Series\WaterSeries.cs" />
+    <Compile Include="Objects\Auxiliaries\Geographic\Location.cs" />
+    <Compile Include="Objects\Auxiliaries\Geographic\Contact.cs" />
+    <Compile Include="Objects\Auxiliaries\Files\File.cs" />
+    <Compile Include="Objects\Auxiliaries\Geographic\Position.cs" />
+    <Compile Include="Objects\Auxiliaries\Globalization\Language.cs" />
+    <Compile Include="Objects\Auxiliaries\Types\TransportType.cs" />
+    <Compile Include="Objects\Auxiliaries\Types\TransportTypeLanguageOption.cs" />
+    <Compile Include="Objects\Companies\Company.cs" />
+    <Compile Include="Objects\Companies\CompanyMine.cs" />
+    <Compile Include="Objects\Companies\fCompany.cs" />
+    <Compile Include="Objects\Sites\Meters\ElectricityMeter.cs" />
+    <Compile Include="Objects\Sites\Meters\ElectricityMeterLanguageOption.cs" />
+    <Compile Include="Objects\Sites\Meters\WaterMeterLanguageOption.cs" />
+    <Compile Include="Objects\Sites\Permissions\Permission.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\ElectricitySerie.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\TransportSerie.cs" />
+    <Compile Include="Objects\Sites\Meters\Series\WaterSerie.cs" />
+    <Compile Include="Objects\Sites\Site.cs" />
+    <Compile Include="Objects\Sites\SiteLanguageOption.cs" />
+    <Compile Include="Objects\Sites\Meters\WaterMeter.cs" />
+    <Compile Include="Objects\Sites\Statistics\Statistics.cs" />
+    <Compile Include="Objects\Users\Operators\fUserOperator.cs" />
+    <Compile Include="Objects\Users\Operators\UserOperatorCoworker.cs" />
+    <Compile Include="Objects\Users\Operators\UserOperatorMe.cs" />
+    <Compile Include="Objects\Users\Operators\UserOperatorMeManager.cs" />
+    <Compile Include="Resources\Messages.es-ar.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.es-ar.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Objects\Users\User.cs" />
+    <Compile Include="Objects\Users\Administrators\UserAdministrator.cs" />
+    <Compile Include="Objects\Users\Administrators\UserAdministratorMe.cs" />
+    <Compile Include="Objects\Users\Operators\UserOperator.cs" />
+    <Compile Include="Operation.cs" />
+    <Compile Include="Storage\Companies\Companies.cs" />
+    <Compile Include="Storage\Auxiliaries\Files.cs" />
+    <Compile Include="Storage\Auxiliaries\Globalization\Languages.cs" />
+    <Compile Include="Storage\Sites\Sites.cs" />
+    <Compile Include="Storage\Auxiliaries\Types\TransportTypes.cs" />
+    <Compile Include="Storage\Users\Users.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\Authority.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Data.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Data.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Messages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Data.es-ar.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Data.es-ar.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Messages.es-ar.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.es-ar.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

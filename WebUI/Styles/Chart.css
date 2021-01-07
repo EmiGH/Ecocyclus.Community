@@ -1,0 +1,64 @@
+﻿.divControlChart
+{
+	background-color:#E5E4DD;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 0 3px 15px 0;
+}
+.divControlChart .divContainerChat
+{
+	width:690px;
+	margin: auto;	
+}
+
+/* COMBO */
+
+.divControlChart .dd
+{
+	width:100% !important;
+	margin:auto;
+	text-align:left;
+	border: 0px;
+	background-image: url('../Images/Table/bg-th-shadow.png');	
+	background-position: bottom;
+	background-repeat: repeat-x;
+	height:37px;
+	cursor:pointer;	
+}
+.divControlChart  .dd .ddTitle .ddTitleText {
+	padding: 3px 7px 0px 15px;
+	height: 37px;
+	background-repeat: no-repeat;
+}
+.divControlChart  .dd .ddChild {
+	top: 32px !important;
+	left: 1px;
+}
+.divControlChart  .ddcommon .ddArrow {
+	top: 16px  !important;
+	right: -10px  !important;
+}
+.divControlChart .dd .ddTitle .ddTitleText .ddlabel {
+	color: #8D8785;
+	font-size: 12px;
+	font-weight: bold;
+}
+.divControlChart .dd .ddChild
+{
+	border: 0px;
+}
+.divControlChart .dd .ddChild li
+{
+	border-color: #E5E4DD;
+}
+.divControlChart .dd .ddChild li:hover
+{
+	background-color: #E5E4DD;
+}
+.divControlChart  .dd .ddChild li .ddlabel {
+	color: #8D8785;
+	font-size: 12px;
+}
+
+

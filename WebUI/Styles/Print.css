@@ -1,0 +1,55 @@
+﻿body { color: #000; font: 100%/150% Arial, Helvetica, sans-serif; }
+
+#lnkPrint{text-decoration:none; color:#000000; font-weight:bold; font-size:80%; 
+	background-image: url('../images/btns-print.png');
+	background-repeat:no-repeat;
+	background-position: center right; 
+	cursor:pointer;
+	padding-right: 24px;        
+      
+      }
+
+#divContent{ margin:20px;}
+#lnkPrint{text-align:right; display:block;}
+
+.divDetail .divTitle
+{
+	margin: 0 0 20px 0;
+}
+.divTitle
+{
+	font-size: 110%;
+	margin: 40px 0 0 0;
+}
+.divDetail .lblTitle
+{
+	font-weight:bold;
+	font-size: 80%;
+}
+
+
+table{width:100%; font-size:80%;}
+th,
+td {
+    padding: 4px 4px 4px 4px ;
+    text-align: center ;
+    }
+ 
+th {
+    border-bottom: 2px solid #333333 ;
+    }
+ 
+td {
+    border-bottom: 1px dotted #999999 ;
+    }
+ 
+tfoot td {
+    border-bottom-width: 0px ;
+    border-top: 2px solid #333333 ;
+    padding-top: 20px ;
+    }
+
+.divCombo{text-align:right;}   
+img{text-align:center;} 
+
+#cphContent_radChartSeries,#cphContent_radChartAggregates{display:block; margin:auto;}

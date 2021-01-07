@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CompanyEdit_aspx_cphContent_lblEmail" xml:space="preserve">
+    <value>Introduzca otro email que el que se utiliza para registrar / login.</value>
+  </data>
+  <data name="MeterElectricityAdd_aspx_cphContent_lblAlertAfter" xml:space="preserve">
+    <value>La herramienta le enviará un aviso si la lectura del medidor no se carga a la fecha de vencimiento. Introduzca la cantidad de días posteriores a la fecha de vencimiento que desea recibir el aviso.</value>
+  </data>
+  <data name="MeterElectricityAdd_aspx_cphContent_lblAlertBefore" xml:space="preserve">
+    <value>Elija con cuántos días de anticipación desea ser avisado sobre la lectura del medidor</value>
+  </data>
+  <data name="MeterElectricityAdd_aspx_cphContent_lblAlertOnStart" xml:space="preserve">
+    <value>Marque la casilla si desea recibir un mensaje cuando deba hacer la 1° lectura.</value>
+  </data>
+  <data name="MeterElectricityAdd_aspx_cphContent_lblDescription" xml:space="preserve">
+    <value>Introduzca cualquier información útil sobre el medidor , tales como su ubicación, el área / lugar que cubre el servicio. </value>
+  </data>
+  <data name="MeterElectricityAdd_aspx_cphContent_lblFrequencyQuantity" xml:space="preserve">
+    <value>Introducir la frecuencia con la que va a leer el medidor. Si es una vez al mes , ingrese 1 y elija "Mes" en el menú desplegable de INTERVALO.</value>
+  </data>
+  <data name="MeterElectricityAdd_aspx_cphContent_lblFrequencyUnits" xml:space="preserve">
+    <value>Seleccione el intervalo de lecturas de los medidores del menú desplegable. Seleccione " Período" si desea introducir un solo valor para cubrir todo el intervalo de tiempo .</value>
+  </data>
+  <data name="MeterElectricityAdd_aspx_cphContent_lblIdentification" xml:space="preserve">
+    <value>Introduzca aquí el número de serie del medidor (ID medidor) u otra identificación del mismo.</value>
+  </data>
+  <data name="MeterElectricityAdd_aspx_cphContent_lblInitialDate" xml:space="preserve">
+    <value>Introduzca aquí la fecha de instalación del medidor.</value>
+  </data>
+  <data name="MeterElectricityAdd_aspx_cphContent_lblInitialReading" xml:space="preserve">
+    <value>Introduzca la primera lectura del medidor cuando fue instalado.</value>
+  </data>
+  <data name="MeterElectricityAdd_aspx_cphContent_lblIsPhysical" xml:space="preserve">
+    <value>Marque la casilla si el medidor está instalado en el lugar. Desmarque la casilla si la lectura del medidor se extrae, por ejemplo, de la factura.</value>
+  </data>
+  <data name="MeterElectricityAdd_aspx_cphContent_lblUnits" xml:space="preserve">
+    <value>Esta es la unidad de medida del medidor, por lo general kWh .</value>
+  </data>
+  <data name="Meters_aspx_cphContent_lblMeters" xml:space="preserve">
+    <value>Seleccione el tipo de medidor para acceder a cada sección del medidor .</value>
+  </data>
+  <data name="MeterWaterAdd_aspx_cphContent_lblAlertAfter" xml:space="preserve">
+    <value>La herramienta le enviará un aviso si la lectura del medidor no se carga a la fecha de vencimiento. Introduzca la cantidad de días posteriores a la fecha de vencimiento que le gustaría recibir el aviso.</value>
+  </data>
+  <data name="MeterWaterAdd_aspx_cphContent_lblAlertBefore" xml:space="preserve">
+    <value>Elija con cuántos días de anticipación desea ser avisado sobre la lectura del medidor</value>
+  </data>
+  <data name="MeterWaterAdd_aspx_cphContent_lblAlertOnStart" xml:space="preserve">
+    <value>Marque la casilla si desea recibir un mensaje cuando deba hacer la 1° lectura.</value>
+  </data>
+  <data name="MeterWaterAdd_aspx_cphContent_lblDescription" xml:space="preserve">
+    <value>Introduzca cualquier información útil sobre el medidor , tales como su ubicación, el área / lugar que cubre el servicio.</value>
+  </data>
+  <data name="MeterWaterAdd_aspx_cphContent_lblFrequencyQuantity" xml:space="preserve">
+    <value>Introducir la frecuencia con la que va a leer el medidor. Si es una vez al mes , ingrese 1 y elija "Mes" en el menú desplegable de INTERVALO.</value>
+  </data>
+  <data name="MeterWaterAdd_aspx_cphContent_lblFrequencyUnits" xml:space="preserve">
+    <value>Seleccione el intervalo de lecturas de los medidores del menú desplegable. Seleccione " Período" si desea introducir un solo valor para cubrir todo el intervalo de tiempo .</value>
+  </data>
+  <data name="MeterWaterAdd_aspx_cphContent_lblIdentification" xml:space="preserve">
+    <value>Introduzca aquí el número de serie del medidor (ID medidor) u otra identificación del mismo.</value>
+  </data>
+  <data name="MeterWaterAdd_aspx_cphContent_lblInitialDate" xml:space="preserve">
+    <value>Introduzca aquí la fecha de instalación del medidor.</value>
+  </data>
+  <data name="MeterWaterAdd_aspx_cphContent_lblInitialReading" xml:space="preserve">
+    <value>Introduzca la primera lectura del medidor cuando fue instalado.</value>
+  </data>
+  <data name="MeterWaterAdd_aspx_cphContent_lblIsPhysical" xml:space="preserve">
+    <value>Marque la casilla si el medidor está instalado en el lugar. Desmarque la casilla si la lectura del medidor se extrae, por ejemplo, de la factura.</value>
+  </data>
+  <data name="MeterWaterAdd_aspx_cphContent_lblUnits" xml:space="preserve">
+    <value>Esta es la unidad de medida del medidor, por lo general m3 .</value>
+  </data>
+  <data name="ProfileChangePassword_aspx_cphContent_lblNewPassword" xml:space="preserve">
+    <value>Las contraseñas deben tener al menos 8 caracteres, incluyendo números , mayúsculas y minúsculas.</value>
+  </data>
+  <data name="ProfileEdit_aspx_cphContent_lblEmail" xml:space="preserve">
+    <value>La dirección de correo electrónico registrada, activa y válida, es su cuenta de usuario para iniciar sesión.</value>
+  </data>
+  <data name="SiteAdd_aspx_cphContent_lblFloorSpace" xml:space="preserve">
+    <value>Por favor ingrese la cantidad de Sitios de la misma Organización.</value>
+  </data>
+  <data name="SiteAdd_aspx_cphContent_lblMapLocator" xml:space="preserve">
+    <value>Por favor ingrese el domicilio del Sitio.</value>
+  </data>
+  <data name="SiteAdd_aspx_cphContent_lblNumber" xml:space="preserve">
+    <value>Por favor ingrese el número de identificación del Sitio.</value>
+  </data>
+  <data name="SiteAdd_aspx_cphContent_lblStart" xml:space="preserve">
+    <value>Por favor ingrese la fecha de inicio</value>
+  </data>
+  <data name="SiteAdd_aspx_cphContent_lblTitle" xml:space="preserve">
+    <value>Por favor ingrese el nombre del Sitio.</value>
+  </data>
+  <data name="SiteAdd_aspx_cphContent_lblType" xml:space="preserve">
+    <value>Por favor clasifique el Sitio por su tipo en el menú desplegable.</value>
+  </data>
+  <data name="SiteAdd_aspx_cphContent_lblUnits" xml:space="preserve">
+    <value>Por favor ingrese el número de empleados que trabajan en el Sitio.</value>
+  </data>
+  <data name="SiteAdd_aspx_cphContent_lblValue" xml:space="preserve">
+    <value>Por favor ingrese los presupuesto anual asignado al Sitio. Este campo se puede editar en una fecha posterior si es necesario.</value>
+  </data>
+  <data name="SiteAdd_aspx_cphContent_lblWeeks" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UserAdd_aspx_cphContent_lblEmail" xml:space="preserve">
+    <value>Ingrese una dirección de correo electrónico del usuario válido y activo. La dirección de correo electrónico registrado es el usuario de la cuenta del usuario para iniciar sesión.</value>
+  </data>
+  <data name="UserAdd_aspx_cphContent_lblEmail2" xml:space="preserve">
+    <value>Reingrese la dirección de correo electrónico, válida y activa, del usuario.</value>
+  </data>
+  <data name="UserAdd_aspx_cphContent_lblFirstname" xml:space="preserve">
+    <value>Este campo debe ser el Nombre del usuario.</value>
+  </data>
+  <data name="UserAdd_aspx_cphContent_lblIsActive" xml:space="preserve">
+    <value>Seleccione esta opción si desea que el usuario pueda iniciar sesión .</value>
+  </data>
+  <data name="UserAdd_aspx_cphContent_lblIsManager" xml:space="preserve">
+    <value>Seleccione esta opción si el usuario va a ser un Gerente de la Organización con acceso concedido para gestionar todos los usuarios, sitios y permisos.</value>
+  </data>
+  <data name="UserAdd_aspx_cphContent_lblLanguage" xml:space="preserve">
+    <value>Seleccione el idioma del usuario .</value>
+  </data>
+  <data name="UserAdd_aspx_cphContent_lblLastname" xml:space="preserve">
+    <value>Este campo debe ser el Apellido del usuario.</value>
+  </data>
+  <data name="UserAdd_aspx_cphContent_lblPassword" xml:space="preserve">
+    <value>Ingrese la contraseña de usuario. Las contraseñas deben tener al menos 8 caracteres, incluyendo números , mayúsculas y minúsculas.</value>
+  </data>
+  <data name="UserAdd_aspx_cphContent_lblPassword2" xml:space="preserve">
+    <value>Reingrese la contraseña del usuario. Las contraseñas deben tener al menos 8 caracteres, incluyendo números , mayúsculas y minúsculas.</value>
+  </data>
+</root>

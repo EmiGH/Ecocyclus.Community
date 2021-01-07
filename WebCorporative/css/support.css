@@ -1,0 +1,221 @@
+﻿body 
+{
+	margin:0px;
+	padding:0px;
+	width: 100%;
+	height:100%;
+	min-height: 100%;
+	background-color: #77736C;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+.dataPolicy 
+{
+	background-image:url(http://app.siteimpacts.com/Images/Login/bg.png);
+	background-position: bottom center;
+	background-repeat:no-repeat; 
+	background-color:#f7f6ed;
+	background-attachment:fixed;
+	overflow:auto !important;
+	min-height: 100% !important;
+	width:auto;
+	height: auto;
+}
+.dataPolicy .divcontent
+{
+	margin:auto;
+	width: 940px;
+	padding: 10px 0 30px 0;
+}
+html, body
+{
+	font-family: 'Source Sans Pro' , sans-serif;
+	color: #75706b;
+	text-decoration: none;
+	font-size: 90% !important;
+
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	display: block;
+	-webkit-margin-before: 0px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+}
+
+h1
+{
+	color: #697489;
+}
+h2
+{
+	color: #83a76a;
+}
+
+h3
+{
+	padding-top:30px;
+	margin-top: 300px;
+	color: #83a76a;
+}
+h4
+{
+	color: #E9837A;
+}
+
+ul
+{
+	margin: 10px 0 0 0;
+	list-style: none;
+
+}
+
+li:before
+{
+	content: "• ";
+	color: #E9837A;
+}
+li
+{
+	padding:3px 0;
+}
+
+a
+{
+	text-decoration: none;
+	color: #607D4B;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: #E9837A;
+}
+
+.top
+{
+	display: block;
+	text-align: right;
+	margin: 20px 30px 20px 0;
+}
+
+
+/* Heard */
+
+.divHeader
+{
+	text-align:left;
+	margin-top:60px;
+}
+
+
+
+/* accordion */
+
+#accordion
+{
+	margin: 30px 0 0 0;
+	font-size: 88.9% !important;
+}
+.ui-accordion .ui-accordion-header {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin-top: 2px;
+	padding: .5em .5em .5em .7em;
+	min-height: 0; /* support: IE7 */
+	
+	background-color: #eee !important;
+	border-radius: 0px !important;
+	border:0px !important;
+	background-image:none !important;
+	
+	color: #999 !important;	
+}
+.ui-accordion  .ui-accordion-header:hover,
+.ui-accordion  .ui-accordion-header-active
+{
+	background-color:#dfdfdf !important;
+	color: #75706b !important;		
+}
+.ui-accordion .ui-accordion-icons {
+	padding-left: 2.2em;
+}
+.ui-accordion .ui-accordion-noicons {
+	padding-left: .7em;
+}
+.ui-accordion .ui-accordion-icons .ui-accordion-icons {
+	padding-left: 2.2em;
+}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	position: absolute;
+	left: .5em;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-accordion .ui-accordion-content {
+	padding: 0em 2.2em;
+	border-top: 0;
+	overflow: auto;
+	
+	background-color: #FBF7F7 !important;
+	border-radius: 0px !important;
+	border:0px !important;
+	background-image:none !important;
+	
+	color: #75706b !important;		
+}
+.ui-accordion .ui-accordion-content p{
+	margin:0px;
+}
+.ui-widget-content a {
+	 color: #607D4B !important; 
+}
+
+
+.tblPermissions
+{
+	border-left:  1px solid #ccc;
+	border-right:  1px solid #ccc;
+	color:#fff;
+}
+.tblPermissions td,
+.tblPermissions th
+{
+	border-bottom: 1px solid #ccc;
+	padding: 4px 0;
+	text-align:center;	
+	width:20%;
+}
+.tblPermissions .header th
+{
+	border-top: 1px solid #ccc;
+	background-color: #eee;
+	color:#666;
+}
+.tblPermissions .col1
+{
+
+	text-align:left;
+	padding-left:15px;
+	color:#666;	
+	background-color: #eee;
+}
+.style11
+{
+
+    background-color: #1CAE1C;
+}
+.style15
+{
+    background-color: #2A73BC;
+}
+.style16
+{
+    background-color: #FF6600;
+}

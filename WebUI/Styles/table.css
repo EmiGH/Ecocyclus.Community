@@ -1,0 +1,207 @@
+﻿.tbl
+{
+border-collapse:collapse;
+width:100%;
+
+background-color:#E5E4DD;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;  
+
+}
+.tbl thead th
+{
+	height:38px;
+	/*border-bottom: 1px solid #ccc;*/
+	background-image: url('../Images/Table/bg-th-shadow.png');
+	background-position:bottom;
+	background-repeat:repeat-x;	
+	color:#8D8785;
+	font-size:13px;
+	font-weight:bold;
+}
+.tbl tfoot,
+.tbl tfoot tr,
+.tbl tfoot td
+{
+	height:4px;
+	margin:0px;
+	padding:0px !important;
+}
+
+.tbl thead th, 
+.tbl thead td,
+.tbl tbody th, 
+.tbl tbody td,
+.tbl tfoot th, 
+.tbl tfoot td
+{
+	border-right:1px solid #B8BEC1;
+	padding: 10px 8px !important;	
+}
+
+.tbl td 
+{
+	vertical-align:top;
+
+	color:#8D8785;
+	font-size:13px;
+}
+.tbl td.tdIcons 
+{
+	width:95px;
+}
+.tbl td.tdIconstwo 
+{
+	width:60px;
+}
+
+
+.tbl .trAlternating td
+{
+	background-color:#D7D6D0;
+}
+
+.tbl .trAlternating:last-child .tdlast
+{
+	/*-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-bottom-right-radius: 10px;
+	background-color:Black;	*/
+}
+
+.tbl .trNoItems td 
+{
+	padding: 0 0px !important;
+}
+
+.tbl td.line
+{
+	border-top:1px solid #B8BEC1;	
+}
+.tbl input[type=text]
+{
+	width:60px !important;
+	color:#6E5C6D;
+	background-color:transparent;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px; 
+	padding:5px 5px; 
+	border: 1px solid #666;
+	background-color:#fff;
+}
+.tbl .dd
+{
+	width:60px !important;
+	background-color:#fff;
+}
+.tbl td.line-a
+{
+	border-bottom:1px solid #B8BEC1;	
+}
+.tbl td.line-b
+{
+	border-top:1px solid #B8BEC1;	
+}
+.tbl .rfvRequested{
+	content: "•";
+	font-size: 25px;
+	display: block;
+	color: #E9837A;
+}
+
+.tbl .thlast,
+.tbl .tdlast
+{
+	border-right:0px
+}
+
+
+/* BUTTON */
+
+.tbl input[type="submit"]
+{
+	border:0px;
+	background-color:transparent;
+	width: 20px;
+	height: 20px;
+	background-image: url('../Images/Table/btn-Icons.png');
+	background-repeat:no-repeat;
+	cursor:pointer;	
+}
+
+.btnSitesView {}                       
+.btnSitesEdit {background-position: -20px top;}                      
+.btnSitesDelete {background-position: -40px top;}     
+.btnSitesAlert {background-position: -60px top;}   
+
+.btnSitesView:hover {background-position: 0 bottom;}                     
+.btnSitesEdit:hover {background-position: -20px bottom;}                      
+.btnSitesDelete:hover {background-position: -40px bottom;}     
+.btnSitesAlert:hover {background-position: -60px bottom;}      
+
+
+/* DASHBOARD & SITE*/
+
+#divPerformance .tbl td
+{
+	color:#8D8785;
+	font-size:13px;
+}
+
+#divPerformance .tbl td.tdlast
+{
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-bottom-right-radius: 10px;	
+	color:#859A68;
+	font-size:13px;	
+	font-weight:bold;
+}
+
+/* ICONS TH */
+
+th .lblHeaderElectricity,
+th .lblHeaderFuel,
+th .lblHeaderTransport,
+th .lblHeaderWaste,
+th .lblHeaderWater
+{
+	display:inline-block;
+	background-position:-5px -1px;
+	background-repeat:no-repeat;
+	line-height: 20px;
+	padding-left:19px;		
+}
+
+th .lblHeaderElectricity
+{
+	background-image: url('../Images/Meters/icon-electricity-small.png');
+
+}
+th .lblHeaderFuel
+{
+	background-image: url('../Images/Meters/icon-fuels-small.png');
+
+}
+th .lblHeaderTransport
+{
+	background-image: url('../Images/Meters/icon-transport-small.png');
+	padding-left:30px;	
+	background-position:left top;	
+}
+th .lblHeaderWaste
+{
+	background-image: url('../Images/Meters/icon-waste-small.png');
+
+}
+th .lblHeaderWater
+{
+	background-image: url('../Images/Meters/icon-water-small.png');
+
+}
+
+
+
+

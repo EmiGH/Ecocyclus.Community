@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{901AA634-B822-4D50-82DB-B992546979FA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebCorporative</RootNamespace>
+    <AssemblyName>WebCorporative</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\..\..\..\Visual Studio 2010\Projects\CSI\WebUI\bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\screenshots.css" />
+    <Content Include="img\1_SignUp_a.png" />
+    <Content Include="img\1_SignUp_b.png" />
+    <Content Include="img\2_AddSite_a.png" />
+    <Content Include="img\2_AddSite_b.png" />
+    <Content Include="img\2_AddSite_c.png" />
+    <Content Include="img\3_AddMeters_a.png" />
+    <Content Include="img\3_AddMeters_b.png" />
+    <Content Include="img\3_AddMeters_c.png" />
+    <Content Include="img\4_LoadValues_a.png" />
+    <Content Include="img\4_LoadValues_b.png" />
+    <Content Include="img\4_LoadValues_c.png" />
+    <Content Include="img\5_Report_a.png" />
+    <Content Include="img\5_Report_b.png" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\master.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\support.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="img\ajax.gif" />
+    <Content Include="img\Bg-Footer.png" />
+    <Content Include="img\bg-Header.png" />
+    <Content Include="img\bg-Home.png" />
+    <Content Include="img\flecha_blanca.png" />
+    <Content Include="img\flecha_oscura.png" />
+    <Content Include="img\footer.png" />
+    <Content Include="img\header.png" />
+    <Content Include="img\img_analice.png" />
+    <Content Include="img\img_assess.png" />
+    <Content Include="img\img_collect.png" />
+    <Content Include="img\img_header.png" />
+    <Content Include="img\img_report.png" />
+    <Content Include="img\logo-nav.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\logo_footer.png" />
+    <Content Include="img\pasos.png" />
+    <Content Include="img\PoweredByStripe.png" />
+    <Content Include="img\reder_iconos.png" />
+    <Content Include="img\sombra-banner.png" />
+    <Content Include="Global.asax" />
+    <Content Include="js\app.js" />
+    <Content Include="robots.txt" />
+    <Content Include="screenshots.htm" />
+    <Content Include="sitemap.xml" />
+    <Content Include="support.htm" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_GlobalResources\Data.en-gb.cs">
+      <DependentUpon>Data.en-gb.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\Data.es-ar.cs">
+      <DependentUpon>Data.es-ar.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\Data.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Data.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="css\images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="files\BREEAM.pdf" />
+    <None Include="files\CSH.pdf" />
+    <None Include="files\CSI_UserGuides_ElectricityMeters_V1.pdf" />
+    <None Include="files\CSI_UserGuides_FuelMeters_V1.pdf" />
+    <None Include="files\CSI_UserGuides_SignUp-Login_V1.pdf" />
+    <None Include="files\CSI_UserGuides_Sites_V1.pdf" />
+    <None Include="files\CSI_UserGuides_TransportMeters_V1.pdf" />
+    <None Include="files\CSI_UserGuides_Users-Permissions_V1.pdf" />
+    <None Include="files\CSI_UserGuides_WasteMeters_V1.pdf" />
+    <None Include="files\CSI_UserGuides_WaterMeters_V1.pdf" />
+    <None Include="files\WRAP Waste Reporting Guidance Update - FINAL1.pdf" />
+    <None Include="Properties\PublishProfiles\File System.pubxml" />
+    <None Include="Properties\PublishProfiles\File.pubxml" />
+    <None Include="Properties\PublishProfiles\siteimpacts.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Data.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Data.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Data.es-ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Data.es-ar.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Data.en-gb.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Data.en-gb.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>11182</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

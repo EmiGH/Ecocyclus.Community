@@ -1,0 +1,33 @@
+﻿#tblContent #tbLeftPane {
+	width: auto;
+}
+#divLeftPane #divMenu .lblItem
+{
+	display: none;
+}
+
+.divContainertbl
+{
+	overflow: auto; 
+	width:730px; 
+	padding-bottom: 10px;
+}
+.divContainertbl
+{
+	overflow: auto; 
+	width:883px; 
+	padding-bottom: 10px;
+}
+.divContainertbl .divWraptbl
+{
+	width:100%; 
+}
+.divControlChart
+{
+	margin-top:20px;
+}
+
+.tbl thead th
+{
+	text-transform:none !important;
+}

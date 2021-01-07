@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "WebUI\WebUI.csproj", "{5301E679-2655-4A65-8BA8-80F157314391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{D836D29F-AE3D-4B45-B7E1-81FF295008F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAI", "WebAI\WebAI.csproj", "{BA0DDE82-DD8A-415E-8A7A-5616C364C2CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCorporative", "WebCorporative\WebCorporative.csproj", "{901AA634-B822-4D50-82DB-B992546979FA}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5301E679-2655-4A65-8BA8-80F157314391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5301E679-2655-4A65-8BA8-80F157314391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5301E679-2655-4A65-8BA8-80F157314391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5301E679-2655-4A65-8BA8-80F157314391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D836D29F-AE3D-4B45-B7E1-81FF295008F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D836D29F-AE3D-4B45-B7E1-81FF295008F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D836D29F-AE3D-4B45-B7E1-81FF295008F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D836D29F-AE3D-4B45-B7E1-81FF295008F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA0DDE82-DD8A-415E-8A7A-5616C364C2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA0DDE82-DD8A-415E-8A7A-5616C364C2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA0DDE82-DD8A-415E-8A7A-5616C364C2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA0DDE82-DD8A-415E-8A7A-5616C364C2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{901AA634-B822-4D50-82DB-B992546979FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{901AA634-B822-4D50-82DB-B992546979FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{901AA634-B822-4D50-82DB-B992546979FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{901AA634-B822-4D50-82DB-B992546979FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

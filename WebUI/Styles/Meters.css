@@ -1,0 +1,96 @@
+﻿#divMetersControl
+{position:relative;}
+
+#divMeterTypes
+{
+	height: 65px;
+
+	/* border-radius */
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	/* box-shadow */
+	-webkit-box-shadow: rgba(0,0,0,0.4) 0px 0 10px;
+	-moz-box-shadow: rgba(0,0,0,0.4) 0 0 10px;
+	box-shadow: rgba(0,0,0,0.1)0 4px 5px;
+	z-index:10;	
+	position:absolute; 
+	background-color:transparent;
+}
+#divMeterTypes a
+{
+	float: left;
+	width: 145px;
+	height: 65px;
+	border-right: 1px solid #B8BEC1;
+	background-color: #E8E7E2;
+	display:block;
+	text-align:center;
+	line-height: 90px;
+	font-size:13px;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#8D8785;
+	font-weight:bold;
+	
+	background-position: center 10px;
+	background-repeat:no-repeat;	
+}
+#divMeterTypes a:hover,
+#divMeterTypes a.active
+{
+		background-color:#D7D6D0;
+}
+#divMeterTypes a:first-child 
+{
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+
+}
+#divMeterTypes a:last-child 
+{
+	border-right: 0px solid #B8BEC1;
+	-webkit-border-top-right-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-topright: 6px;
+	-moz-border-radius-bottomright: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+#divMeters
+{padding-top:65px;}
+
+#cphContent_lnkMeterTypeElectricity
+{
+		background-image:url('../Images/Meters/icon-electricity.png');
+}
+#cphContent_lnkMeterTypeFuels
+{
+		background-image:url('../Images/Meters/icon-fuels.png');
+}
+#cphContent_lnkMeterTypeTransport
+{
+		background-image:url('../Images/Meters/icon-transport.png');
+}
+#cphContent_lnkMeterTypeWaste
+{
+		background-image:url('../Images/Meters/icon-waste.png');
+}
+#cphContent_lnkMeterTypeWater
+{
+		background-image:url('../Images/Meters/icon-water.png');
+}
+
+#divMeters .tbl 
+{
+		width:729px;
+}
+#divMeters .tbl th
+{
+		background-color:#D7D6D0;
+}

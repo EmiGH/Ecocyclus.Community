@@ -1,0 +1,139 @@
+﻿
+/**** BUTTON ****/
+
+.divDetail .divActions
+{
+	text-align:right;
+	margin-right: 20px;
+	margin-bottom: 10px;
+
+}
+.divDetail .divActions .lnkModify,
+.divDetail .divActions .lnkRemove,
+.divDetail .divActions .lnkToggle,
+.divDetail .divActions .lnkPermissions,
+.divDetail .divActions .lnkExport,
+.divDetail .divActions .hplPrint
+{
+	width: 20px;
+	height: 20px;
+	display:inline-block;
+	background-image: url('../images/btns-actions.png');
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+.divDetail .divActions .lnkModify
+{
+}
+.divDetail .divActions .lnkRemove
+{
+	background-position: -20px top;
+}
+.divDetail .divActions .lnkPermissions
+{
+	background-position: -40px top;
+}
+.divDetail .divActions .lnkExport
+{
+	background-position: -60px top;
+}
+.divDetail .divActions .lnkToggle
+{
+	background-position: -80px top;
+}
+.divDetail .divActions .hplPrint
+{
+	background-position: -100px top;
+}
+
+
+/* IMAGES */
+
+.divDetail .divColumn.img
+{
+	height: 100px;
+}
+.divDetail .divColumn.img .divCenter
+{
+	height: 114px;
+	width: 215px;
+	overflow:hidden;
+	border:3px solid #E8E7E2;	
+}
+.divDetail .divColumn.img .divCenterLogo
+{
+	height: 114px;
+	width: 215px;
+	background-color:#fff;
+	overflow:hidden;
+	border:3px solid #E8E7E2;	
+}
+.divDetail .divColumn.img div p
+{
+	display: table;
+	height: 120px;
+	width: 215px;	 
+	margin:0px;
+	line-height:normal;
+}
+.divDetail .divColumn.img div span
+{
+	display: table-cell;
+	height: 120px;
+	width: 221px;	 
+	vertical-align: middle; 
+	text-align: center;
+	overflow:hidden;	
+}
+.divDetail .divColumn.img div img
+{
+	width: 215px !important;
+	height: auto !important;
+}
+.divDetail .divColumn.img div .logo
+{
+	width: auto !important;	
+	max-height: 100px !important;
+}
+
+/* GENERAL */
+
+.divDetail .divColumn.map
+{
+	margin:0 30px 30px 0;
+	width: 221px !important;
+	height:120px;
+}
+
+.divDetail .divColumn span
+{
+	display:block;
+}
+.divDetail .divColumn .lblTitle
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size:12px;
+	color:#8D8785;
+	margin-bottom:4px;
+}
+.divDetail .divColumn .lblValue
+{
+	color:#8E8880;
+	background-color:#E8E7E2;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px; 
+	padding:5px 5px; 
+	min-height:17px;
+	border: 0px !important;
+}
+
+.divDetail .margin
+{
+	height:auto !important;
+	margin-bottom:0px !important;
+}
+
+
+

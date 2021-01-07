@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountActivationBadTokenError" xml:space="preserve">
+    <value>El token para la activación de su cuenta es inválido.</value>
+  </data>
+  <data name="AccountMessageCompanyExists" xml:space="preserve">
+    <value>El nombre de la organización ya fue registrado.</value>
+  </data>
+  <data name="AccountMessageEmailExists" xml:space="preserve">
+    <value>La dirección de correo ya fue registrada.</value>
+  </data>
+  <data name="AccountNewMailBody" xml:space="preserve">
+    <value>Se ha generado una cuenta en e-Greening para usted.  Esta es su información de acceso:[n][n]Usuario: [user][n]Contraseña: [password].[n][n]Usted puede continuar con e-Greening e ingresar a la plataforma en: [&lt;a]http://app.e-greening.com[a&gt;]http://app.e-greening.com[/a].</value>
+  </data>
+  <data name="AccountNewMailSubject" xml:space="preserve">
+    <value>e-Greening :: Cuenta Nueva</value>
+  </data>
+  <data name="AccountRecoveryMailBody" xml:space="preserve">
+    <value>Se ha iniciado el proceso de recuperación.[n][n]Por  Por favor, restablezca la contraseña de su cuenta en el siguiente enlace: [&lt;a]http://app.e-greening.com/Registration/PasswordReset.aspx?token=[token]&amp;language=[language][a&gt;]&gt;restablecer contraseña[/a][n][n]</value>
+  </data>
+  <data name="AccountRecoveryMailSubject" xml:space="preserve">
+    <value>e-Greening :: Proceso de Recuperación</value>
+  </data>
+  <data name="AccountRegistrationAdministrationMailBody" xml:space="preserve">
+    <value>El proceso de registro de la organización [company] se ha iniciado.[n][n]</value>
+  </data>
+  <data name="AccountRegistrationMailBody" xml:space="preserve">
+    <value>Se ha iniciado el proceso de registro.[n][n]Por favor active su cuenta en el siguiente enlace: [&lt;a]http://app.e-greening.com/Registration/RegistrationVerifier.aspx?token=[token]&amp;language=[language][a&gt;]activate account[/a][n][n]</value>
+  </data>
+  <data name="AccountRegistrationMailSubject" xml:space="preserve">
+    <value>e-Greening :: Proceso de Registro</value>
+  </data>
+  <data name="AccountVerificationAdministrationMailBody" xml:space="preserve">
+    <value>La organización [company] ha verificado la información de la cuenta.[n][n]</value>
+  </data>
+  <data name="AuthenticationError" xml:space="preserve">
+    <value>El proceso de autenticación ha fallado.</value>
+  </data>
+  <data name="ContactTitle" xml:space="preserve">
+    <value>e-Greening :: Solicitud de Contacto</value>
+  </data>
+  <data name="DataLoadInvalidDistance" xml:space="preserve">
+    <value>Las distancias no son válidas. Deben ser mayores que 0.</value>
+  </data>
+  <data name="DataLoadInvalidPeriod" xml:space="preserve">
+    <value>Las fechas no son válidas. La fecha de inicio debe ser anterior a la fecha fin.</value>
+  </data>
+  <data name="DatesInvalid" xml:space="preserve">
+    <value>Los rangos de fechas provistos no son válidas.</value>
+  </data>
+  <data name="DuplicatedMeter" xml:space="preserve">
+    <value>El medidor no se puede guardar porque su identificación ya existe.</value>
+  </data>
+  <data name="DuplicatedRecord" xml:space="preserve">
+    <value>La información no se puede guardar porque el valor único ya existe.</value>
+  </data>
+  <data name="DuplicatedSite" xml:space="preserve">
+    <value>La instalación no se puede guardar porque su nombre ya existe.  </value>
+  </data>
+  <data name="DuplicatedUnit" xml:space="preserve">
+    <value>La unidad no se puede guardar porque su nombre ya existe.</value>
+  </data>
+  <data name="ErrorCannotChangeInitialDate" xml:space="preserve">
+    <value>No se puede cambiar la fecha de inicio porque el medidor todavia contiene valores.</value>
+  </data>
+  <data name="ErrorCannotChangeMagnitude" xml:space="preserve">
+    <value>No se puede cambiar la magnitud porque el medidor todavia contiene valores con la magnitud anterior.</value>
+  </data>
+  <data name="ErrorCannotDeleteExistingRelationship" xml:space="preserve">
+    <value>Existen datos relacionados que evitan que se elimine esta información.</value>
+  </data>
+  <data name="ErrorCannotDeleteLastUser" xml:space="preserve">
+    <value>El último usuario no puede ser eliminado.</value>
+  </data>
+  <data name="ErrorCannotUseDifferentMagnitudes" xml:space="preserve">
+    <value>No pueden utilizarse diferentes magnitudes para el mismo tipo de serie de datos.</value>
+  </data>
+  <data name="LoadDateViolation" xml:space="preserve">
+    <value>Las fechas para la carga de datos tiene que ser menor o igual a la de hoy.</value>
+  </data>
+  <data name="MailFooter" xml:space="preserve">
+    <value>[n][n]Este es un mensaje de notificacion de la plataforma e-Greening. Por favor no responda este correo electrónico.</value>
+  </data>
+  <data name="MeterHasValue" xml:space="preserve">
+    <value>No puede modificar la unidad de medida del medidor porque ya tiene valores.</value>
+  </data>
+  <data name="NextDateInvalid" xml:space="preserve">
+    <value>La primera fecha prevista no coincide con la próxima fecha disponible para la carga de datos</value>
+  </data>
+  <data name="NotificationSiteMeterNoticeMessage" xml:space="preserve">
+    <value>Se debe cargar el medidor [meter] de la instalación [site].</value>
+  </data>
+  <data name="NotificationSiteMeterNoticeTitle" xml:space="preserve">
+    <value>Aviso de Carga del medidor</value>
+  </data>
+  <data name="NotificationSiteMeterOverdueMessage" xml:space="preserve">
+    <value>La frecuencia de carga del medidor [meter] de la instalación [site] está vencida. </value>
+  </data>
+  <data name="NotificationSiteMeterOverdueTitle" xml:space="preserve">
+    <value>Carga del Medidor Vencida</value>
+  </data>
+  <data name="NotificationSiteTargetSurpassedMessage" xml:space="preserve">
+    <value>Los objetivos para [protocol] de la instalación [site] de [month] del [year] se han superado por [amount] [units].</value>
+  </data>
+  <data name="NotificationSiteTargetSurpassedTitle" xml:space="preserve">
+    <value>Objetivos de la Instalación Superados</value>
+  </data>
+  <data name="PaymentAdministrationMailBody" xml:space="preserve">
+    <value>La organización [company] ha hecho el pago de [amount] para el período [period] para la instalación [site].[n] La id de la transacción es: [transaction].[n][n]</value>
+  </data>
+  <data name="PaymentAdministrationMailSubject" xml:space="preserve">
+    <value>e-Greening :: Nuevo Pago</value>
+  </data>
+  <data name="PaymentConfirmedAdministrationMailBody" xml:space="preserve">
+    <value>La organización [company] ha confirmado el pago de la transacción id [transaction].[n][n]</value>
+  </data>
+  <data name="PaymentConfirmedAdministrationMailSubject" xml:space="preserve">
+    <value>e-Greening :: Pago Confirmado</value>
+  </data>
+  <data name="PaymentErrorDifferentAmount" xml:space="preserve">
+    <value>El monto total informado para el pago no coincide con la escala de pago correcto.</value>
+  </data>
+  <data name="PaymentErrorWrongDates" xml:space="preserve">
+    <value>Las fechas para el nuevo período de carga no tienen valores correctos!. 
+Las fechas debe tener un intervalo de tiempo válido y deben coincidir con el inicio o el final del período de carga actual.</value>
+  </data>
+  <data name="PermissionDenied" xml:space="preserve">
+    <value>Usted no tiene permisos para realizar esta acción. Por favor, póngase en contacto con los administradores de la plataforma.</value>
+  </data>
+  <data name="PermissionsCannotChangeManager" xml:space="preserve">
+    <value>Usted no puede cambiar los permisos de acceso del gerente de la organización.</value>
+  </data>
+  <data name="PhysicalMeterInvalidValue" xml:space="preserve">
+    <value>Los valores de lectura de un medidor físico tienen que ser igual o mayor que el anterior.</value>
+  </data>
+  <data name="SiteClosed" xml:space="preserve">
+    <value>No se puede realizar esta acción porque la instalación está cerrada.</value>
+  </data>
+  <data name="SiteLoadDateViolation" xml:space="preserve">
+    <value>Las fechas para la carga de datos deben ser válidos para el período de tiempo permitido para la instalación.</value>
+  </data>
+  <data name="SiteStartDateViolation" xml:space="preserve">
+    <value>Las fechas para la carga de datos tienen que ser mayor o igual que la fecha de inicio de la instalación.</value>
+  </data>
+</root>

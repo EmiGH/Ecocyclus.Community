@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Your credential does not hold permissions to access this information.</value>
+  </data>
+  <data name="AccountActivationError" xml:space="preserve">
+    <value>Your account activation process has not been completed due to the following error: [error]&lt;br/&gt;&lt;br/&gt;Please contact our system administrators at: &lt;a href="mailto:[mail]"&gt;[mail]&lt;/a&gt; for assistance.</value>
+  </data>
+  <data name="AccountActivationSuccessful" xml:space="preserve">
+    <value>Your account registration process has been successfully completed.  Your EcoCyclus account is now active. &lt;br/&gt;&lt;br/&gt; You can proceed to the EcoCyclus &lt;a href="../Default.aspx"&gt;site&lt;/a&gt; and log in.</value>
+  </data>
+  <data name="AccountRecoveryError" xml:space="preserve">
+    <value>Your password recovery process has not been completed due to the following error: [error]&lt;br/&gt;&lt;br/&gt;Please contact our system administrators at: &lt;a href="mailto:[mail]"&gt;[mail]&lt;/a&gt; for assistance.</value>
+  </data>
+  <data name="AccountRecoveryMessage" xml:space="preserve">
+    <value>Please enter your EcoCyclus account email address in order to recover your password.</value>
+  </data>
+  <data name="AccountRecoverySuccessful" xml:space="preserve">
+    <value>The recovery process has been successfully started.  Please check your email to reset your password.</value>
+  </data>
+  <data name="AccountRegistrationEmailNotMatch" xml:space="preserve">
+    <value>The email addresses do not match</value>
+  </data>
+  <data name="AccountRegistrationError" xml:space="preserve">
+    <value>An error has occurred&lt;br/&gt;Please contact our system administrators at: &lt;a href="mailto:[mail]"&gt;[mail]&lt;/a&gt; for assistance.</value>
+  </data>
+  <data name="AccountRegistrationInvalidEmail" xml:space="preserve">
+    <value>Please enter a valid email address</value>
+  </data>
+  <data name="AccountRegistrationPasswordNotMatch" xml:space="preserve">
+    <value>The passwords do not match</value>
+  </data>
+  <data name="AccountRegistrationRequiredCompanyName" xml:space="preserve">
+    <value>Plase enter your organization name</value>
+  </data>
+  <data name="AccountRegistrationRequiredEmail" xml:space="preserve">
+    <value>Please enter a valid email address</value>
+  </data>
+  <data name="AccountRegistrationRequiredEmailRetype" xml:space="preserve">
+    <value>Please retype the email address</value>
+  </data>
+  <data name="AccountRegistrationRequiredFirstname" xml:space="preserve">
+    <value>Please enter your firstname</value>
+  </data>
+  <data name="AccountRegistrationRequiredLastname" xml:space="preserve">
+    <value>Please enter your lastname</value>
+  </data>
+  <data name="AccountRegistrationRequiredLocation" xml:space="preserve">
+    <value>Please select your organization location</value>
+  </data>
+  <data name="AccountRegistrationRequiredPassword" xml:space="preserve">
+    <value>Please select a password</value>
+  </data>
+  <data name="AccountRegistrationRequiredPasswordRetype" xml:space="preserve">
+    <value>Please retype the password</value>
+  </data>
+  <data name="AccountRegistrationSuccessful" xml:space="preserve">
+    <value>Your account registration process has been successfully started.  Please check your email to activate your EcoCyclus account.</value>
+  </data>
+  <data name="AccountResetError" xml:space="preserve">
+    <value>Your password reset process has not been completed due to the following error: [error]&lt;br/&gt;&lt;br/&gt;Please contact our system administrators at: &lt;a href="mailto:[mail]"&gt;[mail]&lt;/a&gt; for assistance.</value>
+  </data>
+  <data name="AccountResetMessage" xml:space="preserve">
+    <value>Please enter and retype your new password to reset your account.</value>
+  </data>
+  <data name="AccountResetSuccessful" xml:space="preserve">
+    <value>Your password reset process has been successfully completed.&lt;br/&gt;&lt;br/&gt; You can proceed to the EcoCyclus &lt;a href="../Default.aspx"&gt;site&lt;/a&gt; and log in.</value>
+  </data>
+  <data name="AlertDeleteLoad" xml:space="preserve">
+    <value>Warning! Removing data will delete all information from this period to the end of the serie.</value>
+  </data>
+  <data name="ConfirmDeleteMessage" xml:space="preserve">
+    <value>Are you sure you want to delete this information?  &lt;br&gt;&lt;br&gt;You should be aware that removing data will also delete all related information and you won\'t be able to undo this action.</value>
+  </data>
+  <data name="ConfirmDeleteTitle" xml:space="preserve">
+    <value>Warning!</value>
+  </data>
+  <data name="ConfirmModifyMessage" xml:space="preserve">
+    <value>Are you sure yo want to modify this information?</value>
+  </data>
+  <data name="ConfirmModifyTitle" xml:space="preserve">
+    <value>Atention!</value>
+  </data>
+  <data name="CookieUseWarning" xml:space="preserve">
+    <value>This web application uses cookies to improve user experience. By using our web application you consent to all cookies in accordance with our Cookie Policy.</value>
+  </data>
+  <data name="ErrorCountryNotRecognized" xml:space="preserve">
+    <value>The information about the country from the selected address is not recognized.</value>
+  </data>
+  <data name="ErrorDetails" xml:space="preserve">
+    <value>An unexpected error has occurred! &lt;br/&gt;&lt;br/&gt;Please contact our system administrators at: &lt;a href="mailto:[mail]"&gt;[mail]&lt;/a&gt; for assistance.</value>
+  </data>
+  <data name="ErrorImageTooBig" xml:space="preserve">
+    <value>The uploaded image is too big</value>
+  </data>
+  <data name="ErrorInvalidDateRange" xml:space="preserve">
+    <value>The range of dates is invalid</value>
+  </data>
+  <data name="ErrorTitle" xml:space="preserve">
+    <value>Error Occurs</value>
+  </data>
+  <data name="FirstTimeGuideApp" xml:space="preserve">
+    <value>It seems to be your first time at EcoCyclus.&lt;br/&gt;Please follow the "Add Site" link to register your sites.</value>
+  </data>
+  <data name="FirstTimeGuideMeter" xml:space="preserve">
+    <value>If this is your first meter please follow the "Load Data" link to add values to your meters series.</value>
+  </data>
+  <data name="FirstTimeGuideSite" xml:space="preserve">
+    <value>If this is your first site please follow the "Add Meter" link to register your meters.</value>
+  </data>
+  <data name="FirstTimeNeedHelp" xml:space="preserve">
+    <value>Need help?</value>
+  </data>
+  <data name="FirstTimeTitle" xml:space="preserve">
+    <value>Welcome [user]! First time?</value>
+  </data>
+  <data name="LoginAuthenticationError" xml:space="preserve">
+    <value>There was an authentication error in the login process</value>
+  </data>
+  <data name="LoginAuthenticationFail" xml:space="preserve">
+    <value>The authentication process has failed</value>
+  </data>
+  <data name="MapAddressUnknown" xml:space="preserve">
+    <value>Address Unrecognized</value>
+  </data>
+  <data name="MapGeocoderError" xml:space="preserve">
+    <value>Geocode was not successful for the following reason:</value>
+  </data>
+  <data name="MapPickupTitle" xml:space="preserve">
+    <value>Coordenates Selector</value>
+  </data>
+  <data name="PaymentSuccessful" xml:space="preserve">
+    <value>Your payment has been successfully processed.</value>
+  </data>
+  <data name="PaypalError" xml:space="preserve">
+    <value>The payment could not be resolved.  Please review your information or contact us for further assisstance.</value>
+  </data>
+  <data name="StandardError" xml:space="preserve">
+    <value>Information has not been saved due to the following error:&lt;br/&gt;&lt;br/&gt;[error]&lt;br/&gt;&lt;br/&gt;Please contact our system administrators at: &lt;a href="mailto:[mail]"&gt;[mail]&lt;/a&gt; for assistance.</value>
+  </data>
+  <data name="StandardSuccessful" xml:space="preserve">
+    <value>The information has been successfully saved.</value>
+  </data>
+  <data name="SummaryCheck" xml:space="preserve">
+    <value>Please complete all mandatory fields marked with an asterix (*) and verify the type of each data. </value>
+  </data>
+  <data name="SummaryError" xml:space="preserve">
+    <value>Warning! An error has ocurred</value>
+  </data>
+  <data name="SummaryErrorCharacter" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="TranslationNotSaved" xml:space="preserve">
+    <value>The information is unsaved!  Are you sure you want to continue?</value>
+  </data>
+</root>

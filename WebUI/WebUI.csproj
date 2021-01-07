@@ -1,0 +1,936 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5301E679-2655-4A65-8BA8-80F157314391}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CSI.WebUI</RootNamespace>
+    <AssemblyName>WebUI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.7.429, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Types, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\Microsoft.SqlServer.Types.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Stripe.net">
+      <HintPath>..\packages\Stripe.net.2.1.2\lib\net40\Stripe.net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Telerik.Web.Design">
+      <HintPath>..\..\..\..\Visual Studio 2010\Projects\CSI\WebUI\bin\Telerik.Web.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>..\..\..\..\Visual Studio 2010\Projects\CSI\WebUI\bin\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Console\Common\ImageViewer.aspx" />
+    <Content Include="Console\Controls\ucErrorHandler.ascx" />
+    <Content Include="Console\Controls\ucGuide.ascx" />
+    <Content Include="Console\Controls\ucMenuGlobal.ascx" />
+    <Content Include="Console\Controls\ucMenuNavigation.ascx" />
+    <Content Include="Console\Dashboard\Dashboard.aspx" />
+    <Content Include="Console\Dashboard\EmissionFactors\SiteEmissionFactors.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterElectricity.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterElectricityAdd.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterElectricityEdit.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterElectricityLoadAdd.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterElectricityLoadEdit.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterElectricityLoads.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterFuel.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterFuelAdd.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterFuelEdit.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterFuelLoadAdd.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterFuelLoadEdit.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterFuelLoads.aspx" />
+    <Content Include="Console\Dashboard\Meters\Meters.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterTransportAdd.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterTransportEdit.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterTransportLoadAdd.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterTransportLoadEdit.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterTransportLoads.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterWasteLoadAdd.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterWasteLoadEdit.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterWasteLoads.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterWater.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterWaterAdd.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterWaterEdit.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterTransport.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterWaste.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterWasteAdd.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterWasteEdit.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterWaterLoadAdd.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterWaterLoadEdit.aspx" />
+    <Content Include="Console\Dashboard\Meters\MeterWaterLoads.aspx" />
+    <Content Include="Console\Dashboard\Payments\SitePayments.aspx" />
+    <Content Include="Console\Dashboard\Permissions\SitePermissions.aspx" />
+    <Content Include="Console\Dashboard\Permissions\UserPermissions.aspx" />
+    <Content Include="Console\Dashboard\Reports\MeterElectricityReportPrintable.aspx" />
+    <Content Include="Console\Dashboard\Reports\MeterFuelReportPrintable.aspx" />
+    <Content Include="Console\Dashboard\Reports\MeterTransportReportPrintable.aspx" />
+    <Content Include="Console\Dashboard\Reports\MeterWasteReportPrintable.aspx" />
+    <Content Include="Console\Dashboard\Reports\MeterWaterReportPrintable.aspx" />
+    <Content Include="Console\Dashboard\Reports\SiteReport.aspx" />
+    <Content Include="Console\Dashboard\Reports\SiteReportPrintable.aspx" />
+    <Content Include="Console\Dashboard\Site.aspx" />
+    <Content Include="Console\Dashboard\SiteAdd.aspx" />
+    <Content Include="Console\Dashboard\SiteEdit.aspx" />
+    <Content Include="Console\Dashboard\SiteProfile.aspx" />
+    <Content Include="Console\Dashboard\Sites.aspx" />
+    <Content Include="Console\Dashboard\Targets\SiteTargets.aspx" />
+    <Content Include="Console\Dashboard\Targets\SiteTargetsEdit.aspx" />
+    <Content Include="Console\Directory\Company.aspx" />
+    <Content Include="Console\Directory\CompanyEdit.aspx" />
+    <Content Include="Console\Directory\Profile.aspx" />
+    <Content Include="Console\Directory\ProfileChangePassword.aspx" />
+    <Content Include="Console\Directory\ProfileEdit.aspx" />
+    <Content Include="Console\Directory\User.aspx" />
+    <Content Include="Console\Directory\UserAdd.aspx" />
+    <Content Include="Console\Directory\UserEdit.aspx" />
+    <Content Include="Console\Error.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="Images\btns-actions.png" />
+    <Content Include="Images\icon-header-menu-arrow.png" />
+    <Content Include="Images\icons-footer.png" />
+    <Content Include="Images\icons-menu.png" />
+    <Content Include="Images\img-Logo.png" />
+    <Content Include="Images\img-users.png" />
+    <Content Include="Images\Loader.gif" />
+    <Content Include="Images\Login\bg-checkbox.png" />
+    <Content Include="Images\Login\bg-dd.png" />
+    <Content Include="Images\Login\bg.png" />
+    <Content Include="Images\Login\btn-Location.png" />
+    <Content Include="Images\Login\btn-social.png" />
+    <Content Include="Images\Login\email-user.png" />
+    <Content Include="Images\Login\img-Logo.png" />
+    <Content Include="Images\Login\logo.png" />
+    <Content Include="Images\Login\password-user.png" />
+    <Content Include="Images\logo-prints.png" />
+    <Content Include="Images\Logo.png" />
+    <Content Include="Images\Meters\btn-Payments-Over.png" />
+    <Content Include="Images\Meters\btn-Payments.png" />
+    <Content Include="Images\Meters\btn-Site-Over.png" />
+    <Content Include="Images\Meters\btn-Site.png" />
+    <Content Include="Images\Meters\icon-electricity-small.png" />
+    <Content Include="Images\Meters\icon-electricity.png" />
+    <Content Include="Images\Meters\icon-fuels-small.png" />
+    <Content Include="Images\Meters\icon-fuels.png" />
+    <Content Include="Images\Meters\icon-transport-small.png" />
+    <Content Include="Images\Meters\icon-transport.png" />
+    <Content Include="Images\Meters\icon-waste-small.png" />
+    <Content Include="Images\Meters\icon-waste.png" />
+    <Content Include="Images\Meters\icon-water-small.png" />
+    <Content Include="Images\Meters\icon-water.png" />
+    <Content Include="Images\Nav\btn-AddUser-Over.png" />
+    <Content Include="Images\Nav\btn-AddUser.png" />
+    <Content Include="Images\Nav\btn-Alerts-Over.png" />
+    <Content Include="Images\Nav\btn-Alerts.png" />
+    <Content Include="Images\Nav\btn-Co2Emission-Over.png" />
+    <Content Include="Images\Nav\btn-Co2Emission.png" />
+    <Content Include="Images\Nav\btn-Dashboard-Over.png" />
+    <Content Include="Images\Nav\btn-Dashboard.png" />
+    <Content Include="Images\Nav\btn-Meters-Over.png" />
+    <Content Include="Images\Nav\btn-Meters.png" />
+    <Content Include="Images\Nav\btn-Payments-Over.png" />
+    <Content Include="Images\Nav\btn-Payments.png" />
+    <Content Include="Images\Nav\btn-Permissions-Over.png" />
+    <Content Include="Images\Nav\btn-Permissions.png" />
+    <Content Include="Images\Nav\btn-Propiertes-Over.png" />
+    <Content Include="Images\Nav\btn-Propiertes.png" />
+    <Content Include="Images\Nav\btn-Reports-Over.png" />
+    <Content Include="Images\Nav\btn-Reports.png" />
+    <Content Include="Images\Nav\btn-Sites-Over.png" />
+    <Content Include="Images\Nav\btn-Sites.png" />
+    <Content Include="Images\Nav\btn-Targuets-Over.png" />
+    <Content Include="Images\Nav\btn-Targuets.png" />
+    <Content Include="Images\Nav\img-Meters-Arrow.png" />
+    <Content Include="Images\NoImagesAvailable.gif" />
+    <Content Include="Images\ProgressIndicator.gif" />
+    <Content Include="Images\SiteClosed.png" />
+    <Content Include="Images\SiteFinished.png" />
+    <Content Include="Images\SiteLive.png" />
+    <Content Include="Images\SiteOpen.png" />
+    <Content Include="Images\stripe_logo.png" />
+    <Content Include="Images\stripe_logo_small.png" />
+    <Content Include="Images\Table\bg-th-shadow.png" />
+    <Content Include="Images\Table\btn-Icons.png" />
+    <Content Include="Scripts\confirm.js" />
+    <Content Include="Scripts\helper.js" />
+    <Content Include="Scripts\jquery-1.6.4-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.6.4.js" />
+    <Content Include="Scripts\jquery-1.6.4.min.js" />
+    <Content Include="Scripts\jquery.blink.js" />
+    <Content Include="Scripts\jquery.datatables.js" />
+    <Content Include="Scripts\jquery.maskedInput.js" />
+    <Content Include="Registration\DataPolicy.aspx" />
+    <Content Include="Registration\PasswordRecovery.aspx" />
+    <Content Include="Registration\PasswordReset.aspx" />
+    <Content Include="Registration\RegistrationVerifier.aspx" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-1.10.3-ui.min.js" />
+    <Content Include="Scripts\jquery-latest.js" />
+    <Content Include="Scripts\jquery-ui.js" />
+    <Content Include="Scripts\jquery-ui.min.js" />
+    <Content Include="Scripts\jquery.dd.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\jquery.numberMask.js" />
+    <Content Include="Scripts\jquery.signalR-1.0.1.js" />
+    <Content Include="Scripts\jquery.signalR-1.0.1.min.js" />
+    <Content Include="Scripts\mapDistance.js" />
+    <Content Include="Scripts\viget.js" />
+    <Content Include="Scripts\map.js" />
+    <Content Include="Scripts\mapReferences.js" />
+    <Content Include="Scripts\msBeautify.js" />
+    <Content Include="Scripts\prettyCheckable.js" />
+    <Content Include="Styles\button.css" />
+    <Content Include="Styles\Chart.css" />
+    <Content Include="Styles\Column.css" />
+    <Content Include="Styles\DataTables.css" />
+    <Content Include="Styles\detail.css" />
+    <Content Include="Styles\Form.css" />
+    <Content Include="Styles\jquery-ui.css" />
+    <Content Include="Styles\Login.css" />
+    <Content Include="Styles\Map.css" />
+    <Content Include="Styles\Master.css" />
+    <Content Include="Styles\Meters.css" />
+    <Content Include="Styles\Nav.css" />
+    <Content Include="Styles\Print-m.css" />
+    <Content Include="Styles\Print.css" />
+    <Content Include="Styles\Report.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\Table.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_GlobalResources\Data.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Data.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Data.es-ar.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Data.es-ar.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Helper.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Helper.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Helper.es-ar.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Helper.es-ar.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Messages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Data\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Data\Common.cs" />
+    <Compile Include="App_GlobalResources\Messages.es-ar.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.es-ar.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Common\ImageViewer.aspx.cs">
+      <DependentUpon>ImageViewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Common\ImageViewer.aspx.designer.cs">
+      <DependentUpon>ImageViewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Controls\ucErrorHandler.ascx.cs">
+      <DependentUpon>ucErrorHandler.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Controls\ucErrorHandler.ascx.designer.cs">
+      <DependentUpon>ucErrorHandler.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Controls\ucGuide.ascx.cs">
+      <DependentUpon>ucGuide.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Controls\ucGuide.ascx.designer.cs">
+      <DependentUpon>ucGuide.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Controls\ucMenuGlobal.ascx.cs">
+      <DependentUpon>ucMenuGlobal.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Controls\ucMenuGlobal.ascx.designer.cs">
+      <DependentUpon>ucMenuGlobal.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Controls\ucMenuNavigation.ascx.cs">
+      <DependentUpon>ucMenuNavigation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Controls\ucMenuNavigation.ascx.designer.cs">
+      <DependentUpon>ucMenuNavigation.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\EmissionFactors\SiteEmissionFactors.aspx.cs">
+      <DependentUpon>SiteEmissionFactors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\EmissionFactors\SiteEmissionFactors.aspx.designer.cs">
+      <DependentUpon>SiteEmissionFactors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterElectricity.aspx.cs">
+      <DependentUpon>MeterElectricity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterElectricity.aspx.designer.cs">
+      <DependentUpon>MeterElectricity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterElectricityAdd.aspx.cs">
+      <DependentUpon>MeterElectricityAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterElectricityAdd.aspx.designer.cs">
+      <DependentUpon>MeterElectricityAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterElectricityEdit.aspx.cs">
+      <DependentUpon>MeterElectricityEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterElectricityEdit.aspx.designer.cs">
+      <DependentUpon>MeterElectricityEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterElectricityLoadAdd.aspx.cs">
+      <DependentUpon>MeterElectricityLoadAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterElectricityLoadAdd.aspx.designer.cs">
+      <DependentUpon>MeterElectricityLoadAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterElectricityLoadEdit.aspx.cs">
+      <DependentUpon>MeterElectricityLoadEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterElectricityLoadEdit.aspx.designer.cs">
+      <DependentUpon>MeterElectricityLoadEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterElectricityLoads.aspx.cs">
+      <DependentUpon>MeterElectricityLoads.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterElectricityLoads.aspx.designer.cs">
+      <DependentUpon>MeterElectricityLoads.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterFuel.aspx.cs">
+      <DependentUpon>MeterFuel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterFuel.aspx.designer.cs">
+      <DependentUpon>MeterFuel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterFuelAdd.aspx.cs">
+      <DependentUpon>MeterFuelAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterFuelAdd.aspx.designer.cs">
+      <DependentUpon>MeterFuelAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterFuelEdit.aspx.cs">
+      <DependentUpon>MeterFuelEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterFuelEdit.aspx.designer.cs">
+      <DependentUpon>MeterFuelEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterFuelLoadAdd.aspx.cs">
+      <DependentUpon>MeterFuelLoadAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterFuelLoadAdd.aspx.designer.cs">
+      <DependentUpon>MeterFuelLoadAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterFuelLoadEdit.aspx.cs">
+      <DependentUpon>MeterFuelLoadEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterFuelLoadEdit.aspx.designer.cs">
+      <DependentUpon>MeterFuelLoadEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterFuelLoads.aspx.cs">
+      <DependentUpon>MeterFuelLoads.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterFuelLoads.aspx.designer.cs">
+      <DependentUpon>MeterFuelLoads.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\Meters.aspx.cs">
+      <DependentUpon>Meters.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\Meters.aspx.designer.cs">
+      <DependentUpon>Meters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterTransportAdd.aspx.cs">
+      <DependentUpon>MeterTransportAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterTransportAdd.aspx.designer.cs">
+      <DependentUpon>MeterTransportAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterTransportEdit.aspx.cs">
+      <DependentUpon>MeterTransportEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterTransportEdit.aspx.designer.cs">
+      <DependentUpon>MeterTransportEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterTransportLoadAdd.aspx.cs">
+      <DependentUpon>MeterTransportLoadAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterTransportLoadAdd.aspx.designer.cs">
+      <DependentUpon>MeterTransportLoadAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterTransportLoadEdit.aspx.cs">
+      <DependentUpon>MeterTransportLoadEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterTransportLoadEdit.aspx.designer.cs">
+      <DependentUpon>MeterTransportLoadEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterTransportLoads.aspx.cs">
+      <DependentUpon>MeterTransportLoads.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterTransportLoads.aspx.designer.cs">
+      <DependentUpon>MeterTransportLoads.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWasteLoadAdd.aspx.cs">
+      <DependentUpon>MeterWasteLoadAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWasteLoadAdd.aspx.designer.cs">
+      <DependentUpon>MeterWasteLoadAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWasteLoadEdit.aspx.cs">
+      <DependentUpon>MeterWasteLoadEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWasteLoadEdit.aspx.designer.cs">
+      <DependentUpon>MeterWasteLoadEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWasteLoads.aspx.cs">
+      <DependentUpon>MeterWasteLoads.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWasteLoads.aspx.designer.cs">
+      <DependentUpon>MeterWasteLoads.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWater.aspx.cs">
+      <DependentUpon>MeterWater.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWater.aspx.designer.cs">
+      <DependentUpon>MeterWater.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWaterAdd.aspx.cs">
+      <DependentUpon>MeterWaterAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWaterAdd.aspx.designer.cs">
+      <DependentUpon>MeterWaterAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWaterEdit.aspx.cs">
+      <DependentUpon>MeterWaterEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWaterEdit.aspx.designer.cs">
+      <DependentUpon>MeterWaterEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterTransport.aspx.cs">
+      <DependentUpon>MeterTransport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterTransport.aspx.designer.cs">
+      <DependentUpon>MeterTransport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWaste.aspx.cs">
+      <DependentUpon>MeterWaste.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWaste.aspx.designer.cs">
+      <DependentUpon>MeterWaste.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWasteAdd.aspx.cs">
+      <DependentUpon>MeterWasteAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWasteAdd.aspx.designer.cs">
+      <DependentUpon>MeterWasteAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWasteEdit.aspx.cs">
+      <DependentUpon>MeterWasteEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWasteEdit.aspx.designer.cs">
+      <DependentUpon>MeterWasteEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWaterLoadAdd.aspx.cs">
+      <DependentUpon>MeterWaterLoadAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWaterLoadAdd.aspx.designer.cs">
+      <DependentUpon>MeterWaterLoadAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWaterLoadEdit.aspx.cs">
+      <DependentUpon>MeterWaterLoadEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWaterLoadEdit.aspx.designer.cs">
+      <DependentUpon>MeterWaterLoadEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWaterLoads.aspx.cs">
+      <DependentUpon>MeterWaterLoads.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Meters\MeterWaterLoads.aspx.designer.cs">
+      <DependentUpon>MeterWaterLoads.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Payments\SitePayments.aspx.cs">
+      <DependentUpon>SitePayments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Payments\SitePayments.aspx.designer.cs">
+      <DependentUpon>SitePayments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Permissions\SitePermissions.aspx.cs">
+      <DependentUpon>SitePermissions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Permissions\SitePermissions.aspx.designer.cs">
+      <DependentUpon>SitePermissions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Permissions\UserPermissions.aspx.cs">
+      <DependentUpon>UserPermissions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Permissions\UserPermissions.aspx.designer.cs">
+      <DependentUpon>UserPermissions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Reports\MeterElectricityReportPrintable.aspx.cs">
+      <DependentUpon>MeterElectricityReportPrintable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Reports\MeterElectricityReportPrintable.aspx.designer.cs">
+      <DependentUpon>MeterElectricityReportPrintable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Reports\MeterFuelReportPrintable.aspx.cs">
+      <DependentUpon>MeterFuelReportPrintable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Reports\MeterFuelReportPrintable.aspx.designer.cs">
+      <DependentUpon>MeterFuelReportPrintable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Reports\MeterTransportReportPrintable.aspx.cs">
+      <DependentUpon>MeterTransportReportPrintable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Reports\MeterTransportReportPrintable.aspx.designer.cs">
+      <DependentUpon>MeterTransportReportPrintable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Reports\MeterWasteReportPrintable.aspx.cs">
+      <DependentUpon>MeterWasteReportPrintable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Reports\MeterWasteReportPrintable.aspx.designer.cs">
+      <DependentUpon>MeterWasteReportPrintable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Reports\MeterWaterReportPrintable.aspx.cs">
+      <DependentUpon>MeterWaterReportPrintable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Reports\MeterWaterReportPrintable.aspx.designer.cs">
+      <DependentUpon>MeterWaterReportPrintable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Reports\SiteReport.aspx.cs">
+      <DependentUpon>SiteReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Reports\SiteReport.aspx.designer.cs">
+      <DependentUpon>SiteReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Reports\SiteReportPrintable.aspx.cs">
+      <DependentUpon>SiteReportPrintable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Reports\SiteReportPrintable.aspx.designer.cs">
+      <DependentUpon>SiteReportPrintable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Site.aspx.cs">
+      <DependentUpon>Site.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Site.aspx.designer.cs">
+      <DependentUpon>Site.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\SiteAdd.aspx.cs">
+      <DependentUpon>SiteAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\SiteAdd.aspx.designer.cs">
+      <DependentUpon>SiteAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\SiteEdit.aspx.cs">
+      <DependentUpon>SiteEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\SiteEdit.aspx.designer.cs">
+      <DependentUpon>SiteEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\SiteProfile.aspx.cs">
+      <DependentUpon>SiteProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\SiteProfile.aspx.designer.cs">
+      <DependentUpon>SiteProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Sites.aspx.cs">
+      <DependentUpon>Sites.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Sites.aspx.designer.cs">
+      <DependentUpon>Sites.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Targets\SiteTargets.aspx.cs">
+      <DependentUpon>SiteTargets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Targets\SiteTargets.aspx.designer.cs">
+      <DependentUpon>SiteTargets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Dashboard\Targets\SiteTargetsEdit.aspx.cs">
+      <DependentUpon>SiteTargetsEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Dashboard\Targets\SiteTargetsEdit.aspx.designer.cs">
+      <DependentUpon>SiteTargetsEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Directory\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Directory\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Directory\ProfileChangePassword.aspx.cs">
+      <DependentUpon>ProfileChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Directory\ProfileChangePassword.aspx.designer.cs">
+      <DependentUpon>ProfileChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Directory\ProfileEdit.aspx.cs">
+      <DependentUpon>ProfileEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Directory\ProfileEdit.aspx.designer.cs">
+      <DependentUpon>ProfileEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Directory\UserAdd.aspx.cs">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Directory\UserAdd.aspx.designer.cs">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Directory\Company.aspx.cs">
+      <DependentUpon>Company.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Directory\Company.aspx.designer.cs">
+      <DependentUpon>Company.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Directory\CompanyEdit.aspx.cs">
+      <DependentUpon>CompanyEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Directory\CompanyEdit.aspx.designer.cs">
+      <DependentUpon>CompanyEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Directory\User.aspx.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Directory\User.aspx.designer.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Directory\UserEdit.aspx.cs">
+      <DependentUpon>UserEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Directory\UserEdit.aspx.designer.cs">
+      <DependentUpon>UserEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Console\Print.Master.cs">
+      <DependentUpon>Print.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Console\Print.Master.designer.cs">
+      <DependentUpon>Print.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registration\DataPolicy.aspx.cs">
+      <DependentUpon>DataPolicy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration\DataPolicy.aspx.designer.cs">
+      <DependentUpon>DataPolicy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration\PasswordRecovery.aspx.cs">
+      <DependentUpon>PasswordRecovery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration\PasswordRecovery.aspx.designer.cs">
+      <DependentUpon>PasswordRecovery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration\PasswordReset.aspx.cs">
+      <DependentUpon>PasswordReset.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration\PasswordReset.aspx.designer.cs">
+      <DependentUpon>PasswordReset.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration\RegistrationVerifier.aspx.cs">
+      <DependentUpon>RegistrationVerifier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration\RegistrationVerifier.aspx.designer.cs">
+      <DependentUpon>RegistrationVerifier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Console\Main.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Messages.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Library\Library.csproj">
+      <Project>{D836D29F-AE3D-4B45-B7E1-81FF295008F3}</Project>
+      <Name>Library</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Console\Print.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\CSI Azure.pubxml" />
+    <None Include="Properties\PublishProfiles\CSI.pubxml" />
+    <None Include="Properties\PublishProfiles\File System.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Data.es-ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Data.es-ar.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Data.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Data.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Helper.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Helper.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_GlobalResources\Helper.es-ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Helper.es-ar.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Messages.es-ar.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Messages.es-ar.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>35705</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

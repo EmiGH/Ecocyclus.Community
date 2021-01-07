@@ -1,0 +1,462 @@
+﻿html { height: 100%; }
+
+body {
+    height:100%;
+
+}
+
+.clear
+{
+	clear:both;	
+}
+
+.wrap
+{
+	width:982px;
+	margin:auto;
+	overflow:hidden;
+	max-height: 100%;	 
+}
+
+/************************************
+********** Header Section ***********
+*************************************/
+
+#divHeader
+{
+	background-color:#3B323A;
+	height: 72px;
+}
+
+#divHeader .lnkLogo
+{
+	width:285px;
+	height: 50px;
+	margin-top:10px;
+	margin-left:15px;
+	display:inline-block;
+	background-image:url('../Images/img-Logo.png');
+	background-repeat:no-repeat;
+}
+#divHeader #divHeaderMenu,
+#divHeader #divHeaderMenuCompany,
+#divHeader #divHeaderMenuUser
+{
+	float:right;
+}
+#divHeader menu
+{
+	margin:0px;
+	padding:0px;
+}
+
+
+#divHeader menu a.lnkSupport
+{
+	background-image:none;
+	padding:0 0 0 10px;	
+}
+#divHeader menu a
+{
+	text-decoration:none;
+	font-weight:bold;
+	color:#F6F3EA;
+	font-size:13px;
+	text-transform:uppercase;
+	background-image:url('../Images/icon-header-menu-arrow.png');
+	background-position:center right;
+	padding:0 20px 0 10px;
+	background-repeat:no-repeat;
+	line-height:72px;
+	display:block;
+	float:left;
+}
+#divHeader #pnlContentUser
+{
+	width:44px;
+	height:37px;
+	margin:16px 10px 0 10px;
+	float:left;	
+	position:relative;
+}
+#divHeader #pnlContentUser	#btnUser
+{
+	position:absolute;
+	z-index:1;
+	top:0px;
+	left:0px;
+	width:44px;
+	height:37px;
+	border:0px;
+	background-color:#2C242C;
+	opacity:0.6;
+	filter:Alpha(opacity=60); 
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-ms-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+	cursor:pointer;	
+}
+#divHeader #pnlContentUser	#btnUser:hover
+{
+  zoom: 1;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+#divHeader #pnlContentUser	#ibtUser
+{
+	position:absolute;
+}
+
+#divHeader menu #lnkHelp
+{
+	font-size:12px;
+	background-image:none !important;
+	padding:0px;
+	margin-top:1px;
+	margin-right: 20px;
+	float:left;
+}
+#divHeader #pnlMenuHeader
+{
+	background-color:#2C242C;
+	float:left;
+	height: 72px;
+	padding: 0 10px 0 0;
+}
+
+#divHeader .pnlSeparatorUser
+{
+	background-color:#3B323A;
+	float:left;
+	width:1px;
+	height: 72px;
+	margin-left:10px;
+}
+
+#divHeaderMenuCompany,
+#divHeaderMenuUser
+{
+	position: absolute;
+	z-index: 2;
+	background-color: #3B323A;
+	top: 72px;
+	font-size:12px;
+	color:#E5E4DD;
+	padding-top: 5px;
+
+}
+#divHeaderMenuCompany a,
+#divHeaderMenuUser a
+{
+	text-decoration: underline;
+	color:#CBD79F;
+	font-weight:bold;
+	display:block;
+	padding:3px 10px;
+	text-align:right;	
+}
+#divHeaderMenuUser span
+{
+	color:#E5E4DD;
+	font-weight:bold;
+	display:block;
+	padding:1px 10px;
+	text-align:left;
+}
+#lnkCompanyUrl,
+#lnkSignOut
+{
+	text-decoration:none !important;
+	color:#E5E4DD !important;
+	padding:5px 10px !important;
+	background-color:#2C242C;
+	margin-top:14px;
+	text-align: center !important;
+}
+#lnkSignOut
+{
+	text-transform:uppercase;
+}
+
+#divHeaderMenuCompany
+{	
+	right: 0px;
+	min-width:195px;
+}
+#divHeaderMenuUser
+{	
+	right: 0px;
+	min-width:195px;
+}
+
+
+
+
+
+
+
+
+#divContent
+{
+	display:table;
+}
+
+
+#tblContent
+{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+#tblContent td
+{
+	vertical-align:top;
+	padding-bottom: 40px;
+}
+
+#tblContent #tbLeftPane
+{
+	width:220px;
+	background-color:#E8E7E2;	
+}
+
+#tblContent #divRightPane
+{
+	padding: 0 0 0 30px;
+}
+
+
+/**/
+
+.divLineSeparatorHeader
+{
+	height: 6px;
+	margin-left:-30px;
+	width: 762px;
+}
+.divLineSeparatorHeader.Dashboard
+{
+	background-color:#6A6760;
+}
+.divLineSeparatorHeader.Sites
+{
+	background-color:#8C7D8C;
+}
+.divLineSeparatorHeader.AddSite
+{
+	background-color:#85D0CC;
+}
+.divLineSeparatorHeader.Meter
+{
+	background-color:#EECD6D;
+}
+.divLineSeparatorHeader.Target
+{
+	background-color:#98A0BA;
+}
+.divLineSeparatorHeader.C02
+{
+	background-color:#ABC48A;
+}
+.divLineSeparatorHeader.Permission
+{
+	background-color:#6A6760;
+}
+.divLineSeparatorHeader.Report
+{
+	background-color:#EEAAA5;
+	width:912px !important;
+}
+/**/
+
+
+#divLeftPane #divCompanyData
+{
+	margin: 20px 0;
+	padding: 0 15px;
+	text-align:center;
+}
+#divLeftPane #divCompanyData a
+{
+	text-decoration:none;
+	color: #8D8785;
+	display:block;
+	text-align:left;
+}
+#divLeftPane #divCompanyData #lnkCompany
+{
+	 font-size:14px;
+	 font-weight:bold;
+	 text-transform:uppercase;
+	 margin-bottom: 6px;	
+}
+#divLeftPane #divCompanyData #lnkProfile
+{
+	font-size:12px;
+	margin-bottom:30px;
+}
+#divLeftPane #divCompanyData Images
+{
+	max-height:150px;
+	max-width: 150px;
+	margin-bottom: 10px;
+	margin: auto;
+}
+
+
+
+#divRightPane #divTop
+{
+	text-align:right;
+}
+#divRightPane #divTop a,
+#divRightPane #divTop input
+{
+	color: #8D8785;
+	cursor:pointer;
+	text-decoration: none;
+	padding: 0 10px;
+	border:0px;
+	height: 20px;
+	line-height: 20px;
+	text-transform:uppercase;
+	font-size: 12px;	
+}
+#divRightPane #divTop a
+{
+	display:inline-block;
+}
+
+
+
+#divRightPane .divTitle
+{
+	clear:both;
+	/*max-width: 200px;*/
+	height: 18px;
+	line-height: 18px;
+	margin-bottom: 22px;
+	margin-top: 40px;
+	background-color:transparent;	
+	border-left: 3px #A09A92 solid;
+
+}
+#divRightPane .divTitle span
+{
+	display:block;
+	float:left;	
+	width:auto;
+	padding: 0 10px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 18px;
+	color:#1F1F1F;
+	font-weight:400;
+}
+
+footer
+{
+	background-color:#8F8981;
+	height: 72px;
+	line-height: 72px;
+}
+
+footer .divSocial {
+	height:29px;
+	margin-left: 60px;
+	line-height: 29px;
+	margin-top: 10px; 
+	float:left;	
+}
+
+footer .divSocial a{
+	height:26px;
+	line-height: 26px;
+	width: 27px;
+	display:inline-block;
+	margin-right: 5px;
+	margin-top: 10px;
+	position:relative;
+		
+}
+footer .divSocial div{
+	height:26px;
+	line-height: 26px;
+	width: 27px;
+	position:absolute;
+	left:0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;		
+}
+footer .divSocial .top{
+	opacity:0;	
+	display:none;
+
+}
+footer .divSocial .top:hover{
+	opacity:1;
+}
+
+footer .divSocial .bottom{
+	opacity:1;
+
+}
+footer .divSocial .bottom:hover{
+	opacity:0;
+}
+
+footer .divSocial .facebook .bottom{
+
+	background-image:url(../Images/icons-footer.png);
+}
+footer .divSocial .facebook .top{
+
+	background-image:url(../Images/icons-footer.png);
+ 	background-position: left bottom;		
+}
+
+footer .divSocial .twitter .bottom{
+
+	background-image:url(../Images/icons-footer.png);
+ 	background-position: -27px top;		
+}
+footer .divSocial .twitter .top{
+
+	background-image:url(../Images/icons-footer.png);
+ 	background-position: -27px bottom;			
+}
+
+footer .divSocial .linkedin .bottom{
+
+	background-image:url(../Images/icons-footer.png);
+ 	background-position: -56px top;		
+}
+footer .divSocial .linkedin .top{
+
+	background-image:url(../Images/icons-footer.png);
+ 	background-position: -56px bottom;			
+}
+footer #lblFooter{
+	float: left;
+	line-height: normal;
+	color: #fff;
+	margin: 20px 0 0 120px;
+	width: 700px;
+	font-size: 12px;
+	display:block;	
+}
+
+
+
+
+/* PACH CALENDAR */
+
+.ajax__calendar_container TD
+{
+	vertical-align: top !important;
+	padding-bottom: 0 !important;
+}
