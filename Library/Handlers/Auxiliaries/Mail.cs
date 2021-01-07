@@ -17,7 +17,7 @@ namespace CSI.Library.Handlers
             IEnumerable<System.Data.Common.DbDataRecord> _record = _dbMail.ReadAll();
             foreach (System.Data.Common.DbDataRecord _dbRecord in _record)
             {
-                _configuration = new Library.Objects.Notifications.Configuration(Convert.ToString(_dbRecord["Sender"]), Convert.ToString(_dbRecord["Receiver"]), Convert.ToString(_dbRecord["Host"]), Convert.ToInt32(_dbRecord["Port"]), Convert.ToString(_dbRecord["Username"]), Convert.ToString(_dbRecord["Password"]));
+                _configuration = new Library.Objects.Notifications.Configuration(Convert.ToString(_dbRecord["Sender"]), Convert.ToString(_dbRecord[3]), Convert.ToString(_dbRecord["Host"]), Convert.ToInt32(_dbRecord["Port"]), Convert.ToString(_dbRecord["Username"]), Convert.ToString(_dbRecord["Password"]));
             }
             return _configuration;
         }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Net.Mail;
+using System.Net;
 
 namespace CSI.Library.Objects.Notifications
 {
@@ -42,13 +43,13 @@ namespace CSI.Library.Objects.Notifications
             _mimeType = new System.Net.Mime.ContentType("text/html");
             _alternate = AlternateView.CreateAlternateViewFromString(ReplaceSpecialCharacters(BuildHTML(body), "<br />"), _mimeType);
             _mail.AlternateViews.Add(_alternate);
-
             _mail.Subject = subject;
+
             try
             {
                 _Client.Send(_mail);
             }
-            catch (Exception) 
+            catch (Exception ex) 
             { 
             
             }
@@ -73,7 +74,8 @@ namespace CSI.Library.Objects.Notifications
             {
                 _Client.Send(_mail);
             }
-            catch { }
+            catch(Exception ex) {
+            }
         }
 
         private String BuildHTML(String body)
