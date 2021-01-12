@@ -133,7 +133,7 @@
     <value>e-Greening :: Cuenta Nueva</value>
   </data>
   <data name="AccountRecoveryMailBody" xml:space="preserve">
-    <value>Se ha iniciado el proceso de recuperación.[n][n]Por  Por favor, restablezca la contraseña de su cuenta en el siguiente enlace: [&lt;a]http://ecocyclus.com/Registration/PasswordReset.aspx?token=[token]&amp;language=[language][a&gt;]&gt;restablecer contraseña[/a][n][n]</value>
+    <value>Se ha iniciado el proceso de recuperación.[n][n]Por  Por favor, restablezca la contraseña de su cuenta en el siguiente enlace: [&lt;a]http://ecocyclus.com/Communities/Registration/PasswordReset.aspx?token=[token]&amp;language=[language][a&gt;]&gt;restablecer contraseña[/a][n][n]</value>
   </data>
   <data name="AccountRecoveryMailSubject" xml:space="preserve">
     <value>e-Greening :: Proceso de Recuperación</value>
@@ -142,7 +142,7 @@
     <value>El proceso de registro de la organización [company] se ha iniciado.[n][n]</value>
   </data>
   <data name="AccountRegistrationMailBody" xml:space="preserve">
-    <value>Se ha iniciado el proceso de registro.[n][n]Por favor active su cuenta en el siguiente enlace: [&lt;a]http://ecocyclus.com/Registration/RegistrationVerifier.aspx?token=[token]&amp;language=[language][a&gt;]activate account[/a][n][n]</value>
+    <value>Se ha iniciado el proceso de registro.[n][n]Por favor active su cuenta en el siguiente enlace: [&lt;a]http://ecocyclus.com/Communities/Registration/RegistrationVerifier.aspx?token=[token]&amp;language=[language][a&gt;]activate account[/a][n][n]</value>
   </data>
   <data name="AccountRegistrationMailSubject" xml:space="preserve">
     <value>e-Greening :: Proceso de Registro</value>

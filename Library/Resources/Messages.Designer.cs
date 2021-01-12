@@ -106,7 +106,7 @@ namespace CSI.Library.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your recovery process has been started.[n][n]Please reset your  account password by following this link: [&lt;a]http://ecocyclus.com/Registration/PasswordReset.aspx?token=[token]&amp;language=[language][a&gt;]&gt;reset password[/a][n][n].
+        ///   Busca una cadena traducida similar a Your recovery process has been started.[n][n]Please reset your  account password by following this link: [&lt;a]http://ecocyclus.com/Communities/Registration/PasswordReset.aspx?token=[token]&amp;language=[language][a&gt;]&gt;reset password[/a][n][n].
         /// </summary>
         internal static string AccountRecoveryMailBody {
             get {
@@ -133,7 +133,7 @@ namespace CSI.Library.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your registration process has been started.[n][n]Please activate your account by following this link: [&lt;a]http://ecocyclus.com/Registration/RegistrationVerifier.aspx?token=[token]&amp;language=[language][a&gt;]activate account[/a][n][n].
+        ///   Busca una cadena traducida similar a Your registration process has been started.[n][n]Please activate your account by following this link: [&lt;a]http://ecocyclus.com/Communities/Registration/RegistrationVerifier.aspx?token=[token]&amp;language=[language][a&gt;]activate account[/a][n][n].
         /// </summary>
         internal static string AccountRegistrationMailBody {
             get {
