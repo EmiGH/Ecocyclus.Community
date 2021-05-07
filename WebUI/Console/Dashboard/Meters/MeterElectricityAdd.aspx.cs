@@ -165,7 +165,10 @@ namespace CSI.WebUI.Console.Dashboard.Meters
                     else
                         if(txtEF.Text !="")
                             _EF = new Library.Objects.Sites.Meters.Series.ElectricityDataEmissionFactor(_Site.Country, Convert.ToDouble(txtEF.Text), txtEFDescription.Text, WebUI.Common.GetTranslationStructure(hdnEFDescriptionTranslations.Value), I);
-                        
+                    
+                    if(_EF == null)
+                        throw new ApplicationException(Resources.Messages.ErrorNoEFforCountry);
+
                     //Units
                     Library.Objects.Auxiliaries.Units.Unit _unit = I.GetUnit(Convert.ToInt16(ddlUnits.SelectedValue));
                     Library.Objects.Auxiliaries.Units.TimeUnit.Units _timeUnit = (Library.Objects.Auxiliaries.Units.TimeUnit.Units)Enum.Parse(typeof(Library.Objects.Auxiliaries.Units.TimeUnit.Units), ddlFrequencyUnits.Text);

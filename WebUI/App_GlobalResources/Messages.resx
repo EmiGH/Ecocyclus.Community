@@ -213,6 +213,9 @@
   <data name="ErrorInvalidDateRange" xml:space="preserve">
     <value>The range of dates is invalid</value>
   </data>
+  <data name="ErrorNoEFforCountry" xml:space="preserve">
+    <value>There is no emission factor for site's country</value>
+  </data>
   <data name="ErrorTitle" xml:space="preserve">
     <value>Error Occurs</value>
   </data>

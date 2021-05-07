@@ -349,6 +349,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a There is no emission factor for site&apos;s country.
+        /// </summary>
+        internal static string ErrorNoEFforCountry {
+            get {
+                return ResourceManager.GetString("ErrorNoEFforCountry", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Error Occurs.
         /// </summary>
         internal static string ErrorTitle {

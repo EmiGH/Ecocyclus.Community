@@ -199,7 +199,7 @@
     <value>Atención!</value>
   </data>
   <data name="CookieUseWarning" xml:space="preserve">
-    <value>Esta aplicación web utiliza cookies para mejorar la experiencia del usuario. Mediante el uso de nuestra aplicación web usted acepta todas las cookies de acuerdo con nuestra política de cookies.</value>
+    <value>Esta aplicación utiliza cookies para mejorar la experiencia del usuario. Al utilizarla usted acepta todas las cookies de acuerdo con nuestra política de cookies.</value>
   </data>
   <data name="ErrorCountryNotRecognized" xml:space="preserve">
     <value>No se reconoció la información sobre el país de la dirección seleccionada.</value>
@@ -212,6 +212,9 @@
   </data>
   <data name="ErrorInvalidDateRange" xml:space="preserve">
     <value>El rango de fechas no es válida.</value>
+  </data>
+  <data name="ErrorNoEFforCountry" xml:space="preserve">
+    <value>No hay factor de emisión para el sitio del país</value>
   </data>
   <data name="ErrorTitle" xml:space="preserve">
     <value>Se produce un error.</value>
@@ -230,8 +233,8 @@
   </data>
   <data name="FirstTimeTitle" xml:space="preserve">
     <value>Bienvenido [user]! ¿Primera vez?</value>
-  </data> 
- <data name="LoginAuthenticationError" xml:space="preserve">
+  </data>
+  <data name="LoginAuthenticationError" xml:space="preserve">
     <value>Hubo un error de autenticación en el proceso de inicio de sesión.</value>
   </data>
   <data name="LoginAuthenticationFail" xml:space="preserve">

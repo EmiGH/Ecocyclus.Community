@@ -106,8 +106,11 @@ namespace CSI.WebUI.Console.Dashboard.Meters
             }
             lblIsPhysicalValue.Text = WebUI.Common.GetBooleanTranslation(_Meter is Library.Objects.Sites.Meters.ElectricityMeterPhysical);
 
-            Library.Objects.Auxiliaries.EmissionFactors.EmissionFactor _ef = _Meter.EmissionFactor;
-            lblEFValue.Text = _ef.Value.ToString() + " " + Resources.Data.CO2Unit + "/" + _ef.Unit.Symbol;
+            if (_Meter.EmissionFactor != null)
+            {
+                Library.Objects.Auxiliaries.EmissionFactors.EmissionFactor _ef = _Meter.EmissionFactor;
+                lblEFValue.Text = _ef.Value.ToString() + " " + Resources.Data.CO2Unit + "/" + _ef.Unit.Symbol;
+            }
             
             lblUnitValue.Text = _Meter.DefaultUnit.Name;
             lblFrequencyQuantityValue.Text = _Meter.FrequencyQuantity.ToString();
