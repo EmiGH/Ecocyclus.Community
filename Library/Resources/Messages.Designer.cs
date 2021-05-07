@@ -88,7 +88,7 @@ namespace CSI.Library.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a An e-Greening account has been generated for you.  This is your login information:[n][n]User: [user][n]Password: [password].[n][n]You can proceed to e-Greening and enter the platform at: [&lt;a]http://gsi.siteimpacts.com[a&gt;]http://gsi.siteimpacts.com[/a]..
+        ///   Busca una cadena traducida similar a An Ecocyclus account has been generated for you.  This is your login information:[n][n]User: [user][n]Password: [password].[n][n]You can proceed to Ecocyclus and enter the platform at: [&lt;a]http://gsi.siteimpacts.com[a&gt;]http://gsi.siteimpacts.com[/a]..
         /// </summary>
         internal static string AccountNewMailBody {
             get {
@@ -97,7 +97,7 @@ namespace CSI.Library.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a e-Greening:: New Account.
+        ///   Busca una cadena traducida similar a Ecocyclus:: New Account.
         /// </summary>
         internal static string AccountNewMailSubject {
             get {
@@ -115,7 +115,7 @@ namespace CSI.Library.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a e-Greening :: Recovery Process.
+        ///   Busca una cadena traducida similar a Ecocyclus :: Recovery Process.
         /// </summary>
         internal static string AccountRecoveryMailSubject {
             get {
@@ -142,7 +142,7 @@ namespace CSI.Library.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a e-Greening :: Registration Process.
+        ///   Busca una cadena traducida similar a Ecocyclus :: Registration Process.
         /// </summary>
         internal static string AccountRegistrationMailSubject {
             get {
@@ -169,7 +169,7 @@ namespace CSI.Library.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a e-Greening :: Contact Request.
+        ///   Busca una cadena traducida similar a Ecocyclus :: Contact Request.
         /// </summary>
         internal static string ContactTitle {
             get {
@@ -295,7 +295,7 @@ namespace CSI.Library.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a [n][n]This is an e-Greening platform notification message.  Please do not respond this email..
+        ///   Busca una cadena traducida similar a [n][n]This is an Ecocyclus platform notification message.  Please do not respond this email..
         /// </summary>
         internal static string MailFooter {
             get {
@@ -385,7 +385,7 @@ namespace CSI.Library.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a e-Greening :: New Payment.
+        ///   Busca una cadena traducida similar a Ecocyclus :: New Payment.
         /// </summary>
         internal static string PaymentAdministrationMailSubject {
             get {
@@ -403,7 +403,7 @@ namespace CSI.Library.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a e-Greening :: Payment Confirmed.
+        ///   Busca una cadena traducida similar a Ecocyclus :: Payment Confirmed.
         /// </summary>
         internal static string PaymentConfirmedAdministrationMailSubject {
             get {

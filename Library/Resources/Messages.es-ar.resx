@@ -127,16 +127,16 @@
     <value>La dirección de correo ya fue registrada.</value>
   </data>
   <data name="AccountNewMailBody" xml:space="preserve">
-    <value>Se ha generado una cuenta en e-Greening para usted.  Esta es su información de acceso:[n][n]Usuario: [user][n]Contraseña: [password].[n][n]Usted puede continuar con e-Greening e ingresar a la plataforma en: [&lt;a]http://ecocyclus.com[a&gt;]http://ecocyclus.com[/a].</value>
+    <value>Se ha generado una cuenta en Ecocyclus para usted.  Esta es su información de acceso:[n][n]Usuario: [user][n]Contraseña: [password].[n][n]Usted puede continuar con Ecocyclus e ingresar a la plataforma en: [&lt;a]http://ecocyclus.com[a&gt;]http://ecocyclus.com[/a].</value>
   </data>
   <data name="AccountNewMailSubject" xml:space="preserve">
-    <value>e-Greening :: Cuenta Nueva</value>
+    <value>Ecocyclus :: Cuenta Nueva</value>
   </data>
   <data name="AccountRecoveryMailBody" xml:space="preserve">
     <value>Se ha iniciado el proceso de recuperación.[n][n]Por  Por favor, restablezca la contraseña de su cuenta en el siguiente enlace: [&lt;a]http://ecocyclus.com/Communities/Registration/PasswordReset.aspx?token=[token]&amp;language=[language][a&gt;]&gt;restablecer contraseña[/a][n][n]</value>
   </data>
   <data name="AccountRecoveryMailSubject" xml:space="preserve">
-    <value>e-Greening :: Proceso de Recuperación</value>
+    <value>Ecocyclus :: Proceso de Recuperación</value>
   </data>
   <data name="AccountRegistrationAdministrationMailBody" xml:space="preserve">
     <value>El proceso de registro de la organización [company] se ha iniciado.[n][n]</value>
@@ -145,7 +145,7 @@
     <value>Se ha iniciado el proceso de registro.[n][n]Por favor active su cuenta en el siguiente enlace: [&lt;a]http://ecocyclus.com/Communities/Registration/RegistrationVerifier.aspx?token=[token]&amp;language=[language][a&gt;]activate account[/a][n][n]</value>
   </data>
   <data name="AccountRegistrationMailSubject" xml:space="preserve">
-    <value>e-Greening :: Proceso de Registro</value>
+    <value>Ecocyclus :: Proceso de Registro</value>
   </data>
   <data name="AccountVerificationAdministrationMailBody" xml:space="preserve">
     <value>La organización [company] ha verificado la información de la cuenta.[n][n]</value>
@@ -154,7 +154,7 @@
     <value>El proceso de autenticación ha fallado.</value>
   </data>
   <data name="ContactTitle" xml:space="preserve">
-    <value>e-Greening :: Solicitud de Contacto</value>
+    <value>Ecocyclus :: Solicitud de Contacto</value>
   </data>
   <data name="DataLoadInvalidDistance" xml:space="preserve">
     <value>Las distancias no son válidas. Deben ser mayores que 0.</value>
@@ -196,7 +196,7 @@
     <value>Las fechas para la carga de datos tiene que ser menor o igual a la de hoy.</value>
   </data>
   <data name="MailFooter" xml:space="preserve">
-    <value>[n][n]Este es un mensaje de notificacion de la plataforma e-Greening. Por favor no responda este correo electrónico.</value>
+    <value>[n][n]Este es un mensaje de notificacion de la plataforma Ecocyclus. Por favor no responda este correo electrónico.</value>
   </data>
   <data name="MeterHasValue" xml:space="preserve">
     <value>No puede modificar la unidad de medida del medidor porque ya tiene valores.</value>
@@ -226,13 +226,13 @@
     <value>La organización [company] ha hecho el pago de [amount] para el período [period] para la instalación [site].[n] La id de la transacción es: [transaction].[n][n]</value>
   </data>
   <data name="PaymentAdministrationMailSubject" xml:space="preserve">
-    <value>e-Greening :: Nuevo Pago</value>
+    <value>Ecocyclus :: Nuevo Pago</value>
   </data>
   <data name="PaymentConfirmedAdministrationMailBody" xml:space="preserve">
     <value>La organización [company] ha confirmado el pago de la transacción id [transaction].[n][n]</value>
   </data>
   <data name="PaymentConfirmedAdministrationMailSubject" xml:space="preserve">
-    <value>e-Greening :: Pago Confirmado</value>
+    <value>Ecocyclus :: Pago Confirmado</value>
   </data>
   <data name="PaymentErrorDifferentAmount" xml:space="preserve">
     <value>El monto total informado para el pago no coincide con la escala de pago correcto.</value>

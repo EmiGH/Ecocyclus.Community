@@ -127,16 +127,16 @@
     <value>The email address is already registered</value>
   </data>
   <data name="AccountNewMailBody" xml:space="preserve">
-    <value>An e-Greening account has been generated for you.  This is your login information:[n][n]User: [user][n]Password: [password].[n][n]You can proceed to e-Greening and enter the platform at: [&lt;a]http://gsi.siteimpacts.com[a&gt;]http://gsi.siteimpacts.com[/a].</value>
+    <value>An Ecocyclus account has been generated for you.  This is your login information:[n][n]User: [user][n]Password: [password].[n][n]You can proceed to Ecocyclus and enter the platform at: [&lt;a]http://gsi.siteimpacts.com[a&gt;]http://gsi.siteimpacts.com[/a].</value>
   </data>
   <data name="AccountNewMailSubject" xml:space="preserve">
-    <value>e-Greening:: New Account</value>
+    <value>Ecocyclus:: New Account</value>
   </data>
   <data name="AccountRecoveryMailBody" xml:space="preserve">
     <value>Your recovery process has been started.[n][n]Please reset your  account password by following this link: [&lt;a]http://ecocyclus.com/Communities/Registration/PasswordReset.aspx?token=[token]&amp;language=[language][a&gt;]&gt;reset password[/a][n][n]</value>
   </data>
   <data name="AccountRecoveryMailSubject" xml:space="preserve">
-    <value>e-Greening :: Recovery Process</value>
+    <value>Ecocyclus :: Recovery Process</value>
   </data>
   <data name="AccountRegistrationAdministrationMailBody" xml:space="preserve">
     <value>The company [company] registration process has been started.[n][n]</value>
@@ -145,7 +145,7 @@
     <value>Your registration process has been started.[n][n]Please activate your account by following this link: [&lt;a]http://ecocyclus.com/Communities/Registration/RegistrationVerifier.aspx?token=[token]&amp;language=[language][a&gt;]activate account[/a][n][n]</value>
   </data>
   <data name="AccountRegistrationMailSubject" xml:space="preserve">
-    <value>e-Greening :: Registration Process</value>
+    <value>Ecocyclus :: Registration Process</value>
   </data>
   <data name="AccountVerificationAdministrationMailBody" xml:space="preserve">
     <value>The company [company] has verified the account information.[n][n]</value>
@@ -154,7 +154,7 @@
     <value>The authentication process has failed.</value>
   </data>
   <data name="ContactTitle" xml:space="preserve">
-    <value>e-Greening :: Contact Request</value>
+    <value>Ecocyclus :: Contact Request</value>
   </data>
   <data name="DataLoadInvalidDistance" xml:space="preserve">
     <value>The distance are invalid.  They must be greater than 0.</value>
@@ -196,7 +196,7 @@
     <value>The dates for loading data have to be lesser or equal than today.</value>
   </data>
   <data name="MailFooter" xml:space="preserve">
-    <value>[n][n]This is an e-Greening platform notification message.  Please do not respond this email.</value>
+    <value>[n][n]This is an Ecocyclus platform notification message.  Please do not respond this email.</value>
   </data>
   <data name="MeterHasValue" xml:space="preserve">
     <value>The meter cannot modify the measurement unit because it already has values.</value>
@@ -226,13 +226,13 @@
     <value>The company [company] has made a payment of [amount] for the period [period] for the facility [site].[n] The transaction id is: [transaction].[n][n]</value>
   </data>
   <data name="PaymentAdministrationMailSubject" xml:space="preserve">
-    <value>e-Greening :: New Payment</value>
+    <value>Ecocyclus :: New Payment</value>
   </data>
   <data name="PaymentConfirmedAdministrationMailBody" xml:space="preserve">
     <value>The company [company] has confirmed the payment for transaction id [transaction].[n][n]</value>
   </data>
   <data name="PaymentConfirmedAdministrationMailSubject" xml:space="preserve">
-    <value>e-Greening :: Payment Confirmed</value>
+    <value>Ecocyclus :: Payment Confirmed</value>
   </data>
   <data name="PaymentErrorDifferentAmount" xml:space="preserve">
     <value>The total amount informed for the payment does not match with the correct payment scale.</value>
