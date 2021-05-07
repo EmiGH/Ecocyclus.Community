@@ -139,7 +139,7 @@
     <value>Las direcciones de correo electrónico no coinciden.</value>
   </data>
   <data name="AccountRegistrationError" xml:space="preserve">
-    <value>Ha ocurrido un error.&lt;br/&gt;Por favor contacte a los administradores del sistema en: &lt;a href="mailto:[mail]"&gt;[mail]&lt;/a&gt; para obtener ayuda.</value>
+    <value>Ha ocurrido un error: [error] &lt;br/&gt; &lt;br/&gt; Por favor contacte a los administradores del sistema en: &lt;a href="mailto:[mail]"&gt;[mail]&lt;/a&gt; para obtener ayuda.</value>
   </data>
   <data name="AccountRegistrationInvalidEmail" xml:space="preserve">
     <value>Por favor ingrese un correo electrónico válido.</value>
@@ -216,7 +216,22 @@
   <data name="ErrorTitle" xml:space="preserve">
     <value>Se produce un error.</value>
   </data>
-  <data name="LoginAuthenticationError" xml:space="preserve">
+  <data name="FirstTimeGuideApp" xml:space="preserve">
+    <value>Parece ser su primera vez en EcoCyclus.&lt;br/&gt;Por favor continúe con "Agregar Sitio" para registrar sus sitios.</value>
+  </data>
+  <data name="FirstTimeGuideMeter" xml:space="preserve">
+    <value>Si es su primer medidor por favor continúe con "Cargar Datos" para agregar valores de medición.</value>
+  </data>
+  <data name="FirstTimeGuideSite" xml:space="preserve">
+    <value>Si es su primer Sitio por favor continúe con "Agregar Medidor" para registrar sus medidores.</value>
+  </data>
+  <data name="FirstTimeNeedHelp" xml:space="preserve">
+    <value>¿Necesita ayuda?</value>
+  </data>
+  <data name="FirstTimeTitle" xml:space="preserve">
+    <value>Bienvenido [user]! ¿Primera vez?</value>
+  </data> 
+ <data name="LoginAuthenticationError" xml:space="preserve">
     <value>Hubo un error de autenticación en el proceso de inicio de sesión.</value>
   </data>
   <data name="LoginAuthenticationFail" xml:space="preserve">

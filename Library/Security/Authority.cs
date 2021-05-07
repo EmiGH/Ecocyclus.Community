@@ -29,7 +29,7 @@ namespace CSI.Library.Security
 
             if(email!="")
                 if (new Handlers.Companies().CheckEmail(email))
-                    _errorMessage += Resources.Messages.AccountMessageEmailExists;
+                    _errorMessage += " " + Resources.Messages.AccountMessageEmailExists;
 
             if (_errorMessage != "")
                 throw new RegistrationException(_errorMessage);

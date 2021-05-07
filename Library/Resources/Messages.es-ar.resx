@@ -142,7 +142,7 @@
     <value>El proceso de registro de la organización [company] se ha iniciado.[n][n]</value>
   </data>
   <data name="AccountRegistrationMailBody" xml:space="preserve">
-    <value>Se ha iniciado el proceso de registro.[n][n]Por favor active su cuenta en el siguiente enlace: [&lt;a]http://ecocyclus.com/Communities/Registration/RegistrationVerifier.aspx?token=[token]&amp;language=[language][a&gt;]activate account[/a][n][n]</value>
+    <value>Se ha iniciado el proceso de registro.[n][n]Por favor active su cuenta en el siguiente enlace: [&lt;a]http://ecocyclus.com/Communities/Registration/RegistrationVerifier.aspx?token=[token]&amp;language=[language][a&gt;]activar cuenta[/a][n][n]</value>
   </data>
   <data name="AccountRegistrationMailSubject" xml:space="preserve">
     <value>Ecocyclus :: Proceso de Registro</value>

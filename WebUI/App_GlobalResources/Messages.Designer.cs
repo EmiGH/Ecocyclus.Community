@@ -124,7 +124,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a An error has occurred&lt;br/&gt;Please contact our system administrators at: &lt;a href=&quot;mailto:[mail]&quot;&gt;[mail]&lt;/a&gt; for assistance..
+        ///   Busca una cadena traducida similar a An error has occurred: [error] &lt;br/&gt; &lt;br/&gt;&lt;a href=&quot;mailto:[mail]&quot;&gt;[mail]&lt;/a&gt; for assistance..
         /// </summary>
         internal static string AccountRegistrationError {
             get {

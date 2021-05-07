@@ -97,7 +97,7 @@ namespace CSI.WebUI.Console.Directory
                 CSI.Library.Objects.Sites.Permission _permission = (CSI.Library.Objects.Sites.Permission)e.Item.DataItem;
 
                 Label _lbl = ((Label)e.Item.FindControl("lblPermissionSite"));
-                _lbl.Text = _permission.Site.Title;
+                _lbl.Text = _permission.Site == null ? "" : _permission.Site.Title;
 
                 _lbl = ((Label)e.Item.FindControl("lblPermissionDate"));
                 _lbl.Text = _permission.Date.ToShortDateString();

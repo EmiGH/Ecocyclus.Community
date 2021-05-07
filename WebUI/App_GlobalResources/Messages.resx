@@ -139,7 +139,7 @@
     <value>The email addresses do not match</value>
   </data>
   <data name="AccountRegistrationError" xml:space="preserve">
-    <value>An error has occurred&lt;br/&gt;Please contact our system administrators at: &lt;a href="mailto:[mail]"&gt;[mail]&lt;/a&gt; for assistance.</value>
+    <value>An error has occurred: [error] &lt;br/&gt; &lt;br/&gt;&lt;a href="mailto:[mail]"&gt;[mail]&lt;/a&gt; for assistance.</value>
   </data>
   <data name="AccountRegistrationInvalidEmail" xml:space="preserve">
     <value>Please enter a valid email address</value>
