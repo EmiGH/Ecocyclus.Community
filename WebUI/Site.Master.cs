@@ -17,6 +17,7 @@ namespace CSI.WebUI
         {
             try
             {
+                LoadLanguages();
                 BindEvents();
                 Page.Title = Resources.Data.ProductTitle;
 
@@ -26,7 +27,7 @@ namespace CSI.WebUI
                     LoadCreadentialCookie();
                     LoadLanguagesRegister();
                 }
-                LoadLanguages();
+               
             }
             catch (Exception ex)
             {
