@@ -250,6 +250,33 @@ namespace CSI.Library.Objects.Companies
 
         #endregion
 
+
+        #region Fleet
+
+        public Metrics.MetricPeriod GetFleetStatistics(DateTime from, DateTime to)
+        { return new Handlers.FleetSeries().ReadCompanyStatistics(IdCompany, from, to, _Credential); }
+        public Metrics.MetricPeriod GetFleetStatistics()
+        { return new Handlers.FleetSeries().ReadCompanyStatistics(IdCompany, _Credential); }
+
+        public Dictionary<DateTime, Metrics.MetricInstant> GetFleetDaily()
+        { return new Handlers.FleetSeries().ReadCompanyDaily(IdCompany, _Credential); }
+        public Dictionary<DateTime, Metrics.MetricInstant> GetFleetDaily(DateTime from, DateTime to)
+        { return new Handlers.FleetSeries().ReadCompanyDaily(IdCompany, from, to, _Credential); }
+        public Dictionary<DateTime, Metrics.MetricInstant> GetFleetWeekly()
+        { return new Handlers.FleetSeries().ReadCompanyWeekly(IdCompany, _Credential); }
+        public Dictionary<DateTime, Metrics.MetricInstant> GetFleetWeekly(DateTime from, DateTime to)
+        { return new Handlers.FleetSeries().ReadCompanyWeekly(IdCompany, from, to, _Credential); }
+        public Dictionary<DateTime, Metrics.MetricInstant> GetFleetMonthly()
+        { return new Handlers.FleetSeries().ReadCompanyMonthly(IdCompany, _Credential); }
+        public Dictionary<DateTime, Metrics.MetricInstant> GetFleetMonthly(DateTime from, DateTime to)
+        { return new Handlers.FleetSeries().ReadCompanyMonthly(IdCompany, from, to, _Credential); }
+        public Dictionary<DateTime, Metrics.MetricInstant> GetFleetYearly()
+        { return new Handlers.FleetSeries().ReadCompanyYearly(IdCompany, _Credential); }
+        public Dictionary<DateTime, Metrics.MetricInstant> GetFleetYearly(DateTime from, DateTime to)
+        { return new Handlers.FleetSeries().ReadCompanyYearly(IdCompany, from, to, _Credential); }
+
+        #endregion
+
         #endregion
 
         #endregion

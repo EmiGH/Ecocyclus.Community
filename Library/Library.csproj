@@ -129,12 +129,15 @@
     <Compile Include="Handlers\Sites\Payments\SitePayments.cs" />
     <Compile Include="Handlers\Sites\Targets\SiteTargets.cs" />
     <Compile Include="Objects\Auxiliaries\EmissionFactors\ElectricityEmissionFactor.cs" />
+    <Compile Include="Objects\Auxiliaries\EmissionFactors\FleetTypeEmissionFactor.cs" />
     <Compile Include="Objects\Auxiliaries\EmissionFactors\TransportTypeEmissionFactor.cs" />
     <Compile Include="Objects\Auxiliaries\EmissionFactors\WaterEmissionFactor.cs" />
     <Compile Include="Objects\Auxiliaries\Geographic\Country.cs" />
     <Compile Include="Objects\Auxiliaries\Geographic\CountryLanguageOption.cs" />
     <Compile Include="Objects\Auxiliaries\EmissionFactors\EmissionFactor.cs" />
     <Compile Include="Objects\Auxiliaries\EmissionFactors\EmissionFactorLanguageOption.cs" />
+    <Compile Include="Objects\Auxiliaries\Types\FleetType.cs" />
+    <Compile Include="Objects\Auxiliaries\Types\FleetTypeLanguageOption.cs" />
     <Compile Include="Objects\Notifications\Notification.cs" />
     <Compile Include="Objects\Auxiliaries\Types\FuelType.cs" />
     <Compile Include="Objects\Auxiliaries\Types\FuelTypeLanguageOption.cs" />
@@ -157,6 +160,7 @@
     <Compile Include="Objects\Sites\Exceptions\Exception.cs" />
     <Compile Include="Objects\Sites\Exceptions\ExceptionMeter.cs" />
     <Compile Include="Objects\Sites\Exceptions\ExceptionMeterElectricity.cs" />
+    <Compile Include="Objects\Sites\Exceptions\ExceptionMeterFleet.cs" />
     <Compile Include="Objects\Sites\Exceptions\ExceptionMeterFuel.cs" />
     <Compile Include="Objects\Sites\Exceptions\ExceptionMeterTransport.cs" />
     <Compile Include="Objects\Sites\Exceptions\ExceptionMeterWaste.cs" />
@@ -165,10 +169,13 @@
     <Compile Include="Objects\Sites\Meters\ElectricityMeterPhysical.cs" />
     <Compile Include="Objects\Auxiliaries\EmissionFactors\FuelTypeEmissionFactor.cs" />
     <Compile Include="Objects\Auxiliaries\EmissionFactors\WasteTypeEmissionFactor.cs" />
+    <Compile Include="Objects\Sites\Meters\EmissionFactors\FleetMeterEmissionFactor.cs" />
     <Compile Include="Objects\Sites\Meters\EmissionFactors\FuelMeterEmissionFactor.cs" />
     <Compile Include="Objects\Sites\Meters\EmissionFactors\TransportMeterEmissionFactor.cs" />
     <Compile Include="Objects\Sites\Meters\EmissionFactors\WasteMeterEmissionFactor.cs" />
     <Compile Include="Objects\Sites\Meters\fElectricityMeter.cs" />
+    <Compile Include="Objects\Sites\Meters\FleetMeter.cs" />
+    <Compile Include="Objects\Sites\Meters\FleetMeterLanguageOption.cs" />
     <Compile Include="Objects\Sites\Meters\fWaterMeter.cs" />
     <Compile Include="Objects\Sites\Meters\Series\DataEmissionFactor.cs" />
     <Compile Include="Objects\Sites\Meters\Series\ElectricityDataEmissionFactor.cs" />

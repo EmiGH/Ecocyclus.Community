@@ -84,10 +84,6 @@ namespace CSI.Library.Objects.Sites.Meters
 
         #region Public Methods
 
-        public Dictionary<Int64, EmissionFactors.WasteMeterEmissionFactor> GetEmissionFactors()
-        {
-            return new Handlers.WasteMeterEmissionFactors().Items(IdMeter, Credential);
-        }
 
         #region Metrics
 

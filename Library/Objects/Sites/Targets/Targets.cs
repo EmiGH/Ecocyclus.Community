@@ -22,11 +22,15 @@ namespace CSI.Library.Objects.Sites
         private Double _WaterConsumption;
         private Int64 _IdWaterUnit;
         private Double _WaterCO2;
+        private Double _FleetConsumption;
+        private Int64 _IdFleetUnit;
+        private Double _FleetCO2;
+
         private Double _TotalCO2;
 
         Security.Credential _Credential;
 
-        internal Targets(Double electricityConsumption, Int64 idElectricityUnit, Double electricityCO2, Double fuelConsumption, Int64 idFuelUnit, Double fuelCO2, Double transportConsumption, Int64 idTransportUnit, Double transportCO2, Double wasteConsumption, Int64 idWasteUnit, Double wasteCO2, Double waterConsumption, Int64 idWaterUnit, Double waterCO2, Double totalCO2, Security.Credential credential)
+        internal Targets(Double electricityConsumption, Int64 idElectricityUnit, Double electricityCO2, Double fuelConsumption, Int64 idFuelUnit, Double fuelCO2, Double transportConsumption, Int64 idTransportUnit, Double transportCO2, Double wasteConsumption, Int64 idWasteUnit, Double wasteCO2, Double waterConsumption, Int64 idWaterUnit, Double waterCO2, Double fleetConsumption, Int64 idFleetUnit, Double fleetCO2, Double totalCO2, Security.Credential credential)
         {
             _ElectricityConsumption = electricityConsumption;
             _IdElectricityUnit = idElectricityUnit;
@@ -44,6 +48,9 @@ namespace CSI.Library.Objects.Sites
             _WaterConsumption = waterConsumption;
             _IdWaterUnit = idWaterUnit;
             _WaterCO2 = waterCO2;
+            _FleetConsumption = fleetConsumption;
+            _FleetCO2 = fleetCO2;
+            _IdFleetUnit = idFleetUnit;
             _TotalCO2 = totalCO2;
 
             _Credential = credential;
@@ -69,6 +76,10 @@ namespace CSI.Library.Objects.Sites
         public Auxiliaries.Units.Unit WaterUnit
         { get { return new Handlers.Units().Item(_IdWaterUnit, _Credential); } }
         public Double WaterCO2 { get { return _WaterCO2; } }
+        public Double FleetConsumption { get { return _FleetConsumption; } }
+        public Auxiliaries.Units.Unit FleetUnit
+        { get { return new Handlers.Units().Item(_IdFleetUnit, _Credential); } }
+        public Double FleetCO2 { get { return _FleetCO2; } }
         public Double TotalCO2 { get { return _TotalCO2; } } 
     }
 }

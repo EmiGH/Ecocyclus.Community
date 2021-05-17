@@ -62,7 +62,11 @@ namespace CSI.Library.Objects.Sites
         {
             get { return new Handlers.TransportMeters().Items(IdSite, Credential); }
         }
-        
+        public Dictionary<Int64, Meters.FleetMeter> FleetMeters
+        {
+            get { return new Handlers.FleetMeters().Items(IdSite, Credential); }
+        }
+
         #endregion
 
         #region Emission Factors
@@ -92,6 +96,11 @@ namespace CSI.Library.Objects.Sites
         {
             return new Handlers.WaterEmissionFactors().ItemGlobal(Credential);
             //return new Handlers.WaterEmissionFactors().ItemDefault(Country.IdCountry, Credential); 
+        }
+        public Auxiliaries.EmissionFactors.FleetTypeEmissionFactor GetEmissionFactorForFleet()
+        {
+            return new Handlers.FleetTypeEmissionFactors().ItemGlobal(Credential);
+            //return new Handlers.FleetEmissionFactors().ItemDefault(Country.IdCountry, Credential); 
         }
 
         #endregion
@@ -346,6 +355,32 @@ namespace CSI.Library.Objects.Sites
 
         #endregion
 
+        #region Fleet
+
+        public Metrics.MetricPeriod GetFleetStatistics(DateTime from, DateTime to)
+        { return new Handlers.FleetSeries().ReadSiteStatistics(IdSite, from, to, Credential); }
+        public Metrics.MetricPeriod GetFleetStatistics()
+        { return new Handlers.FleetSeries().ReadSiteStatistics(IdSite, Credential); }
+
+        public Dictionary<DateTime, Metrics.MetricInstant> GetFleetDaily()
+        { return new Handlers.FleetSeries().ReadSiteDaily(IdSite, Credential); }
+        public Dictionary<DateTime, Metrics.MetricInstant> GetFleetDaily(DateTime from, DateTime to)
+        { return new Handlers.FleetSeries().ReadSiteDaily(IdSite, from, to, Credential); }
+        public Dictionary<DateTime, Metrics.MetricInstant> GetFleetWeekly()
+        { return new Handlers.FleetSeries().ReadSiteWeekly(IdSite, Credential); }
+        public Dictionary<DateTime, Metrics.MetricInstant> GetFleetWeekly(DateTime from, DateTime to)
+        { return new Handlers.FleetSeries().ReadSiteWeekly(IdSite, from, to, Credential); }
+        public Dictionary<DateTime, Metrics.MetricInstant> GetFleetMonthly()
+        { return new Handlers.FleetSeries().ReadSiteMonthly(IdSite, Credential); }
+        public Dictionary<DateTime, Metrics.MetricInstant> GetFleetMonthly(DateTime from, DateTime to)
+        { return new Handlers.FleetSeries().ReadSiteMonthly(IdSite, from, to, Credential); }
+        public Dictionary<DateTime, Metrics.MetricInstant> GetFleetYearly()
+        { return new Handlers.FleetSeries().ReadSiteYearly(IdSite, Credential); }
+        public Dictionary<DateTime, Metrics.MetricInstant> GetFleetYearly(DateTime from, DateTime to)
+        { return new Handlers.FleetSeries().ReadSiteYearly(IdSite, from, to, Credential); }
+
+        #endregion
+
         #endregion
 
         #region Permissions
@@ -443,6 +478,14 @@ namespace CSI.Library.Objects.Sites
         public Exceptions.ExceptionMeterWater ExceptionForOverdueOfWater(Int64 idException)
         {
             return new Handlers.SiteExceptionMeters().ItemByWater(idException, Credential);
+        }
+        public Dictionary<Int64, Exceptions.ExceptionMeterFleet> ExceptionsForOverdueOfFleet()
+        {
+            return new Handlers.SiteExceptionMeters().ItemsByFleet(IdSite, Credential);
+        }
+        public Exceptions.ExceptionMeterFleet ExceptionForOverdueOfFleet(Int64 idException)
+        {
+            return new Handlers.SiteExceptionMeters().ItemByFleet(idException, Credential);
         }
 
         public Dictionary<Int64, Exceptions.ExceptionTarget> ExceptionsForTargetSurpassed()
