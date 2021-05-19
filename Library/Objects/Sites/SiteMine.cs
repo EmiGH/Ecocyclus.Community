@@ -69,29 +69,29 @@ namespace CSI.Library.Objects.Sites
 
         public Auxiliaries.EmissionFactors.ElectricityEmissionFactor GetEmissionFactorForElectricity()
         {
-            return new Handlers.ElectricityEmissionFactors().ItemGlobal(Credential);
-            //return new Handlers.ElectricityEmissionFactors().ItemDefault(Country.IdCountry, Credential); 
+            //return new Handlers.ElectricityEmissionFactors().ItemGlobal(Credential);
+            return new Handlers.ElectricityEmissionFactors().ItemDefault(Country.IdCountry, Credential); 
         }
         public Dictionary<Int64, Auxiliaries.EmissionFactors.FuelTypeEmissionFactor> GetEmissionFactorsForFuels()
         {
-            return new Handlers.FuelTypeEmissionFactors().ItemsGlobal(Credential);
-            //return new Handlers.FuelTypeEmissionFactors().ItemsDefault(Country.IdCountry, Credential);
+            //return new Handlers.FuelTypeEmissionFactors().ItemsGlobal(Credential);
+            return new Handlers.FuelTypeEmissionFactors().ItemsDefault(Country.IdCountry, Credential);
         }
         public Dictionary<Int64, Auxiliaries.EmissionFactors.TransportTypeEmissionFactor> GetEmissionFactorsForTransport()
         {
-            return new Handlers.TransportTypeEmissionFactors().ItemsGlobal(Credential);
-            //return new Handlers.TransportTypeEmissionFactors().ItemsDefault(Country.IdCountry, Credential); 
+            //return new Handlers.TransportTypeEmissionFactors().ItemsGlobal(Credential);
+            return new Handlers.TransportTypeEmissionFactors().ItemsDefault(Country.IdCountry, Credential); 
         }
         public Dictionary<Int64, Auxiliaries.EmissionFactors.WasteTypeEmissionFactor> GetEmissionFactorsForWaste()
         {
-            return new Handlers.WasteTypeEmissionFactors().ItemsGlobal(Credential);
-            //return new Handlers.WasteTypeEmissionFactors().ItemsDefault(Country.IdCountry, Credential); 
+            //return new Handlers.WasteTypeEmissionFactors().ItemsGlobal(Credential);
+            return new Handlers.WasteTypeEmissionFactors().ItemsDefault(Country.IdCountry, Credential); 
         
         }
         public Auxiliaries.EmissionFactors.WaterEmissionFactor GetEmissionFactorForWater()
         {
-            return new Handlers.WaterEmissionFactors().ItemGlobal(Credential);
-            //return new Handlers.WaterEmissionFactors().ItemDefault(Country.IdCountry, Credential); 
+            //return new Handlers.WaterEmissionFactors().ItemGlobal(Credential);
+            return new Handlers.WaterEmissionFactors().ItemDefault(Country.IdCountry, Credential); 
         }
 
         #endregion

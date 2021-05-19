@@ -102,7 +102,7 @@ namespace CSI.Library.Handlers
                         _dbLanguageOptions.Create(_idSite, _item.Key, _item.Value);
     
                     DateTime _from = new DateTime(start.Year, start.Month, 1);
-                    DateTime _to = new DateTime(start.Year, start.Month, DateTime.DaysInMonth(start.Year, start.Month));
+                    DateTime _to = new DateTime(start.Year+1, start.Month, DateTime.DaysInMonth(start.Year, start.Month));
 
                     ModifyValidLoadRange(_idSite, _from, _to);
 

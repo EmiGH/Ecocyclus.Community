@@ -144,6 +144,8 @@ namespace CSI.WebUI.Console.Dashboard.Meters
                 {
                     ListItem _item = new ListItem(_ef.LanguageOption.Description, _ef.Value.ToString());
                     lstEFSelector.Items.Add(_item);
+
+                    hdnIdEF.Value = _ef.IdEmissionFactor.ToString();
                 }
             }
         }
