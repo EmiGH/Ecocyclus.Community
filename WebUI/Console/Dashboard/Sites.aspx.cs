@@ -157,10 +157,12 @@ namespace CSI.WebUI.Console.Dashboard
             switch (e.CommandName)
             {
                 case "View":
-                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Dashboard, Request) + "Site.aspx?Site=" + e.CommandArgument);
+                        Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Dashboard, Request) + "Site.aspx?Site=" + e.CommandArgument, false);
+                        Context.ApplicationInstance.CompleteRequest();
                     break;
                 case "Edit":
-                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Dashboard, Request) + "SiteEdit.aspx?Site=" + e.CommandArgument);
+                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Dashboard, Request) + "SiteEdit.aspx?Site=" + e.CommandArgument, false);
+                    Context.ApplicationInstance.CompleteRequest();
                     break;
                 case "Delete":
                     try

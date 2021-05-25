@@ -259,7 +259,8 @@ namespace CSI.WebUI.Console.Dashboard.Meters
                 {
                     I.AddElectricityData(_Meter, BuildData());
 
-                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterElectricityLoads.aspx?Meter=" + _Meter.IdMeter.ToString());
+                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterElectricityLoads.aspx?Meter=" + _Meter.IdMeter.ToString(), false);
+                    Context.ApplicationInstance.CompleteRequest();
                 }
                 catch (Exception exception)
                 {

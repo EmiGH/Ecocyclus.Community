@@ -82,7 +82,7 @@ namespace CSI.WebUI
             }
         }
         internal Library.Objects.Users.UserOperatorMe I
-        { get { return MyLibrary.CurrentUser; } }
+        { get { return MyLibrary != null ? MyLibrary.CurrentUser : null; } }
         internal CultureInfo CurrentCultureInfo
         {
             get

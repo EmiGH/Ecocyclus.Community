@@ -174,10 +174,12 @@ namespace CSI.WebUI.Console.Directory
             switch (e.CommandName)
             {
                 case "View":
-                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Directory, Request) + "User.aspx?Operator=" + e.CommandArgument);
+                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Directory, Request) + "User.aspx?Operator=" + e.CommandArgument, false);
+                    Context.ApplicationInstance.CompleteRequest();
                     break;
                 case "Edit":
-                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Directory, Request) + "UserEdit.aspx?Operator=" + e.CommandArgument);
+                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Directory, Request) + "UserEdit.aspx?Operator=" + e.CommandArgument, false);
+                    Context.ApplicationInstance.CompleteRequest();
                     break;
                 case "Delete":
                     

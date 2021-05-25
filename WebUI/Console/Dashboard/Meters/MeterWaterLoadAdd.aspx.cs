@@ -260,7 +260,8 @@ namespace CSI.WebUI.Console.Dashboard.Meters
                 {
                     I.AddWaterData(_Meter, BuildData());
 
-                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterWaterLoads.aspx?Meter=" + _Meter.IdMeter.ToString());
+                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterWaterLoads.aspx?Meter=" + _Meter.IdMeter.ToString(), false);
+                    Context.ApplicationInstance.CompleteRequest();
                 }
                 catch (Exception exception)
                 {

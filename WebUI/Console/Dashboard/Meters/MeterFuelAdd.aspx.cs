@@ -90,7 +90,8 @@ namespace CSI.WebUI.Console.Dashboard.Meters
                    
                     Library.Objects.Sites.Meters.FuelMeter _meter = I.AddMeterFuel(_Site, txtIdentification.Text, txtDescription.Text, WebUI.Common.GetTranslationStructure(hdnDescriptionTranslations.Value), _unit);
 
-                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterFuel.aspx?Meter=" + _meter.IdMeter.ToString());
+                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterFuel.aspx?Meter=" + _meter.IdMeter.ToString(), false);
+                    Context.ApplicationInstance.CompleteRequest();
                 }
                 catch (Exception exception)
                 {

@@ -145,7 +145,8 @@ namespace CSI.WebUI.Console.Dashboard
         
         void lnkModifySite_Click(object sender, EventArgs e)
         {
-            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Dashboard,Request) + "SiteEdit.aspx?Site=" + _Site.IdSite.ToString());
+            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Dashboard,Request) + "SiteEdit.aspx?Site=" + _Site.IdSite.ToString(), false);
+            Context.ApplicationInstance.CompleteRequest();
         }
         void lnkToggleSite_Click(object sender, EventArgs e)
         {
@@ -156,7 +157,8 @@ namespace CSI.WebUI.Console.Dashboard
             try
             {
                 ((UserOperatorMeManager)I).RemoveSite(_Site);
-                Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Dashboard, Request) + "Sites.aspx");
+                Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Dashboard, Request) + "Sites.aspx", false);
+                Context.ApplicationInstance.CompleteRequest();
             }
             catch (Exception exception)
             {

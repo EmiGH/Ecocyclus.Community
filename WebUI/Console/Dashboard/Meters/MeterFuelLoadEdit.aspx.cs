@@ -147,7 +147,8 @@ namespace CSI.WebUI.Console.Dashboard.Meters
                     Library.Objects.Sites.Meters.Series.FuelData _data = new Library.Objects.Sites.Meters.Series.FuelData(0, Convert.ToDateTime(hdnLoadDate.Value), I.GetFuelType(Convert.ToInt64(ddlLoadTypes.SelectedValue)), Convert.ToDouble(txtLoadValue.Text), I.GetUnit(Convert.ToInt64(ddlLoadUnits.SelectedValue)));
                     I.ModifyFuelData(_Meter, _Serie, _data);
 
-                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterFuel.aspx?Meter=" + _Meter.IdMeter.ToString());
+                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterFuel.aspx?Meter=" + _Meter.IdMeter.ToString(), false);
+                    Context.ApplicationInstance.CompleteRequest();
                 }
                 catch (Exception exception)
                 {
