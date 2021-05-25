@@ -121,7 +121,8 @@ namespace CSI.WebUI.Console.Directory
                     else
                         _user = ((UserOperatorMeManager)MyLibrary.CurrentUser).AddOperator(txtFirstname.Text, txtLastname.Text, txtEmail.Text, txtPassword.Text, ddlLanguage.SelectedValue, chkIsManager.Checked, chkIsActive.Checked);
 
-                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Directory, Request) + "User.aspx?Operator=" + _user.IdOperator.ToString());
+                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Directory, Request) + "User.aspx?Operator=" + _user.IdOperator.ToString(), false);
+                    Context.ApplicationInstance.CompleteRequest();
 
                 }
                 catch (Exception exception)

@@ -174,7 +174,8 @@ namespace CSI.WebUI.Console.Directory
                         else
                             ((UserOperatorMeManager)MyLibrary.CurrentUser).ModifyCompany(txtName.Text, hdnMapLocationAddress.Value, new Library.Objects.Auxiliaries.Geographic.Position(hdnMapLocationPoint.Value), txtTelephone.Text, txtEmail.Text, txtUrl.Text, txtFacebook.Text, txtTwitter.Text);
 
-                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Directory, Request) + "Company.aspx");
+                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Directory, Request) + "Company.aspx", false);
+                    Context.ApplicationInstance.CompleteRequest();
                 }
                 catch (Exception exception)
                 {

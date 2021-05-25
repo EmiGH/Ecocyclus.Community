@@ -301,19 +301,24 @@ namespace CSI.WebUI.Console.Dashboard.Meters
                     switch (Protocol)
                     {
                         case CSI.WebUI.Common.Protocols.Electricity:
-                            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterElectricity.aspx?Meter=" + e.CommandArgument);
+                            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterElectricity.aspx?Meter=" + e.CommandArgument, false);
+                            Context.ApplicationInstance.CompleteRequest();
                             break;
                         case CSI.WebUI.Common.Protocols.Fuels:
-                            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterFuel.aspx?Meter=" + e.CommandArgument);
+                            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterFuel.aspx?Meter=" + e.CommandArgument, false);
+                            Context.ApplicationInstance.CompleteRequest();
                             break;
                         case CSI.WebUI.Common.Protocols.Transport:
-                            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterTransport.aspx?Meter=" + e.CommandArgument);
+                            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterTransport.aspx?Meter=" + e.CommandArgument, false);
+                            Context.ApplicationInstance.CompleteRequest();
                             break;
                         case CSI.WebUI.Common.Protocols.Water:
-                            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterWater.aspx?Meter=" + e.CommandArgument);
+                            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterWater.aspx?Meter=" + e.CommandArgument, false);
+                            Context.ApplicationInstance.CompleteRequest();
                             break;
                         case CSI.WebUI.Common.Protocols.Waste:
-                            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterWaste.aspx?Meter=" + e.CommandArgument);
+                            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterWaste.aspx?Meter=" + e.CommandArgument, false);
+                            Context.ApplicationInstance.CompleteRequest();
                             break;
                         default:
                             break;
@@ -323,19 +328,24 @@ namespace CSI.WebUI.Console.Dashboard.Meters
                     switch (Protocol)
                     {
                         case CSI.WebUI.Common.Protocols.Electricity:
-                            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterElectricityEdit.aspx?Site=" + _idSite + "&Meter=" + e.CommandArgument);
+                            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterElectricityEdit.aspx?Site=" + _idSite + "&Meter=" + e.CommandArgument, false);
+                            Context.ApplicationInstance.CompleteRequest();
                             break;
                         case CSI.WebUI.Common.Protocols.Fuels:
-                            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterFuelEdit.aspx?Site=" + _idSite + "&Meter=" + e.CommandArgument);
+                            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterFuelEdit.aspx?Site=" + _idSite + "&Meter=" + e.CommandArgument, false);
+                            Context.ApplicationInstance.CompleteRequest();
                             break;
                         case CSI.WebUI.Common.Protocols.Transport:
-                            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterTransportEdit.aspx?Site=" + _idSite + "&Meter=" + e.CommandArgument);
+                            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterTransportEdit.aspx?Site=" + _idSite + "&Meter=" + e.CommandArgument, false);
+                            Context.ApplicationInstance.CompleteRequest();
                             break;
                         case CSI.WebUI.Common.Protocols.Water:
-                            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterWaterEdit.aspx?Site=" + _idSite + "&Meter=" + e.CommandArgument);
+                            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterWaterEdit.aspx?Site=" + _idSite + "&Meter=" + e.CommandArgument, false);
+                            Context.ApplicationInstance.CompleteRequest();
                             break;
                         case CSI.WebUI.Common.Protocols.Waste:
-                            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterWasteEdit.aspx?Site=" + _idSite + "&Meter=" + e.CommandArgument);
+                            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterWasteEdit.aspx?Site=" + _idSite + "&Meter=" + e.CommandArgument, false);
+                            Context.ApplicationInstance.CompleteRequest();
                             break;
                         default:
                             break;

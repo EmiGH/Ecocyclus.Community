@@ -147,7 +147,8 @@ namespace CSI.WebUI.Console.Dashboard.Meters
 
                     I.ModifyWaterData(_Meter, _Load, Convert.ToDouble(txtLoadValue.Text), _unit);
 
-                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterWaterLoads.aspx?Meter=" + _Meter.IdMeter.ToString());
+                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterWaterLoads.aspx?Meter=" + _Meter.IdMeter.ToString(), false);
+                    Context.ApplicationInstance.CompleteRequest();
                 }
                 catch (Exception exception)
                 {

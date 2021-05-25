@@ -134,8 +134,9 @@ namespace CSI.WebUI.Console.Directory
                         I.Modify(txtLastname.Text, txtFirstname.Text, txtEmail.Text, ddlLanguage.SelectedValue);
 
                     Session.Abandon();
-                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Root, Request) + "Default.aspx");
-                    
+                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Root, Request) + "Default.aspx", false);
+                    Context.ApplicationInstance.CompleteRequest();
+
                 }
                 catch (Exception exception)
                 {

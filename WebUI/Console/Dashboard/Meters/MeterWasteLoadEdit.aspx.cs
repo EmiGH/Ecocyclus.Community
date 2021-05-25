@@ -143,7 +143,8 @@ namespace CSI.WebUI.Console.Dashboard.Meters
                     Library.Objects.Sites.Meters.Series.WasteData _data = new Library.Objects.Sites.Meters.Series.WasteData(0, Convert.ToDateTime(hdnLoadDate.Value), I.GetWasteType(Convert.ToInt64(ddlLoadTypes.SelectedValue)), Convert.ToDouble(txtLoadValue.Text), I.GetUnit(Convert.ToInt64(ddlLoadUnits.SelectedValue))); 
                     I.ModifyWasteData(_Meter, _Serie, _data);
 
-                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterWaste.aspx?Meter=" + _Meter.IdMeter.ToString());
+                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterWaste.aspx?Meter=" + _Meter.IdMeter.ToString(), false);
+                    Context.ApplicationInstance.CompleteRequest();
                 }
                 catch (Exception exception)
                 {

@@ -161,7 +161,8 @@ namespace CSI.WebUI.Console.Dashboard
                     else
                         _site = ((UserOperatorMeManager)I).AddSite(Convert.ToInt64(ddlTypes.SelectedValue), Convert.ToDateTime(hdnStart.Value), Convert.ToInt32(txtWeeks.Text), txtTitle.Text, txtNumber.Text, hdnLocationAddress.Value, new Library.Objects.Auxiliaries.Geographic.Position(hdnLocationPoint.Value), _country.IdCountry, Convert.ToDouble(txtValue.Text), Convert.ToInt64(ddlCurrencies.SelectedValue), Convert.ToDouble(txtFloorSpace.Text), _units, txtTelephone.Text, txtEmail.Text, txtUrl.Text, txtFacebook.Text, txtTwitter.Text, txtClient.Text, txtAgent.Text, txtContractor.Text, txtResponsible.Text, txtManager.Text, txtDescription.Text, WebUI.Common.GetTranslationStructure(hdnDescriptionTranslations.Value), chkIsPublic.Checked);
 
-                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Dashboard, Request) + "Site.aspx?Site=" + _site.IdSite.ToString());
+                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Dashboard, Request) + "Site.aspx?Site=" + _site.IdSite.ToString(), false);
+                    Context.ApplicationInstance.CompleteRequest();
                 }
                 catch (Exception exception)
                 {

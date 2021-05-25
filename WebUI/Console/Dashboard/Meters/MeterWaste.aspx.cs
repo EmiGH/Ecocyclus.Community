@@ -307,7 +307,8 @@ namespace CSI.WebUI.Console.Dashboard.Meters
         void lnkRemove_Click(object sender, EventArgs e)
         {
             I.RemoveMeterWaste(_Meter);
-            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "Meters.aspx?Site=" + _Meter.Site.IdSite.ToString());
+            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "Meters.aspx?Site=" + _Meter.Site.IdSite.ToString(), false);
+            Context.ApplicationInstance.CompleteRequest();
         }
 
         #endregion

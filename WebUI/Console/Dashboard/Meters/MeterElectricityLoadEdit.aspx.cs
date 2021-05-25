@@ -149,7 +149,8 @@ namespace CSI.WebUI.Console.Dashboard.Meters
                     
                     I.ModifyElectricityData(_Meter, _Load, Convert.ToDouble(txtLoadValue.Text), _unit);
 
-                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterElectricityLoads.aspx?Meter=" + _Meter.IdMeter.ToString());
+                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterElectricityLoads.aspx?Meter=" + _Meter.IdMeter.ToString(), false);
+                    Context.ApplicationInstance.CompleteRequest();
                 }
                 catch (Exception exception)
                 {

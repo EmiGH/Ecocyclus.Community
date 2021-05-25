@@ -215,7 +215,8 @@ namespace CSI.WebUI.Console
             }
 
             Session.Abandon();
-            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Root, Request) + "Default.aspx");
+            Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Root, Request) + "Default.aspx", false);
+            Context.ApplicationInstance.CompleteRequest();
         }
         private HttpCookie GenerateAuthenticationCookie(int expiryInMinutes, String username, String userData)
         {

@@ -180,7 +180,8 @@ namespace CSI.WebUI.Console.Dashboard.Meters
                     else
                         _meter = I.AddMeterWater(_Site, txtIdentification.Text, txtDescription.Text, WebUI.Common.GetTranslationStructure(hdnDescriptionTranslations.Value), chkIsPhysical.Checked, _initialDate, _initialReading, _unit, Convert.ToInt16(txtFrequencyQuantity.Text), _timeUnit, Convert.ToInt16(txtAlertBefore.Text), Convert.ToInt16(txtAlertAfter.Text), chkAlertOnStart.Checked);
 
-                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterWater.aspx?Meter=" + _meter.IdMeter.ToString());
+                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterWater.aspx?Meter=" + _meter.IdMeter.ToString(), false);
+                    Context.ApplicationInstance.CompleteRequest();
                 }
                 catch (Exception exception)
                 {

@@ -374,9 +374,15 @@ namespace CSI.WebUI
             if (_operation != null)
             {
                 if (_operation.CurrentUser is Library.Objects.Users.UserOperatorMeManager)
-                    Response.Redirect(WebUI.Common.GetPath(Common.eFolders.Dashboard, Request) + "Dashboard.aspx");
+                {
+                    Response.Redirect(WebUI.Common.GetPath(Common.eFolders.Dashboard, Request) + "Dashboard.aspx", false);
+                    Context.ApplicationInstance.CompleteRequest();
+                }
                 else
-                    Response.Redirect(WebUI.Common.GetPath(Common.eFolders.Dashboard, Request) + "Sites.aspx");
+                {
+                    Response.Redirect(WebUI.Common.GetPath(Common.eFolders.Dashboard, Request) + "Sites.aspx", false);
+                    Context.ApplicationInstance.CompleteRequest();
+                }
             }
         }
 

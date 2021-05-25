@@ -210,7 +210,8 @@ namespace CSI.WebUI.Console.Dashboard
                 {
                     ((UserOperatorMeManager)I).ModifyTargets(_Site, Convert.ToDouble(txtElectricityConsumption.Text), Convert.ToInt64(ddlElectricityUnit.SelectedValue), Convert.ToDouble(txtElectricityCO2.Text), Convert.ToDouble(txtFuelConsumption.Text), Convert.ToInt64(ddlFuelUnit.SelectedValue), Convert.ToDouble(txtFuelCO2.Text), Convert.ToDouble(txtTransportConsumption.Text), Convert.ToInt64(ddlTransportUnit.SelectedValue), Convert.ToDouble(txtTransportCO2.Text), Convert.ToDouble(txtWasteConsumption.Text), Convert.ToInt64(ddlWasteUnit.SelectedValue), Convert.ToDouble(txtWasteCO2.Text), Convert.ToDouble(txtWaterConsumption.Text), Convert.ToInt64(ddlWaterUnit.SelectedValue), Convert.ToDouble(txtWaterCO2.Text), Convert.ToDouble(txtTotalCO2.Text));
 
-                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Targets, Request) + "SiteTargets.aspx?Site=" + _Site.IdSite.ToString());
+                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Targets, Request) + "SiteTargets.aspx?Site=" + _Site.IdSite.ToString(), false);
+                    Context.ApplicationInstance.CompleteRequest();
                 }
                 catch (Exception exception)
                 {

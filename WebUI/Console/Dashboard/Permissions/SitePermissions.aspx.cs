@@ -318,7 +318,8 @@ namespace CSI.WebUI.Console.Dashboard.Permissions
             {
                 ((UserOperatorMeManager)I).AddPermissions(_Site, _structure);
 
-                Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Dashboard, Request) + "Site.aspx?Site=" + _Site.IdSite.ToString());
+                Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Dashboard, Request) + "Site.aspx?Site=" + _Site.IdSite.ToString(), false);
+                Context.ApplicationInstance.CompleteRequest();
             }
             catch (Exception exception)
             {

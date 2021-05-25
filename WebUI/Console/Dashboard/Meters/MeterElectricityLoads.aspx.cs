@@ -334,7 +334,8 @@ namespace CSI.WebUI.Console.Dashboard.Meters
             switch (e.CommandName)
             {
                 case "Edit":
-                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterElectricityLoadEdit.aspx?Meter=" + _Meter.IdMeter + "&Load=" + e.CommandArgument);
+                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterElectricityLoadEdit.aspx?Meter=" + _Meter.IdMeter + "&Load=" + e.CommandArgument, false);
+                    Context.ApplicationInstance.CompleteRequest();
                     break;
 
                 case "Delete":

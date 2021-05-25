@@ -261,7 +261,8 @@ namespace CSI.WebUI.Console.Dashboard.Meters
                             I.ModifyMeterElectricity(_Meter, txtIdentification.Text, txtDescription.Text, WebUI.Common.GetTranslationStructure(hdnDescriptionTranslations.Value), _EF, _unit, Convert.ToInt16(txtFrequencyQuantity.Text), _timeUnit, Convert.ToInt16(txtAlertBefore.Text), Convert.ToInt16(txtAlertAfter.Text), chkAlertOnStart.Checked);
                     }
 
-                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterElectricity.aspx?Meter=" + _Meter.IdMeter.ToString());
+                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterElectricity.aspx?Meter=" + _Meter.IdMeter.ToString(), false);
+                    Context.ApplicationInstance.CompleteRequest();
                 }
                 catch (Exception exception)
                 {

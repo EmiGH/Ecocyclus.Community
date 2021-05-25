@@ -92,7 +92,8 @@ namespace CSI.WebUI.Console.Dashboard.Meters
         
                     Library.Objects.Sites.Meters.TransportMeter _meter =  I.AddMeterTransport(_Site, txtIdentification.Text, txtDescription.Text, WebUI.Common.GetTranslationStructure(hdnDescriptionTranslations.Value), _unit);
 
-                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterTransport.aspx?Meter=" + _meter.IdMeter.ToString());
+                    Response.Redirect(WebUI.Common.GetPath(WebUI.Common.eFolders.Meters, Request) + "MeterTransport.aspx?Meter=" + _meter.IdMeter.ToString(), false);
+                    Context.ApplicationInstance.CompleteRequest();
                 }
                 catch (Exception exception)
                 {
