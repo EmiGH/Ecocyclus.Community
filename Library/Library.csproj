@@ -242,8 +242,8 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="Resources\Data.es-ar.Designer.cs">
-      <DependentUpon>Data.es-ar.resx</DependentUpon>
+    <Compile Include="Resources\Data.es.Designer.cs">
+      <DependentUpon>Data.es.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
@@ -342,10 +342,10 @@
     <Compile Include="Objects\Users\Operators\UserOperatorCoworker.cs" />
     <Compile Include="Objects\Users\Operators\UserOperatorMe.cs" />
     <Compile Include="Objects\Users\Operators\UserOperatorMeManager.cs" />
-    <Compile Include="Resources\Messages.es-ar.Designer.cs">
+    <Compile Include="Resources\Messages.es.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Messages.es-ar.resx</DependentUpon>
+      <DependentUpon>Messages.es.resx</DependentUpon>
     </Compile>
     <Compile Include="Objects\Users\User.cs" />
     <Compile Include="Objects\Users\Administrators\UserAdministrator.cs" />
@@ -370,13 +370,13 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Messages.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Data.es-ar.resx">
+    <EmbeddedResource Include="Resources\Data.es.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Data.es-ar.Designer.cs</LastGenOutput>
+      <LastGenOutput>Data.es.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Messages.es-ar.resx">
+    <EmbeddedResource Include="Resources\Messages.es.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Messages.es-ar.Designer.cs</LastGenOutput>
+      <LastGenOutput>Messages.es.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

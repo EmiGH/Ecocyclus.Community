@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-    <title>CSI :: Construction Site Impacts Platform </title>
+    <title>EcoCyclus :: Sustainability Communities </title>
     <link href="../Styles/Login.css" rel="Stylesheet" />
 </head>
 <body class="dataPolicy">
@@ -13,14 +13,14 @@
        <div style="text-align:center;"> 
             <img src="../Images/Login/logo.png" alt="" />
        </div>
-        SiteImpacts Terms of Service
+        EcoCyclus Terms of Service
         <br />
-        Last modified: September 1, 2013
+        Last modified: September 1, 2020
         <br />
-        Welcome to SiteImpacts!<br />
+        Welcome to EcoCyclus!<br />
         <br />
         This page (together with the document(s) referred to on it) set out the terms of
-        use which apply to you when you register as a user to use our web application SiteImpacts.com
+        use which apply to you when you register as a user to use our web application ecocyclus.com
         (“our web application"). From time to time we may require you to agree to additional terms
         which apply to specific new features or services which we make available on our
         web application. Please read these terms of use carefully and any other additional terms
@@ -38,9 +38,8 @@
         ABOUT US
         <br />
         <br />
-        SiteImpacts.com is a site operated by SiteImpacts Ltd, trading as SiteImpacts ("we"
-        / "SiteImpacts"). We are registered in England and Wales under company number 04332702
-        and have our registered office at 41 Elmore Street, N1 3AJ, London, UK. We are a limited company.
+        ecocyclus.com is a site operated by CAP4P S.A., trading as EcoCyclus ("we"
+        / "EcoCyclus").
         <br />
         <br />
         WHAT WE DO
@@ -122,20 +121,20 @@
                 that you may do so by us or by our licensors, in a separate agreement.</li>
         </ul>
         <br />
-        Nothing in these site terms of use give you a right to use any of SiteImpacts’s
+        Nothing in these site terms of use give you a right to use any of EcoCyclus’s
         trade names, trademarks, service marks, logos, domain names, and other distinctive
         brand features.
         <br />
         YOU HAVE A LIMITED RIGHT TO USE THE SOFTWARE ON OUR WEB APPLICATION
         <br />
-        - SiteImpacts gives you a personal, worldwide, royalty-free, non-assignable and
-        non-exclusive license to use the software provided to you by SiteImpacts as part
+        - EcoCyclus gives you a personal, worldwide, royalty-free, non-assignable and
+        non-exclusive license to use the software provided to you by EcoCyclus as part
         of the services made available on our web application.
         <br />
         - This license is for the sole purpose of enabling you to use and enjoy the benefit
-        of the SiteImpacts services. You may not (and you may not permit anyone else) to
+        of the EcoCyclus services. You may not (and you may not permit anyone else) to
         copy, modify, create a derivative work of, reverse engineer, decompile or otherwise
-        attempt to extract the source code of the SiteImpacts software or any part thereof,
+        attempt to extract the source code of the EcoCyclus software or any part thereof,
         unless this is expressly permitted or required by law.
         <br />
         If you print off, copy or download any part of our web application or use our software in
@@ -248,7 +247,7 @@
         standards set out in these terms of use.<br />
         We are always happy to hear from you, so If you wish to make any use of material
         on our web application other than that set out above, please get in touch with us by emailing
-        us info@SiteImpacts.com.<br />
+        us info@ecocyclus.com.<br />
         <br />
         <br />
         LINKS FROM OUR WEB APPLICATION
@@ -281,17 +280,17 @@
         to time to take notice of any changes we made, as they are binding on you. Some
         of the provisions contained in these terms of use may also be superseded by provisions
         or notices published elsewhere on our web application. You understand and agree that if
-        you use the SiteImpacts services available on our web application after the date on which
+        you use the EcoCyclus services available on our web application after the date on which
         these terms of use have changed, we will treat your use as acceptance of the updated
         terms of use.<br />
         YOUR CONCERNS
         <br />
         <br />
         We look forward to providing a great service to you. If you have any concerns about
-        material which appears on our web application, please contact us at info@SiteImpacts.com.
+        material which appears on our web application, please contact us at info@ecocyclus.com.
         <br />
         <br />
-        Thank you for taking the time to visit SiteImpacts!
+        Thank you for taking the time to visit EcoCyclus!
         <br />
         <br />
         <br />
@@ -304,7 +303,7 @@
         Welcome!
         <br />
         <br />
-        SiteImpacts ("We") are committed to protecting and respecting your privacy. We take
+        EcoCyclus ("We") are committed to protecting and respecting your privacy. We take
         matters relating to privacy very seriously.
         <br />
         <br />
@@ -316,9 +315,7 @@
         <br />
         <br />
         For the purpose of the Data Protection Act 1998 (the Act), the data controller is
-        We Do Care ltd. ("we"/"SiteImpacts"). We are registered in England and Wales under
-        company number 04332702 and have our registered office at 45 Rotherfield Street,
-        N1 3BU, London, UK.
+        CAP4P S.A. ("we"/"EcoCyclus").
         <br />
         <br />
         Our nominated representative for the purpose of the Act is Marcio Haddad.
@@ -330,11 +327,11 @@
         We may collect and process the following data about you:
         <br />
         <br />
-        Information that you provide by filling in forms on our web application www.SiteImpacts.com
+        Information that you provide by filling in forms on our web application www.ecocyclus.com
         (our web application). This includes information provided at the time of registering to
         use our web application, subscribing to our service, requesting further services. We may
         also ask you for information when you enter a competition or promotion sponsored
-        by SiteImpacts, and when you report a problem with our web application.
+        by EcoCyclus, and when you report a problem with our web application.
         <br />
         <br />
         If you contact us, we may keep a record of that correspondence. We may also ask
@@ -404,7 +401,7 @@
         All information you provide to us is stored on third party operated servers.
         <br />
         <br />
-        No payment transaction related data will be processed or stored on SiteImpacts.
+        No payment transaction related data will be processed or stored on EcoCyclus.
         All payments will be performed via a third party provider (externally hosted payment
         gateway). Any payment transactions will be encrypted using SSL (Secure Socket Layer)
         technology.
@@ -470,7 +467,7 @@
         not limited to electricity, gas, water, waste etc. We benchmark you against other
         users operating similar sites to yours, as well as against external benchmarks that
         have been established by third party organisations such as CIBSE in the UK (no individual
-        consumption data from the SiteImpacts platform will be made available to those organisations).
+        consumption data from the EcoCyclus platform will be made available to those organisations).
         We then provide you with a high level assessment of the savings potential and possibly
         with recommendations for how to reduce your consumption.
         <br />
@@ -497,7 +494,7 @@
         <br />
         <br />
         The way we operate our web application ensures that all registered users get to benefit
-        from the collective knowledge and best practices built up through the SiteImpacts
+        from the collective knowledge and best practices built up through the EcoCyclus
         platform, however information which can be linked to a specific user or site will
         never be shared with other registered users.
         <br />
@@ -511,12 +508,12 @@
         <br />
         In the event that we sell or buy any business or assets, in which case we may disclose
         your personal data to the prospective seller or buyer of such business or assets.<br />
-        If SiteImpacts or substantially all of its assets are acquired by a third party,
+        If EcoCyclus or substantially all of its assets are acquired by a third party,
         in which case personal data held by it about its registered users will be one of
         the transferred assets.<br />
         If we are under a duty to disclose or share your personal data in order to comply
         with any legal obligation, or in order to enforce or apply our general terms of
-        use and other agreements; or to protect the rights, property, or safety of SiteImpacts,
+        use and other agreements; or to protect the rights, property, or safety of EcoCyclus,
         our registered users, or others. This includes exchanging information with other
         companies and organisations for the purposes of fraud protection and credit risk
         reduction.<br />
@@ -532,7 +529,7 @@
         party for such purposes.<br />
         You can exercise your right to prevent such processing by ticking certain boxes
         on the forms we use to collect your data. You can also exercise the right at any
-        time by contacting us at info@SiteImpacts.com.<br />
+        time by contacting us at info@EcoCyclus.com.<br />
         Our web application may, from time to time, contain links to and from the websites of our
         partner networks, advertisers and affiliates. If you follow a link to any of these
         websites, please note that these websites have their own privacy policies and that
@@ -544,7 +541,7 @@
         ACCESS TO INFORMATION
         <br />
         <br />
-        The Act gives you the right to access information SiteImpacts holds about you. You
+        The Act gives you the right to access information EcoCyclus holds about you. You
         simply need to comply with the Act to obtain information about you from us. We may
         need to charge you a fee of £10 to meet our costs in providing you with details
         of the information we hold about you. Thank you for your understanding.
@@ -562,10 +559,10 @@
         <br />
         <br />
         We really do welcome any questions, comments and requests you may have regarding
-        this privacy policy. Simply contact us at info@SiteImpacts.com.
+        this privacy policy. Simply contact us at info@EcoCyclus.com.
         <br />
         <br />
-        We hope you will enjoy SiteImpacts!
+        We hope you will enjoy EcoCyclus!
         <br />
         <br />
     </div>

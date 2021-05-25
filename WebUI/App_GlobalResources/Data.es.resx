@@ -154,7 +154,7 @@
     <value>Promedio</value>
   </data>
   <data name="BillingAddress" xml:space="preserve">
-    <value>Domicilio de Pago</value>
+    <value>Domicilio de facturación</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Cancelar</value>
@@ -169,7 +169,7 @@
     <value>CO2 [Totales por Protocolos]</value>
   </data>
   <data name="ChartCO2CompositionBySites" xml:space="preserve">
-    <value>CO2 [Totales por Clasificación]</value>
+    <value>CO2 [Totales por Sitio]</value>
   </data>
   <data name="ChartCO2CompositionByTypes" xml:space="preserve">
     <value>CO2 [Total por Tipos]</value>
@@ -235,16 +235,16 @@
     <value>Agua [Suma]</value>
   </data>
   <data name="ChooseLanguage" xml:space="preserve">
-    <value>Seleccione un idioma preferido</value>
+    <value>Seleccionar idioma preferido</value>
   </data>
   <data name="ChoosePicture" xml:space="preserve">
-    <value>Elija una Foto</value>
+    <value>Escoger una Foto</value>
   </data>
   <data name="City" xml:space="preserve">
     <value>Ciudad</value>
   </data>
   <data name="Client" xml:space="preserve">
-    <value>Cliente</value>
+    <value>Cliente (Sitios de terceros)</value>
   </data>
   <data name="CO2" xml:space="preserve">
     <value>CO2</value>
@@ -274,7 +274,7 @@
     <value>Modificar Organización</value>
   </data>
   <data name="CompanyName" xml:space="preserve">
-    <value>Nombre de la Organización</value>
+    <value>Nombre</value>
   </data>
   <data name="Consumption" xml:space="preserve">
     <value>Consumo</value>
@@ -295,7 +295,7 @@
     <value>Leer mas</value>
   </data>
   <data name="Copyright" xml:space="preserve">
-    <value>© 2021 EcoCyclus. Todos los derechos reservados. Queda terminantemente prohibido copiar, reproducir, difundir, publicar o modificar cualquier material o software incluido en este sitio o en cualquier soporte derivado del mismo sin previo consentimiento expreso y escrito de EcoCyclus.</value>
+    <value>© 2020 EcoCyclus. Todos los derechos reservados. Ninguna parte de este sitio puede reproducirse sin nuestro permiso por escrito.</value>
   </data>
   <data name="Count" xml:space="preserve">
     <value>Cuenta</value>
@@ -352,7 +352,7 @@
     <value>Factores de Emisión CO2</value>
   </data>
   <data name="EFsLink" xml:space="preserve">
-    <value>Obtenga el Listado de Factores de Emisión para éste Sitio</value>
+    <value>Listado de Factores de Emisión para éste Sitio</value>
   </data>
   <data name="Electricity" xml:space="preserve">
     <value>Electricidad</value>
@@ -376,7 +376,7 @@
     <value>Fecha de Vencimiento</value>
   </data>
   <data name="ExportToPDF" xml:space="preserve">
-    <value>Exporta Formato PDF</value>
+    <value>Exportar a PDF</value>
   </data>
   <data name="Facebook" xml:space="preserve">
     <value>Facebook</value>
@@ -397,7 +397,7 @@
     <value>Superficie (m2)</value>
   </data>
   <data name="Footer" xml:space="preserve">
-    <value>© 2021 EcoCyclus. Todos los derechos reservados. Queda terminantemente prohibido copiar, reproducir, difundir, publicar o modificar cualquier material o software incluido en este sitio o en cualquier soporte derivado del mismo sin previo consentimiento expreso y escrito de EcoCyclus.</value>
+    <value>© © 2020 EcoCyclus. Todos los derechos reservados. Ninguna parte de este sitio puede reproducirse sin nuestro permiso por escrito.</value>
   </data>
   <data name="Frequency" xml:space="preserve">
     <value>Frecuencia de Carga Predeterminada</value>
@@ -424,7 +424,7 @@
     <value>soporte@ecocyclus.com</value>
   </data>
   <data name="HelpEmpty" xml:space="preserve">
-    <value>Disculpe!  No hay información de ayuda para este elemento.</value>
+    <value>Disculpe! No hay información de ayuda para este elemento.</value>
   </data>
   <data name="HelpPostfix" xml:space="preserve">
     <value>(?)</value>
@@ -478,7 +478,7 @@
     <value>KPI [CO2]</value>
   </data>
   <data name="KPIM2Unit" xml:space="preserve">
-    <value />
+    <value>m2</value>
   </data>
   <data name="KPIMoney" xml:space="preserve">
     <value>KPI [CO2 por moneda]</value>
@@ -580,7 +580,7 @@
     <value>Modificar</value>
   </data>
   <data name="MonthlyEvolutions" xml:space="preserve">
-    <value>Evolución </value>
+    <value>Evolución</value>
   </data>
   <data name="MonthlyFee" xml:space="preserve">
     <value>Cuota Mensual</value>
@@ -601,7 +601,7 @@
     <value>--/--/--</value>
   </data>
   <data name="NoItems" xml:space="preserve">
-    <value>No hay artículos para mostrar</value>
+    <value>No hay ítems para mostrar</value>
   </data>
   <data name="NoStartDate" xml:space="preserve">
     <value>--/--/--</value>
@@ -676,7 +676,7 @@
     <value>Versión Impresa</value>
   </data>
   <data name="ProductTitle" xml:space="preserve">
-    <value>EcoCyclus</value>
+    <value>EcoCyclus :: Sustainability Communities</value>
   </data>
   <data name="Profile" xml:space="preserve">
     <value>Perfil</value>
@@ -781,7 +781,7 @@
     <value>Finalizado</value>
   </data>
   <data name="SiteLive" xml:space="preserve">
-    <value>Activa</value>
+    <value>Activo</value>
   </data>
   <data name="SiteLiveStatus" xml:space="preserve">
     <value>Estatus Activo</value>
@@ -808,7 +808,7 @@
     <value>Agregar Sitio</value>
   </data>
   <data name="SiteType" xml:space="preserve">
-    <value>Clasificación</value>
+    <value>Tipo</value>
   </data>
   <data name="Start" xml:space="preserve">
     <value>Fecha de Inicio</value>
@@ -859,7 +859,7 @@
     <value>Semana</value>
   </data>
   <data name="Title" xml:space="preserve">
-    <value>Nombre Completo</value>
+    <value>Nombre</value>
   </data>
   <data name="To" xml:space="preserve">
     <value>Hasta</value>
@@ -943,7 +943,7 @@
     <value>Agua (L)</value>
   </data>
   <data name="Weeks" xml:space="preserve">
-    <value>Duración (días)</value>
+    <value>Duración (semanas)</value>
   </data>
   <data name="Yes" xml:space="preserve">
     <value>Si</value>

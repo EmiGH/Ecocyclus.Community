@@ -88,7 +88,7 @@ namespace CSI.Library.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a An Ecocyclus account has been generated for you.  This is your login information:[n][n]User: [user][n]Password: [password].[n][n]You can proceed to Ecocyclus and enter the platform at: [&lt;a]http://gsi.siteimpacts.com[a&gt;]http://gsi.siteimpacts.com[/a]..
+        ///   Busca una cadena traducida similar a An Ecocyclus account has been generated for you.  This is your login information:[n][n]User: [user][n]Password: [password].[n][n]You can proceed to Ecocyclus and enter the platform at: [&lt;a]http://ecocyclus.com/communities[a&gt;]http://ecocyclus.com/communities[/a]..
         /// </summary>
         internal static string AccountNewMailBody {
             get {
@@ -106,7 +106,7 @@ namespace CSI.Library.Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your recovery process has been started.[n][n]Please reset your  account password by following this link: [&lt;a]http://ecocyclus.com/Communities/Registration/PasswordReset.aspx?token=[token]&amp;language=[language][a&gt;]&gt;reset password[/a][n][n].
+        ///   Busca una cadena traducida similar a Your recovery process has been started.[n][n]Please reset your  account password by following this link: [&lt;a]http://ecocyclus.com/communities/Registration/PasswordReset.aspx?token=[token]&amp;language=[language][a&gt;]&gt;reset password[/a][n][n].
         /// </summary>
         internal static string AccountRecoveryMailBody {
             get {
