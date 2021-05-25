@@ -96,7 +96,7 @@
                             
                             <asp:Panel ID="pnlMenuHeader" runat="server">
                                 
-                                <asp:HyperLink ID="hplHelp" runat="server" NavigateUrl="http://www.siteimpacts.com/support.htm" Target="_blank" CssClass="lnkSupport"></asp:HyperLink>
+                                <asp:HyperLink ID="hplHelp" runat="server" NavigateUrl="http://www.ecocyclus.com/communities" Target="_blank" CssClass="lnkSupport"></asp:HyperLink>
                                 <div class="pnlSeparatorUser"></div>                                
                                 <asp:LinkButton ID="lnkCompany" runat="server" OnClientClick="toogleCompanyPanel(); return false;"></asp:LinkButton>
                                 <div class="pnlSeparatorUser"></div>
@@ -184,15 +184,15 @@
         <footer>
             <div class="wrap">
                 <div class="divSocial">
-                     <a href="https://www.facebook.com/constructionsiteimpacts" target="_blank" class="facebook">
+                     <a href="https://www.facebook.com/ecocyclus" target="_blank" class="facebook">
                         <div class="bottom"></div>
                         <div class="top"></div>
                      </a>
-                     <a href="https://twitter.com/SiteImpacts" target="_blank" class="twitter">
+                     <a href="https://twitter.com/Ecocyclus" target="_blank" class="twitter">
                         <div class="bottom"></div>
                         <div class="top"></div>
                      </a>
-                     <a href="http://www.linkedin.com/company/siteimpacts?trk=top_nav_home"  target="_blank" class="linkedin">
+                     <a href="http://www.linkedin.com/company/ecocyclus?trk=top_nav_home"  target="_blank" class="linkedin">
                         <div class="bottom"></div>
                         <div class="top"></div>
                      </a>

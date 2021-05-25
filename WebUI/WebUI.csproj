@@ -319,20 +319,20 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Data.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Data.es-ar.designer.cs">
+    <Compile Include="App_GlobalResources\Data.es.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Data.es-ar.resx</DependentUpon>
+      <DependentUpon>Data.es.resx</DependentUpon>
     </Compile>
     <Compile Include="App_GlobalResources\Helper.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Helper.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_GlobalResources\Helper.es-ar.designer.cs">
+    <Compile Include="App_GlobalResources\Helper.es.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Helper.es-ar.resx</DependentUpon>
+      <DependentUpon>Helper.es.resx</DependentUpon>
     </Compile>
     <Compile Include="App_GlobalResources\Messages.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -343,10 +343,10 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="App_Data\Common.cs" />
-    <Compile Include="App_GlobalResources\Messages.es-ar.designer.cs">
+    <Compile Include="App_GlobalResources\Messages.es.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Messages.es-ar.resx</DependentUpon>
+      <DependentUpon>Messages.es.resx</DependentUpon>
     </Compile>
     <Compile Include="Console\Common\ImageViewer.aspx.cs">
       <DependentUpon>ImageViewer.aspx</DependentUpon>
@@ -893,9 +893,9 @@
     <None Include="Properties\PublishProfiles\Ecocyclus.pubxml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_GlobalResources\Data.es-ar.resx">
+    <Content Include="App_GlobalResources\Data.es.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
-      <LastGenOutput>Data.es-ar.designer.cs</LastGenOutput>
+      <LastGenOutput>Data.es.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
@@ -912,16 +912,16 @@
       <LastGenOutput>Helper.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="App_GlobalResources\Helper.es-ar.resx">
+    <Content Include="App_GlobalResources\Helper.es.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
-      <LastGenOutput>Helper.es-ar.designer.cs</LastGenOutput>
+      <LastGenOutput>Helper.es.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_GlobalResources\Messages.es-ar.resx">
+    <Content Include="App_GlobalResources\Messages.es.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
-      <LastGenOutput>Messages.es-ar.designer.cs</LastGenOutput>
+      <LastGenOutput>Messages.es.designer.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <PropertyGroup>

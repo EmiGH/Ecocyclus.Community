@@ -124,7 +124,7 @@
     <value>La herramienta le enviará un aviso si la lectura del medidor no se carga a la fecha de vencimiento. Introduzca la cantidad de días posteriores a la fecha de vencimiento que le gustaría recibir el aviso.</value>
   </data>
   <data name="MeterElectricityAdd_aspx_cphContent_lblAlertBefore" xml:space="preserve">
-    <value>Elija con cuántos días de anticipación le gustaría ser avisado sobre la lectura del medidor</value>
+    <value>Escoja con cuántos días de anticipación le gustaría ser avisado sobre la lectura del medidor</value>
   </data>
   <data name="MeterElectricityAdd_aspx_cphContent_lblAlertOnStart" xml:space="preserve">
     <value>Marque la casilla si desea recibir un mensaje cuando deba hacer la 1° lectura.</value>
@@ -133,7 +133,7 @@
     <value>Introduzca cualquier información útil sobre el medidor , tales como su ubicación, el area / lugar que cubre el servicio, por ej. , oficinas, depósitos,  talleres,  etc.</value>
   </data>
   <data name="MeterElectricityAdd_aspx_cphContent_lblFrequencyQuantity" xml:space="preserve">
-    <value>Introducir la frecuencia con la que va a leer el medidor. Si es una vez al mes , ingrese 1 y elija "Mes" en el menú desplegable de INTERVALO.</value>
+    <value>Introducir la frecuencia con la que va a leer el medidor. Si es una vez al mes, ingrese 1 y elija "Mes" en el menú desplegable de INTERVALO.</value>
   </data>
   <data name="MeterElectricityAdd_aspx_cphContent_lblFrequencyUnits" xml:space="preserve">
     <value>Seleccione el intervalo de lecturas de los medidores del menú desplegable. Seleccione " Período" si desea introducir un solo valor para cubrir todo el intervalo de tiempo .</value>
@@ -145,7 +145,7 @@
     <value>Introduzca aquí la fecha de instalación del medidor.</value>
   </data>
   <data name="MeterElectricityAdd_aspx_cphContent_lblInitialReading" xml:space="preserve">
-    <value>Introduzca la primera lectura del medidor cuando fue instalado.</value>
+    <value>Introduzca la 1° lectura del medidor cuando fue instalado.</value>
   </data>
   <data name="MeterElectricityAdd_aspx_cphContent_lblIsPhysical" xml:space="preserve">
     <value>Marque la casilla si el medidor está instalado en el lugar. Desmarque la casilla si la lectura del medidor se extrae, por ejemplo, de la factura.</value>
@@ -154,13 +154,13 @@
     <value>Esta es la unidad de medida del medidor, por lo general kWh .</value>
   </data>
   <data name="Meters_aspx_cphContent_lblMeters" xml:space="preserve">
-    <value>Seleccione el tipo de medidor para acceder a cada sección del medidor .</value>
+    <value>Seleccione el tipo de medidor para acceder a cada sección del medidor.</value>
   </data>
   <data name="MeterWaterAdd_aspx_cphContent_lblAlertAfter" xml:space="preserve">
-    <value>La herramienta le enviará un aviso si la lectura del medidor no se carga a la fecha de vencimiento. Introduzca la cantidad de días posteriores a la fecha de vencimiento que le gustaría recibir el aviso.</value>
+    <value>La herramienta le enviará un aviso si la lectura del medidor no se carga a la fecha de vencimiento. Introduzca la cantidad de días posteriores a la fecha de vencimiento que le desearía recibir el aviso.</value>
   </data>
   <data name="MeterWaterAdd_aspx_cphContent_lblAlertBefore" xml:space="preserve">
-    <value>Elija con cuántos días de anticipación le gustaría ser avisado sobre la lectura del medidor</value>
+    <value>Elija con cuántos días de anticipación desearía ser avisado sobre la lectura del medidor</value>
   </data>
   <data name="MeterWaterAdd_aspx_cphContent_lblAlertOnStart" xml:space="preserve">
     <value>Marque la casilla si desea recibir un mensaje cuando deba hacer la 1° lectura.</value>
@@ -181,7 +181,7 @@
     <value>Introduzca aquí la fecha de instalación del medidor.</value>
   </data>
   <data name="MeterWaterAdd_aspx_cphContent_lblInitialReading" xml:space="preserve">
-    <value>Introduzca la primera lectura del medidor cuando fue instalado.</value>
+    <value>Introduzca la 1° lectura del medidor cuando fue instalado.</value>
   </data>
   <data name="MeterWaterAdd_aspx_cphContent_lblIsPhysical" xml:space="preserve">
     <value>Marque la casilla si el medidor está instalado en el lugar. Desmarque la casilla si la lectura del medidor se extrae, por ejemplo, de la factura.</value>
@@ -190,63 +190,63 @@
     <value>Esta es la unidad de medida del medidor, por lo general m3 .</value>
   </data>
   <data name="ProfileChangePassword_aspx_cphContent_lblNewPassword" xml:space="preserve">
-    <value>Las contraseñas deben tener al menos 8 caracteres, incluyendo números , mayúsculas y minúsculas.</value>
+    <value>Las contraseñas deben tener al menos 8 caracteres, incluyendo números, mayúsculas y minúsculas.</value>
   </data>
   <data name="ProfileEdit_aspx_cphContent_lblEmail" xml:space="preserve">
     <value>La dirección de correo electrónico registrada, activa y válida, es su cuenta de usuario para iniciar sesión.</value>
   </data>
+ <data name="SiteAdd_aspx_cphContent_lblFloorSpace" xml:space="preserve">
+    <value>Por favor ingrese las superficie del Sitio.</value>
+  </data>
+  <data name="SiteAdd_aspx_cphContent_lblMapLocator" xml:space="preserve">
+    <value>Por favor ingrese el domicilio del Sitio.</value>
+  </data>
+  <data name="SiteAdd_aspx_cphContent_lblNumber" xml:space="preserve">
+    <value>Por favor ingrese el número de identificación del Sitio.</value>
   <data name="SiteAdd_aspx_cphContent_lblStart" xml:space="preserve">
     <value>Por favor ingrese la fecha de inicio</value>
   </data>
   <data name="SiteAdd_aspx_cphContent_lblTitle" xml:space="preserve">
     <value>Por favor ingrese el nombre del sitio.</value>
   </data>
+ <data name="SiteAdd_aspx_cphContent_lblType" xml:space="preserve">
+    <value>Por favor clasifique el Sitio en el menú desplegable.</value>
+  </data>
+  <data name="SiteAdd_aspx_cphContent_lblUnits" xml:space="preserve">
+    <value>Por favor ingrese la cantidad de empleados que trabajan en el Sitio.</value>
+  </data>
   <data name="SiteAdd_aspx_cphContent_lblValue" xml:space="preserve">
     <value>Por favor ingrese los presupuesto asignado al sitio . Este campo se puede editar en una fecha posterior si es necesario.</value>
   </data>
   <data name="SiteAdd_aspx_cphContent_lblWeeks" xml:space="preserve">
-    <value>Por favor ingrese la duración de la actividad en dias. Este campo se puede editar en una fecha posterior si es necesario.</value>
+    <value>Por favor ingrese la duración de la actividad en semanas. Este campo se puede editar en una fecha posterior si es necesario.</value>
   </data>
-  <data name="UserAdd_aspx_cphContent_lblIsActive" xml:space="preserve">
-    <value>Seleccione esta opción si desea que el usuario pueda iniciar sesión .</value>
-  </data>
-  <data name="UserAdd_aspx_cphContent_lblIsManager" xml:space="preserve">
-    <value>Seleccione esta opción si el usuario va a ser un Gerente con acceso concedido para gestionar todos los usuarios , sitios y permisos.</value>
-  </data>
-  <data name="UserAdd_aspx_cphContent_lblPassword" xml:space="preserve">
-    <value>Ingrese la contraseña de usuario. Las contraseñas deben tener al menos 8 caracteres, incluyendo números , mayúsculas y minúsculas.</value>
-  </data>
-  <data name="UserAdd_aspx_cphContent_lblEmail" xml:space="preserve">
-    <value>Ingrese una dirección de correo electrónico del usuario válido y activo. La dirección de correo electrónico registrado es el usuario de la cuenta del usuario para iniciar sesión.</value>
+<data name="UserAdd_aspx_cphContent_lblEmail" xml:space="preserve">
+    <value>Ingrese una dirección de correo electrónico de un usuario activo y válido. La dirección de correo electrónico registrada es el nombre de usuario de la cuenta de usuario para iniciar sesión.</value>
   </data>
   <data name="UserAdd_aspx_cphContent_lblEmail2" xml:space="preserve">
-    <value>Reingrese la dirección de correo electrónico, válida y activa, del usuario.</value>
+    <value>Reingrese la dirección de correo electrónico de un usuario activo y válido.</value>
   </data>
   <data name="UserAdd_aspx_cphContent_lblFirstname" xml:space="preserve">
     <value>Este campo debe ser el Nombre del usuario.</value>
   </data>
+  <data name="UserAdd_aspx_cphContent_lblIsActive" xml:space="preserve">
+    <value>Seleccione esta opción si desea que el usuario pueda iniciar sesión.</value>
+  </data>
+  <data name="UserAdd_aspx_cphContent_lblIsManager" xml:space="preserve">
+    <value>Seleccione esta opción si el usuario va a ser un Gerente con acceso concedido para gestionar todos los usuarios , sitios y permisos.</value>
+  </data>
+ </data>
   <data name="UserAdd_aspx_cphContent_lblLanguage" xml:space="preserve">
-    <value>Seleccione el idioma del usuario .</value>
+    <value>Seleccione el idioma del usuario.</value>
   </data>
   <data name="UserAdd_aspx_cphContent_lblLastname" xml:space="preserve">
     <value>Este campo debe ser el Apellido del usuario.</value>
   </data>
+  <data name="UserAdd_aspx_cphContent_lblPassword" xml:space="preserve">
+    <value>Ingrese la contraseña de usuario. Las contraseñas deben tener al menos 8 caracteres, incluyendo números , mayúsculas y minúsculas.</value>
+  </data>
   <data name="UserAdd_aspx_cphContent_lblPassword2" xml:space="preserve">
     <value>Reingrese la contraseña del usuario. Las contraseñas deben tener al menos 8 caracteres, incluyendo números , mayúsculas y minúsculas.</value>
-  </data>
-  <data name="SiteAdd_aspx_cphContent_lblFloorSpace" xml:space="preserve">
-    <value>Por favor ingrese la superficie del sitio.</value>
-  </data>
-  <data name="SiteAdd_aspx_cphContent_lblNumber" xml:space="preserve">
-    <value>Por favor ingrese el número identificatorio del sitio.</value>
-  </data>
-  <data name="SiteAdd_aspx_cphContent_lblType" xml:space="preserve">
-    <value>Por favor clasifique al sitio en el menú desplegable.</value>
-  </data>
-  <data name="SiteAdd_aspx_cphContent_lblUnits" xml:space="preserve">
-    <value>Por favor ingrese el número de unidades del proyecto</value>
-  </data>
-  <data name="SiteAdd_aspx_cphContent_lblMapLocator" xml:space="preserve">
-    <value>Por favor ingrese el domicilio del sitio.</value>
   </data>
 </root>

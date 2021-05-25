@@ -172,7 +172,7 @@
     <value>Please retype the password</value>
   </data>
   <data name="AccountRegistrationSuccessful" xml:space="preserve">
-    <value>Your account registration process has been successfully started.  Please check your email to activate your EcoCyclus account.</value>
+    <value>Your account registration process has been successfully started.  Please check your email to activate your account.</value>
   </data>
   <data name="AccountResetError" xml:space="preserve">
     <value>Your password reset process has not been completed due to the following error: [error]&lt;br/&gt;&lt;br/&gt;Please contact our system administrators at: &lt;a href="mailto:[mail]"&gt;[mail]&lt;/a&gt; for assistance.</value>
@@ -260,6 +260,9 @@
   </data>
   <data name="StandardSuccessful" xml:space="preserve">
     <value>The information has been successfully saved.</value>
+  </data>
+ <data name="String" xml:space="preserve">
+    <value>The account registration process has started successfully. Please check your email to activate it.</value>
   </data>
   <data name="SummaryCheck" xml:space="preserve">
     <value>Please complete all mandatory fields marked with an asterix (*) and verify the type of each data. </value>

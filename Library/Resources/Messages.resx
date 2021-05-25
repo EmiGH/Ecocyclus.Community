@@ -127,13 +127,13 @@
     <value>The email address is already registered</value>
   </data>
   <data name="AccountNewMailBody" xml:space="preserve">
-    <value>An Ecocyclus account has been generated for you.  This is your login information:[n][n]User: [user][n]Password: [password].[n][n]You can proceed to Ecocyclus and enter the platform at: [&lt;a]http://gsi.siteimpacts.com[a&gt;]http://gsi.siteimpacts.com[/a].</value>
+    <value>An Ecocyclus account has been generated for you.  This is your login information:[n][n]User: [user][n]Password: [password].[n][n]You can proceed to Ecocyclus and enter the platform at: [&lt;a]http://ecocyclus.com/communities[a&gt;]http://ecocyclus.com/communities[/a].</value>
   </data>
   <data name="AccountNewMailSubject" xml:space="preserve">
     <value>Ecocyclus:: New Account</value>
   </data>
   <data name="AccountRecoveryMailBody" xml:space="preserve">
-    <value>Your recovery process has been started.[n][n]Please reset your  account password by following this link: [&lt;a]http://ecocyclus.com/Communities/Registration/PasswordReset.aspx?token=[token]&amp;language=[language][a&gt;]&gt;reset password[/a][n][n]</value>
+    <value>Your recovery process has been started.[n][n]Please reset your  account password by following this link: [&lt;a]http://ecocyclus.com/communities/Registration/PasswordReset.aspx?token=[token]&amp;language=[language][a&gt;]&gt;reset password[/a][n][n]</value>
   </data>
   <data name="AccountRecoveryMailSubject" xml:space="preserve">
     <value>Ecocyclus :: Recovery Process</value>

@@ -154,7 +154,7 @@
     <value>This is the unit measured by the meter, usually kWh.</value>
   </data>
   <data name="Meters_aspx_cphContent_lblMeters" xml:space="preserve">
-    <value>Select the meter type to access each meter section. </value>
+    <value>Select the meter type to access each meter section.</value>
   </data>
   <data name="MeterWaterAdd_aspx_cphContent_lblAlertAfter" xml:space="preserve">
     <value>The tool will send you a reminder if the meter reading is not taken on the due date. Enter how many days after the due date you would like to be reminded.</value>
@@ -220,9 +220,9 @@
     <value>Please enter the Site Annual Budget. This field can be edited at a later date if needed.</value>
   </data>
   <data name="SiteAdd_aspx_cphContent_lblWeeks" xml:space="preserve">
-    <value />
+    <value>Please enter the duration of the activity in weeks. This field can be edited at a later date if needed.</value>
   </data>
-  <data name="UserAdd_aspx_cphContent_lblEmail" xml:space="preserve">
+ <data name="UserAdd_aspx_cphContent_lblEmail" xml:space="preserve">
     <value>Enter an active, valid user´s email address. The email address registered is the user´s account username to login .</value>
   </data>
   <data name="UserAdd_aspx_cphContent_lblEmail2" xml:space="preserve">

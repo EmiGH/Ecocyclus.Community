@@ -127,13 +127,13 @@
     <value>La dirección de correo ya fue registrada.</value>
   </data>
   <data name="AccountNewMailBody" xml:space="preserve">
-    <value>Se ha generado una cuenta en Ecocyclus para usted.  Esta es su información de acceso:[n][n]Usuario: [user][n]Contraseña: [password].[n][n]Usted puede continuar con Ecocyclus e ingresar a la plataforma en: [&lt;a]http://ecocyclus.com[a&gt;]http://ecocyclus.com[/a].</value>
+    <value>Se ha generado una cuenta en Ecocyclus para usted.  Esta es su información de acceso:[n][n]Usuario: [user][n]Contraseña: [password].[n][n]Usted puede continuar con Ecocyclus e ingresar a la plataforma en: [&lt;a]http://ecocyclus.com/communities[a&gt;]http://ecocyclus.com/communities[/a].</value>
   </data>
   <data name="AccountNewMailSubject" xml:space="preserve">
     <value>Ecocyclus :: Cuenta Nueva</value>
   </data>
   <data name="AccountRecoveryMailBody" xml:space="preserve">
-    <value>Se ha iniciado el proceso de recuperación.[n][n]Por  Por favor, restablezca la contraseña de su cuenta en el siguiente enlace: [&lt;a]http://ecocyclus.com/Communities/Registration/PasswordReset.aspx?token=[token]&amp;language=[language][a&gt;]&gt;restablecer contraseña[/a][n][n]</value>
+    <value>Se ha iniciado el proceso de recuperación.[n][n]Por  Por favor, restablezca la contraseña de su cuenta en el siguiente enlace: [&lt;a]http://ecocyclus.com/communities/Registration/PasswordReset.aspx?token=[token]&amp;language=[language][a&gt;]&gt;restablecer contraseña[/a][n][n]</value>
   </data>
   <data name="AccountRecoveryMailSubject" xml:space="preserve">
     <value>Ecocyclus :: Proceso de Recuperación</value>

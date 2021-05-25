@@ -145,7 +145,7 @@
     <value>Alerts</value>
   </data>
   <data name="Amount" xml:space="preserve">
-    <value>Amount (VAT Included)</value>
+    <value>Amount</value>
   </data>
   <data name="Annexes" xml:space="preserve">
     <value>Annex Data</value>
@@ -244,7 +244,7 @@
     <value>City</value>
   </data>
   <data name="Client" xml:space="preserve">
-    <value>Client</value>
+    <value>Client (Third party sites)</value>
   </data>
   <data name="CO2" xml:space="preserve">
     <value>CO2</value>
@@ -426,6 +426,7 @@
   <data name="HelpEmpty" xml:space="preserve">
     <value>Sorry! There is no help information for this element.</value>
   </data>
+
   <data name="HelpPostfix" xml:space="preserve">
     <value>(?)</value>
   </data>

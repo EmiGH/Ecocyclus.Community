@@ -214,10 +214,10 @@
     <value>El rango de fechas no es válida.</value>
   </data>
   <data name="ErrorNoEFforCountry" xml:space="preserve">
-    <value>No hay factor de emisión para el sitio del país</value>
+    <value>No hay factor de emisión para el país del Sitio.</value>
   </data>
   <data name="ErrorTitle" xml:space="preserve">
-    <value>Se produce un error.</value>
+    <value>Se produjo un error.</value>
   </data>
   <data name="FirstTimeGuideApp" xml:space="preserve">
     <value>Parece ser su primera vez en EcoCyclus.&lt;br/&gt;Por favor continúe con "Agregar Sitio" para registrar sus sitios.</value>
