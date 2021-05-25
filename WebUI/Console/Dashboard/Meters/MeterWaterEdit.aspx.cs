@@ -15,14 +15,16 @@ namespace CSI.WebUI.Console.Dashboard.Meters
 
         protected void Page_Init(object sender, EventArgs e)
         {
+            _Meter = I.GetWaterMeter(Convert.ToInt64(Request.QueryString["Meter"].ToString()));
+            _Site = (Library.Objects.Sites.SiteMineOpen)_Meter.Site;
+
             //Permissions
             if (_Site.CurrentPermission() != Library.Security.Authority.PermissionTypes.SiteManager)
             {
                 throw new ApplicationException(Resources.Messages.AccessDenied);
             }
 
-            _Meter = I.GetWaterMeter(Convert.ToInt64(Request.QueryString["Meter"].ToString()));
-            _Site = (Library.Objects.Sites.SiteMineOpen)_Meter.Site;
+
             BindControls();
         }
         protected void Page_Load(object sender, EventArgs e)

@@ -14,16 +14,15 @@ namespace CSI.WebUI.Console.Dashboard.Meters
         private Library.Objects.Sites.SiteMineOpen _Site;
 
         protected void Page_Init(object sender, EventArgs e)
-        {
+        {          
+            _Meter = I.GetFuelMeter(Convert.ToInt64(Request.QueryString["Meter"].ToString()));
+            _Site = (Library.Objects.Sites.SiteMineOpen)_Meter.Site;
 
             //Permissions
             if (_Site.CurrentPermission() != Library.Security.Authority.PermissionTypes.SiteManager)
             {
                 throw new ApplicationException(Resources.Messages.AccessDenied);
             }
-                   
-            _Meter = I.GetFuelMeter(Convert.ToInt64(Request.QueryString["Meter"].ToString()));
-            _Site = (Library.Objects.Sites.SiteMineOpen)_Meter.Site;
 
             BindControls();
         }
