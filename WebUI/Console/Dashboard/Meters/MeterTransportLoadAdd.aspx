@@ -5,6 +5,8 @@
 <%@ Register TagPrefix="rad" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
 
 <asp:Content ID="cntMain" ContentPlaceHolderID="cphContent" runat="server">
+    
+    <script type="text/javascript" src="../../../Scripts/map.js"></script>
     <script type="text/javascript">
 
         //*********************************************************//
@@ -215,7 +217,7 @@
             </div>
             <div class="clear">
             </div>
-            <div class="divColumn column4" style="height: 30px !important">
+            <div class="divColumn column4" style="height: 30px !important; display: none; visibility: hidden;">
                 <asp:Label ID="lblLoadInputType" runat="server" CssClass="lblTitle"></asp:Label>
                 <div id="divLoadType">
                     <asp:CustomValidator ID="cvLocation" runat="server" ValidationGroup="Load" EnableClientScript="true"
@@ -224,7 +226,7 @@
                     <asp:RadioButton ID="rdLocation" runat="server" GroupName="LoadType" />
                 </div>
             </div>
-            <div class="divColumn column4" style="height: 30px !important">
+            <div class="divColumn column4" style="height: 30px !important; display: none; visibility: hidden;">
                 <asp:Label ID="lblLoadHeaderIsRoundtrip" runat="server" CssClass="lblTitle"></asp:Label>
                 <asp:CheckBox ID="chkIsRoundtrip" runat="server" />
             </div>
