@@ -3,13 +3,14 @@
     //$(this).css( "cursor", "help" );
 
     var _helper = $("#divHelper");
+    var _lang = _helper.attr("lang");
     var _controlId = $(this).attr("id");
     var _controlTitle = $(this).text();
     
     $.ajax({
         type: "POST",
         url: getAbsolutePath() + "/Helper",
-        data: "{'control':'" + _controlId + "', 'title':'" + _controlTitle + "'}",
+        data: "{'control':'" + _controlId + "', 'lang':'" + _lang + "', 'title':'" + _controlTitle + "'}",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         success: function (data) {

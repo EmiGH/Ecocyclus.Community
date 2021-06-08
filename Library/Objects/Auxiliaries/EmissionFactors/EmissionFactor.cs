@@ -51,7 +51,7 @@ namespace CSI.Library.Objects.Auxiliaries.EmissionFactors
         #region Public Methods
 
         public Double TotalCO2(Double value)
-        { return value * _Value; }
+        { return value * _Unit.ToPattern(_Value); }
 
         public static Dictionary<Int64, Geographic.Country> GetCountriesForElectricity(Users.UserOperatorMe I)
         {

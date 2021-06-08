@@ -329,6 +329,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Helper.resx</DependentUpon>
     </Compile>
+    <Compile Include="App_GlobalResources\Helper.en.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Helper.en.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_GlobalResources\Helper.es.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -922,6 +927,12 @@
     <Content Include="App_GlobalResources\Messages.es.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
       <LastGenOutput>Messages.es.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Helper.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Helper.en.designer.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <PropertyGroup>
