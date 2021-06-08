@@ -435,7 +435,10 @@
                 Operator="DataTypeCheck" ValidationGroup="Add" Display="Dynamic" CssClass="rfvRequested"></asp:CompareValidator>
             <asp:TextBox ID="txtUnits" runat="server" CssClass="lblValue"></asp:TextBox>
         </div>
+
+
         <!-- Details -->
+        <div style="display:none">
         <div class="clear"></div>
         <div class="divTitle">
             <asp:Label ID="lblSiteClient" runat="server"></asp:Label>
@@ -489,6 +492,9 @@
             <asp:Label ID="lblTwitter" runat="server" CssClass="lblTitle"></asp:Label>
             <asp:TextBox ID="txtTwitter" runat="server" CssClass="lblValue"></asp:TextBox>
         </div>
+        </div>
+
+
         <div class="clear"></div>
         <!-- Description -->
         <br /><br />
