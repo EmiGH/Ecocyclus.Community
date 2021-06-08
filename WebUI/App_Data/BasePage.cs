@@ -125,16 +125,22 @@ namespace CSI.WebUI
         #region Web Methods
 
         [WebMethod]
-        public static String Helper(string control, string title)
+        public static String Helper(string control, string lang, string title)
         {
+            CultureInfo ci = new CultureInfo(lang);
+            Thread.CurrentThread.CurrentCulture = ci;
+            Thread.CurrentThread.CurrentUICulture = ci;
+
             Assembly _assembly = global::System.Reflection.Assembly.Load("App_GlobalResources");
             ResourceManager _rmData = new ResourceManager("Resources.Data", _assembly);
 
             try
             {
-                String _key = GetCurrentPageName().Replace('.','_') + "_" + control;
-                String _helpContent = new ResourceManager("Resources.Helper", _assembly).GetString(_key);
+                ResourceManager _rmHelper = new ResourceManager("Resources.Helper", _assembly);
 
+                String _key = GetCurrentPageName().Replace('.','_') + "_" + control;
+                String _helpContent = _rmHelper.GetString(_key); //new ResourceManager("Resources.Helper." + lang, _assembly).GetString(_key);
+                
                 if (_helpContent != null)
                 {
                     if (_helpContent == "" && title.Contains(_rmData.GetString("HelpPostfix")))
@@ -150,7 +156,7 @@ namespace CSI.WebUI
 
                 return _helpContent;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return "";
             }

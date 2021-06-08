@@ -81,6 +81,9 @@ namespace CSI.WebUI.Console
         protected void Page_Load(object sender, EventArgs e)
         {
             Page.Title = Resources.Data.ProductTitle;
+            //Set helper language
+            divHelper.Attributes["lang"] = CurrentCultureInfo.TwoLetterISOLanguageName;
+
             SetMenu(); 
             if (!IsPostBack)
             {
@@ -92,6 +95,66 @@ namespace CSI.WebUI.Console
         #endregion
 
         #region Private Methods
+
+        internal Library.Objects.Users.UserOperatorMe I
+        { get { return MyLibrary != null ? MyLibrary.CurrentUser : null; } }
+        internal Library.Operation MyLibrary
+        {
+            get
+            {
+                if (Session["Operation"] != null)
+                    return (Library.Operation)Session["Operation"];
+
+                HttpCookie _authCookie = Request.Cookies["Credential"];
+                if (_authCookie != null)
+                {
+                    FormsAuthenticationTicket _ticket = FormsAuthentication.Decrypt(_authCookie.Value);
+                    if (_ticket != null)
+                    {
+
+                        String[] _data = _ticket.UserData.Split('|');
+                        if (_data[0].ToString() != "")
+                        {
+                            if (Boolean.Parse(_data[4].ToString()))
+                            {
+                                //Keep me logged in
+                                String _user = _data[0].ToString();
+                                String _password = _data[1].ToString();
+                                String _language = _data[2].ToString();
+
+                                CSI.Library.Operation _operation = new CSI.Library.Operation(_user, _password, _language, Request.ServerVariables["LOCAL_ADDR"]);
+                                Session["Operation"] = _operation;
+
+                                return (Library.Operation)Session["Operation"];
+                            }
+                        }
+
+                    }
+                }
+
+                return null;
+            }
+        }
+        internal CultureInfo CurrentCultureInfo
+        {
+            get
+            {
+                if (Session["CurrentLanguage"] == null)
+                {
+                    HttpCookie userCultureCookie = Request.Cookies["UserSelectedCulture"];
+                    if (userCultureCookie != null)
+                    {
+                        Session["CurrentLanguage"] = userCultureCookie.Value;
+                    }
+                    else
+                    {
+                        Session["CurrentLanguage"] = MyLibrary.CurrentUser.Language.IdLanguage;
+                    }
+                }
+
+                return new CultureInfo(Convert.ToString(Session["CurrentLanguage"]));
+            }
+        }
 
         private void BindControls()
         {

@@ -228,7 +228,7 @@
         <!--*********************************************** -->
         <!--***************** Helper ********************** -->
         <!--*********************************************** -->
-        <div id="divHelper" style="display:none;background-color:White;border-color:Black;padding:10px 10px 10px 10px;"></div>
+        <div id="divHelper" runat="server" style="display:none;background-color:White;border-color:Black;padding:10px 10px 10px 10px;"></div>
     
         <!--*********************************************** -->
         <!--***************** Error Handler *************** -->
