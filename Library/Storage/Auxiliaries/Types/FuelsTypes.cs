@@ -15,12 +15,14 @@ namespace CSI.Library.Storage
 
         #region Read Methods
 
-        internal IEnumerable<DbDataRecord> ReadAll(String idLanguage)
+        internal IEnumerable<DbDataRecord> ReadAllByCountry(Int64 idCountry, string idLanguage)
         {
             Database _db = DatabaseFactory.CreateDatabase();
 
-            DbCommand _dbCommand = _db.GetStoredProcCommand("FuelTypes_ReadAll");
+            DbCommand _dbCommand = _db.GetStoredProcCommand("FuelTypes_ReadAllByCountry");
+            _db.AddInParameter(_dbCommand, "IdCountry", DbType.Int64, idCountry);
             _db.AddInParameter(_dbCommand, "IdLanguage", DbType.String, idLanguage);
+
             SqlDataReader _reader = (SqlDataReader)(((RefCountingDataReader)_db.ExecuteReader(_dbCommand)).InnerReader);
 
             try

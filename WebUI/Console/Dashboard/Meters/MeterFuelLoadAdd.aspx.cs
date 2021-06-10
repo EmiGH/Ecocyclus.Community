@@ -93,7 +93,7 @@ namespace CSI.WebUI.Console.Dashboard.Meters
         private void LoadTypes()
         {
             ddlLoadTypes.Items.Clear();
-            foreach (Library.Objects.Auxiliaries.Types.FuelType _type in I.GetFuelTypes().Values)
+            foreach (Library.Objects.Auxiliaries.Types.FuelType _type in I.GetFuelTypes(_Meter.Site.Country.IdCountry).Values)
             {
                 ListItem _item = new ListItem(_type.Name, _type.IdFuelType.ToString());
                 ddlLoadTypes.Items.Add(_item);

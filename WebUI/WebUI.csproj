@@ -319,6 +319,21 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Data.resx</DependentUpon>
     </Compile>
+    <Compile Include="App_GlobalResources\Data.en-GB.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Data.en-GB.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Data.en.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Data.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Data.es-ES.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Data.es-ES.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_GlobalResources\Data.es.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -329,10 +344,20 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Helper.resx</DependentUpon>
     </Compile>
+    <Compile Include="App_GlobalResources\Helper.en-GB.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Helper.en-GB.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_GlobalResources\Helper.en.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Helper.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Helper.es-ES.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Helper.es-ES.resx</DependentUpon>
     </Compile>
     <Compile Include="App_GlobalResources\Helper.es.designer.cs">
       <AutoGen>True</AutoGen>
@@ -348,6 +373,21 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="App_Data\Common.cs" />
+    <Compile Include="App_GlobalResources\Messages.en-GB.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.en-GB.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Messages.en.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Messages.es-ES.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.es-ES.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_GlobalResources\Messages.es.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -933,6 +973,54 @@
     <Content Include="App_GlobalResources\Helper.en.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
       <LastGenOutput>Helper.en.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Data.en-GB.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Data.en-GB.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Data.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Data.en.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Data.es-ES.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Data.es-ES.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Helper.en-GB.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Helper.en-GB.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Helper.es-ES.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Helper.es-ES.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Messages.en-GB.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Messages.en-GB.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Messages.es-ES.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Messages.es-ES.designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Messages.en.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Messages.en.designer.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <PropertyGroup>

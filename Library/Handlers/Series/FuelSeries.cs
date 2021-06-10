@@ -75,7 +75,7 @@ namespace CSI.Library.Handlers
             List<KeyValuePair<String, Double>> _statistics = new List<KeyValuePair<string, double>>();
 
             Objects.Auxiliaries.Units.Unit _unit = new Units().Item(_dbSeries.ReadUnitForMeter(idMeter), credential);
-            IEnumerable<System.Data.Common.DbDataRecord> _record = _dbSeries.ReadMeterStatisticsByTypes(idMeter);
+            IEnumerable<System.Data.Common.DbDataRecord> _record = _dbSeries.ReadMeterStatisticsByTypes(idMeter, credential.CurrentLanguage.IdLanguage);
             foreach (System.Data.Common.DbDataRecord _dbRecord in _record)
             {
                 _statistics.Add(new KeyValuePair<string, double>(Convert.ToString(_dbRecord[0]), Convert.ToDouble(Common.CastNullValues(_dbRecord["Sum"], 0))));
@@ -89,7 +89,7 @@ namespace CSI.Library.Handlers
 
             Objects.Auxiliaries.Units.Unit _unit = new Units().Item(_dbSeries.ReadUnitForMeter(idMeter), credential);
             
-            IEnumerable<System.Data.Common.DbDataRecord> _record = _dbSeries.ReadMeterStatisticsByTypes(idMeter, from, to);
+            IEnumerable<System.Data.Common.DbDataRecord> _record = _dbSeries.ReadMeterStatisticsByTypes(idMeter, credential.CurrentLanguage.IdLanguage, from, to);
             foreach (System.Data.Common.DbDataRecord _dbRecord in _record)
             {
                 _statistics.Add(new KeyValuePair<string, double>(Convert.ToString(_dbRecord[0]), Convert.ToDouble(Common.CastNullValues(_dbRecord["Sum"], 0))));
@@ -103,7 +103,7 @@ namespace CSI.Library.Handlers
 
             Objects.Auxiliaries.Units.Unit _unit = new CO2Units().ItemPattern(credential);
             
-            IEnumerable<System.Data.Common.DbDataRecord> _record = _dbSeries.ReadMeterStatisticsByTypes(idMeter);
+            IEnumerable<System.Data.Common.DbDataRecord> _record = _dbSeries.ReadMeterStatisticsByTypes(idMeter, credential.CurrentLanguage.IdLanguage);
             foreach (System.Data.Common.DbDataRecord _dbRecord in _record)
             {
                 _statistics.Add(new KeyValuePair<string, double>(Convert.ToString(_dbRecord["Name"]), Convert.ToDouble(Common.CastNullValues(_dbRecord["SumCO2"], 0))));
@@ -117,7 +117,7 @@ namespace CSI.Library.Handlers
 
             Objects.Auxiliaries.Units.Unit _unit = new CO2Units().ItemPattern(credential);
             
-            IEnumerable<System.Data.Common.DbDataRecord> _record = _dbSeries.ReadMeterStatisticsByTypes(idMeter, from, to);
+            IEnumerable<System.Data.Common.DbDataRecord> _record = _dbSeries.ReadMeterStatisticsByTypes(idMeter, credential.CurrentLanguage.IdLanguage, from, to);
             foreach (System.Data.Common.DbDataRecord _dbRecord in _record)
             {
                 _statistics.Add(new KeyValuePair<string, double>(Convert.ToString(_dbRecord["Name"]), Convert.ToDouble(Common.CastNullValues(_dbRecord["SumCO2"], 0))));
@@ -409,7 +409,7 @@ namespace CSI.Library.Handlers
             
             Objects.Auxiliaries.Units.Unit _unit = new Units().Item(_dbSeries.ReadUnitForSite(idSite), credential);
             
-            IEnumerable<System.Data.Common.DbDataRecord> _record = _dbSeries.ReadSiteStatisticsByTypes(idSite);
+            IEnumerable<System.Data.Common.DbDataRecord> _record = _dbSeries.ReadSiteStatisticsByTypes(idSite, credential.CurrentLanguage.IdLanguage);
             foreach (System.Data.Common.DbDataRecord _dbRecord in _record)
             {
                 _statistics.Add(new KeyValuePair<string, double>(Convert.ToString(_dbRecord["Type"]), Convert.ToDouble(Common.CastNullValues(_dbRecord["SumCO2"], 0))));
@@ -423,7 +423,7 @@ namespace CSI.Library.Handlers
 
             Objects.Auxiliaries.Units.Unit _unit = new Units().Item(_dbSeries.ReadUnitForSite(idSite), credential);
             
-            IEnumerable<System.Data.Common.DbDataRecord> _record = _dbSeries.ReadSiteStatisticsByTypes(idSite, from, to);
+            IEnumerable<System.Data.Common.DbDataRecord> _record = _dbSeries.ReadSiteStatisticsByTypes(idSite, credential.CurrentLanguage.IdLanguage, from, to);
             foreach (System.Data.Common.DbDataRecord _dbRecord in _record)
             {
                 _statistics.Add(new KeyValuePair<string, double>(Convert.ToString(_dbRecord["Type"]), Convert.ToDouble(Common.CastNullValues(_dbRecord["SumCO2"], 0))));

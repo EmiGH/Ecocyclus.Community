@@ -118,148 +118,148 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Accept" xml:space="preserve">
-    <value>Acepto</value>
+    <value>I Accept</value>
   </data>
   <data name="Add" xml:space="preserve">
-    <value>Agregar</value>
+    <value>Add</value>
   </data>
   <data name="Address" xml:space="preserve">
-    <value>Domicilio</value>
+    <value>Address</value>
   </data>
   <data name="Agent" xml:space="preserve">
-    <value>Representante de la Organización</value>
+    <value>Organization Representative</value>
   </data>
   <data name="Agree" xml:space="preserve">
-    <value>Estoy de acuerdo</value>
+    <value>I agree</value>
   </data>
   <data name="AlertAfter" xml:space="preserve">
-    <value>Alertar después (días)</value>
+    <value>Alert After (days)</value>
   </data>
   <data name="AlertBefore" xml:space="preserve">
-    <value>Alertar antes (días)</value>
+    <value>Alert Before (days)</value>
   </data>
   <data name="AlertOnStart" xml:space="preserve">
-    <value>Alertar al inicio?</value>
+    <value>Alert on Start?</value>
   </data>
   <data name="Alerts" xml:space="preserve">
-    <value>Alertas</value>
+    <value>Alerts</value>
   </data>
   <data name="Amount" xml:space="preserve">
-    <value>Monto</value>
+    <value>Amount</value>
   </data>
   <data name="Annexes" xml:space="preserve">
-    <value>Datos anexos</value>
+    <value>Annex Data</value>
   </data>
   <data name="Average" xml:space="preserve">
-    <value>Promedio</value>
+    <value>Average</value>
   </data>
   <data name="BillingAddress" xml:space="preserve">
-    <value>Domicilio de facturación</value>
+    <value>Billing Address</value>
   </data>
   <data name="Cancel" xml:space="preserve">
-    <value>Cancelar</value>
+    <value>Cancel</value>
   </data>
   <data name="ChangePassword" xml:space="preserve">
-    <value>Cambiar contraseña</value>
+    <value>Change Password</value>
   </data>
   <data name="ChartCO2AvgMonthly" xml:space="preserve">
-    <value>CO2 [Promedio]</value>
+    <value>CO2 [Monthly Average]</value>
   </data>
   <data name="ChartCO2CompositionByProtocols" xml:space="preserve">
-    <value>CO2 [Totales por Protocolos]</value>
+    <value>CO2 [Totals by Protocols]</value>
   </data>
   <data name="ChartCO2CompositionBySites" xml:space="preserve">
-    <value>CO2 [Totales por Sitio]</value>
+    <value>CO2 [Totals by Sites]</value>
   </data>
   <data name="ChartCO2CompositionByTypes" xml:space="preserve">
-    <value>CO2 [Total por Tipos]</value>
+    <value>CO2 [Total by Types]</value>
   </data>
   <data name="ChartCO2SumMonthly" xml:space="preserve">
-    <value>CO2 [Suma]</value>
+    <value>CO2 [Monthly Sum]</value>
   </data>
   <data name="ChartCompositionByTypes" xml:space="preserve">
-    <value>Consumos [Totales por Tipos]</value>
+    <value>Consumption [Totals by Types]</value>
   </data>
   <data name="ChartElectricityAvgMonthly" xml:space="preserve">
-    <value>Electricidad [Promedio]</value>
+    <value>Electricity [Monthly Average]</value>
   </data>
   <data name="ChartElectricityLoadedSerie" xml:space="preserve">
-    <value>Electricidad [Valores Cargados]</value>
+    <value>Electricity [Loaded Values]</value>
   </data>
   <data name="ChartElectricitySumMonthly" xml:space="preserve">
-    <value>Electricidad [Suma]</value>
+    <value>Electricity [Monthly Sum]</value>
   </data>
   <data name="ChartFuelAvgMonthly" xml:space="preserve">
-    <value>Combustibles [Promedio]</value>
+    <value>Fuels [Monthly Average]</value>
   </data>
   <data name="ChartFuelLoadedSerie" xml:space="preserve">
-    <value>Combustibles [Valores Cargados]</value>
+    <value>Fuels [Loaded Values]</value>
   </data>
   <data name="ChartFuelSumMonthly" xml:space="preserve">
-    <value>Combustibles [Suma]</value>
+    <value>Fuels [Monthly Sum]</value>
   </data>
   <data name="Charts" xml:space="preserve">
-    <value>Gráficos</value>
+    <value>Charts</value>
   </data>
   <data name="ChartsCompositions" xml:space="preserve">
-    <value>Gráficos [Composición]</value>
+    <value>Charts [Compositions]</value>
   </data>
   <data name="ChartsMonthlyEvolutions" xml:space="preserve">
-    <value>Gráficos [Evolución]</value>
+    <value>Charts [Monthly Evolution]</value>
   </data>
   <data name="ChartTransportAvgMonthly" xml:space="preserve">
-    <value>Transporte [Promedio]</value>
+    <value>Transport [Monthly Average]</value>
   </data>
   <data name="ChartTransportLoadedSerie" xml:space="preserve">
-    <value>Transporte [Valores Cargados]</value>
+    <value>Transport [Loaded Values]</value>
   </data>
   <data name="ChartTransportSumMonthly" xml:space="preserve">
-    <value>Transporte [Suma]</value>
+    <value>Transport [Monthly Sum]</value>
   </data>
   <data name="ChartWasteAvgMonthly" xml:space="preserve">
-    <value>Residuos [Promedio]</value>
+    <value>Waste [Monthly Average]</value>
   </data>
   <data name="ChartWasteLoadedSerie" xml:space="preserve">
-    <value>Residuos [Valores Cargados]</value>
+    <value>Waste [Loaded Values]</value>
   </data>
   <data name="ChartWasteSumMonthly" xml:space="preserve">
-    <value>Residuos [Suma]</value>
+    <value>Waste [Monthly Sum]</value>
   </data>
   <data name="ChartWaterAvgMonthly" xml:space="preserve">
-    <value>Agua [Promedio]</value>
+    <value>Water [Monthly Average]</value>
   </data>
   <data name="ChartWaterLoadedSerie" xml:space="preserve">
-    <value>Agua [Valores Cargados]</value>
+    <value>Water [Loaded Values]</value>
   </data>
   <data name="ChartWaterSumMonthly" xml:space="preserve">
-    <value>Agua [Suma]</value>
+    <value>Water [Monthly Sum]</value>
   </data>
   <data name="ChooseLanguage" xml:space="preserve">
-    <value>Seleccionar idioma preferido</value>
+    <value>Select a preferred language</value>
   </data>
   <data name="ChoosePicture" xml:space="preserve">
-    <value>Escoger una Foto</value>
+    <value>Choose a Picture</value>
   </data>
   <data name="City" xml:space="preserve">
-    <value>Ciudad</value>
+    <value>City</value>
   </data>
   <data name="Client" xml:space="preserve">
-    <value>Cliente (Sitios de terceros)</value>
+    <value>Client (Third party sites)</value>
   </data>
   <data name="CO2" xml:space="preserve">
     <value>CO2</value>
   </data>
   <data name="CO2Generation" xml:space="preserve">
-    <value>Generación de CO2</value>
+    <value>CO2 Generation</value>
   </data>
   <data name="CO2GenerationLimit" xml:space="preserve">
-    <value>Límites de Generación de CO2</value>
+    <value>CO2 Generation Limits</value>
   </data>
   <data name="CO2GenerationLimitByMoney" xml:space="preserve">
-    <value>Generación de CO2 por Unidad Monetaria</value>
+    <value>CO2 Generation by Money Unit</value>
   </data>
   <data name="CO2GenerationLimitByMts" xml:space="preserve">
-    <value>Generación de CO2 por Unidad de Área</value>
+    <value>CO2 Generation by Space Unit</value>
   </data>
   <data name="CO2Total" xml:space="preserve">
     <value>Total CO2</value>
@@ -268,235 +268,235 @@
     <value>kg CO2e</value>
   </data>
   <data name="Company" xml:space="preserve">
-    <value>Organización</value>
+    <value>Organization</value>
   </data>
   <data name="CompanyModify" xml:space="preserve">
-    <value>Modificar Organización</value>
+    <value>Modify Organization</value>
   </data>
   <data name="CompanyName" xml:space="preserve">
-    <value>Nombre</value>
+    <value>Name</value>
   </data>
   <data name="Consumption" xml:space="preserve">
-    <value>Consumo</value>
+    <value>Consumption</value>
   </data>
   <data name="ConsumptionMonthlyLimit" xml:space="preserve">
-    <value>Límites de Consumo</value>
+    <value>Monthly Consumtion Limits</value>
   </data>
   <data name="ConsumptionMonthlyLimitByMoney" xml:space="preserve">
-    <value>Consumo por Unidad Monetaria</value>
+    <value>Consumption by Money Unit</value>
   </data>
   <data name="ConsumptionMonthlyLimitByMts" xml:space="preserve">
-    <value>Consumo por Unidad de Área</value>
+    <value>Consumption by Space Unit</value>
   </data>
   <data name="Contractor" xml:space="preserve">
     <value />
   </data>
   <data name="CookieGotoPage" xml:space="preserve">
-    <value>Leer mas</value>
+    <value>Read more</value>
   </data>
   <data name="Copyright" xml:space="preserve">
-    <value>© 2020 EcoCyclus. Todos los derechos reservados. Ninguna parte de este sitio puede reproducirse sin nuestro permiso por escrito.</value>
+    <value>© 2020 EcoCyclus. All rights reserved. No part of this site may be reproduced without our written permission.</value>
   </data>
   <data name="Count" xml:space="preserve">
-    <value>Cuenta</value>
+    <value>Count</value>
   </data>
   <data name="Country" xml:space="preserve">
-    <value>País</value>
+    <value>Country</value>
   </data>
   <data name="CreditCardCode" xml:space="preserve">
-    <value>Código de Seguridad</value>
+    <value>Security Code</value>
   </data>
   <data name="CreditCardHolderInfo" xml:space="preserve">
-    <value>Información del Titular de la Tarjeta</value>
+    <value>Card Holder Information</value>
   </data>
   <data name="CreditCardInfo" xml:space="preserve">
-    <value>Información de la Tarjeta de Crédito</value>
+    <value>Credit Card Information</value>
   </data>
   <data name="CreditCardNumber" xml:space="preserve">
-    <value>Número</value>
+    <value>Number</value>
   </data>
   <data name="Dashboard" xml:space="preserve">
-    <value>Tablero de Control</value>
+    <value>Dashboard</value>
   </data>
   <data name="Date" xml:space="preserve">
-    <value>Fecha</value>
+    <value>Date</value>
   </data>
   <data name="DefaultEF" xml:space="preserve">
-    <value>Factor de Emisión Predeterminado</value>
+    <value>Default Emission Factor</value>
   </data>
   <data name="DefaultUnit" xml:space="preserve">
-    <value>Unidad Predeterminada</value>
+    <value>Default Unit</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>Borrar</value>
+    <value>Delete</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>Comentarios</value>
+    <value>Description</value>
   </data>
   <data name="Dev" xml:space="preserve">
-    <value>Desviación</value>
+    <value>Deviation</value>
   </data>
   <data name="Distance" xml:space="preserve">
-    <value>Distancia</value>
+    <value>Distance</value>
   </data>
   <data name="Edit" xml:space="preserve">
-    <value>Editar</value>
+    <value>Edit</value>
   </data>
   <data name="EF" xml:space="preserve">
-    <value>Factor de Emisión CO2 </value>
+    <value>CO2 Emission Factor</value>
   </data>
   <data name="EFDescription" xml:space="preserve">
-    <value>Descripción del Factor de Emisión</value>
+    <value>Emission Factor Description</value>
   </data>
   <data name="EFs" xml:space="preserve">
-    <value>Factores de Emisión CO2</value>
+    <value>CO2 Emission Factors</value>
   </data>
   <data name="EFsLink" xml:space="preserve">
-    <value>Listado de Factores de Emisión para éste Sitio</value>
+    <value>Get Emission Factors List for this Site</value>
   </data>
   <data name="Electricity" xml:space="preserve">
-    <value>Electricidad</value>
+    <value>Electricity</value>
   </data>
   <data name="ElectricityUnits" xml:space="preserve">
-    <value>Electricidad (kW/h)</value>
+    <value>Electricity (kW/h)</value>
   </data>
   <data name="Email" xml:space="preserve">
-    <value>Correo Electrónico</value>
+    <value>Email</value>
   </data>
   <data name="EmailReytpe" xml:space="preserve">
-    <value>Reingresar Correo Electrónico</value>
+    <value>Retype email</value>
   </data>
   <data name="EmailUniqueMessage" xml:space="preserve">
-    <value>La dirección de correo electrónico debe ser único</value>
+    <value>The email address must be unique</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Error!</value>
   </data>
   <data name="ExpirationDate" xml:space="preserve">
-    <value>Fecha de Vencimiento</value>
+    <value>Expiration Date</value>
   </data>
   <data name="ExportToPDF" xml:space="preserve">
-    <value>Exportar a PDF</value>
+    <value>Export to PDF Format</value>
   </data>
   <data name="Facebook" xml:space="preserve">
     <value>Facebook</value>
   </data>
   <data name="Filter" xml:space="preserve">
-    <value>Filtro</value>
+    <value>Filter</value>
   </data>
   <data name="Firstname" xml:space="preserve">
-    <value>Su nombre</value>
+    <value>Firstname</value>
   </data>
   <data name="FirstValue" xml:space="preserve">
-    <value>Primer Valor</value>
+    <value>First Value</value>
   </data>
   <data name="FirstValueWarning" xml:space="preserve">
-    <value>El primer valor de lectura del medidor es la línea de base para el dispositivo y por lo tanto no generará consumos ni emisiones.</value>
+    <value>The first reading value of the meter is the baseline for the device and therefore will not generate neither consumption nor emissions.</value>
   </data>
   <data name="FloorSpace" xml:space="preserve">
-    <value>Superficie (m2)</value>
+    <value>Floor Space (m2)</value>
   </data>
   <data name="Footer" xml:space="preserve">
-    <value>© 2020 EcoCyclus. Todos los derechos reservados. Ninguna parte de este sitio puede reproducirse sin nuestro permiso por escrito.</value>
+    <value>© 2020 EcoCyclus. All rights reserved. No part of this site may be reproduced without our written permission.</value>
   </data>
   <data name="Frequency" xml:space="preserve">
-    <value>Frecuencia de Carga Predeterminada</value>
+    <value>Default Upload Frequency</value>
   </data>
   <data name="From" xml:space="preserve">
-    <value>Desde</value>
+    <value>From</value>
   </data>
   <data name="Fuels" xml:space="preserve">
-    <value>Combustibles</value>
+    <value>Fuels</value>
   </data>
   <data name="FuelsUnits" xml:space="preserve">
-    <value>Combustibles (lt)</value>
+    <value>Fuels (lt)</value>
   </data>
   <data name="FuelType" xml:space="preserve">
-    <value>Tipo de Combustible</value>
+    <value>Fuel Type</value>
   </data>
   <data name="Fullname" xml:space="preserve">
-    <value>Nombre completo</value>
+    <value>Fullname</value>
   </data>
   <data name="Help" xml:space="preserve">
-    <value>Soporte</value>
+    <value>Support</value>
   </data>
   <data name="HelpDeskMailAddress" xml:space="preserve">
-    <value>soporte@ecocyclus.com</value>
+    <value>support@ecocyclus.com</value>
   </data>
   <data name="HelpEmpty" xml:space="preserve">
-    <value>Disculpe! No hay información de ayuda para este elemento.</value>
+    <value>Sorry! There is no help information for this element.</value>
   </data>
   <data name="HelpPostfix" xml:space="preserve">
     <value>(?)</value>
   </data>
   <data name="Identification" xml:space="preserve">
-    <value>Identificación</value>
+    <value>Identification</value>
   </data>
   <data name="ImageFormat" xml:space="preserve">
-    <value>Las imágenes deben tener menos de [size] bytes y una extensión de archivo válida (jpg, png, gif or bmp).</value>
+    <value>Images must have less than [size] bytes and a valid file extension (jpg, png, gif or bmp).</value>
   </data>
   <data name="InDefaultLanguage" xml:space="preserve">
-    <value>En Español</value>
+    <value>In English</value>
   </data>
   <data name="Information" xml:space="preserve">
-    <value>Información!</value>
+    <value>Information!</value>
   </data>
   <data name="InitialDate" xml:space="preserve">
-    <value>Fecha de Inicio</value>
+    <value>Initial Date</value>
   </data>
   <data name="InitialReading" xml:space="preserve">
-    <value>Lectura de Inicio</value>
+    <value>Initial Reading</value>
   </data>
   <data name="Interval" xml:space="preserve">
-    <value>Frecuencia del Intervalo</value>
+    <value>Interval Frequency</value>
   </data>
   <data name="IsActive" xml:space="preserve">
-    <value>Está Activo?</value>
+    <value>Is Active?</value>
   </data>
   <data name="IsCompanyManager" xml:space="preserve">
-    <value>Es Gerente de la Organización?</value>
+    <value>Is Organization Manager?</value>
   </data>
   <data name="IsManager" xml:space="preserve">
-    <value>Es Gerente del Sitio?</value>
+    <value>Is Site Manager?</value>
   </data>
   <data name="IsOperator" xml:space="preserve">
-    <value>Es Operador del Sitio?</value>
+    <value>Is Site Operator?</value>
   </data>
   <data name="IsPhysical" xml:space="preserve">
-    <value>Es un medidor físico?</value>
+    <value>Is it a physical meter?</value>
   </data>
   <data name="IsPublic" xml:space="preserve">
-    <value>Es Público?</value>
+    <value>Is Public?</value>
   </data>
   <data name="IsReader" xml:space="preserve">
-    <value>Es Lector?</value>
+    <value>Is Faciltiy Reader?</value>
   </data>
   <data name="IsRoundtrip" xml:space="preserve">
-    <value>Es Ida y Vuelta?</value>
+    <value>Is Roundtrip?</value>
   </data>
   <data name="KPIM2" xml:space="preserve">
-    <value>KPI [CO2]</value>
+    <value>KPI [CO2 by area]</value>
   </data>
   <data name="KPIM2Unit" xml:space="preserve">
     <value>m2</value>
   </data>
   <data name="KPIMoney" xml:space="preserve">
-    <value>KPI [CO2 por moneda]</value>
+    <value>KPI [CO2 by currency]</value>
   </data>
   <data name="Language" xml:space="preserve">
-    <value>Idioma</value>
+    <value>Language</value>
   </data>
   <data name="LastDate" xml:space="preserve">
-    <value>Ultimo Registro</value>
+    <value>Last Recorded</value>
   </data>
   <data name="Lastname" xml:space="preserve">
-    <value>Apellido</value>
+    <value>Lastname</value>
   </data>
   <data name="LastOperator" xml:space="preserve">
-    <value>Ultimo Operador</value>
+    <value>Last Operator</value>
   </data>
   <data name="LastValue" xml:space="preserve">
-    <value>Ultimo Valor</value>
+    <value>Last Value</value>
   </data>
   <data name="linkedin" xml:space="preserve">
     <value />
@@ -511,450 +511,450 @@
     <value />
   </data>
   <data name="Load" xml:space="preserve">
-    <value>Cargar Valores</value>
+    <value>Load Values</value>
   </data>
   <data name="LoadedSerie" xml:space="preserve">
-    <value>Datos Cargados</value>
+    <value>Loaded Data</value>
   </data>
   <data name="LoadGrid" xml:space="preserve">
-    <value>Valores Cargados</value>
+    <value>Loaded Values</value>
   </data>
   <data name="Loading" xml:space="preserve">
-    <value>Cargando ...</value>
+    <value>Loading ...</value>
   </data>
   <data name="Location" xml:space="preserve">
-    <value>Ubicación</value>
+    <value>Location</value>
   </data>
   <data name="LocationPrevious" xml:space="preserve">
-    <value>Ubicación Actual:</value>
+    <value>Current Location: </value>
   </data>
   <data name="LocationSelected" xml:space="preserve">
-    <value>Ubicación Seleccionada:</value>
+    <value>Selected Location: </value>
   </data>
   <data name="Locator" xml:space="preserve">
-    <value>Localizador</value>
+    <value>Locator</value>
   </data>
   <data name="Login" xml:space="preserve">
-    <value>Entrar</value>
+    <value>Login</value>
   </data>
   <data name="LoginForgotPassword" xml:space="preserve">
-    <value>Olvido su contraseña?</value>
+    <value>Forgot your password?</value>
   </data>
   <data name="LoginKeepMeLoggedIn" xml:space="preserve">
-    <value>Seguir conectado</value>
+    <value>Keep me logged in</value>
   </data>
   <data name="Logo" xml:space="preserve">
     <value>Logo</value>
   </data>
   <data name="Manage" xml:space="preserve">
-    <value>Gestionar</value>
+    <value>Manage</value>
   </data>
   <data name="Manager" xml:space="preserve">
-    <value>Gerente</value>
+    <value>Manager</value>
   </data>
   <data name="Managers" xml:space="preserve">
-    <value>Gerentes</value>
+    <value>Managers</value>
   </data>
   <data name="MandatoryField" xml:space="preserve">
     <value>*</value>
   </data>
   <data name="MandatoryFieldExplanation" xml:space="preserve">
-    <value>Todos los campos marcados con un * son información obligatoria!</value>
+    <value>All fields marked with an * are mandatory information!</value>
   </data>
   <data name="Map" xml:space="preserve">
-    <value>Ubicaciones</value>
+    <value>Locations</value>
   </data>
   <data name="MessageBoxTitle" xml:space="preserve">
-    <value>Resultados</value>
+    <value>Results</value>
   </data>
   <data name="Meter" xml:space="preserve">
-    <value>Medidor</value>
+    <value>Meter</value>
   </data>
   <data name="Meters" xml:space="preserve">
-    <value>Medidores</value>
+    <value>Meters</value>
   </data>
   <data name="MetersAdd" xml:space="preserve">
-    <value>Agregar Medidor</value>
+    <value>Add Meter</value>
   </data>
   <data name="Modify" xml:space="preserve">
-    <value>Modificar</value>
+    <value>Modify</value>
   </data>
   <data name="MonthlyEvolutions" xml:space="preserve">
-    <value>Evolución</value>
+    <value>Monthly Evolution</value>
   </data>
   <data name="MonthlyFee" xml:space="preserve">
-    <value>Cuota Mensual</value>
+    <value>Monthly Fee</value>
   </data>
   <data name="Months" xml:space="preserve">
-    <value>Meses</value>
+    <value>Months</value>
   </data>
   <data name="Name" xml:space="preserve">
-    <value>Nombre</value>
+    <value>Name</value>
   </data>
   <data name="No" xml:space="preserve">
     <value>No</value>
   </data>
   <data name="NoAccess" xml:space="preserve">
-    <value>Sin Acceso</value>
+    <value>No Access</value>
   </data>
   <data name="NoEndDate" xml:space="preserve">
     <value>--/--/--</value>
   </data>
   <data name="NoItems" xml:space="preserve">
-    <value>No hay ítems para mostrar</value>
+    <value>There is not items to display</value>
   </data>
   <data name="NoStartDate" xml:space="preserve">
     <value>--/--/--</value>
   </data>
   <data name="Number" xml:space="preserve">
-    <value>Número</value>
+    <value>Number</value>
   </data>
   <data name="Ok" xml:space="preserve">
     <value>Ok</value>
   </data>
   <data name="Operate" xml:space="preserve">
-    <value>Operar</value>
+    <value>Operate</value>
   </data>
   <data name="Operator" xml:space="preserve">
-    <value>Operador</value>
+    <value>Operator</value>
   </data>
   <data name="Password" xml:space="preserve">
-    <value>Contraseña</value>
+    <value>Password</value>
   </data>
   <data name="PasswordCurrent" xml:space="preserve">
-    <value>Contraseñe Actual</value>
+    <value>Current Password</value>
   </data>
   <data name="PasswordNew" xml:space="preserve">
-    <value>Nueva Contraseña</value>
+    <value>New Password</value>
   </data>
   <data name="PasswordRetype" xml:space="preserve">
-    <value>Reingresar Contraseña</value>
+    <value>Retype password</value>
   </data>
   <data name="Pay" xml:space="preserve">
-    <value>Pagar</value>
+    <value>Pay</value>
   </data>
   <data name="PaymentAdd" xml:space="preserve">
-    <value>Agregar Pago</value>
+    <value>Add Payment</value>
   </data>
   <data name="PaymentAddFrom" xml:space="preserve">
-    <value>Agregar un pago para un período de tiempo anterior [currentFrom]</value>
+    <value>Add a payment for a period of time before [currentFrom]</value>
   </data>
   <data name="PaymentAddTo" xml:space="preserve">
-    <value>Agregar un pago para un período de tiempo posterior [currentTo]</value>
+    <value>Add a payment for a period of time after [currentTo]</value>
   </data>
   <data name="PaymentCurrentPeriod" xml:space="preserve">
-    <value>El actual período permitido para cargar datos va desde [currentFrom] a [currentTo].</value>
+    <value>The current period enabled for data loading goes from [currentFrom] to [currentTo].</value>
   </data>
   <data name="Payments" xml:space="preserve">
-    <value>Pagos</value>
+    <value>Payments</value>
   </data>
   <data name="PaymentTypes" xml:space="preserve">
-    <value>Tarjeta</value>
+    <value>Card</value>
   </data>
   <data name="Performance" xml:space="preserve">
-    <value>Desempeño</value>
+    <value>Performance</value>
   </data>
   <data name="Permissions" xml:space="preserve">
-    <value>Permisos</value>
+    <value>Permissions</value>
   </data>
   <data name="PermissionsAvailable" xml:space="preserve">
-    <value>Disponible</value>
+    <value>Available</value>
   </data>
   <data name="PermissionsGranted" xml:space="preserve">
-    <value>Concedido</value>
+    <value>Granted</value>
   </data>
   <data name="Picture" xml:space="preserve">
-    <value>Imagen</value>
+    <value>Picture</value>
   </data>
   <data name="PlateNumber" xml:space="preserve">
-    <value>Identificación</value>
+    <value>Plate Number</value>
   </data>
   <data name="Print" xml:space="preserve">
-    <value>Imprimir</value>
+    <value>Print</value>
   </data>
   <data name="PrintableVersion" xml:space="preserve">
-    <value>Versión Impresa</value>
+    <value>Printable Version</value>
   </data>
   <data name="ProductTitle" xml:space="preserve">
     <value>EcoCyclus :: Sustainability Communities</value>
   </data>
   <data name="Profile" xml:space="preserve">
-    <value>Perfil</value>
+    <value>Profile</value>
   </data>
   <data name="ProfileModify" xml:space="preserve">
-    <value>Modificar Perfil</value>
+    <value>Modify Profile</value>
   </data>
   <data name="Properties" xml:space="preserve">
-    <value>Propiedades</value>
+    <value>Properties</value>
   </data>
   <data name="Protocols" xml:space="preserve">
-    <value>Protocolos</value>
+    <value>Protocols</value>
   </data>
   <data name="Reading" xml:space="preserve">
-    <value>Lectura</value>
+    <value>Reading</value>
   </data>
   <data name="Recover" xml:space="preserve">
-    <value>Recuperar</value>
+    <value>Recover</value>
   </data>
   <data name="Register" xml:space="preserve">
-    <value>Registrarse</value>
+    <value>Sign up</value>
   </data>
   <data name="RegisterLocationWarning" xml:space="preserve">
-    <value>Por favor seleccione el icono de ubicación.</value>
+    <value>Please click on the pinpoint icon.</value>
   </data>
   <data name="RegisterPasswordWarning" xml:space="preserve">
-    <value>La clave debe tener al menos 8 caracteres con una mayúscula, una minúscula y un número.</value>
+    <value>Password must have al least 8 characters with an uppercase letter, a lowercase letter and a number.</value>
   </data>
   <data name="RegistrationAgree" xml:space="preserve">
-    <value>Al hacer clic en Registrarse, usted acepta nuestras &lt;ahref="/Registration/DataPolicy.aspx"&gt;Condiciones &lt;/a&gt; y ha leído nuestra &lt;ahref="/Registration/DataPolicy.aspx"&gt;Política de Uso de Datos&lt;/a&gt;, incluido el uso de cookies.</value>
+    <value>By clicking Sign Up, you agree to our &lt;a href="/Registration/DataPolicy.aspx"&gt;Terms&lt;/a&gt; and that you have read our &lt;a href="/Registration/DataPolicy.aspx"&gt;Data Use Policy&lt;/a&gt;.</value>
   </data>
   <data name="RegistrationCompanyName" xml:space="preserve">
-    <value>El nombre de su organización</value>
+    <value>Your organization´s name</value>
   </data>
   <data name="RegistrationEmail" xml:space="preserve">
-    <value>Su correo electrónico</value>
+    <value>Your email address</value>
   </data>
   <data name="RegistrationEmailRetype" xml:space="preserve">
-    <value>Reingrese su correo electrónico</value>
+    <value>Retype your email address</value>
   </data>
   <data name="RegistrationLocation" xml:space="preserve">
-    <value>La ubicación de su organización</value>
+    <value>Your organization´s location</value>
   </data>
   <data name="RegistrationPasswordRetype" xml:space="preserve">
-    <value>Reingrese su contraseña</value>
+    <value>Retype your password</value>
   </data>
   <data name="RememberMe" xml:space="preserve">
-    <value>No cerrar sesión</value>
+    <value>Remember Me</value>
   </data>
   <data name="Remove" xml:space="preserve">
-    <value>Eliminar</value>
+    <value>Remove</value>
   </data>
   <data name="Reports" xml:space="preserve">
-    <value>Informes</value>
+    <value>Reports</value>
   </data>
   <data name="Reset" xml:space="preserve">
-    <value>Reiniciar</value>
+    <value>Reset</value>
   </data>
   <data name="Responsible" xml:space="preserve">
-    <value>Responsable</value>
+    <value>Responsible</value>
   </data>
   <data name="Roundtrip" xml:space="preserve">
-    <value>Ida y vuelta</value>
+    <value>Roundtrip</value>
   </data>
   <data name="Save" xml:space="preserve">
-    <value>Guardar</value>
+    <value>Save</value>
   </data>
   <data name="Search" xml:space="preserve">
-    <value>Buscar</value>
+    <value>Search</value>
   </data>
   <data name="Select" xml:space="preserve">
-    <value>Seleccionar</value>
+    <value>Select</value>
   </data>
   <data name="Serie" xml:space="preserve">
-    <value>Serie</value>
+    <value>Series</value>
   </data>
   <data name="Series" xml:space="preserve">
     <value>Series</value>
   </data>
   <data name="SetConsumption" xml:space="preserve">
-    <value>Ingresar Valores de Consumo</value>
+    <value>Enter Consumption Values</value>
   </data>
   <data name="SetGrid" xml:space="preserve">
-    <value>Establecer Tabla para Carga</value>
+    <value>Set Load Grid</value>
   </data>
   <data name="SetReading" xml:space="preserve">
-    <value>Ingresar Valores de Lectura</value>
+    <value>Enter Reading Values</value>
   </data>
   <data name="SetupFee" xml:space="preserve">
-    <value>Costo de Alta (por única vez)</value>
+    <value>Setup Fee (First Time Only)</value>
   </data>
   <data name="SetupFeePaid" xml:space="preserve">
-    <value>Ya pagado</value>
+    <value>Already paid</value>
   </data>
   <data name="SignOff" xml:space="preserve">
-    <value>Salir</value>
+    <value>Sign Out</value>
   </data>
   <data name="Site" xml:space="preserve">
-    <value>Sitio</value>
+    <value>Site</value>
   </data>
   <data name="SiteClose" xml:space="preserve">
-    <value>Cerrar</value>
+    <value>Close Site</value>
   </data>
   <data name="SiteClosed" xml:space="preserve">
-    <value>Cerrado</value>
+    <value>Closed Site</value>
   </data>
   <data name="SiteFinished" xml:space="preserve">
-    <value>Finalizado</value>
+    <value>Finished Site</value>
   </data>
   <data name="SiteLive" xml:space="preserve">
-    <value>Activo</value>
+    <value>Live Site</value>
   </data>
   <data name="SiteLiveStatus" xml:space="preserve">
-    <value>Estatus Activo</value>
+    <value>Live Status</value>
   </data>
   <data name="SiteLoadStatus" xml:space="preserve">
-    <value>Estatus Cargando</value>
+    <value>Management Status</value>
   </data>
   <data name="SiteModify" xml:space="preserve">
-    <value>Modificar</value>
+    <value>Modify Site</value>
   </data>
   <data name="SiteOpen" xml:space="preserve">
-    <value>Abrir</value>
+    <value>Open Site</value>
   </data>
   <data name="SiteOpened" xml:space="preserve">
-    <value>Abierto</value>
+    <value>Opened Site</value>
   </data>
   <data name="SiteRemove" xml:space="preserve">
-    <value>Eliminar</value>
+    <value>Remove Site</value>
   </data>
   <data name="Sites" xml:space="preserve">
-    <value>Sitios</value>
+    <value>Sites</value>
   </data>
   <data name="SitesAdd" xml:space="preserve">
-    <value>Agregar Sitio</value>
+    <value>Add Site</value>
   </data>
   <data name="SiteType" xml:space="preserve">
-    <value>Tipo</value>
+    <value>Type</value>
   </data>
   <data name="Start" xml:space="preserve">
-    <value>Fecha de Inicio</value>
+    <value>Start Date</value>
   </data>
   <data name="Stats" xml:space="preserve">
-    <value>Estadísticas</value>
+    <value>Statistics</value>
   </data>
   <data name="Status" xml:space="preserve">
-    <value>Estatus</value>
+    <value>Status</value>
   </data>
   <data name="Subtotal" xml:space="preserve">
     <value>Subtotal</value>
   </data>
   <data name="Success" xml:space="preserve">
-    <value>Bien hecho!</value>
+    <value>Success!</value>
   </data>
   <data name="Sum" xml:space="preserve">
-    <value>Suma</value>
+    <value>Sum</value>
   </data>
   <data name="Targets" xml:space="preserve">
-    <value>Objetivos</value>
+    <value>Targets</value>
   </data>
   <data name="TargetsModify" xml:space="preserve">
-    <value>Modificar Objetivos</value>
+    <value>Modify Targets</value>
   </data>
   <data name="TargetsNewValues" xml:space="preserve">
-    <value>Ingresar Nuevos Valores</value>
+    <value>Enter New Values</value>
   </data>
   <data name="Telephone" xml:space="preserve">
-    <value>Teléfono</value>
+    <value>Telephone</value>
   </data>
   <data name="TimeUnit" xml:space="preserve">
-    <value>Intervalo</value>
+    <value>Interval</value>
   </data>
   <data name="TimeUnitDay" xml:space="preserve">
-    <value>Día</value>
+    <value>Day</value>
   </data>
   <data name="TimeUnitMonth" xml:space="preserve">
-    <value>Mes</value>
+    <value>Month</value>
   </data>
   <data name="TimeUnitPeriod" xml:space="preserve">
-    <value>Período</value>
+    <value>Period</value>
   </data>
   <data name="TimeUnitYear" xml:space="preserve">
-    <value>Año</value>
+    <value>Year</value>
   </data>
   <data name="TimeuUnitWeek" xml:space="preserve">
-    <value>Meses</value>
+    <value>Week</value>
   </data>
   <data name="Title" xml:space="preserve">
-    <value>Nombre</value>
+    <value>Title</value>
   </data>
   <data name="To" xml:space="preserve">
-    <value>Hasta</value>
+    <value>To</value>
   </data>
   <data name="Total" xml:space="preserve">
     <value>Total</value>
   </data>
   <data name="Translations" xml:space="preserve">
-    <value>Traducciones</value>
+    <value>Translations</value>
   </data>
   <data name="Transport" xml:space="preserve">
-    <value>Transporte</value>
+    <value>Transport</value>
   </data>
   <data name="TransportInputType" xml:space="preserve">
-    <value>Tipo de Entrada</value>
+    <value>Input Type</value>
   </data>
   <data name="TransportType" xml:space="preserve">
-    <value>Tipo de Transporte</value>
+    <value>Transport Type</value>
   </data>
   <data name="TransportUnits" xml:space="preserve">
-    <value>Transporte (km)</value>
+    <value>Transport (km)</value>
   </data>
   <data name="Twitter" xml:space="preserve">
     <value>Twitter</value>
   </data>
   <data name="Types" xml:space="preserve">
-    <value>Tipos</value>
+    <value>Types</value>
   </data>
   <data name="Unit" xml:space="preserve">
-    <value>Unidad</value>
+    <value>Unit</value>
   </data>
   <data name="Units" xml:space="preserve">
-    <value>Cantidad de Empleados</value>
+    <value>Number of Employees</value>
   </data>
   <data name="Url" xml:space="preserve">
-    <value>Sitio Web</value>
+    <value>Website</value>
   </data>
   <data name="UrlFormat" xml:space="preserve">
-    <value>Las direcciones Url deben tener un formato válido (por ej.: http://www.yoursite.com)</value>
+    <value>Url addresses must have a valid format (i.e.: http://www.yoursite.com)</value>
   </data>
   <data name="UserModify" xml:space="preserve">
-    <value>Modificar Usuario</value>
+    <value>Modify User</value>
   </data>
   <data name="UserRemove" xml:space="preserve">
-    <value>Eliminar Usuario</value>
+    <value>Remove User</value>
   </data>
   <data name="Users" xml:space="preserve">
-    <value>Usuarios</value>
+    <value>Users</value>
   </data>
   <data name="UsersAdd" xml:space="preserve">
-    <value>Agregar Usuario</value>
+    <value>Add User</value>
   </data>
   <data name="ValidLoadRange" xml:space="preserve">
-    <value>Rango de Carga Activo</value>
+    <value>Enabled Load Range </value>
   </data>
   <data name="ValidLoadRangeExplanation" xml:space="preserve">
-    <value>Atención! Solo puede cargar los datos con fechas dentro del período de validez de carga pagado para este sitio. El marco de tiempo actual válido es a partir de [from] a [to].</value>
+    <value>Attention! You can upload data with dates within the valid load period paid for this Site.  The current valid time frame is from [from] to [to].</value>
   </data>
   <data name="Value" xml:space="preserve">
-    <value>Valor</value>
+    <value>Value</value>
   </data>
   <data name="View" xml:space="preserve">
-    <value>Ver</value>
+    <value>View</value>
   </data>
   <data name="Volume" xml:space="preserve">
-    <value>Volumen</value>
+    <value>Volume</value>
   </data>
   <data name="Waste" xml:space="preserve">
-    <value>Residuos</value>
+    <value>Waste</value>
   </data>
   <data name="WasteType" xml:space="preserve">
-    <value>Tipo de Residuo</value>
+    <value>Waste Type</value>
   </data>
   <data name="WasteUnits" xml:space="preserve">
-    <value>Residuo (kg)</value>
+    <value>Waste (kg)</value>
   </data>
   <data name="Water" xml:space="preserve">
-    <value>Agua</value>
+    <value>Water</value>
   </data>
   <data name="WaterUnits" xml:space="preserve">
-    <value>Agua (L)</value>
+    <value>Water (L)</value>
   </data>
   <data name="Weeks" xml:space="preserve">
-    <value>Duración (semanas)</value>
+    <value>Duration (Weeks)</value>
   </data>
   <data name="Yes" xml:space="preserve">
-    <value>Si</value>
+    <value>Yes</value>
   </data>
   <data name="ZipCode" xml:space="preserve">
-    <value>Código Postal</value>
+    <value>Postal Code</value>
   </data>
 </root>

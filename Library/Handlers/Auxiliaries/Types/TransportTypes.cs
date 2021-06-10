@@ -41,7 +41,7 @@ namespace CSI.Library.Handlers
             }
             return _transportType;
         }
-        internal Dictionary<Int64, Library.Objects.Auxiliaries.Types.TransportType> Items(Security.Credential credential)
+        internal Dictionary<Int64, Library.Objects.Auxiliaries.Types.TransportType> Items(Int64 idCountry, Security.Credential credential)
         {
             Dictionary<Int64, Library.Objects.Auxiliaries.Types.TransportType> _oItems = new Dictionary<Int64, Library.Objects.Auxiliaries.Types.TransportType>();
             Storage.TransportTypes _dbTransportTypes = new Storage.TransportTypes();
@@ -49,7 +49,7 @@ namespace CSI.Library.Handlers
 
             String _idLanguage = credential.CurrentLanguage.IdLanguage;
 
-            IEnumerable<System.Data.Common.DbDataRecord> _record = _dbTransportTypes.ReadAll(_idLanguage);
+            IEnumerable<System.Data.Common.DbDataRecord> _record = _dbTransportTypes.ReadAllByCountry(idCountry, _idLanguage);
 
             Boolean _insert=true;
             foreach (System.Data.Common.DbDataRecord _dbRecord in _record)

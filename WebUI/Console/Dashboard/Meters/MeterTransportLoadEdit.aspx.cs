@@ -156,7 +156,7 @@ namespace CSI.WebUI.Console.Dashboard.Meters
         {
             Int64 _idTransportType = _Serie.TransportType.IdTransportType;
             ddlLoadTypes.Items.Clear();
-            foreach (Library.Objects.Auxiliaries.Types.TransportType _type in I.GetTransportTypes().Values)
+            foreach (Library.Objects.Auxiliaries.Types.TransportType _type in I.GetTransportTypes(_Meter.Site.Country.IdCountry).Values)
             {
                 ListItem _item = new ListItem(_type.Name, _type.IdTransportType.ToString());
                 if (_idTransportType == _type.IdTransportType)

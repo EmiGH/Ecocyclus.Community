@@ -699,6 +699,12 @@
   <data name="Register" xml:space="preserve">
     <value>Registrarse</value>
   </data>
+  <data name="RegisterLocationWarning" xml:space="preserve">
+    <value>Por favor seleccione el icono de ubicación.</value>
+  </data>
+  <data name="RegisterPasswordWarning" xml:space="preserve">
+    <value>La clave debe tener al menos 8 caracteres con una mayúscula, una minúscula y un número.</value>
+  </data>
   <data name="RegistrationAgree" xml:space="preserve">
     <value>Al hacer clic en Registrarse, usted acepta nuestras &lt;ahref="/Registration/DataPolicy.aspx"&gt;Condiciones &lt;/a&gt; y ha leído nuestra &lt;ahref="/Registration/DataPolicy.aspx"&gt;Política de Uso de Datos&lt;/a&gt;, incluido el uso de cookies.</value>
   </data>
@@ -919,7 +925,7 @@
     <value>Atención! Solo puede cargar los datos con fechas dentro del período de validez de carga pagado para este sitio. El marco de tiempo actual válido es a partir de [from] a [to].</value>
   </data>
   <data name="Value" xml:space="preserve">
-    <value>Presupuesto</value>
+    <value>Valor</value>
   </data>
   <data name="View" xml:space="preserve">
     <value>Ver</value>

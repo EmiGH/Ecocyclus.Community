@@ -371,17 +371,18 @@ namespace CSI.Library.Storage
                 _reader.Close();
             }
         }
-        internal IEnumerable<DbDataRecord> ReadSiteStatisticsByTypes(Int64 idSite)
+        internal IEnumerable<DbDataRecord> ReadSiteStatisticsByTypes(Int64 idSite, string idLanguage)
         {
-            return ReadSiteStatisticsByTypes(idSite, DateTime.MinValue, DateTime.MaxValue);
+            return ReadSiteStatisticsByTypes(idSite, idLanguage, DateTime.MinValue, DateTime.MaxValue);
         }
-        internal IEnumerable<DbDataRecord> ReadSiteStatisticsByTypes(Int64 idSite, DateTime from, DateTime to)
+        internal IEnumerable<DbDataRecord> ReadSiteStatisticsByTypes(Int64 idSite, string idLanguage, DateTime from, DateTime to)
         {
             Database _db = DatabaseFactory.CreateDatabase();
 
             DbCommand _dbCommand = _db.GetStoredProcCommand("SiteTransportSeries_StatisticsByTypes");
             _db.AddInParameter(_dbCommand, "IdSite", DbType.Int64, idSite);
-            if(from != DateTime.MinValue) _db.AddInParameter(_dbCommand, "DateFrom", DbType.Date, from);
+            _db.AddInParameter(_dbCommand, "IdLanguage", DbType.String, idLanguage);
+            if (from != DateTime.MinValue) _db.AddInParameter(_dbCommand, "DateFrom", DbType.Date, from);
             if(to != DateTime.MaxValue) _db.AddInParameter(_dbCommand, "DateTo", DbType.Date, to);
             SqlDataReader _reader = (SqlDataReader)(((RefCountingDataReader)_db.ExecuteReader(_dbCommand)).InnerReader);
 
@@ -684,17 +685,18 @@ namespace CSI.Library.Storage
                 _reader.Close();
             }
         }
-        internal IEnumerable<DbDataRecord> ReadMeterStatisticsByTypes(Int64 idMeter)
+        internal IEnumerable<DbDataRecord> ReadMeterStatisticsByTypes(Int64 idMeter, string idLanguage)
         {
-            return ReadMeterStatisticsByTypes(idMeter, DateTime.MinValue, DateTime.MaxValue);
+            return ReadMeterStatisticsByTypes(idMeter, idLanguage, DateTime.MinValue, DateTime.MaxValue);
         }
-        internal IEnumerable<DbDataRecord> ReadMeterStatisticsByTypes(Int64 idMeter, DateTime from, DateTime to)
+        internal IEnumerable<DbDataRecord> ReadMeterStatisticsByTypes(Int64 idMeter, string idLanguage, DateTime from, DateTime to)
         {
             Database _db = DatabaseFactory.CreateDatabase();
 
             DbCommand _dbCommand = _db.GetStoredProcCommand("SiteTransportMeterSeries_StatisticsByTypes");
             _db.AddInParameter(_dbCommand, "IdSiteTransportMeter", DbType.Int64, idMeter);
-            if(from != DateTime.MinValue) _db.AddInParameter(_dbCommand, "DateFrom", DbType.Date, from);
+            _db.AddInParameter(_dbCommand, "IdLanguage", DbType.String, idLanguage);
+            if (from != DateTime.MinValue) _db.AddInParameter(_dbCommand, "DateFrom", DbType.Date, from);
             if(to != DateTime.MaxValue) _db.AddInParameter(_dbCommand, "DateTo", DbType.Date, to);
             SqlDataReader _reader = (SqlDataReader)(((RefCountingDataReader)_db.ExecuteReader(_dbCommand)).InnerReader);
 

@@ -397,7 +397,7 @@
     <value>Superficie (m2)</value>
   </data>
   <data name="Footer" xml:space="preserve">
-    <value>© 2020 EcoCyclus. Todos los derechos reservados. Ninguna parte de este sitio puede reproducirse sin nuestro permiso por escrito.</value>
+    <value>© © 2020 EcoCyclus. Todos los derechos reservados. Ninguna parte de este sitio puede reproducirse sin nuestro permiso por escrito.</value>
   </data>
   <data name="Frequency" xml:space="preserve">
     <value>Frecuencia de Carga Predeterminada</value>
@@ -862,7 +862,7 @@
     <value>Año</value>
   </data>
   <data name="TimeuUnitWeek" xml:space="preserve">
-    <value>Meses</value>
+    <value>Semana</value>
   </data>
   <data name="Title" xml:space="preserve">
     <value>Nombre</value>
@@ -925,7 +925,7 @@
     <value>Atención! Solo puede cargar los datos con fechas dentro del período de validez de carga pagado para este sitio. El marco de tiempo actual válido es a partir de [from] a [to].</value>
   </data>
   <data name="Value" xml:space="preserve">
-    <value>Valor</value>
+    <value>Presupuesto</value>
   </data>
   <data name="View" xml:space="preserve">
     <value>Ver</value>

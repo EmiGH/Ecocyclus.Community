@@ -85,9 +85,9 @@ namespace CSI.Library.Objects.Users
             return new Handlers.Currencies().Item(idCurrency, Credential);
         }
 
-        public Dictionary<Int64, Auxiliaries.Types.FuelType> GetFuelTypes()
+        public Dictionary<Int64, Auxiliaries.Types.FuelType> GetFuelTypes(Int64 idCountry)
         {
-            return new Handlers.FuelTypes().Items(Credential);
+            return new Handlers.FuelTypes().Items(idCountry, Credential);
         }
         public Auxiliaries.Types.FuelType GetFuelType(Int64 idFuelType)
         {
@@ -101,9 +101,9 @@ namespace CSI.Library.Objects.Users
         {
             return new Handlers.WasteTypes().Item(idWasteType, Credential);
         }
-        public Dictionary<Int64, Auxiliaries.Types.TransportType> GetTransportTypes()
+        public Dictionary<Int64, Auxiliaries.Types.TransportType> GetTransportTypes(Int64 idCountry)
         {
-            return new Handlers.TransportTypes().Items(Credential);
+            return new Handlers.TransportTypes().Items(idCountry,  Credential);
         }
         public Auxiliaries.Types.TransportType GetTransportType(Int64 idTransportType)
         {

@@ -178,7 +178,7 @@ body
 
 #divRegister
 {
-	margin: 60px 0 60px 0;
+	margin: 15px 0 60px 0;
 	float:right;
 	width:312px;
 	background-color: #E5E4DD;
@@ -230,12 +230,24 @@ body
 {
 	color:#8E8880;
 	font-size: 11px;
-	padding: 15px 40px;
+	padding: 5px 40px;
 	display:block;
 }
 #lblRegistrationAgree a
 {
 	color:#8E8880;
+}
+#lblRegisterPasswordWarning {
+	color: #E9837A;
+	font-size: 11px;
+	padding: 15px 40px;
+	display: block;
+}
+#lblRegisterLocationWarning {
+	color: #8E8880;
+	font-size: 11px;
+	padding: 15px 40px;
+	display: block;
 }
 #divRegister #btnRegister
 {

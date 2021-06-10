@@ -61,7 +61,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a I Accept.
+        ///   Busca una cadena traducida similar a Acepto.
         /// </summary>
         internal static string Accept {
             get {
@@ -70,7 +70,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Add.
+        ///   Busca una cadena traducida similar a Agregar.
         /// </summary>
         internal static string Add {
             get {
@@ -79,7 +79,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Address.
+        ///   Busca una cadena traducida similar a Domicilio.
         /// </summary>
         internal static string Address {
             get {
@@ -88,7 +88,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Organization Representative.
+        ///   Busca una cadena traducida similar a Representante de la Organización.
         /// </summary>
         internal static string Agent {
             get {
@@ -97,7 +97,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a I agree.
+        ///   Busca una cadena traducida similar a Estoy de acuerdo.
         /// </summary>
         internal static string Agree {
             get {
@@ -106,7 +106,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Alert After (days).
+        ///   Busca una cadena traducida similar a Alertar después (días).
         /// </summary>
         internal static string AlertAfter {
             get {
@@ -115,7 +115,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Alert Before (days).
+        ///   Busca una cadena traducida similar a Alertar antes (días).
         /// </summary>
         internal static string AlertBefore {
             get {
@@ -124,7 +124,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Alert on Start?.
+        ///   Busca una cadena traducida similar a Alertar al inicio?.
         /// </summary>
         internal static string AlertOnStart {
             get {
@@ -133,7 +133,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Alerts.
+        ///   Busca una cadena traducida similar a Alertas.
         /// </summary>
         internal static string Alerts {
             get {
@@ -142,7 +142,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Amount (VAT Included).
+        ///   Busca una cadena traducida similar a Monto.
         /// </summary>
         internal static string Amount {
             get {
@@ -151,7 +151,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Annex Data.
+        ///   Busca una cadena traducida similar a Datos anexos.
         /// </summary>
         internal static string Annexes {
             get {
@@ -160,7 +160,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Average.
+        ///   Busca una cadena traducida similar a Promedio.
         /// </summary>
         internal static string Average {
             get {
@@ -169,7 +169,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Billing Address.
+        ///   Busca una cadena traducida similar a Domicilio de facturación.
         /// </summary>
         internal static string BillingAddress {
             get {
@@ -178,7 +178,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Cancel.
+        ///   Busca una cadena traducida similar a Cancelar.
         /// </summary>
         internal static string Cancel {
             get {
@@ -187,7 +187,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Change Password.
+        ///   Busca una cadena traducida similar a Cambiar contraseña.
         /// </summary>
         internal static string ChangePassword {
             get {
@@ -196,7 +196,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a CO2 [Monthly Average].
+        ///   Busca una cadena traducida similar a CO2 [Promedio].
         /// </summary>
         internal static string ChartCO2AvgMonthly {
             get {
@@ -205,7 +205,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a CO2 [Totals by Protocols].
+        ///   Busca una cadena traducida similar a CO2 [Totales por Protocolos].
         /// </summary>
         internal static string ChartCO2CompositionByProtocols {
             get {
@@ -214,7 +214,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a CO2 [Totals by Sites].
+        ///   Busca una cadena traducida similar a CO2 [Totales por Sitio].
         /// </summary>
         internal static string ChartCO2CompositionBySites {
             get {
@@ -223,7 +223,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a CO2 [Total by Types].
+        ///   Busca una cadena traducida similar a CO2 [Total por Tipos].
         /// </summary>
         internal static string ChartCO2CompositionByTypes {
             get {
@@ -232,7 +232,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a CO2 [Monthly Sum].
+        ///   Busca una cadena traducida similar a CO2 [Suma].
         /// </summary>
         internal static string ChartCO2SumMonthly {
             get {
@@ -241,7 +241,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Consumption [Totals by Types].
+        ///   Busca una cadena traducida similar a Consumos [Totales por Tipos].
         /// </summary>
         internal static string ChartCompositionByTypes {
             get {
@@ -250,7 +250,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Electricity [Monthly Average].
+        ///   Busca una cadena traducida similar a Electricidad [Promedio].
         /// </summary>
         internal static string ChartElectricityAvgMonthly {
             get {
@@ -259,7 +259,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Electricity [Loaded Values].
+        ///   Busca una cadena traducida similar a Electricidad [Valores Cargados].
         /// </summary>
         internal static string ChartElectricityLoadedSerie {
             get {
@@ -268,7 +268,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Electricity [Monthly Sum].
+        ///   Busca una cadena traducida similar a Electricidad [Suma].
         /// </summary>
         internal static string ChartElectricitySumMonthly {
             get {
@@ -277,7 +277,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Fuels [Monthly Average].
+        ///   Busca una cadena traducida similar a Combustibles [Promedio].
         /// </summary>
         internal static string ChartFuelAvgMonthly {
             get {
@@ -286,7 +286,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Fuels [Loaded Values].
+        ///   Busca una cadena traducida similar a Combustibles [Valores Cargados].
         /// </summary>
         internal static string ChartFuelLoadedSerie {
             get {
@@ -295,7 +295,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Fuels [Monthly Sum].
+        ///   Busca una cadena traducida similar a Combustibles [Suma].
         /// </summary>
         internal static string ChartFuelSumMonthly {
             get {
@@ -304,7 +304,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Charts.
+        ///   Busca una cadena traducida similar a Gráficos.
         /// </summary>
         internal static string Charts {
             get {
@@ -313,7 +313,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Charts [Compositions].
+        ///   Busca una cadena traducida similar a Gráficos [Composición].
         /// </summary>
         internal static string ChartsCompositions {
             get {
@@ -322,7 +322,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Charts [Monthly Evolution].
+        ///   Busca una cadena traducida similar a Gráficos [Evolución].
         /// </summary>
         internal static string ChartsMonthlyEvolutions {
             get {
@@ -331,7 +331,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Transport [Monthly Average].
+        ///   Busca una cadena traducida similar a Transporte [Promedio].
         /// </summary>
         internal static string ChartTransportAvgMonthly {
             get {
@@ -340,7 +340,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Transport [Loaded Values].
+        ///   Busca una cadena traducida similar a Transporte [Valores Cargados].
         /// </summary>
         internal static string ChartTransportLoadedSerie {
             get {
@@ -349,7 +349,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Transport [Monthly Sum].
+        ///   Busca una cadena traducida similar a Transporte [Suma].
         /// </summary>
         internal static string ChartTransportSumMonthly {
             get {
@@ -358,7 +358,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Waste [Monthly Average].
+        ///   Busca una cadena traducida similar a Residuos [Promedio].
         /// </summary>
         internal static string ChartWasteAvgMonthly {
             get {
@@ -367,7 +367,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Waste [Loaded Values].
+        ///   Busca una cadena traducida similar a Residuos [Valores Cargados].
         /// </summary>
         internal static string ChartWasteLoadedSerie {
             get {
@@ -376,7 +376,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Waste [Monthly Sum].
+        ///   Busca una cadena traducida similar a Residuos [Suma].
         /// </summary>
         internal static string ChartWasteSumMonthly {
             get {
@@ -385,7 +385,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Water [Monthly Average].
+        ///   Busca una cadena traducida similar a Agua [Promedio].
         /// </summary>
         internal static string ChartWaterAvgMonthly {
             get {
@@ -394,7 +394,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Water [Loaded Values].
+        ///   Busca una cadena traducida similar a Agua [Valores Cargados].
         /// </summary>
         internal static string ChartWaterLoadedSerie {
             get {
@@ -403,7 +403,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Water [Monthly Sum].
+        ///   Busca una cadena traducida similar a Agua [Suma].
         /// </summary>
         internal static string ChartWaterSumMonthly {
             get {
@@ -412,7 +412,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Select a preferred language.
+        ///   Busca una cadena traducida similar a Seleccionar idioma preferido.
         /// </summary>
         internal static string ChooseLanguage {
             get {
@@ -421,7 +421,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Choose a Picture.
+        ///   Busca una cadena traducida similar a Escoger una Foto.
         /// </summary>
         internal static string ChoosePicture {
             get {
@@ -430,7 +430,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a City.
+        ///   Busca una cadena traducida similar a Ciudad.
         /// </summary>
         internal static string City {
             get {
@@ -439,7 +439,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Client.
+        ///   Busca una cadena traducida similar a Cliente (Sitios de terceros).
         /// </summary>
         internal static string Client {
             get {
@@ -457,7 +457,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a CO2 Generation.
+        ///   Busca una cadena traducida similar a Generación de CO2.
         /// </summary>
         internal static string CO2Generation {
             get {
@@ -466,7 +466,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a CO2 Generation Limits.
+        ///   Busca una cadena traducida similar a Límites de Generación de CO2.
         /// </summary>
         internal static string CO2GenerationLimit {
             get {
@@ -475,7 +475,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a CO2 Generation by Money Unit.
+        ///   Busca una cadena traducida similar a Generación de CO2 por Unidad Monetaria.
         /// </summary>
         internal static string CO2GenerationLimitByMoney {
             get {
@@ -484,7 +484,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a CO2 Generation by Space Unit.
+        ///   Busca una cadena traducida similar a Generación de CO2 por Unidad de Área.
         /// </summary>
         internal static string CO2GenerationLimitByMts {
             get {
@@ -511,7 +511,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Organization.
+        ///   Busca una cadena traducida similar a Organización.
         /// </summary>
         internal static string Company {
             get {
@@ -520,7 +520,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Modify Organization.
+        ///   Busca una cadena traducida similar a Modificar Organización.
         /// </summary>
         internal static string CompanyModify {
             get {
@@ -529,7 +529,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Name.
+        ///   Busca una cadena traducida similar a Nombre.
         /// </summary>
         internal static string CompanyName {
             get {
@@ -538,7 +538,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Consumption.
+        ///   Busca una cadena traducida similar a Consumo.
         /// </summary>
         internal static string Consumption {
             get {
@@ -547,7 +547,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Monthly Consumtion Limits.
+        ///   Busca una cadena traducida similar a Límites de Consumo.
         /// </summary>
         internal static string ConsumptionMonthlyLimit {
             get {
@@ -556,7 +556,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Consumption by Money Unit.
+        ///   Busca una cadena traducida similar a Consumo por Unidad Monetaria.
         /// </summary>
         internal static string ConsumptionMonthlyLimitByMoney {
             get {
@@ -565,7 +565,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Consumption by Space Unit.
+        ///   Busca una cadena traducida similar a Consumo por Unidad de Área.
         /// </summary>
         internal static string ConsumptionMonthlyLimitByMts {
             get {
@@ -583,7 +583,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Read more.
+        ///   Busca una cadena traducida similar a Leer mas.
         /// </summary>
         internal static string CookieGotoPage {
             get {
@@ -592,7 +592,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a © 2020 EcoCyclus. All rights reserved. No part of this site may be reproduced without our written permission..
+        ///   Busca una cadena traducida similar a © 2020 EcoCyclus. Todos los derechos reservados. Ninguna parte de este sitio puede reproducirse sin nuestro permiso por escrito..
         /// </summary>
         internal static string Copyright {
             get {
@@ -601,7 +601,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Count.
+        ///   Busca una cadena traducida similar a Cuenta.
         /// </summary>
         internal static string Count {
             get {
@@ -610,7 +610,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Country.
+        ///   Busca una cadena traducida similar a País.
         /// </summary>
         internal static string Country {
             get {
@@ -619,7 +619,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Security Code.
+        ///   Busca una cadena traducida similar a Código de Seguridad.
         /// </summary>
         internal static string CreditCardCode {
             get {
@@ -628,7 +628,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Card Holder Information.
+        ///   Busca una cadena traducida similar a Información del Titular de la Tarjeta.
         /// </summary>
         internal static string CreditCardHolderInfo {
             get {
@@ -637,7 +637,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Credit Card Information.
+        ///   Busca una cadena traducida similar a Información de la Tarjeta de Crédito.
         /// </summary>
         internal static string CreditCardInfo {
             get {
@@ -646,7 +646,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Number.
+        ///   Busca una cadena traducida similar a Número.
         /// </summary>
         internal static string CreditCardNumber {
             get {
@@ -655,7 +655,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Dashboard.
+        ///   Busca una cadena traducida similar a Tablero de Control.
         /// </summary>
         internal static string Dashboard {
             get {
@@ -664,7 +664,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Date.
+        ///   Busca una cadena traducida similar a Fecha.
         /// </summary>
         internal static string Date {
             get {
@@ -673,7 +673,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Default Emission Factor.
+        ///   Busca una cadena traducida similar a Factor de Emisión Predeterminado.
         /// </summary>
         internal static string DefaultEF {
             get {
@@ -682,7 +682,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Default Unit.
+        ///   Busca una cadena traducida similar a Unidad Predeterminada.
         /// </summary>
         internal static string DefaultUnit {
             get {
@@ -691,7 +691,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Delete.
+        ///   Busca una cadena traducida similar a Borrar.
         /// </summary>
         internal static string Delete {
             get {
@@ -700,7 +700,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Description.
+        ///   Busca una cadena traducida similar a Comentarios.
         /// </summary>
         internal static string Description {
             get {
@@ -709,7 +709,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Deviation.
+        ///   Busca una cadena traducida similar a Desviación.
         /// </summary>
         internal static string Dev {
             get {
@@ -718,7 +718,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Distance.
+        ///   Busca una cadena traducida similar a Distancia.
         /// </summary>
         internal static string Distance {
             get {
@@ -727,7 +727,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Edit.
+        ///   Busca una cadena traducida similar a Editar.
         /// </summary>
         internal static string Edit {
             get {
@@ -736,7 +736,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a CO2 Emission Factor.
+        ///   Busca una cadena traducida similar a Factor de Emisión CO2 .
         /// </summary>
         internal static string EF {
             get {
@@ -745,7 +745,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Emission Factor Description.
+        ///   Busca una cadena traducida similar a Descripción del Factor de Emisión.
         /// </summary>
         internal static string EFDescription {
             get {
@@ -754,7 +754,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a CO2 Emission Factors.
+        ///   Busca una cadena traducida similar a Factores de Emisión CO2.
         /// </summary>
         internal static string EFs {
             get {
@@ -763,7 +763,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Get Emission Factors List for this Site.
+        ///   Busca una cadena traducida similar a Listado de Factores de Emisión para éste Sitio.
         /// </summary>
         internal static string EFsLink {
             get {
@@ -772,7 +772,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Electricity.
+        ///   Busca una cadena traducida similar a Electricidad.
         /// </summary>
         internal static string Electricity {
             get {
@@ -781,7 +781,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Electricity (kW/h).
+        ///   Busca una cadena traducida similar a Electricidad (kW/h).
         /// </summary>
         internal static string ElectricityUnits {
             get {
@@ -790,7 +790,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Email.
+        ///   Busca una cadena traducida similar a Correo Electrónico.
         /// </summary>
         internal static string Email {
             get {
@@ -799,7 +799,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Retype email.
+        ///   Busca una cadena traducida similar a Reingresar Correo Electrónico.
         /// </summary>
         internal static string EmailReytpe {
             get {
@@ -808,7 +808,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a The email address must be unique.
+        ///   Busca una cadena traducida similar a La dirección de correo electrónico debe ser único.
         /// </summary>
         internal static string EmailUniqueMessage {
             get {
@@ -826,7 +826,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Expiration Date.
+        ///   Busca una cadena traducida similar a Fecha de Vencimiento.
         /// </summary>
         internal static string ExpirationDate {
             get {
@@ -835,7 +835,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Export to PDF Format.
+        ///   Busca una cadena traducida similar a Exportar a PDF.
         /// </summary>
         internal static string ExportToPDF {
             get {
@@ -853,7 +853,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Filter.
+        ///   Busca una cadena traducida similar a Filtro.
         /// </summary>
         internal static string Filter {
             get {
@@ -862,7 +862,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Firstname.
+        ///   Busca una cadena traducida similar a Su nombre.
         /// </summary>
         internal static string Firstname {
             get {
@@ -871,7 +871,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a First Value.
+        ///   Busca una cadena traducida similar a Primer Valor.
         /// </summary>
         internal static string FirstValue {
             get {
@@ -880,7 +880,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a The first reading value of the meter is the baseline for the device and therefore will not generate neither consumption nor emissions..
+        ///   Busca una cadena traducida similar a El primer valor de lectura del medidor es la línea de base para el dispositivo y por lo tanto no generará consumos ni emisiones..
         /// </summary>
         internal static string FirstValueWarning {
             get {
@@ -889,7 +889,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Floor Space (m2).
+        ///   Busca una cadena traducida similar a Superficie (m2).
         /// </summary>
         internal static string FloorSpace {
             get {
@@ -898,7 +898,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a © 2020 EcoCyclus. All rights reserved. No part of this site may be reproduced without our written permission..
+        ///   Busca una cadena traducida similar a © 2020 EcoCyclus. Todos los derechos reservados. Ninguna parte de este sitio puede reproducirse sin nuestro permiso por escrito..
         /// </summary>
         internal static string Footer {
             get {
@@ -907,7 +907,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Default Upload Frequency.
+        ///   Busca una cadena traducida similar a Frecuencia de Carga Predeterminada.
         /// </summary>
         internal static string Frequency {
             get {
@@ -916,7 +916,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a From.
+        ///   Busca una cadena traducida similar a Desde.
         /// </summary>
         internal static string From {
             get {
@@ -925,7 +925,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Fuels.
+        ///   Busca una cadena traducida similar a Combustibles.
         /// </summary>
         internal static string Fuels {
             get {
@@ -934,7 +934,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Fuels (lt).
+        ///   Busca una cadena traducida similar a Combustibles (lt).
         /// </summary>
         internal static string FuelsUnits {
             get {
@@ -943,7 +943,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Fuel Type.
+        ///   Busca una cadena traducida similar a Tipo de Combustible.
         /// </summary>
         internal static string FuelType {
             get {
@@ -952,7 +952,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Fullname.
+        ///   Busca una cadena traducida similar a Nombre completo.
         /// </summary>
         internal static string Fullname {
             get {
@@ -961,7 +961,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Support.
+        ///   Busca una cadena traducida similar a Soporte.
         /// </summary>
         internal static string Help {
             get {
@@ -970,7 +970,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a support@ecocyclus.com.
+        ///   Busca una cadena traducida similar a soporte@ecocyclus.com.
         /// </summary>
         internal static string HelpDeskMailAddress {
             get {
@@ -979,7 +979,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Sorry! There is no help information for this element..
+        ///   Busca una cadena traducida similar a Disculpe! No hay información de ayuda para este elemento..
         /// </summary>
         internal static string HelpEmpty {
             get {
@@ -997,7 +997,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Identification.
+        ///   Busca una cadena traducida similar a Identificación.
         /// </summary>
         internal static string Identification {
             get {
@@ -1006,7 +1006,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Images must have less than [size] bytes and a valid file extension (jpg, png, gif or bmp)..
+        ///   Busca una cadena traducida similar a Las imágenes deben tener menos de [size] bytes y una extensión de archivo válida (jpg, png, gif or bmp)..
         /// </summary>
         internal static string ImageFormat {
             get {
@@ -1015,7 +1015,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a In English.
+        ///   Busca una cadena traducida similar a En Español.
         /// </summary>
         internal static string InDefaultLanguage {
             get {
@@ -1024,7 +1024,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Information!.
+        ///   Busca una cadena traducida similar a Información!.
         /// </summary>
         internal static string Information {
             get {
@@ -1033,7 +1033,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Initial Date.
+        ///   Busca una cadena traducida similar a Fecha de Inicio.
         /// </summary>
         internal static string InitialDate {
             get {
@@ -1042,7 +1042,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Initial Reading.
+        ///   Busca una cadena traducida similar a Lectura de Inicio.
         /// </summary>
         internal static string InitialReading {
             get {
@@ -1051,7 +1051,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Interval Frequency.
+        ///   Busca una cadena traducida similar a Frecuencia del Intervalo.
         /// </summary>
         internal static string Interval {
             get {
@@ -1060,7 +1060,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Is Active?.
+        ///   Busca una cadena traducida similar a Está Activo?.
         /// </summary>
         internal static string IsActive {
             get {
@@ -1069,7 +1069,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Is Organization Manager?.
+        ///   Busca una cadena traducida similar a Es Gerente de la Organización?.
         /// </summary>
         internal static string IsCompanyManager {
             get {
@@ -1078,7 +1078,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Is Site Manager?.
+        ///   Busca una cadena traducida similar a Es Gerente del Sitio?.
         /// </summary>
         internal static string IsManager {
             get {
@@ -1087,7 +1087,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Is Site Operator?.
+        ///   Busca una cadena traducida similar a Es Operador del Sitio?.
         /// </summary>
         internal static string IsOperator {
             get {
@@ -1096,7 +1096,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Is it a physical meter?.
+        ///   Busca una cadena traducida similar a Es un medidor físico?.
         /// </summary>
         internal static string IsPhysical {
             get {
@@ -1105,7 +1105,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Is Public?.
+        ///   Busca una cadena traducida similar a Es Público?.
         /// </summary>
         internal static string IsPublic {
             get {
@@ -1114,7 +1114,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Is Faciltiy Reader?.
+        ///   Busca una cadena traducida similar a Es Lector?.
         /// </summary>
         internal static string IsReader {
             get {
@@ -1123,7 +1123,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Is Roundtrip?.
+        ///   Busca una cadena traducida similar a Es Ida y Vuelta?.
         /// </summary>
         internal static string IsRoundtrip {
             get {
@@ -1132,7 +1132,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a KPI [CO2 by area].
+        ///   Busca una cadena traducida similar a KPI [CO2].
         /// </summary>
         internal static string KPIM2 {
             get {
@@ -1150,7 +1150,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a KPI [CO2 by currency].
+        ///   Busca una cadena traducida similar a KPI [CO2 por moneda].
         /// </summary>
         internal static string KPIMoney {
             get {
@@ -1159,7 +1159,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Language.
+        ///   Busca una cadena traducida similar a Idioma.
         /// </summary>
         internal static string Language {
             get {
@@ -1168,7 +1168,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Last Recorded.
+        ///   Busca una cadena traducida similar a Ultimo Registro.
         /// </summary>
         internal static string LastDate {
             get {
@@ -1177,7 +1177,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Lastname.
+        ///   Busca una cadena traducida similar a Apellido.
         /// </summary>
         internal static string Lastname {
             get {
@@ -1186,7 +1186,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Last Operator.
+        ///   Busca una cadena traducida similar a Ultimo Operador.
         /// </summary>
         internal static string LastOperator {
             get {
@@ -1195,7 +1195,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Last Value.
+        ///   Busca una cadena traducida similar a Ultimo Valor.
         /// </summary>
         internal static string LastValue {
             get {
@@ -1240,7 +1240,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Load Values.
+        ///   Busca una cadena traducida similar a Cargar Valores.
         /// </summary>
         internal static string Load {
             get {
@@ -1249,7 +1249,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Loaded Data.
+        ///   Busca una cadena traducida similar a Datos Cargados.
         /// </summary>
         internal static string LoadedSerie {
             get {
@@ -1258,7 +1258,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Loaded Values.
+        ///   Busca una cadena traducida similar a Valores Cargados.
         /// </summary>
         internal static string LoadGrid {
             get {
@@ -1267,7 +1267,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Loading ....
+        ///   Busca una cadena traducida similar a Cargando ....
         /// </summary>
         internal static string Loading {
             get {
@@ -1276,7 +1276,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Location.
+        ///   Busca una cadena traducida similar a Ubicación.
         /// </summary>
         internal static string Location {
             get {
@@ -1285,7 +1285,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Current Location: .
+        ///   Busca una cadena traducida similar a Ubicación Actual:.
         /// </summary>
         internal static string LocationPrevious {
             get {
@@ -1294,7 +1294,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Selected Location: .
+        ///   Busca una cadena traducida similar a Ubicación Seleccionada:.
         /// </summary>
         internal static string LocationSelected {
             get {
@@ -1303,7 +1303,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Locator.
+        ///   Busca una cadena traducida similar a Localizador.
         /// </summary>
         internal static string Locator {
             get {
@@ -1312,7 +1312,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Login.
+        ///   Busca una cadena traducida similar a Entrar.
         /// </summary>
         internal static string Login {
             get {
@@ -1321,7 +1321,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Forgot your password?.
+        ///   Busca una cadena traducida similar a Olvido su contraseña?.
         /// </summary>
         internal static string LoginForgotPassword {
             get {
@@ -1330,7 +1330,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Keep me logged in.
+        ///   Busca una cadena traducida similar a Seguir conectado.
         /// </summary>
         internal static string LoginKeepMeLoggedIn {
             get {
@@ -1348,7 +1348,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Manage.
+        ///   Busca una cadena traducida similar a Gestionar.
         /// </summary>
         internal static string Manage {
             get {
@@ -1357,7 +1357,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Manager.
+        ///   Busca una cadena traducida similar a Gerente.
         /// </summary>
         internal static string Manager {
             get {
@@ -1366,7 +1366,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Managers.
+        ///   Busca una cadena traducida similar a Gerentes.
         /// </summary>
         internal static string Managers {
             get {
@@ -1384,7 +1384,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a All fields marked with an * are mandatory information!.
+        ///   Busca una cadena traducida similar a Todos los campos marcados con un * son información obligatoria!.
         /// </summary>
         internal static string MandatoryFieldExplanation {
             get {
@@ -1393,7 +1393,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Locations.
+        ///   Busca una cadena traducida similar a Ubicaciones.
         /// </summary>
         internal static string Map {
             get {
@@ -1402,7 +1402,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Results.
+        ///   Busca una cadena traducida similar a Resultados.
         /// </summary>
         internal static string MessageBoxTitle {
             get {
@@ -1411,7 +1411,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Meter.
+        ///   Busca una cadena traducida similar a Medidor.
         /// </summary>
         internal static string Meter {
             get {
@@ -1420,7 +1420,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Meters.
+        ///   Busca una cadena traducida similar a Medidores.
         /// </summary>
         internal static string Meters {
             get {
@@ -1429,7 +1429,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Add Meter.
+        ///   Busca una cadena traducida similar a Agregar Medidor.
         /// </summary>
         internal static string MetersAdd {
             get {
@@ -1438,7 +1438,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Modify.
+        ///   Busca una cadena traducida similar a Modificar.
         /// </summary>
         internal static string Modify {
             get {
@@ -1447,7 +1447,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Monthly Evolution.
+        ///   Busca una cadena traducida similar a Evolución.
         /// </summary>
         internal static string MonthlyEvolutions {
             get {
@@ -1456,7 +1456,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Monthly Fee.
+        ///   Busca una cadena traducida similar a Cuota Mensual.
         /// </summary>
         internal static string MonthlyFee {
             get {
@@ -1465,7 +1465,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Months.
+        ///   Busca una cadena traducida similar a Meses.
         /// </summary>
         internal static string Months {
             get {
@@ -1474,7 +1474,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Name.
+        ///   Busca una cadena traducida similar a Nombre.
         /// </summary>
         internal static string Name {
             get {
@@ -1492,7 +1492,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a No Access.
+        ///   Busca una cadena traducida similar a Sin Acceso.
         /// </summary>
         internal static string NoAccess {
             get {
@@ -1510,7 +1510,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a There is not items to display.
+        ///   Busca una cadena traducida similar a No hay ítems para mostrar.
         /// </summary>
         internal static string NoItems {
             get {
@@ -1528,7 +1528,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Number.
+        ///   Busca una cadena traducida similar a Número.
         /// </summary>
         internal static string Number {
             get {
@@ -1546,7 +1546,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Operate.
+        ///   Busca una cadena traducida similar a Operar.
         /// </summary>
         internal static string Operate {
             get {
@@ -1555,7 +1555,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Operator.
+        ///   Busca una cadena traducida similar a Operador.
         /// </summary>
         internal static string Operator {
             get {
@@ -1564,7 +1564,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Password.
+        ///   Busca una cadena traducida similar a Contraseña.
         /// </summary>
         internal static string Password {
             get {
@@ -1573,7 +1573,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Current Password.
+        ///   Busca una cadena traducida similar a Contraseñe Actual.
         /// </summary>
         internal static string PasswordCurrent {
             get {
@@ -1582,7 +1582,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a New Password.
+        ///   Busca una cadena traducida similar a Nueva Contraseña.
         /// </summary>
         internal static string PasswordNew {
             get {
@@ -1591,7 +1591,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Retype password.
+        ///   Busca una cadena traducida similar a Reingresar Contraseña.
         /// </summary>
         internal static string PasswordRetype {
             get {
@@ -1600,7 +1600,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Pay.
+        ///   Busca una cadena traducida similar a Pagar.
         /// </summary>
         internal static string Pay {
             get {
@@ -1609,7 +1609,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Add Payment.
+        ///   Busca una cadena traducida similar a Agregar Pago.
         /// </summary>
         internal static string PaymentAdd {
             get {
@@ -1618,7 +1618,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Add a payment for a period of time before [currentFrom].
+        ///   Busca una cadena traducida similar a Agregar un pago para un período de tiempo anterior [currentFrom].
         /// </summary>
         internal static string PaymentAddFrom {
             get {
@@ -1627,7 +1627,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Add a payment for a period of time after [currentTo].
+        ///   Busca una cadena traducida similar a Agregar un pago para un período de tiempo posterior [currentTo].
         /// </summary>
         internal static string PaymentAddTo {
             get {
@@ -1636,7 +1636,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a The current period enabled for data loading goes from [currentFrom] to [currentTo]..
+        ///   Busca una cadena traducida similar a El actual período permitido para cargar datos va desde [currentFrom] a [currentTo]..
         /// </summary>
         internal static string PaymentCurrentPeriod {
             get {
@@ -1645,7 +1645,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Payments.
+        ///   Busca una cadena traducida similar a Pagos.
         /// </summary>
         internal static string Payments {
             get {
@@ -1654,7 +1654,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Card.
+        ///   Busca una cadena traducida similar a Tarjeta.
         /// </summary>
         internal static string PaymentTypes {
             get {
@@ -1663,7 +1663,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Performance.
+        ///   Busca una cadena traducida similar a Desempeño.
         /// </summary>
         internal static string Performance {
             get {
@@ -1672,7 +1672,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Permissions.
+        ///   Busca una cadena traducida similar a Permisos.
         /// </summary>
         internal static string Permissions {
             get {
@@ -1681,7 +1681,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Available.
+        ///   Busca una cadena traducida similar a Disponible.
         /// </summary>
         internal static string PermissionsAvailable {
             get {
@@ -1690,7 +1690,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Granted.
+        ///   Busca una cadena traducida similar a Concedido.
         /// </summary>
         internal static string PermissionsGranted {
             get {
@@ -1699,7 +1699,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Picture.
+        ///   Busca una cadena traducida similar a Imagen.
         /// </summary>
         internal static string Picture {
             get {
@@ -1708,7 +1708,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Plate Number.
+        ///   Busca una cadena traducida similar a Identificación.
         /// </summary>
         internal static string PlateNumber {
             get {
@@ -1717,7 +1717,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Print.
+        ///   Busca una cadena traducida similar a Imprimir.
         /// </summary>
         internal static string Print {
             get {
@@ -1726,7 +1726,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Printable Version.
+        ///   Busca una cadena traducida similar a Versión Impresa.
         /// </summary>
         internal static string PrintableVersion {
             get {
@@ -1744,7 +1744,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Profile.
+        ///   Busca una cadena traducida similar a Perfil.
         /// </summary>
         internal static string Profile {
             get {
@@ -1753,7 +1753,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Modify Profile.
+        ///   Busca una cadena traducida similar a Modificar Perfil.
         /// </summary>
         internal static string ProfileModify {
             get {
@@ -1762,7 +1762,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Properties.
+        ///   Busca una cadena traducida similar a Propiedades.
         /// </summary>
         internal static string Properties {
             get {
@@ -1771,7 +1771,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Protocols.
+        ///   Busca una cadena traducida similar a Protocolos.
         /// </summary>
         internal static string Protocols {
             get {
@@ -1780,7 +1780,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Reading.
+        ///   Busca una cadena traducida similar a Lectura.
         /// </summary>
         internal static string Reading {
             get {
@@ -1789,7 +1789,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Recover.
+        ///   Busca una cadena traducida similar a Recuperar.
         /// </summary>
         internal static string Recover {
             get {
@@ -1798,7 +1798,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Sign up.
+        ///   Busca una cadena traducida similar a Registrarse.
         /// </summary>
         internal static string Register {
             get {
@@ -1807,7 +1807,25 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a By clicking Sign Up, you agree to our &lt;a href=&quot;/Registration/DataPolicy.aspx&quot;&gt;Terms&lt;/a&gt; and that you have read our &lt;a href=&quot;/Registration/DataPolicy.aspx&quot;&gt;Data Use Policy&lt;/a&gt;..
+        ///   Busca una cadena traducida similar a Por favor seleccione el icono de ubicación..
+        /// </summary>
+        internal static string RegisterLocationWarning {
+            get {
+                return ResourceManager.GetString("RegisterLocationWarning", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La clave debe tener al menos 8 caracteres con una mayúscula, una minúscula y un número..
+        /// </summary>
+        internal static string RegisterPasswordWarning {
+            get {
+                return ResourceManager.GetString("RegisterPasswordWarning", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Al hacer clic en Registrarse, usted acepta nuestras &lt;ahref=&quot;/Registration/DataPolicy.aspx&quot;&gt;Condiciones &lt;/a&gt; y ha leído nuestra &lt;ahref=&quot;/Registration/DataPolicy.aspx&quot;&gt;Política de Uso de Datos&lt;/a&gt;, incluido el uso de cookies..
         /// </summary>
         internal static string RegistrationAgree {
             get {
@@ -1816,7 +1834,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your organization´s name.
+        ///   Busca una cadena traducida similar a El nombre de su organización.
         /// </summary>
         internal static string RegistrationCompanyName {
             get {
@@ -1825,7 +1843,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your email address.
+        ///   Busca una cadena traducida similar a Su correo electrónico.
         /// </summary>
         internal static string RegistrationEmail {
             get {
@@ -1834,7 +1852,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Retype your email address.
+        ///   Busca una cadena traducida similar a Reingrese su correo electrónico.
         /// </summary>
         internal static string RegistrationEmailRetype {
             get {
@@ -1843,7 +1861,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your organization´s location.
+        ///   Busca una cadena traducida similar a La ubicación de su organización.
         /// </summary>
         internal static string RegistrationLocation {
             get {
@@ -1852,7 +1870,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Retype your password.
+        ///   Busca una cadena traducida similar a Reingrese su contraseña.
         /// </summary>
         internal static string RegistrationPasswordRetype {
             get {
@@ -1861,7 +1879,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Remember Me.
+        ///   Busca una cadena traducida similar a No cerrar sesión.
         /// </summary>
         internal static string RememberMe {
             get {
@@ -1870,7 +1888,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Remove.
+        ///   Busca una cadena traducida similar a Eliminar.
         /// </summary>
         internal static string Remove {
             get {
@@ -1879,7 +1897,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Reports.
+        ///   Busca una cadena traducida similar a Informes.
         /// </summary>
         internal static string Reports {
             get {
@@ -1888,7 +1906,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Reset.
+        ///   Busca una cadena traducida similar a Reiniciar.
         /// </summary>
         internal static string Reset {
             get {
@@ -1897,7 +1915,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Responsible.
+        ///   Busca una cadena traducida similar a Responsable.
         /// </summary>
         internal static string Responsible {
             get {
@@ -1906,7 +1924,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Roundtrip.
+        ///   Busca una cadena traducida similar a Ida y vuelta.
         /// </summary>
         internal static string Roundtrip {
             get {
@@ -1915,7 +1933,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Save.
+        ///   Busca una cadena traducida similar a Guardar.
         /// </summary>
         internal static string Save {
             get {
@@ -1924,7 +1942,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Search.
+        ///   Busca una cadena traducida similar a Buscar.
         /// </summary>
         internal static string Search {
             get {
@@ -1933,7 +1951,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Select.
+        ///   Busca una cadena traducida similar a Seleccionar.
         /// </summary>
         internal static string Select {
             get {
@@ -1942,7 +1960,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Series.
+        ///   Busca una cadena traducida similar a Serie.
         /// </summary>
         internal static string Serie {
             get {
@@ -1960,7 +1978,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter Consumption Values.
+        ///   Busca una cadena traducida similar a Ingresar Valores de Consumo.
         /// </summary>
         internal static string SetConsumption {
             get {
@@ -1969,7 +1987,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Set Load Grid.
+        ///   Busca una cadena traducida similar a Establecer Tabla para Carga.
         /// </summary>
         internal static string SetGrid {
             get {
@@ -1978,7 +1996,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter Reading Values.
+        ///   Busca una cadena traducida similar a Ingresar Valores de Lectura.
         /// </summary>
         internal static string SetReading {
             get {
@@ -1987,7 +2005,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Setup Fee (First Time Only).
+        ///   Busca una cadena traducida similar a Costo de Alta (por única vez).
         /// </summary>
         internal static string SetupFee {
             get {
@@ -1996,7 +2014,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Already paid.
+        ///   Busca una cadena traducida similar a Ya pagado.
         /// </summary>
         internal static string SetupFeePaid {
             get {
@@ -2005,7 +2023,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Sign Out.
+        ///   Busca una cadena traducida similar a Salir.
         /// </summary>
         internal static string SignOff {
             get {
@@ -2014,7 +2032,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Site.
+        ///   Busca una cadena traducida similar a Sitio.
         /// </summary>
         internal static string Site {
             get {
@@ -2023,7 +2041,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Close Site.
+        ///   Busca una cadena traducida similar a Cerrar.
         /// </summary>
         internal static string SiteClose {
             get {
@@ -2032,7 +2050,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Closed Site.
+        ///   Busca una cadena traducida similar a Cerrado.
         /// </summary>
         internal static string SiteClosed {
             get {
@@ -2041,7 +2059,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Finished Site.
+        ///   Busca una cadena traducida similar a Finalizado.
         /// </summary>
         internal static string SiteFinished {
             get {
@@ -2050,7 +2068,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Live Site.
+        ///   Busca una cadena traducida similar a Activo.
         /// </summary>
         internal static string SiteLive {
             get {
@@ -2059,7 +2077,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Live Status.
+        ///   Busca una cadena traducida similar a Estatus Activo.
         /// </summary>
         internal static string SiteLiveStatus {
             get {
@@ -2068,7 +2086,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Management Status.
+        ///   Busca una cadena traducida similar a Estatus Cargando.
         /// </summary>
         internal static string SiteLoadStatus {
             get {
@@ -2077,7 +2095,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Modify Site.
+        ///   Busca una cadena traducida similar a Modificar.
         /// </summary>
         internal static string SiteModify {
             get {
@@ -2086,7 +2104,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Open Site.
+        ///   Busca una cadena traducida similar a Abrir.
         /// </summary>
         internal static string SiteOpen {
             get {
@@ -2095,7 +2113,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Opened Site.
+        ///   Busca una cadena traducida similar a Abierto.
         /// </summary>
         internal static string SiteOpened {
             get {
@@ -2104,7 +2122,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Remove Site.
+        ///   Busca una cadena traducida similar a Eliminar.
         /// </summary>
         internal static string SiteRemove {
             get {
@@ -2113,7 +2131,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Sites.
+        ///   Busca una cadena traducida similar a Sitios.
         /// </summary>
         internal static string Sites {
             get {
@@ -2122,7 +2140,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Add Site.
+        ///   Busca una cadena traducida similar a Agregar Sitio.
         /// </summary>
         internal static string SitesAdd {
             get {
@@ -2131,7 +2149,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Type.
+        ///   Busca una cadena traducida similar a Tipo.
         /// </summary>
         internal static string SiteType {
             get {
@@ -2140,7 +2158,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Start Date.
+        ///   Busca una cadena traducida similar a Fecha de Inicio.
         /// </summary>
         internal static string Start {
             get {
@@ -2149,7 +2167,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Statistics.
+        ///   Busca una cadena traducida similar a Estadísticas.
         /// </summary>
         internal static string Stats {
             get {
@@ -2158,7 +2176,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Status.
+        ///   Busca una cadena traducida similar a Estatus.
         /// </summary>
         internal static string Status {
             get {
@@ -2176,7 +2194,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Success!.
+        ///   Busca una cadena traducida similar a Bien hecho!.
         /// </summary>
         internal static string Success {
             get {
@@ -2185,7 +2203,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Sum.
+        ///   Busca una cadena traducida similar a Suma.
         /// </summary>
         internal static string Sum {
             get {
@@ -2194,7 +2212,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Targets.
+        ///   Busca una cadena traducida similar a Objetivos.
         /// </summary>
         internal static string Targets {
             get {
@@ -2203,7 +2221,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Modify Targets.
+        ///   Busca una cadena traducida similar a Modificar Objetivos.
         /// </summary>
         internal static string TargetsModify {
             get {
@@ -2212,7 +2230,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter New Values.
+        ///   Busca una cadena traducida similar a Ingresar Nuevos Valores.
         /// </summary>
         internal static string TargetsNewValues {
             get {
@@ -2221,7 +2239,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Telephone.
+        ///   Busca una cadena traducida similar a Teléfono.
         /// </summary>
         internal static string Telephone {
             get {
@@ -2230,7 +2248,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Interval.
+        ///   Busca una cadena traducida similar a Intervalo.
         /// </summary>
         internal static string TimeUnit {
             get {
@@ -2239,7 +2257,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Day.
+        ///   Busca una cadena traducida similar a Día.
         /// </summary>
         internal static string TimeUnitDay {
             get {
@@ -2248,7 +2266,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Month.
+        ///   Busca una cadena traducida similar a Mes.
         /// </summary>
         internal static string TimeUnitMonth {
             get {
@@ -2257,7 +2275,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Period.
+        ///   Busca una cadena traducida similar a Período.
         /// </summary>
         internal static string TimeUnitPeriod {
             get {
@@ -2266,7 +2284,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Year.
+        ///   Busca una cadena traducida similar a Año.
         /// </summary>
         internal static string TimeUnitYear {
             get {
@@ -2275,7 +2293,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Week.
+        ///   Busca una cadena traducida similar a Meses.
         /// </summary>
         internal static string TimeuUnitWeek {
             get {
@@ -2284,7 +2302,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Title.
+        ///   Busca una cadena traducida similar a Nombre.
         /// </summary>
         internal static string Title {
             get {
@@ -2293,7 +2311,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a To.
+        ///   Busca una cadena traducida similar a Hasta.
         /// </summary>
         internal static string To {
             get {
@@ -2311,7 +2329,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Translations.
+        ///   Busca una cadena traducida similar a Traducciones.
         /// </summary>
         internal static string Translations {
             get {
@@ -2320,7 +2338,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Transport.
+        ///   Busca una cadena traducida similar a Transporte.
         /// </summary>
         internal static string Transport {
             get {
@@ -2329,7 +2347,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Input Type.
+        ///   Busca una cadena traducida similar a Tipo de Entrada.
         /// </summary>
         internal static string TransportInputType {
             get {
@@ -2338,7 +2356,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Transport Type.
+        ///   Busca una cadena traducida similar a Tipo de Transporte.
         /// </summary>
         internal static string TransportType {
             get {
@@ -2347,7 +2365,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Transport (km).
+        ///   Busca una cadena traducida similar a Transporte (km).
         /// </summary>
         internal static string TransportUnits {
             get {
@@ -2365,7 +2383,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Types.
+        ///   Busca una cadena traducida similar a Tipos.
         /// </summary>
         internal static string Types {
             get {
@@ -2374,7 +2392,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Unit.
+        ///   Busca una cadena traducida similar a Unidad.
         /// </summary>
         internal static string Unit {
             get {
@@ -2383,7 +2401,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Number of Employees.
+        ///   Busca una cadena traducida similar a Cantidad de Empleados.
         /// </summary>
         internal static string Units {
             get {
@@ -2392,7 +2410,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Website.
+        ///   Busca una cadena traducida similar a Sitio Web.
         /// </summary>
         internal static string Url {
             get {
@@ -2401,7 +2419,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Url addresses must have a valid format (i.e.: http://www.yoursite.com).
+        ///   Busca una cadena traducida similar a Las direcciones Url deben tener un formato válido (por ej.: http://www.yoursite.com).
         /// </summary>
         internal static string UrlFormat {
             get {
@@ -2410,7 +2428,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Modify User.
+        ///   Busca una cadena traducida similar a Modificar Usuario.
         /// </summary>
         internal static string UserModify {
             get {
@@ -2419,7 +2437,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Remove User.
+        ///   Busca una cadena traducida similar a Eliminar Usuario.
         /// </summary>
         internal static string UserRemove {
             get {
@@ -2428,7 +2446,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Users.
+        ///   Busca una cadena traducida similar a Usuarios.
         /// </summary>
         internal static string Users {
             get {
@@ -2437,7 +2455,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Add User.
+        ///   Busca una cadena traducida similar a Agregar Usuario.
         /// </summary>
         internal static string UsersAdd {
             get {
@@ -2446,7 +2464,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enabled Load Range .
+        ///   Busca una cadena traducida similar a Rango de Carga Activo.
         /// </summary>
         internal static string ValidLoadRange {
             get {
@@ -2455,7 +2473,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Attention! You can upload data with dates within the valid load period paid for this Site.  The current valid time frame is from [from] to [to]..
+        ///   Busca una cadena traducida similar a Atención! Solo puede cargar los datos con fechas dentro del período de validez de carga pagado para este sitio. El marco de tiempo actual válido es a partir de [from] a [to]..
         /// </summary>
         internal static string ValidLoadRangeExplanation {
             get {
@@ -2464,7 +2482,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Value.
+        ///   Busca una cadena traducida similar a Valor.
         /// </summary>
         internal static string Value {
             get {
@@ -2473,7 +2491,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a View.
+        ///   Busca una cadena traducida similar a Ver.
         /// </summary>
         internal static string View {
             get {
@@ -2482,7 +2500,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Volume.
+        ///   Busca una cadena traducida similar a Volumen.
         /// </summary>
         internal static string Volume {
             get {
@@ -2491,7 +2509,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Waste.
+        ///   Busca una cadena traducida similar a Residuos.
         /// </summary>
         internal static string Waste {
             get {
@@ -2500,7 +2518,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Waste Type.
+        ///   Busca una cadena traducida similar a Tipo de Residuo.
         /// </summary>
         internal static string WasteType {
             get {
@@ -2509,7 +2527,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Waste (kg).
+        ///   Busca una cadena traducida similar a Residuo (kg).
         /// </summary>
         internal static string WasteUnits {
             get {
@@ -2518,7 +2536,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Water.
+        ///   Busca una cadena traducida similar a Agua.
         /// </summary>
         internal static string Water {
             get {
@@ -2527,7 +2545,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Water (L).
+        ///   Busca una cadena traducida similar a Agua (L).
         /// </summary>
         internal static string WaterUnits {
             get {
@@ -2536,7 +2554,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Duration (Weeks).
+        ///   Busca una cadena traducida similar a Duración (semanas).
         /// </summary>
         internal static string Weeks {
             get {
@@ -2545,7 +2563,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Yes.
+        ///   Busca una cadena traducida similar a Si.
         /// </summary>
         internal static string Yes {
             get {
@@ -2554,7 +2572,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Postal Code.
+        ///   Busca una cadena traducida similar a Código Postal.
         /// </summary>
         internal static string ZipCode {
             get {

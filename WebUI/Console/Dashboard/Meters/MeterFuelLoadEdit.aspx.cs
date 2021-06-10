@@ -88,7 +88,7 @@ namespace CSI.WebUI.Console.Dashboard.Meters
             Int64 _idFuelType = _Serie.FuelType.IdFuelType;
 
             ddlLoadTypes.Items.Clear();
-            foreach (Library.Objects.Auxiliaries.Types.FuelType _type in I.GetFuelTypes().Values)
+            foreach (Library.Objects.Auxiliaries.Types.FuelType _type in I.GetFuelTypes(_Meter.Site.Country.IdCountry).Values)
             {
                 ListItem _item = new ListItem(_type.Name, _type.IdFuelType.ToString());
                 if (_type.IdFuelType == _idFuelType)

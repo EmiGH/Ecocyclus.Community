@@ -125,6 +125,8 @@ namespace CSI.WebUI
             //Registration
             lblMapLocationSelected.Text = Resources.Data.RegistrationLocation;
             lblRegistrationAgree.Text = Resources.Data.RegistrationAgree;
+            lblRegisterPasswordWarning.Text = Resources.Data.RegisterPasswordWarning;
+            lblRegisterLocationWarning.Text = Resources.Data.RegisterLocationWarning;
 
             //Cookie Policy
             lblCookiePolicyWarning.Text = Resources.Messages.CookieUseWarning;

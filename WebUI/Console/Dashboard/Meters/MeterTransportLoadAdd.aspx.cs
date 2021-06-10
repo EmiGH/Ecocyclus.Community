@@ -125,7 +125,7 @@ namespace CSI.WebUI.Console.Dashboard.Meters
         private void LoadTypes()
         {
             ddlLoadTypes.Items.Clear();
-            foreach (Library.Objects.Auxiliaries.Types.TransportType _type in I.GetTransportTypes().Values)
+            foreach (Library.Objects.Auxiliaries.Types.TransportType _type in I.GetTransportTypes(_Meter.Site.Country.IdCountry).Values)
             {
                 ListItem _item = new ListItem(_type.Name, _type.IdTransportType.ToString());
                 ddlLoadTypes.Items.Add(_item);

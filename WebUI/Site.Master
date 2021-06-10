@@ -226,6 +226,8 @@
                     <asp:CustomValidator ID="cuvRegisterLocation" runat="server" ValidationGroup="Register"
                         EnableClientScript="true" ClientValidationFunction="validateRegisterLocation" CssClass="rfvRegister"></asp:CustomValidator>
                 </div>
+                    
+                <asp:Label ID="lblRegisterLocationWarning" runat="server"></asp:Label>
 
                 <!-- Firstname -->
                 <asp:TextBox ID="txtRegisterFirstname" runat="server" AutoCompleteType="FirstName"
@@ -288,6 +290,8 @@
                     ControlToCompare="txtRegisterPassword" Operator="Equal" Type="String" ValidationGroup="Register"
                     runat="server" CssClass="rfvRegister"/>
                 
+                <asp:Label ID="lblRegisterPasswordWarning" runat="server"></asp:Label>
+
                 <asp:Label ID="lblRegistrationAgree" runat="server"></asp:Label>
                 
                 <asp:Button ID="btnRegister" ValidationGroup="Register" runat="server" />
