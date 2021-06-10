@@ -76,10 +76,12 @@
                 <asp:Label ID="lblStart" runat="server" CssClass="lblTitle"></asp:Label>
                 <asp:Label ID="lblStartValue" runat="server" CssClass="lblValue"></asp:Label>
             </div>
+            <!--
             <div class="divColumn column3">
                 <asp:Label ID="lblWeeks" runat="server" CssClass="lblTitle"></asp:Label>
                 <asp:Label ID="lblWeeksValue" runat="server" CssClass="lblValue"></asp:Label>
             </div>
+            -->
             <div class="divColumn column3">
                 <asp:Label ID="lblNumber" runat="server" CssClass="lblTitle"></asp:Label>
                 <asp:Label ID="lblNumberValue" runat="server" CssClass="lblValue"></asp:Label>
