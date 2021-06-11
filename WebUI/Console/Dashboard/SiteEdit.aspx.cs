@@ -122,9 +122,11 @@ namespace CSI.WebUI.Console.Dashboard
             calStart.Format = CurrentCultureInfo.DateTimeFormat.ShortDatePattern;
 
             //Validators
-            rfvTitle.Text = rfvValue.Text = rfvWeeks.Text = rfvFloorSpace.Text = cvStart.Text =
+            //rfvTitle.Text = rfvValue.Text = rfvWeeks.Text = rfvFloorSpace.Text = cvStart.Text =
+            //revUrl.Text = revEmail.Text = cuvLocation.Text = cvUnits.Text = cvTypes.Text =
+            rfvTitle.Text = rfvValue.Text = rfvFloorSpace.Text = cvStart.Text =
             revUrl.Text = revEmail.Text = cuvLocation.Text = cvUnits.Text = cvTypes.Text =
-            cvWeeks.Text = cvValue.Text = cvFloorSpace.Text = Resources.Messages.SummaryErrorCharacter;
+            cvValue.Text = cvFloorSpace.Text = Resources.Messages.SummaryErrorCharacter;
 
             btnSave.Text = Resources.Data.Save;
 

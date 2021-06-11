@@ -61,7 +61,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter other email than the one you use to register/login..
+        ///   Busca una cadena traducida similar a Introduzca otro email que el que se utiliza para registrar / login..
         /// </summary>
         internal static string CompanyEdit_aspx_cphContent_lblEmail {
             get {
@@ -70,7 +70,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a The tool will send you a reminder if the meter reading is not taken on the due date. Enter how many days after the due date you would like to be reminded..
+        ///   Busca una cadena traducida similar a La herramienta le enviará un aviso si la lectura del medidor no se carga a la fecha de vencimiento. Introduzca la cantidad de días posteriores a la fecha de vencimiento que le gustaría recibir el aviso..
         /// </summary>
         internal static string MeterElectricityAdd_aspx_cphContent_lblAlertAfter {
             get {
@@ -79,7 +79,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Choose how many days in advance you would like to be reminder about reading the meter.
+        ///   Busca una cadena traducida similar a Escoja con cuántos días de anticipación le gustaría ser avisado sobre la lectura del medidor.
         /// </summary>
         internal static string MeterElectricityAdd_aspx_cphContent_lblAlertBefore {
             get {
@@ -88,7 +88,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Tick the box if you would like to receive a message when the 1st reading is due..
+        ///   Busca una cadena traducida similar a Marque la casilla si desea recibir un mensaje cuando deba hacer la 1° lectura..
         /// </summary>
         internal static string MeterElectricityAdd_aspx_cphContent_lblAlertOnStart {
             get {
@@ -97,7 +97,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter any useful information here such as the meter location, or where the supply is going..
+        ///   Busca una cadena traducida similar a Introduzca cualquier información útil sobre el medidor , tales como su ubicación, el area / lugar que cubre el servicio, por ej. , oficinas, depósitos,  talleres,  etc..
         /// </summary>
         internal static string MeterElectricityAdd_aspx_cphContent_lblDescription {
             get {
@@ -106,7 +106,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Input here how often you will read the meter. If once a month, enter 1 and choose month in the from the INTERVAL drop down menu..
+        ///   Busca una cadena traducida similar a Introducir la frecuencia con la que va a leer el medidor. Si es una vez al mes, ingrese 1 y elija &quot;Mes&quot; en el menú desplegable de INTERVALO..
         /// </summary>
         internal static string MeterElectricityAdd_aspx_cphContent_lblFrequencyQuantity {
             get {
@@ -115,7 +115,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Select interval of meter readings from the drop down menu. Select &quot;Period&quot; if you want to enter only one value to cover the entire timespan..
+        ///   Busca una cadena traducida similar a Seleccione el intervalo de lecturas de los medidores del menú desplegable. Seleccione &quot; Período&quot; si desea introducir un solo valor para cubrir todo el intervalo de tiempo ..
         /// </summary>
         internal static string MeterElectricityAdd_aspx_cphContent_lblFrequencyUnits {
             get {
@@ -124,7 +124,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter the physical meter serial number (meter ID) or others meters identification here..
+        ///   Busca una cadena traducida similar a Introduzca aquí el número de serie del medidor (ID medidor) u otra identificación del mismo..
         /// </summary>
         internal static string MeterElectricityAdd_aspx_cphContent_lblIdentification {
             get {
@@ -133,7 +133,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter here the date the meter is installed. .
+        ///   Busca una cadena traducida similar a Introduzca aquí la fecha de instalación del medidor..
         /// </summary>
         internal static string MeterElectricityAdd_aspx_cphContent_lblInitialDate {
             get {
@@ -142,7 +142,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter the 1st meter reading when the meter is installed..
+        ///   Busca una cadena traducida similar a Introduzca la 1° lectura del medidor cuando fue instalado..
         /// </summary>
         internal static string MeterElectricityAdd_aspx_cphContent_lblInitialReading {
             get {
@@ -151,7 +151,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Tick the box if the meter is installed on site. Un-tick the box if the meter reading is extracted from the bill for example..
+        ///   Busca una cadena traducida similar a Marque la casilla si el medidor está instalado en el lugar. Desmarque la casilla si la lectura del medidor se extrae, por ejemplo, de la factura..
         /// </summary>
         internal static string MeterElectricityAdd_aspx_cphContent_lblIsPhysical {
             get {
@@ -160,7 +160,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a This is the unit measured by the meter, usually kWh..
+        ///   Busca una cadena traducida similar a Esta es la unidad de medida del medidor, por lo general kWh ..
         /// </summary>
         internal static string MeterElectricityAdd_aspx_cphContent_lblUnits {
             get {
@@ -169,7 +169,70 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Select the meter type to access each meter section. .
+        ///   Busca una cadena traducida similar a Introduzca cualquier información útil sobre el medidor , tales como si es medidor físico o si es fuente fija (p.ej. caldera, horno, etc.) o móvil (por ej. vehículo).
+        /// </summary>
+        internal static string MeterFuelAdd_aspx_cphContent_lblDescription {
+            get {
+                return ResourceManager.GetString("MeterFuelAdd_aspx_cphContent_lblDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Introduzca aquí la identificación del medidor o de la fuente fija o móvil de combustión. .
+        /// </summary>
+        internal static string MeterFuelAdd_aspx_cphContent_lblIdentification {
+            get {
+                return ResourceManager.GetString("MeterFuelAdd_aspx_cphContent_lblIdentification", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Seleccione la unidad de medida..
+        /// </summary>
+        internal static string MeterFuelAdd_aspx_cphContent_lblUnits {
+            get {
+                return ResourceManager.GetString("MeterFuelAdd_aspx_cphContent_lblUnits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Introduzca la fecha del registro..
+        /// </summary>
+        internal static string MeterFuelLoadAdd_aspx_cphContent_lblLoadDate {
+            get {
+                return ResourceManager.GetString("MeterFuelLoadAdd_aspx_cphContent_lblLoadDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Seleccione el tipo de combustible..
+        /// </summary>
+        internal static string MeterFuelLoadAdd_aspx_cphContent_lblLoadTypes {
+            get {
+                return ResourceManager.GetString("MeterFuelLoadAdd_aspx_cphContent_lblLoadTypes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Seleccione la unidad de medida..
+        /// </summary>
+        internal static string MeterFuelLoadAdd_aspx_cphContent_lblLoadUnits {
+            get {
+                return ResourceManager.GetString("MeterFuelLoadAdd_aspx_cphContent_lblLoadUnits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Cargue el valor..
+        /// </summary>
+        internal static string MeterFuelLoadAdd_aspx_cphContent_lblLoadValue {
+            get {
+                return ResourceManager.GetString("MeterFuelLoadAdd_aspx_cphContent_lblLoadValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Seleccione el tipo de medidor para acceder a cada sección del medidor..
         /// </summary>
         internal static string Meters_aspx_cphContent_lblMeters {
             get {
@@ -178,7 +241,142 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a The tool will send you a reminder if the meter reading is not taken on the due date. Enter how many days after the due date you would like to be reminded..
+        ///   Busca una cadena traducida similar a Introduzca cualquier información útil del transporte/s que registran km/millas recorridos..
+        /// </summary>
+        internal static string MeterTransportAdd_aspx_cphContent_lblDescription {
+            get {
+                return ResourceManager.GetString("MeterTransportAdd_aspx_cphContent_lblDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Introduzca aquí la identificación del transporte/s que registran km/millas..
+        /// </summary>
+        internal static string MeterTransportAdd_aspx_cphContent_lblIdentification {
+            get {
+                return ResourceManager.GetString("MeterTransportAdd_aspx_cphContent_lblIdentification", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Seleccione la unidad de medida..
+        /// </summary>
+        internal static string MeterTransportAdd_aspx_cphContent_lblUnits {
+            get {
+                return ResourceManager.GetString("MeterTransportAdd_aspx_cphContent_lblUnits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Seleccione la unidad de medida..
+        /// </summary>
+        internal static string MeterTransportLoadAdd_aspx_cphContent_lblLoadDistanceHeaderUnit {
+            get {
+                return ResourceManager.GetString("MeterTransportLoadAdd_aspx_cphContent_lblLoadDistanceHeaderUnit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Cargue el valor..
+        /// </summary>
+        internal static string MeterTransportLoadAdd_aspx_cphContent_lblLoadDistanceHeaderValue {
+            get {
+                return ResourceManager.GetString("MeterTransportLoadAdd_aspx_cphContent_lblLoadDistanceHeaderValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Introduzca la fecha del registro..
+        /// </summary>
+        internal static string MeterTransportLoadAdd_aspx_cphContent_lblLoadHeaderDate {
+            get {
+                return ResourceManager.GetString("MeterTransportLoadAdd_aspx_cphContent_lblLoadHeaderDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Introduzca aquí el número de identificación del transporte u otra identificación del mismo..
+        /// </summary>
+        internal static string MeterTransportLoadAdd_aspx_cphContent_lblLoadHeaderPlateNumber {
+            get {
+                return ResourceManager.GetString("MeterTransportLoadAdd_aspx_cphContent_lblLoadHeaderPlateNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Seleccione el tipo de transporte..
+        /// </summary>
+        internal static string MeterTransportLoadAdd_aspx_cphContent_lblLoadHeaderTypes {
+            get {
+                return ResourceManager.GetString("MeterTransportLoadAdd_aspx_cphContent_lblLoadHeaderTypes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Introduzca cualquier información útil de la fuente/s que registran la generación de residuos, tipos, caracterización,etc.. .
+        /// </summary>
+        internal static string MeterWasteAdd_aspx_cphContent_lblDescription {
+            get {
+                return ResourceManager.GetString("MeterWasteAdd_aspx_cphContent_lblDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Introduzca aquí la identificación de la fuente/s que registran la generación de residuos. .
+        /// </summary>
+        internal static string MeterWasteAdd_aspx_cphContent_lblIdentification {
+            get {
+                return ResourceManager.GetString("MeterWasteAdd_aspx_cphContent_lblIdentification", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Seleccione la unidad de medida..
+        /// </summary>
+        internal static string MeterWasteAdd_aspx_cphContent_lblUnits {
+            get {
+                return ResourceManager.GetString("MeterWasteAdd_aspx_cphContent_lblUnits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Introduzca la fecha del registro..
+        /// </summary>
+        internal static string MeterWasteLoadAdd_aspx_cphContent_lblLoadDate {
+            get {
+                return ResourceManager.GetString("MeterWasteLoadAdd_aspx_cphContent_lblLoadDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Seleccione el tipo de residuo..
+        /// </summary>
+        internal static string MeterWasteLoadAdd_aspx_cphContent_lblLoadTypes {
+            get {
+                return ResourceManager.GetString("MeterWasteLoadAdd_aspx_cphContent_lblLoadTypes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Seleccione la unidad de medida..
+        /// </summary>
+        internal static string MeterWasteLoadAdd_aspx_cphContent_lblLoadUnits {
+            get {
+                return ResourceManager.GetString("MeterWasteLoadAdd_aspx_cphContent_lblLoadUnits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Cargue el valor..
+        /// </summary>
+        internal static string MeterWasteLoadAdd_aspx_cphContent_lblLoadValue {
+            get {
+                return ResourceManager.GetString("MeterWasteLoadAdd_aspx_cphContent_lblLoadValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La herramienta le enviará un aviso si la lectura del medidor no se carga a la fecha de vencimiento. Introduzca la cantidad de días posteriores a la fecha de vencimiento que le desearía recibir el aviso..
         /// </summary>
         internal static string MeterWaterAdd_aspx_cphContent_lblAlertAfter {
             get {
@@ -187,7 +385,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Choose how many days in advance you would like to be reminder about reading the meter.
+        ///   Busca una cadena traducida similar a Elija con cuántos días de anticipación desearía ser avisado sobre la lectura del medidor.
         /// </summary>
         internal static string MeterWaterAdd_aspx_cphContent_lblAlertBefore {
             get {
@@ -196,7 +394,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Tick the box if you would like to receive a message when the 1st reading is due..
+        ///   Busca una cadena traducida similar a Marque la casilla si desea recibir un mensaje cuando deba hacer la 1° lectura..
         /// </summary>
         internal static string MeterWaterAdd_aspx_cphContent_lblAlertOnStart {
             get {
@@ -205,7 +403,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter any useful information here such as the meter location, or where the supply is going..
+        ///   Busca una cadena traducida similar a Introduzca cualquier información útil sobre el medidor , tales como su ubicación, el area / lugar que cubre el servicio, por ej. , oficinas, depósitos,  talleres,  etc..
         /// </summary>
         internal static string MeterWaterAdd_aspx_cphContent_lblDescription {
             get {
@@ -214,7 +412,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Input here how often you will read the meter. If once a month, enter 1 and choose month in the from the INTERVAL drop down menu..
+        ///   Busca una cadena traducida similar a Introducir la frecuencia con la que va a leer el medidor. Si es una vez al mes , ingrese 1 y elija &quot;Mes&quot; en el menú desplegable de INTERVALO..
         /// </summary>
         internal static string MeterWaterAdd_aspx_cphContent_lblFrequencyQuantity {
             get {
@@ -223,7 +421,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Select interval of meter readings from the drop down menu. Select &quot;Period&quot; if you want to enter only one value to cover the entire timespan..
+        ///   Busca una cadena traducida similar a Seleccione el intervalo de lecturas de los medidores del menú desplegable. Seleccione &quot; Período&quot; si desea introducir un solo valor para cubrir todo el intervalo de tiempo ..
         /// </summary>
         internal static string MeterWaterAdd_aspx_cphContent_lblFrequencyUnits {
             get {
@@ -232,7 +430,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter the physical meter serial number (meter ID) or others meters identification here..
+        ///   Busca una cadena traducida similar a Introduzca aquí el número de serie del medidor (ID medidor) u otra identificación del mismo..
         /// </summary>
         internal static string MeterWaterAdd_aspx_cphContent_lblIdentification {
             get {
@@ -241,7 +439,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter here the date the meter is installed. .
+        ///   Busca una cadena traducida similar a Introduzca aquí la fecha de instalación del medidor..
         /// </summary>
         internal static string MeterWaterAdd_aspx_cphContent_lblInitialDate {
             get {
@@ -250,7 +448,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter the 1st meter reading when the meter is installed..
+        ///   Busca una cadena traducida similar a Introduzca la 1° lectura del medidor cuando fue instalado..
         /// </summary>
         internal static string MeterWaterAdd_aspx_cphContent_lblInitialReading {
             get {
@@ -259,7 +457,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Tick the box if the meter is installed on site. Un-tick the box if the meter reading is extracted from the bill for example..
+        ///   Busca una cadena traducida similar a Marque la casilla si el medidor está instalado en el lugar. Desmarque la casilla si la lectura del medidor se extrae, por ejemplo, de la factura..
         /// </summary>
         internal static string MeterWaterAdd_aspx_cphContent_lblIsPhysical {
             get {
@@ -268,7 +466,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a This is the unit measured by the meter, usually m3..
+        ///   Busca una cadena traducida similar a Esta es la unidad de medida del medidor, por lo general m3 ..
         /// </summary>
         internal static string MeterWaterAdd_aspx_cphContent_lblUnits {
             get {
@@ -277,7 +475,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Passwords must be at least 8 characters long including numbers, upper and lower case letters..
+        ///   Busca una cadena traducida similar a Las contraseñas deben tener al menos 8 caracteres, incluyendo números, mayúsculas y minúsculas..
         /// </summary>
         internal static string ProfileChangePassword_aspx_cphContent_lblNewPassword {
             get {
@@ -286,7 +484,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a The active, valid email address registered is your account username to login . .
+        ///   Busca una cadena traducida similar a La dirección de correo electrónico registrada, activa y válida, es su cuenta de usuario para iniciar sesión..
         /// </summary>
         internal static string ProfileEdit_aspx_cphContent_lblEmail {
             get {
@@ -295,7 +493,16 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Please enter the area of the Site..
+        ///   Busca una cadena traducida similar a Introduzca cualquier información útil sobre el sitio, tales como dónde se encuentra ubicado, por ej. zona urbana, industrial, rural, comercial, etc..
+        /// </summary>
+        internal static string SiteAdd_aspx_cphContent_lblDescription {
+            get {
+                return ResourceManager.GetString("SiteAdd_aspx_cphContent_lblDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Por favor ingrese las superficie del Sitio..
         /// </summary>
         internal static string SiteAdd_aspx_cphContent_lblFloorSpace {
             get {
@@ -304,7 +511,16 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Please enter the Site Address..
+        ///   Busca una cadena traducida similar a Marque la casilla si desea hacer público el acceso de los informes..
+        /// </summary>
+        internal static string SiteAdd_aspx_cphContent_lblIsPublic {
+            get {
+                return ResourceManager.GetString("SiteAdd_aspx_cphContent_lblIsPublic", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Por favor ingrese el domicilio del Sitio..
         /// </summary>
         internal static string SiteAdd_aspx_cphContent_lblMapLocator {
             get {
@@ -313,7 +529,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Please enter the Site´s Identification Number..
+        ///   Busca una cadena traducida similar a Por favor ingrese la fecha de inicio.
         /// </summary>
         internal static string SiteAdd_aspx_cphContent_lblNumber {
             get {
@@ -322,7 +538,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Please enter the Site Start date..
+        ///   Busca una cadena traducida similar a Por favor ingrese la fecha de inicio.
         /// </summary>
         internal static string SiteAdd_aspx_cphContent_lblStart {
             get {
@@ -331,7 +547,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Please enter the Site Name here..
+        ///   Busca una cadena traducida similar a Por favor ingrese el nombre del sitio..
         /// </summary>
         internal static string SiteAdd_aspx_cphContent_lblTitle {
             get {
@@ -340,7 +556,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Please choose the Site Classification from the drop down menu..
+        ///   Busca una cadena traducida similar a Por favor clasifique el Sitio en el menú desplegable..
         /// </summary>
         internal static string SiteAdd_aspx_cphContent_lblType {
             get {
@@ -349,7 +565,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Please enter the Number of Employees working at the Site.
+        ///   Busca una cadena traducida similar a Por favor ingrese la cantidad de empleados que trabajan en el Sitio..
         /// </summary>
         internal static string SiteAdd_aspx_cphContent_lblUnits {
             get {
@@ -358,7 +574,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Please enter the Site Annual Budget. This field can be edited at a later date if needed..
+        ///   Busca una cadena traducida similar a Por favor ingrese los presupuesto asignado al sitio . Este campo se puede editar en una fecha posterior si es necesario..
         /// </summary>
         internal static string SiteAdd_aspx_cphContent_lblValue {
             get {
@@ -367,7 +583,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a .
+        ///   Busca una cadena traducida similar a Por favor ingrese la duración de la actividad en semanas. Este campo se puede editar en una fecha posterior si es necesario..
         /// </summary>
         internal static string SiteAdd_aspx_cphContent_lblWeeks {
             get {
@@ -376,7 +592,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter an active, valid user´s email address. The email address registered is the user´s account username to login ..
+        ///   Busca una cadena traducida similar a Ingrese una dirección de correo electrónico de un usuario activo y válido. La dirección de correo electrónico registrada es el nombre de usuario de la cuenta de usuario para iniciar sesión..
         /// </summary>
         internal static string UserAdd_aspx_cphContent_lblEmail {
             get {
@@ -385,7 +601,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Retype the active, valid user´s email address..
+        ///   Busca una cadena traducida similar a Reingrese la dirección de correo electrónico de un usuario activo y válido..
         /// </summary>
         internal static string UserAdd_aspx_cphContent_lblEmail2 {
             get {
@@ -394,7 +610,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a The field must be user&apos;s First Name..
+        ///   Busca una cadena traducida similar a Este campo debe ser el Nombre del usuario..
         /// </summary>
         internal static string UserAdd_aspx_cphContent_lblFirstname {
             get {
@@ -403,7 +619,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Select this option if you want the user to be able to login..
+        ///   Busca una cadena traducida similar a Seleccione esta opción si desea que el usuario pueda iniciar sesión..
         /// </summary>
         internal static string UserAdd_aspx_cphContent_lblIsActive {
             get {
@@ -412,7 +628,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Select this option if the user will be a organization manager with access granted to manage all users, sites and permissions..
+        ///   Busca una cadena traducida similar a Seleccione esta opción si el usuario va a ser un Gerente con acceso concedido para gestionar todos los usuarios , sitios y permisos..
         /// </summary>
         internal static string UserAdd_aspx_cphContent_lblIsManager {
             get {
@@ -421,7 +637,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Select the user´s language..
+        ///   Busca una cadena traducida similar a Seleccione el idioma del usuario..
         /// </summary>
         internal static string UserAdd_aspx_cphContent_lblLanguage {
             get {
@@ -430,7 +646,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a The field must be user&apos;s Last Name..
+        ///   Busca una cadena traducida similar a Este campo debe ser el Apellido del usuario..
         /// </summary>
         internal static string UserAdd_aspx_cphContent_lblLastname {
             get {
@@ -439,7 +655,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter user´s Password. Passwords must be at least 8 characters long including numbers, upper and lower case letters. .
+        ///   Busca una cadena traducida similar a Ingrese la contraseña de usuario. Las contraseñas deben tener al menos 8 caracteres, incluyendo números , mayúsculas y minúsculas..
         /// </summary>
         internal static string UserAdd_aspx_cphContent_lblPassword {
             get {
@@ -448,7 +664,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Retype user´s Password. Passwords must be at least 8 characters long including numbers, upper and lower case letters..
+        ///   Busca una cadena traducida similar a Reingrese la contraseña del usuario. Las contraseñas deben tener al menos 8 caracteres, incluyendo números , mayúsculas y minúsculas..
         /// </summary>
         internal static string UserAdd_aspx_cphContent_lblPassword2 {
             get {

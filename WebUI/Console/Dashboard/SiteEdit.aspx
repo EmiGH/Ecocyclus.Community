@@ -403,8 +403,7 @@
             <ajaxToolkit:CalendarExtender ID="calStart" runat="server" DefaultView="Days" TargetControlID="txtStart">
             </ajaxToolkit:CalendarExtender>
         </div>
-        <!--
-        <div class="divColumn column3">
+        <div class="divColumn column3" style="display:none">
              Weeks 
             <asp:Label ID="lblWeeks" runat="server" CssClass="lblTitle"></asp:Label>
             <asp:RequiredFieldValidator ID="rfvWeeks" runat="server" ControlToValidate="txtWeeks"
@@ -413,7 +412,6 @@
                 Operator="DataTypeCheck" ValidationGroup="Add" CssClass="rfvRequested" Display="Dynamic"></asp:CompareValidator>
             <asp:TextBox ID="txtWeeks" runat="server" CssClass="lblValue"></asp:TextBox>
         </div>
-            -->
         <div class="divColumn column3 last">
             <!-- Number -->
             <asp:Label ID="lblNumber" runat="server" CssClass="lblTitle"></asp:Label>

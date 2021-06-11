@@ -86,10 +86,12 @@ namespace CSI.WebUI.Console.Dashboard
             btnDescriptionTranslationsSave.Text = Resources.Data.Save;
 
             calStart.Format = CurrentCultureInfo.DateTimeFormat.ShortDatePattern;
-            
+
             //Validators
-            rfvTitle.Text = rfvValue.Text = rfvWeeks.Text = rfvFloorSpace.Text =  rfvNumber.Text =
-            revUrl.Text = revEmail.Text = cuvLocation.Text = cvWeeks.Text = cvTypes.Text =
+            //rfvTitle.Text = rfvValue.Text = rfvWeeks.Text = rfvFloorSpace.Text =  rfvNumber.Text =
+            //revUrl.Text = revEmail.Text = cuvLocation.Text = cvWeeks.Text = cvTypes.Text =
+            rfvTitle.Text = rfvValue.Text = rfvFloorSpace.Text = rfvNumber.Text =
+            revUrl.Text = revEmail.Text = cuvLocation.Text = cvTypes.Text =
             cvStart.Text = cvValue.Text = cvFloorSpace.Text = cvUnits.Text = Resources.Messages.SummaryErrorCharacter;
             
             btnSave.Text = Resources.Data.Save;

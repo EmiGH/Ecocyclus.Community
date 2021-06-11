@@ -153,8 +153,74 @@
   <data name="MeterElectricityAdd_aspx_cphContent_lblUnits" xml:space="preserve">
     <value>This is the unit measured by the meter, usually kWh.</value>
   </data>
+  <data name="MeterFuelAdd_aspx_cphContent_lblDescription" xml:space="preserve">
+    <value>Enter any useful information about the meter, such as whether it is a physical meter or whether it is a stationary (eg boiler, furnace, etc.) or mobile (eg vehicle) combustion source.</value>
+  </data>
+  <data name="MeterFuelAdd_aspx_cphContent_lblIdentification" xml:space="preserve">
+    <value>Enter here the identification of the meter or the stationariy or mobile combustion source.</value>
+  </data>
+  <data name="MeterFuelAdd_aspx_cphContent_lblUnits" xml:space="preserve">
+    <value>Select the unit of measurement.</value>
+  </data>
+  <data name="MeterFuelLoadAdd_aspx_cphContent_lblLoadDate" xml:space="preserve">
+    <value>Enter the date of the record.</value>
+  </data>
+  <data name="MeterFuelLoadAdd_aspx_cphContent_lblLoadTypes" xml:space="preserve">
+    <value>Select the fuel type.</value>
+  </data>
+  <data name="MeterFuelLoadAdd_aspx_cphContent_lblLoadUnits" xml:space="preserve">
+    <value>Select the unit of measurement.</value>
+  </data>
+  <data name="MeterFuelLoadAdd_aspx_cphContent_lblLoadValue" xml:space="preserve">
+    <value>Load value.</value>
+  </data>
   <data name="Meters_aspx_cphContent_lblMeters" xml:space="preserve">
     <value>Select the meter type to access each meter section.</value>
+  </data>
+  <data name="MeterTransportAdd_aspx_cphContent_lblDescription" xml:space="preserve">
+    <value>Enter any useful information of the transport/s that record km / miles traveled.</value>
+  </data>
+  <data name="MeterTransportAdd_aspx_cphContent_lblIdentification" xml:space="preserve">
+    <value>Enter here the identification of the transport/s that record km / miles.</value>
+  </data>
+  <data name="MeterTransportAdd_aspx_cphContent_lblUnits" xml:space="preserve">
+    <value>Select the unit of measurement.</value>
+  </data>
+  <data name="MeterTransportLoadAdd_aspx_cphContent_lblLoadDistanceHeaderUnit" xml:space="preserve">
+    <value>Select the unit of measurement.</value>
+  </data>
+  <data name="MeterTransportLoadAdd_aspx_cphContent_lblLoadDistanceHeaderValue" xml:space="preserve">
+    <value>Load value.</value>
+  </data>
+  <data name="MeterTransportLoadAdd_aspx_cphContent_lblLoadHeaderDate" xml:space="preserve">
+    <value>Enter the date of the record.</value>
+  </data>
+  <data name="MeterTransportLoadAdd_aspx_cphContent_lblLoadHeaderPlateNumber" xml:space="preserve">
+    <value>Enter here the transport identification number or other identification of the transport.</value>
+  </data>
+  <data name="MeterTransportLoadAdd_aspx_cphContent_lblLoadHeaderTypes" xml:space="preserve">
+    <value>Select the transport type.</value>
+  </data>
+  <data name="MeterWasteAdd_aspx_cphContent_lblDescription" xml:space="preserve">
+    <value>Enter any useful information from the waste source/s that record waste generation, types, characterization, etc.</value>
+  </data>
+  <data name="MeterWasteAdd_aspx_cphContent_lblIdentification" xml:space="preserve">
+    <value>Enter here the identification of the waste source/s that record the generation of waste.</value>
+  </data>
+  <data name="MeterWasteAdd_aspx_cphContent_lblUnits" xml:space="preserve">
+    <value>Select the unit of measurement.</value>
+  </data>
+  <data name="MeterWasteLoadAdd_aspx_cphContent_lblLoadDate" xml:space="preserve">
+    <value>Enter the date of the record.</value>
+  </data>
+  <data name="MeterWasteLoadAdd_aspx_cphContent_lblLoadTypes" xml:space="preserve">
+    <value>Select the waste type.</value>
+  </data>
+  <data name="MeterWasteLoadAdd_aspx_cphContent_lblLoadUnits" xml:space="preserve">
+    <value>Select the unit of measurement.</value>
+  </data>
+  <data name="MeterWasteLoadAdd_aspx_cphContent_lblLoadValue" xml:space="preserve">
+    <value>Load value.</value>
   </data>
   <data name="MeterWaterAdd_aspx_cphContent_lblAlertAfter" xml:space="preserve">
     <value>The tool will send you a reminder if the meter reading is not taken on the due date. Enter how many days after the due date you would like to be reminded.</value>
@@ -195,8 +261,14 @@
   <data name="ProfileEdit_aspx_cphContent_lblEmail" xml:space="preserve">
     <value>The active, valid email address registered is your account username to login . </value>
   </data>
+  <data name="SiteAdd_aspx_cphContent_lblDescription" xml:space="preserve">
+    <value>Enter any useful information about the site, such as where it is located, eg. urban, industrial, rural, commercial area, etc.</value>
+  </data>
   <data name="SiteAdd_aspx_cphContent_lblFloorSpace" xml:space="preserve">
     <value>Please enter the area of the Site.</value>
+  </data>
+  <data name="SiteAdd_aspx_cphContent_lblIsPublic" xml:space="preserve">
+    <value>Tick the box if you want to make the reports public.</value>
   </data>
   <data name="SiteAdd_aspx_cphContent_lblMapLocator" xml:space="preserve">
     <value>Please enter the Site Address.</value>
@@ -206,6 +278,9 @@
   </data>
   <data name="SiteAdd_aspx_cphContent_lblStart" xml:space="preserve">
     <value>Please enter the Site Start date.</value>
+  </data>
+  <data name="SiteAdd_aspx_cphContent_lblStart1" xml:space="preserve">
+    <value>Please enter the start date.</value>
   </data>
   <data name="SiteAdd_aspx_cphContent_lblTitle" xml:space="preserve">
     <value>Please enter the Site Name here.</value>
@@ -222,7 +297,7 @@
   <data name="SiteAdd_aspx_cphContent_lblWeeks" xml:space="preserve">
     <value>Please enter the duration of the activity in weeks. This field can be edited at a later date if needed.</value>
   </data>
- <data name="UserAdd_aspx_cphContent_lblEmail" xml:space="preserve">
+  <data name="UserAdd_aspx_cphContent_lblEmail" xml:space="preserve">
     <value>Enter an active, valid user´s email address. The email address registered is the user´s account username to login .</value>
   </data>
   <data name="UserAdd_aspx_cphContent_lblEmail2" xml:space="preserve">

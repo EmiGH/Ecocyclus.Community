@@ -153,8 +153,74 @@
   <data name="MeterElectricityAdd_aspx_cphContent_lblUnits" xml:space="preserve">
     <value>Esta es la unidad de medida del medidor, por lo general kWh .</value>
   </data>
+  <data name="MeterFuelAdd_aspx_cphContent_lblDescription" xml:space="preserve">
+    <value>Introduzca cualquier información útil sobre el medidor , tales como si es medidor físico o si es fuente fija (p.ej. caldera, horno, etc.) o móvil (por ej. vehículo)</value>
+  </data>
+  <data name="MeterFuelAdd_aspx_cphContent_lblIdentification" xml:space="preserve">
+    <value>Introduzca aquí la identificación del medidor o de la fuente fija o móvil de combustión. </value>
+  </data>
+  <data name="MeterFuelAdd_aspx_cphContent_lblUnits" xml:space="preserve">
+    <value>Seleccione la unidad de medida.</value>
+  </data>
+  <data name="MeterFuelLoadAdd_aspx_cphContent_lblLoadDate" xml:space="preserve">
+    <value>Introduzca la fecha del registro.</value>
+  </data>
+  <data name="MeterFuelLoadAdd_aspx_cphContent_lblLoadTypes" xml:space="preserve">
+    <value>Seleccione el tipo de combustible.</value>
+  </data>
+  <data name="MeterFuelLoadAdd_aspx_cphContent_lblLoadUnits" xml:space="preserve">
+    <value>Seleccione la unidad de medida.</value>
+  </data>
+  <data name="MeterFuelLoadAdd_aspx_cphContent_lblLoadValue" xml:space="preserve">
+    <value>Cargue el valor.</value>
+  </data>
   <data name="Meters_aspx_cphContent_lblMeters" xml:space="preserve">
     <value>Seleccione el tipo de medidor para acceder a cada sección del medidor.</value>
+  </data>
+  <data name="MeterTransportAdd_aspx_cphContent_lblDescription" xml:space="preserve">
+    <value>Introduzca cualquier información útil del transporte/s que registran km/millas recorridos.</value>
+  </data>
+  <data name="MeterTransportAdd_aspx_cphContent_lblIdentification" xml:space="preserve">
+    <value>Introduzca aquí la identificación del transporte/s que registran km/millas.</value>
+  </data>
+  <data name="MeterTransportAdd_aspx_cphContent_lblUnits" xml:space="preserve">
+    <value>Seleccione la unidad de medida.</value>
+  </data>
+  <data name="MeterTransportLoadAdd_aspx_cphContent_lblLoadDistanceHeaderUnit" xml:space="preserve">
+    <value>Seleccione la unidad de medida.</value>
+  </data>
+  <data name="MeterTransportLoadAdd_aspx_cphContent_lblLoadDistanceHeaderValue" xml:space="preserve">
+    <value>Cargue el valor.</value>
+  </data>
+  <data name="MeterTransportLoadAdd_aspx_cphContent_lblLoadHeaderDate" xml:space="preserve">
+    <value>Introduzca la fecha del registro.</value>
+  </data>
+  <data name="MeterTransportLoadAdd_aspx_cphContent_lblLoadHeaderPlateNumber" xml:space="preserve">
+    <value>Introduzca aquí el número de identificación del transporte u otra identificación del mismo.</value>
+  </data>
+  <data name="MeterTransportLoadAdd_aspx_cphContent_lblLoadHeaderTypes" xml:space="preserve">
+    <value>Seleccione el tipo de transporte.</value>
+  </data>
+  <data name="MeterWasteAdd_aspx_cphContent_lblDescription" xml:space="preserve">
+    <value>Introduzca cualquier información útil de la fuente/s que registran la generación de residuos, tipos, caracterización,etc.. </value>
+  </data>
+  <data name="MeterWasteAdd_aspx_cphContent_lblIdentification" xml:space="preserve">
+    <value>Introduzca aquí la identificación de la fuente/s que registran la generación de residuos. </value>
+  </data>
+  <data name="MeterWasteAdd_aspx_cphContent_lblUnits" xml:space="preserve">
+    <value>Seleccione la unidad de medida.</value>
+  </data>
+  <data name="MeterWasteLoadAdd_aspx_cphContent_lblLoadDate" xml:space="preserve">
+    <value>Introduzca la fecha del registro.</value>
+  </data>
+  <data name="MeterWasteLoadAdd_aspx_cphContent_lblLoadTypes" xml:space="preserve">
+    <value>Seleccione el tipo de residuo.</value>
+  </data>
+  <data name="MeterWasteLoadAdd_aspx_cphContent_lblLoadUnits" xml:space="preserve">
+    <value>Seleccione la unidad de medida.</value>
+  </data>
+  <data name="MeterWasteLoadAdd_aspx_cphContent_lblLoadValue" xml:space="preserve">
+    <value>Cargue el valor.</value>
   </data>
   <data name="MeterWaterAdd_aspx_cphContent_lblAlertAfter" xml:space="preserve">
     <value>La herramienta le enviará un aviso si la lectura del medidor no se carga a la fecha de vencimiento. Introduzca la cantidad de días posteriores a la fecha de vencimiento que le desearía recibir el aviso.</value>
@@ -195,21 +261,28 @@
   <data name="ProfileEdit_aspx_cphContent_lblEmail" xml:space="preserve">
     <value>La dirección de correo electrónico registrada, activa y válida, es su cuenta de usuario para iniciar sesión.</value>
   </data>
- <data name="SiteAdd_aspx_cphContent_lblFloorSpace" xml:space="preserve">
+  <data name="SiteAdd_aspx_cphContent_lblDescription" xml:space="preserve">
+    <value>Introduzca cualquier información útil sobre el sitio, tales como dónde se encuentra ubicado, por ej. zona urbana, industrial, rural, comercial, etc.</value>
+  </data>
+  <data name="SiteAdd_aspx_cphContent_lblFloorSpace" xml:space="preserve">
     <value>Por favor ingrese las superficie del Sitio.</value>
+  </data>
+  <data name="SiteAdd_aspx_cphContent_lblIsPublic" xml:space="preserve">
+    <value>Marque la casilla si desea hacer público el acceso de los informes.</value>
   </data>
   <data name="SiteAdd_aspx_cphContent_lblMapLocator" xml:space="preserve">
     <value>Por favor ingrese el domicilio del Sitio.</value>
   </data>
   <data name="SiteAdd_aspx_cphContent_lblNumber" xml:space="preserve">
-    <value>Por favor ingrese el número de identificación del Sitio.</value>
+    <value>Por favor ingrese la fecha de inicio</value>
+  </data>
   <data name="SiteAdd_aspx_cphContent_lblStart" xml:space="preserve">
     <value>Por favor ingrese la fecha de inicio</value>
   </data>
   <data name="SiteAdd_aspx_cphContent_lblTitle" xml:space="preserve">
     <value>Por favor ingrese el nombre del sitio.</value>
   </data>
- <data name="SiteAdd_aspx_cphContent_lblType" xml:space="preserve">
+  <data name="SiteAdd_aspx_cphContent_lblType" xml:space="preserve">
     <value>Por favor clasifique el Sitio en el menú desplegable.</value>
   </data>
   <data name="SiteAdd_aspx_cphContent_lblUnits" xml:space="preserve">
@@ -221,7 +294,7 @@
   <data name="SiteAdd_aspx_cphContent_lblWeeks" xml:space="preserve">
     <value>Por favor ingrese la duración de la actividad en semanas. Este campo se puede editar en una fecha posterior si es necesario.</value>
   </data>
-<data name="UserAdd_aspx_cphContent_lblEmail" xml:space="preserve">
+  <data name="UserAdd_aspx_cphContent_lblEmail" xml:space="preserve">
     <value>Ingrese una dirección de correo electrónico de un usuario activo y válido. La dirección de correo electrónico registrada es el nombre de usuario de la cuenta de usuario para iniciar sesión.</value>
   </data>
   <data name="UserAdd_aspx_cphContent_lblEmail2" xml:space="preserve">
@@ -236,7 +309,6 @@
   <data name="UserAdd_aspx_cphContent_lblIsManager" xml:space="preserve">
     <value>Seleccione esta opción si el usuario va a ser un Gerente con acceso concedido para gestionar todos los usuarios , sitios y permisos.</value>
   </data>
- </data>
   <data name="UserAdd_aspx_cphContent_lblLanguage" xml:space="preserve">
     <value>Seleccione el idioma del usuario.</value>
   </data>
