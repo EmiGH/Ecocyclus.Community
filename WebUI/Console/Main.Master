@@ -96,7 +96,7 @@
                             
                             <asp:Panel ID="pnlMenuHeader" runat="server">
                                 
-                                <asp:HyperLink ID="hplHelp" runat="server" NavigateUrl="http://www.ecocyclus.com/communities" Target="_blank" CssClass="lnkSupport"></asp:HyperLink>
+                                <asp:HyperLink ID="hplHelp" runat="server" NavigateUrl="http://ecocyclus.com/Communities/Support/support_es.htm" Target="_blank" CssClass="lnkSupport"></asp:HyperLink>
                                 <div class="pnlSeparatorUser"></div>                                
                                 <asp:LinkButton ID="lnkCompany" runat="server" OnClientClick="toogleCompanyPanel(); return false;"></asp:LinkButton>
                                 <div class="pnlSeparatorUser"></div>
