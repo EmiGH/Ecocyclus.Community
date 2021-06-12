@@ -177,42 +177,6 @@ namespace CSI.WebUI.Console.Dashboard
         protected global::AjaxControlToolkit.CalendarExtender calStart;
 
         /// <summary>
-        /// Control lblWeeks.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblWeeks;
-
-        /// <summary>
-        /// Control rfvWeeks.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvWeeks;
-
-        /// <summary>
-        /// Control cvWeeks.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator cvWeeks;
-
-        /// <summary>
-        /// Control txtWeeks.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtWeeks;
-
-        /// <summary>
         /// Control lblNumber.
         /// </summary>
         /// <remarks>

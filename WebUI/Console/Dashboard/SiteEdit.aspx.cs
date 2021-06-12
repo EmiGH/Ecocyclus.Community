@@ -93,7 +93,6 @@ namespace CSI.WebUI.Console.Dashboard
 
             lblType.Text = Resources.Data.SiteType + _mandatoryField + _helpPostfix; 
             lblStart.Text = Resources.Data.Start + Resources.Data.MandatoryField + _helpPostfix;
-            lblWeeks.Text = Resources.Data.Weeks + Resources.Data.MandatoryField + _helpPostfix;
             lblTitle.Text = Resources.Data.Title + Resources.Data.MandatoryField + _helpPostfix;
             lblNumber.Text = Resources.Data.Number + _helpPostfix;
             lblPreviousLocation.Text = Resources.Data.LocationPrevious + Resources.Data.MandatoryField + _helpPostfix;
@@ -122,8 +121,6 @@ namespace CSI.WebUI.Console.Dashboard
             calStart.Format = CurrentCultureInfo.DateTimeFormat.ShortDatePattern;
 
             //Validators
-            //rfvTitle.Text = rfvValue.Text = rfvWeeks.Text = rfvFloorSpace.Text = cvStart.Text =
-            //revUrl.Text = revEmail.Text = cuvLocation.Text = cvUnits.Text = cvTypes.Text =
             rfvTitle.Text = rfvValue.Text = rfvFloorSpace.Text = cvStart.Text =
             revUrl.Text = revEmail.Text = cuvLocation.Text = cvUnits.Text = cvTypes.Text =
             cvValue.Text = cvFloorSpace.Text = Resources.Messages.SummaryErrorCharacter;
@@ -153,7 +150,6 @@ namespace CSI.WebUI.Console.Dashboard
 
             ddlTypes.SelectedValue = _Site.Type.IdSiteType.ToString();
             txtStart.Text = _Site.Start.ToShortDateString();
-            txtWeeks.Text = _Site.Weeks.ToString();
             txtTitle.Text = _Site.Title;
             txtNumber.Text = _Site.Number;
             

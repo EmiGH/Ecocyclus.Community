@@ -159,24 +159,6 @@ namespace CSI.WebUI.Console.Dashboard
         protected global::System.Web.UI.WebControls.Label lblStartValue;
 
         /// <summary>
-        /// Control lblWeeks.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblWeeks;
-
-        /// <summary>
-        /// Control lblWeeksValue.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblWeeksValue;
-
-        /// <summary>
         /// Control lblNumber.
         /// </summary>
         /// <remarks>

@@ -60,7 +60,6 @@ namespace CSI.WebUI.Console.Dashboard
 
             lblType.Text = Resources.Data.SiteType + _mandatoryField + _helpPostfix;
             lblStart.Text = Resources.Data.Start + _mandatoryField+ _helpPostfix;
-            lblWeeks.Text = Resources.Data.Weeks + _mandatoryField+ _helpPostfix;
             lblTitle.Text = Resources.Data.Title + _mandatoryField+ _helpPostfix;
             lblNumber.Text = Resources.Data.Number + _mandatoryField + _helpPostfix;
             lblValue.Text = Resources.Data.Value + _mandatoryField+ _helpPostfix;
@@ -88,8 +87,6 @@ namespace CSI.WebUI.Console.Dashboard
             calStart.Format = CurrentCultureInfo.DateTimeFormat.ShortDatePattern;
 
             //Validators
-            //rfvTitle.Text = rfvValue.Text = rfvWeeks.Text = rfvFloorSpace.Text =  rfvNumber.Text =
-            //revUrl.Text = revEmail.Text = cuvLocation.Text = cvWeeks.Text = cvTypes.Text =
             rfvTitle.Text = rfvValue.Text = rfvFloorSpace.Text = rfvNumber.Text =
             revUrl.Text = revEmail.Text = cuvLocation.Text = cvTypes.Text =
             cvStart.Text = cvValue.Text = cvFloorSpace.Text = cvUnits.Text = Resources.Messages.SummaryErrorCharacter;

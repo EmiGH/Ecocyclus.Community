@@ -82,7 +82,6 @@ namespace CSI.WebUI.Console.Dashboard
             lblLiveStatus.Text = Resources.Data.SiteLiveStatus;
             lblLocation.Text = Resources.Data.Location;
             lblStart.Text = Resources.Data.Start;
-            lblWeeks.Text = Resources.Data.Weeks;
             lblNumber.Text = Resources.Data.Number;
             lblValue.Text = Resources.Data.Value;
             lblFloorSpace.Text = Resources.Data.FloorSpace;
@@ -120,7 +119,6 @@ namespace CSI.WebUI.Console.Dashboard
             lblLoadStatusValue.Text = (_Site is Library.Objects.Sites.SiteMineOpen ? Resources.Data.SiteOpened : Resources.Data.SiteClosed);
             lblLiveStatusValue.Text = (_Site.IsFinished ? Resources.Data.SiteFinished : Resources.Data.SiteLive);
             lblStartValue.Text = _Site.Start.ToShortDateString();
-            lblWeeksValue.Text = _Site.Weeks.ToString();
             lblNumberValue.Text = _Site.Number;
             lblValueValue.Text = _Site.Currency.Symbol + " " + _Site.Value.ToString() + " [" + _Site.Currency.Name + "]";
             lblFloorSpaceValue.Text = _Site.FloorSpace.ToString();
