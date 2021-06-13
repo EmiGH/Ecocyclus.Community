@@ -241,7 +241,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Introduzca cualquier información útil del transporte/s que registran km/millas recorridos..
+        ///   Busca una cadena traducida similar a Introduzca cualquier información útil del transporte/s..
         /// </summary>
         internal static string MeterTransportAdd_aspx_cphContent_lblDescription {
             get {
@@ -250,7 +250,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Introduzca aquí la identificación del transporte/s que registran km/millas..
+        ///   Busca una cadena traducida similar a Introduzca aquí la identificación del transporte/s..
         /// </summary>
         internal static string MeterTransportAdd_aspx_cphContent_lblIdentification {
             get {
@@ -313,7 +313,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Introduzca cualquier información útil de la fuente/s que registran la generación de residuos, tipos, caracterización,etc.. .
+        ///   Busca una cadena traducida similar a Introduzca cualquier información útil de la fuente/s de generación de residuos, tipos, caracterización,etc.. .
         /// </summary>
         internal static string MeterWasteAdd_aspx_cphContent_lblDescription {
             get {
@@ -322,7 +322,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Introduzca aquí la identificación de la fuente/s que registran la generación de residuos. .
+        ///   Busca una cadena traducida similar a Introduzca aquí la identificación de la fuente/s de generación de residuos. .
         /// </summary>
         internal static string MeterWasteAdd_aspx_cphContent_lblIdentification {
             get {
@@ -529,7 +529,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Por favor ingrese la fecha de inicio.
+        ///   Busca una cadena traducida similar a Por favor ingrese el número de identificación del Sitio..
         /// </summary>
         internal static string SiteAdd_aspx_cphContent_lblNumber {
             get {

@@ -142,7 +142,7 @@
     <value>Enter the physical meter serial number (meter ID) or others meters identification here.</value>
   </data>
   <data name="MeterElectricityAdd_aspx_cphContent_lblInitialDate" xml:space="preserve">
-    <value>Enter here the date the meter is installed. </value>
+    <value>Enter here the date the meter is installed.</value>
   </data>
   <data name="MeterElectricityAdd_aspx_cphContent_lblInitialReading" xml:space="preserve">
     <value>Enter the 1st meter reading when the meter is installed.</value>
@@ -178,10 +178,10 @@
     <value>Select the meter type to access each meter section.</value>
   </data>
   <data name="MeterTransportAdd_aspx_cphContent_lblDescription" xml:space="preserve">
-    <value>Enter any useful information of the transport/s that record km / miles traveled.</value>
+    <value>Enter any useful information of the transport/s. that record km / miles traveled</value>
   </data>
   <data name="MeterTransportAdd_aspx_cphContent_lblIdentification" xml:space="preserve">
-    <value>Enter here the identification of the transport/s that record km / miles.</value>
+    <value>Enter here the identification of the transport/s.</value>
   </data>
   <data name="MeterTransportAdd_aspx_cphContent_lblUnits" xml:space="preserve">
     <value>Select the unit of measurement.</value>
@@ -202,10 +202,10 @@
     <value>Select the transport type.</value>
   </data>
   <data name="MeterWasteAdd_aspx_cphContent_lblDescription" xml:space="preserve">
-    <value>Enter any useful information from the waste source/s that record waste generation, types, characterization, etc.</value>
+    <value>Enter any useful information from the waste source/s of waste generation, types, characterization, etc.</value>
   </data>
   <data name="MeterWasteAdd_aspx_cphContent_lblIdentification" xml:space="preserve">
-    <value>Enter here the identification of the waste source/s that record the generation of waste.</value>
+    <value>Enter here the identification of the waste source/s generation.</value>
   </data>
   <data name="MeterWasteAdd_aspx_cphContent_lblUnits" xml:space="preserve">
     <value>Select the unit of measurement.</value>
@@ -244,7 +244,7 @@
     <value>Enter the physical meter serial number (meter ID) or others meters identification here.</value>
   </data>
   <data name="MeterWaterAdd_aspx_cphContent_lblInitialDate" xml:space="preserve">
-    <value>Enter here the date the meter is installed. </value>
+    <value>Enter here the date the meter is installed.</value>
   </data>
   <data name="MeterWaterAdd_aspx_cphContent_lblInitialReading" xml:space="preserve">
     <value>Enter the 1st meter reading when the meter is installed.</value>
@@ -259,7 +259,7 @@
     <value>Passwords must be at least 8 characters long including numbers, upper and lower case letters.</value>
   </data>
   <data name="ProfileEdit_aspx_cphContent_lblEmail" xml:space="preserve">
-    <value>The active, valid email address registered is your account username to login . </value>
+    <value>The active, valid email address registered is your account username to login .</value>
   </data>
   <data name="SiteAdd_aspx_cphContent_lblDescription" xml:space="preserve">
     <value>Enter any useful information about the site, such as where it is located, eg. urban, industrial, rural, commercial area, etc.</value>
@@ -279,49 +279,49 @@
   <data name="SiteAdd_aspx_cphContent_lblStart" xml:space="preserve">
     <value>Please enter the Site Start date.</value>
   </data>
-  <data name="SiteAdd_aspx_cphContent_lblStart1" xml:space="preserve">
+  <data name="SiteAdd_aspx_cphContent_lblTitle" xml:space="preserve">
     <value>Please enter the start date.</value>
   </data>
-  <data name="SiteAdd_aspx_cphContent_lblTitle" xml:space="preserve">
+  <data name="SiteAdd_aspx_cphContent_lblType" xml:space="preserve">
     <value>Please enter the Site Name here.</value>
   </data>
-  <data name="SiteAdd_aspx_cphContent_lblType" xml:space="preserve">
+  <data name="SiteAdd_aspx_cphContent_lblUnits" xml:space="preserve">
     <value>Please choose the Site Classification from the drop down menu.</value>
   </data>
-  <data name="SiteAdd_aspx_cphContent_lblUnits" xml:space="preserve">
+  <data name="SiteAdd_aspx_cphContent_lblValue" xml:space="preserve">
     <value>Please enter the Number of Employees working at the Site</value>
   </data>
-  <data name="SiteAdd_aspx_cphContent_lblValue" xml:space="preserve">
+  <data name="SiteAdd_aspx_cphContent_lblWeeks" xml:space="preserve">
     <value>Please enter the Site Annual Budget. This field can be edited at a later date if needed.</value>
   </data>
-  <data name="SiteAdd_aspx_cphContent_lblWeeks" xml:space="preserve">
-    <value>Please enter the duration of the activity in weeks. This field can be edited at a later date if needed.</value>
+  <data name="String" xml:space="preserve">
+    <value>Retype user´s Password. Passwords must be at least 8 characters long including numbers, upper and lower case letters.</value>
   </data>
   <data name="UserAdd_aspx_cphContent_lblEmail" xml:space="preserve">
-    <value>Enter an active, valid user´s email address. The email address registered is the user´s account username to login .</value>
+    <value>Please enter the duration of the activity in weeks. This field can be edited at a later date if needed.</value>
   </data>
   <data name="UserAdd_aspx_cphContent_lblEmail2" xml:space="preserve">
-    <value>Retype the active, valid user´s email address.</value>
+    <value>Enter an active, valid user´s email address. The email address registered is the user´s account username to login .</value>
   </data>
   <data name="UserAdd_aspx_cphContent_lblFirstname" xml:space="preserve">
-    <value>The field must be user's First Name.</value>
+    <value>Retype the active, valid user´s email address.</value>
   </data>
   <data name="UserAdd_aspx_cphContent_lblIsActive" xml:space="preserve">
-    <value>Select this option if you want the user to be able to login.</value>
+    <value>The field must be user's First Name.</value>
   </data>
   <data name="UserAdd_aspx_cphContent_lblIsManager" xml:space="preserve">
-    <value>Select this option if the user will be a organization manager with access granted to manage all users, sites and permissions.</value>
+    <value>Select this option if you want the user to be able to login.</value>
   </data>
   <data name="UserAdd_aspx_cphContent_lblLanguage" xml:space="preserve">
-    <value>Select the user´s language.</value>
+    <value>Select this option if the user will be a organization manager with access granted to manage all users, sites and permissions.</value>
   </data>
   <data name="UserAdd_aspx_cphContent_lblLastname" xml:space="preserve">
-    <value>The field must be user's Last Name.</value>
+    <value>Select the user´s language.</value>
   </data>
   <data name="UserAdd_aspx_cphContent_lblPassword" xml:space="preserve">
-    <value>Enter user´s Password. Passwords must be at least 8 characters long including numbers, upper and lower case letters. </value>
+    <value>The field must be user's Last Name.</value>
   </data>
   <data name="UserAdd_aspx_cphContent_lblPassword2" xml:space="preserve">
-    <value>Retype user´s Password. Passwords must be at least 8 characters long including numbers, upper and lower case letters.</value>
+    <value>Enter user´s Password. Passwords must be at least 8 characters long including numbers, upper and lower case letters.</value>
   </data>
 </root>

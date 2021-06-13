@@ -343,7 +343,7 @@
     <value>Editar</value>
   </data>
   <data name="EF" xml:space="preserve">
-    <value>Factor de Emisión CO2 </value>
+    <value>Factor de Emisión CO2</value>
   </data>
   <data name="EFDescription" xml:space="preserve">
     <value>Descripción del Factor de Emisión</value>
@@ -397,7 +397,7 @@
     <value>Superficie (m2)</value>
   </data>
   <data name="Footer" xml:space="preserve">
-    <value>© © 2020 EcoCyclus. Todos los derechos reservados. Ninguna parte de este sitio puede reproducirse sin nuestro permiso por escrito.</value>
+    <value>© 2020 EcoCyclus. Todos los derechos reservados. Ninguna parte de este sitio puede reproducirse sin nuestro permiso por escrito.</value>
   </data>
   <data name="Frequency" xml:space="preserve">
     <value>Frecuencia de Carga Predeterminada</value>

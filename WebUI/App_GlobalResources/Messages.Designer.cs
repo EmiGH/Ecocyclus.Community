@@ -61,7 +61,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your credential does not hold permissions to access this information..
+        ///   Busca una cadena traducida similar a Su credencial no tiene permisos para acceder a esta información..
         /// </summary>
         internal static string AccessDenied {
             get {
@@ -70,7 +70,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your account activation process has not been completed due to the following error: [error]&lt;br/&gt;&lt;br/&gt;Please contact our system administrators at: &lt;a href=&quot;mailto:[mail]&quot;&gt;[mail]&lt;/a&gt; for assistance..
+        ///   Busca una cadena traducida similar a El proceso de activación de la cuenta no se ha completado debido al siguiente error: [error]&lt;br/&gt;&lt;br/&gt;. Por favor contacte a los administradores del sistema en: &lt;a href=&quot;mailto:[mail]&quot;&gt;[mail]&lt;/a&gt; para obtener ayuda.  .
         /// </summary>
         internal static string AccountActivationError {
             get {
@@ -79,7 +79,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your account registration process has been successfully completed.  Your EcoCyclus account is now active. &lt;br/&gt;&lt;br/&gt; You can proceed to the EcoCyclus &lt;a href=&quot;../Default.aspx&quot;&gt;site&lt;/a&gt; and log in..
+        ///   Busca una cadena traducida similar a El proceso de registro de la cuenta se ha completado con éxito. Su cuenta ha sido activada. &lt;br/&gt;&lt;br/&gt; Usted ya puede ir al &lt;a href=&quot;../Default.aspx&quot;&gt;sitio&lt;/a&gt; de EcoCyclus e ingresar..
         /// </summary>
         internal static string AccountActivationSuccessful {
             get {
@@ -88,7 +88,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your password recovery process has not been completed due to the following error: [error]&lt;br/&gt;&lt;br/&gt;Please contact our system administrators at: &lt;a href=&quot;mailto:[mail]&quot;&gt;[mail]&lt;/a&gt; for assistance..
+        ///   Busca una cadena traducida similar a El proceso de recuperación de la contraseña no se ha completado debido al siguiente error: [error]&lt;br/&gt;&lt;br/&gt;Por favor contacte a los administradores del sistema en: &lt;a href=&quot;mailto:[mail]&quot;&gt;[mail]&lt;/a&gt; para obtener ayuda..
         /// </summary>
         internal static string AccountRecoveryError {
             get {
@@ -97,7 +97,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Please enter your EcoCyclus account email address in order to recover your password..
+        ///   Busca una cadena traducida similar a Por favor ingrese la dirección de correo electrónico de su cuenta para poder recuperar su contraseña..
         /// </summary>
         internal static string AccountRecoveryMessage {
             get {
@@ -106,7 +106,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a The recovery process has been successfully started.  Please check your email to reset your password..
+        ///   Busca una cadena traducida similar a El proceso de recuperación se ha iniciado correctamente. Por favor revise su correo electrónico para restablecer su contraseña..
         /// </summary>
         internal static string AccountRecoverySuccessful {
             get {
@@ -115,7 +115,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a The email addresses do not match.
+        ///   Busca una cadena traducida similar a Las direcciones de correo electrónico no coinciden..
         /// </summary>
         internal static string AccountRegistrationEmailNotMatch {
             get {
@@ -124,7 +124,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a An error has occurred: [error] &lt;br/&gt; &lt;br/&gt;&lt;a href=&quot;mailto:[mail]&quot;&gt;[mail]&lt;/a&gt; for assistance..
+        ///   Busca una cadena traducida similar a Ha ocurrido un error: [error] &lt;br/&gt; &lt;br/&gt; Por favor contacte a los administradores del sistema en: &lt;a href=&quot;mailto:[mail]&quot;&gt;[mail]&lt;/a&gt; para obtener ayuda..
         /// </summary>
         internal static string AccountRegistrationError {
             get {
@@ -133,7 +133,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Please enter a valid email address.
+        ///   Busca una cadena traducida similar a Por favor ingrese un correo electrónico válido..
         /// </summary>
         internal static string AccountRegistrationInvalidEmail {
             get {
@@ -142,7 +142,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a The passwords do not match.
+        ///   Busca una cadena traducida similar a Las contraseñas no coinciden..
         /// </summary>
         internal static string AccountRegistrationPasswordNotMatch {
             get {
@@ -151,7 +151,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Plase enter your organization name.
+        ///   Busca una cadena traducida similar a Por favor ingrese el nombre de su organización.
         /// </summary>
         internal static string AccountRegistrationRequiredCompanyName {
             get {
@@ -160,7 +160,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Please enter a valid email address.
+        ///   Busca una cadena traducida similar a Por favor ingrese un correo electrónico válido..
         /// </summary>
         internal static string AccountRegistrationRequiredEmail {
             get {
@@ -169,7 +169,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Please retype the email address.
+        ///   Busca una cadena traducida similar a Por favor reingrese el correo electrónico..
         /// </summary>
         internal static string AccountRegistrationRequiredEmailRetype {
             get {
@@ -178,7 +178,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Please enter your firstname.
+        ///   Busca una cadena traducida similar a Por favor ingrese su nombre..
         /// </summary>
         internal static string AccountRegistrationRequiredFirstname {
             get {
@@ -187,7 +187,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Please enter your lastname.
+        ///   Busca una cadena traducida similar a Por favor ingrese su apellido..
         /// </summary>
         internal static string AccountRegistrationRequiredLastname {
             get {
@@ -196,7 +196,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Please select your organization location.
+        ///   Busca una cadena traducida similar a Por favor seleccione la ubicación de su organización.
         /// </summary>
         internal static string AccountRegistrationRequiredLocation {
             get {
@@ -205,7 +205,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Please select a password.
+        ///   Busca una cadena traducida similar a Por favor ingrese su contraseña..
         /// </summary>
         internal static string AccountRegistrationRequiredPassword {
             get {
@@ -214,7 +214,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Please retype the password.
+        ///   Busca una cadena traducida similar a Por favor reingrese su contraseña..
         /// </summary>
         internal static string AccountRegistrationRequiredPasswordRetype {
             get {
@@ -223,7 +223,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your account registration process has been successfully started.  Please check your email to activate your EcoCyclus account..
+        ///   Busca una cadena traducida similar a El proceso de registro de la cuenta se ha iniciado correctamente. Por favor revise su correo electrónico para activar su cuenta..
         /// </summary>
         internal static string AccountRegistrationSuccessful {
             get {
@@ -232,7 +232,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your password reset process has not been completed due to the following error: [error]&lt;br/&gt;&lt;br/&gt;Please contact our system administrators at: &lt;a href=&quot;mailto:[mail]&quot;&gt;[mail]&lt;/a&gt; for assistance..
+        ///   Busca una cadena traducida similar a El proceso de restablecimiento de la contraseña no se ha completado debido al siguiente error: [error]&lt;br/&gt;&lt;br/&gt;Por favor contacte a los administradores del sistema en: &lt;a href=&quot;mailto:[mail]&quot;&gt;[mail]&lt;/a&gt; para obtener ayuda..
         /// </summary>
         internal static string AccountResetError {
             get {
@@ -241,7 +241,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Please enter and retype your new password to reset your account..
+        ///   Busca una cadena traducida similar a Por favor ingrese y reingrese su nueva contraseña para restablecer su cuenta..
         /// </summary>
         internal static string AccountResetMessage {
             get {
@@ -250,7 +250,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your password reset process has been successfully completed.&lt;br/&gt;&lt;br/&gt; You can proceed to the EcoCyclus &lt;a href=&quot;../Default.aspx&quot;&gt;site&lt;/a&gt; and log in..
+        ///   Busca una cadena traducida similar a El proceso de restablecimiento de su contraseña se ha completado con éxito.  &lt;br/&gt;&lt;br/&gt; Usted ya puede ir al &lt;a href=&quot;../Default.aspx&quot;&gt;sitio&lt;/a&gt; de EcoCyclus y e ingresar..
         /// </summary>
         internal static string AccountResetSuccessful {
             get {
@@ -259,7 +259,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Warning! Removing data will delete all information from this period to the end of the serie..
+        ///   Busca una cadena traducida similar a Advertencia! Eliminando los datos borrará toda la información desde este período hasta el final de la serie..
         /// </summary>
         internal static string AlertDeleteLoad {
             get {
@@ -268,7 +268,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Are you sure you want to delete this information?  &lt;br&gt;&lt;br&gt;You should be aware that removing data will also delete all related information and you won\&apos;t be able to undo this action..
+        ///   Busca una cadena traducida similar a ¿Está seguro que desea eliminar esta información? &lt;br&gt;&lt;br&gt;Usted debe tener en cuenta que la eliminación de datos borrará toda la información relacionada y que esta acción no se podrá deshacer posteriormente..
         /// </summary>
         internal static string ConfirmDeleteMessage {
             get {
@@ -277,7 +277,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Warning!.
+        ///   Busca una cadena traducida similar a Advertencia!.
         /// </summary>
         internal static string ConfirmDeleteTitle {
             get {
@@ -286,7 +286,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Are you sure yo want to modify this information?.
+        ///   Busca una cadena traducida similar a ¿Está seguro que quiere modificar esta información?.
         /// </summary>
         internal static string ConfirmModifyMessage {
             get {
@@ -295,7 +295,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Atention!.
+        ///   Busca una cadena traducida similar a Atención!.
         /// </summary>
         internal static string ConfirmModifyTitle {
             get {
@@ -304,7 +304,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a This web application uses cookies to improve user experience. By using our web application you consent to all cookies in accordance with our Cookie Policy..
+        ///   Busca una cadena traducida similar a Esta aplicación utiliza cookies para mejorar la experiencia del usuario. Al utilizarla usted acepta todas las cookies de acuerdo con nuestra política de cookies..
         /// </summary>
         internal static string CookieUseWarning {
             get {
@@ -313,7 +313,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a The information about the country from the selected address is not recognized..
+        ///   Busca una cadena traducida similar a No se reconoció la información sobre el país de la dirección seleccionada..
         /// </summary>
         internal static string ErrorCountryNotRecognized {
             get {
@@ -322,7 +322,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a An unexpected error has occurred! &lt;br/&gt;&lt;br/&gt;Please contact our system administrators at: &lt;a href=&quot;mailto:[mail]&quot;&gt;[mail]&lt;/a&gt; for assistance..
+        ///   Busca una cadena traducida similar a Se ha producido un error inesperado!&lt;br/&gt;&lt;br/&gt;Por favor contacte a los administradores del sistema en: &lt;a href=&quot;mailto:[mail]&quot;&gt;[mail]&lt;/a&gt; para obtener ayuda..
         /// </summary>
         internal static string ErrorDetails {
             get {
@@ -331,7 +331,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a The uploaded image is too big.
+        ///   Busca una cadena traducida similar a La imagen cargada es demasiado grande..
         /// </summary>
         internal static string ErrorImageTooBig {
             get {
@@ -340,7 +340,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a The range of dates is invalid.
+        ///   Busca una cadena traducida similar a El rango de fechas no es válida..
         /// </summary>
         internal static string ErrorInvalidDateRange {
             get {
@@ -349,7 +349,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a There is no emission factor for site&apos;s country.
+        ///   Busca una cadena traducida similar a No hay factor de emisión para el país del Sitio..
         /// </summary>
         internal static string ErrorNoEFforCountry {
             get {
@@ -358,7 +358,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Error Occurs.
+        ///   Busca una cadena traducida similar a Se produjo un error..
         /// </summary>
         internal static string ErrorTitle {
             get {
@@ -367,7 +367,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a It seems to be your first time at EcoCyclus.&lt;br/&gt;Please follow the &quot;Add Site&quot; link to register your sites..
+        ///   Busca una cadena traducida similar a Parece ser su primera vez en EcoCyclus.&lt;br/&gt;Por favor continúe con &quot;Agregar Sitio&quot; para registrar sus sitios..
         /// </summary>
         internal static string FirstTimeGuideApp {
             get {
@@ -376,7 +376,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a If this is your first meter please follow the &quot;Load Data&quot; link to add values to your meters series..
+        ///   Busca una cadena traducida similar a Si es su primer medidor por favor continúe con &quot;Cargar Datos&quot; para agregar valores de medición..
         /// </summary>
         internal static string FirstTimeGuideMeter {
             get {
@@ -385,7 +385,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a If this is your first site please follow the &quot;Add Meter&quot; link to register your meters..
+        ///   Busca una cadena traducida similar a Si es su primer Sitio por favor continúe con &quot;Agregar Medidor&quot; para registrar sus medidores..
         /// </summary>
         internal static string FirstTimeGuideSite {
             get {
@@ -394,7 +394,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Need help?.
+        ///   Busca una cadena traducida similar a ¿Necesita ayuda?.
         /// </summary>
         internal static string FirstTimeNeedHelp {
             get {
@@ -403,7 +403,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Welcome [user]! First time?.
+        ///   Busca una cadena traducida similar a Bienvenido [user]! ¿Primera vez?.
         /// </summary>
         internal static string FirstTimeTitle {
             get {
@@ -412,7 +412,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a There was an authentication error in the login process.
+        ///   Busca una cadena traducida similar a Hubo un error de autenticación en el proceso de inicio de sesión..
         /// </summary>
         internal static string LoginAuthenticationError {
             get {
@@ -421,7 +421,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a The authentication process has failed.
+        ///   Busca una cadena traducida similar a El proceso de autenticación ha fallado..
         /// </summary>
         internal static string LoginAuthenticationFail {
             get {
@@ -430,7 +430,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Address Unrecognized.
+        ///   Busca una cadena traducida similar a Dirección no reconocida..
         /// </summary>
         internal static string MapAddressUnknown {
             get {
@@ -439,7 +439,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Geocode was not successful for the following reason:.
+        ///   Busca una cadena traducida similar a Geocode no tuvo éxito por la siguiente razón:.
         /// </summary>
         internal static string MapGeocoderError {
             get {
@@ -448,7 +448,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Coordenates Selector.
+        ///   Busca una cadena traducida similar a Selector de Coordenadas.
         /// </summary>
         internal static string MapPickupTitle {
             get {
@@ -457,7 +457,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your payment has been successfully processed..
+        ///   Busca una cadena traducida similar a Su pago se ha procesado correctamente..
         /// </summary>
         internal static string PaymentSuccessful {
             get {
@@ -466,7 +466,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a The payment could not be resolved.  Please review your information or contact us for further assisstance..
+        ///   Busca una cadena traducida similar a El pago no se pudo resolver . Por favor revise su información o póngase en contacto con nosotros para obtener ayuda..
         /// </summary>
         internal static string PaypalError {
             get {
@@ -475,7 +475,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Information has not been saved due to the following error:&lt;br/&gt;&lt;br/&gt;[error]&lt;br/&gt;&lt;br/&gt;Please contact our system administrators at: &lt;a href=&quot;mailto:[mail]&quot;&gt;[mail]&lt;/a&gt; for assistance..
+        ///   Busca una cadena traducida similar a La información no se ha guardado debido al siguiente error: &lt;br/&gt;&lt;br/&gt;[error]&lt;br/&gt;&lt;br/&gt;Por favor contacte a los administradores del sistema en: &lt;a href=&quot;mailto:[mail]&quot;&gt;[mail]&lt;/a&gt; para obtener ayuda..
         /// </summary>
         internal static string StandardError {
             get {
@@ -484,7 +484,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a The information has been successfully saved..
+        ///   Busca una cadena traducida similar a La información se ha guardado exitósamente..
         /// </summary>
         internal static string StandardSuccessful {
             get {
@@ -493,7 +493,16 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Please complete all mandatory fields marked with an asterix (*) and verify the type of each data. .
+        ///   Busca una cadena traducida similar a El proceso de registro de la cuenta se ha iniciado correctamente. Por favor revise su correo electrónico para activarla..
+        /// </summary>
+        internal static string String {
+            get {
+                return ResourceManager.GetString("String", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Por favor, complete todos los campos obligatorios marcados con un asterisco (*) y verifique el tipo de cada dato..
         /// </summary>
         internal static string SummaryCheck {
             get {
@@ -502,7 +511,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Warning! An error has ocurred.
+        ///   Busca una cadena traducida similar a Advertencia! Ha ocurrido un error..
         /// </summary>
         internal static string SummaryError {
             get {
@@ -520,7 +529,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a The information is unsaved!  Are you sure you want to continue?.
+        ///   Busca una cadena traducida similar a La información no se ha guardado ! ¿Está seguro que desea continuar?.
         /// </summary>
         internal static string TranslationNotSaved {
             get {

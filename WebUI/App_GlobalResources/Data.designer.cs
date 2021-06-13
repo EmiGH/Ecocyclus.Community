@@ -2293,7 +2293,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Meses.
+        ///   Busca una cadena traducida similar a Semana.
         /// </summary>
         internal static string TimeuUnitWeek {
             get {

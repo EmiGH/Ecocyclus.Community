@@ -124,7 +124,7 @@
     <value>Your account activation process has not been completed due to the following error: [error]&lt;br/&gt;&lt;br/&gt;Please contact our system administrators at: &lt;a href="mailto:[mail]"&gt;[mail]&lt;/a&gt; for assistance.</value>
   </data>
   <data name="AccountActivationSuccessful" xml:space="preserve">
-    <value>Your account registration process has been successfully completed.  Your EcoCyclus account is now active. &lt;br/&gt;&lt;br/&gt; You can proceed to the EcoCyclus &lt;a href="../Default.aspx"&gt;site&lt;/a&gt; and log in.</value>
+    <value>Your account registration process has been successfully completed.  Your EcoCyclus account is now active. &lt;br/&gt;&lt;br/&gt; You can proceed to the EcoCyclus &lt;a href="../Default.aspx"&gt;site&lt;/a&gt; and log in.</value>
   </data>
   <data name="AccountRecoveryError" xml:space="preserve">
     <value>Your password recovery process has not been completed due to the following error: [error]&lt;br/&gt;&lt;br/&gt;Please contact our system administrators at: &lt;a href="mailto:[mail]"&gt;[mail]&lt;/a&gt; for assistance.</value>
@@ -133,7 +133,7 @@
     <value>Please enter your EcoCyclus account email address in order to recover your password.</value>
   </data>
   <data name="AccountRecoverySuccessful" xml:space="preserve">
-    <value>The recovery process has been successfully started.  Please check your email to reset your password.</value>
+    <value>The recovery process has been successfully started.  Please check your email to reset your password.</value>
   </data>
   <data name="AccountRegistrationEmailNotMatch" xml:space="preserve">
     <value>The email addresses do not match</value>
@@ -172,7 +172,7 @@
     <value>Please retype the password</value>
   </data>
   <data name="AccountRegistrationSuccessful" xml:space="preserve">
-    <value>Your account registration process has been successfully started.  Please check your email to activate your account.</value>
+    <value>Your account registration process has been successfully started.  Please check your email to activate your account.</value>
   </data>
   <data name="AccountResetError" xml:space="preserve">
     <value>Your password reset process has not been completed due to the following error: [error]&lt;br/&gt;&lt;br/&gt;Please contact our system administrators at: &lt;a href="mailto:[mail]"&gt;[mail]&lt;/a&gt; for assistance.</value>
@@ -187,7 +187,7 @@
     <value>Warning! Removing data will delete all information from this period to the end of the serie.</value>
   </data>
   <data name="ConfirmDeleteMessage" xml:space="preserve">
-    <value>Are you sure you want to delete this information?  &lt;br&gt;&lt;br&gt;You should be aware that removing data will also delete all related information and you won\'t be able to undo this action.</value>
+    <value>Are you sure you want to delete this information?  &lt;br&gt;&lt;br&gt;You should be aware that removing data will also delete all related information and you won\'t be able to undo this action.</value>
   </data>
   <data name="ConfirmDeleteTitle" xml:space="preserve">
     <value>Warning!</value>
@@ -253,7 +253,7 @@
     <value>Your payment has been successfully processed.</value>
   </data>
   <data name="PaypalError" xml:space="preserve">
-    <value>The payment could not be resolved.  Please review your information or contact us for further assisstance.</value>
+    <value>The payment could not be resolved.  Please review your information or contact us for further assisstance.</value>
   </data>
   <data name="StandardError" xml:space="preserve">
     <value>Information has not been saved due to the following error:&lt;br/&gt;&lt;br/&gt;[error]&lt;br/&gt;&lt;br/&gt;Please contact our system administrators at: &lt;a href="mailto:[mail]"&gt;[mail]&lt;/a&gt; for assistance.</value>
@@ -261,11 +261,11 @@
   <data name="StandardSuccessful" xml:space="preserve">
     <value>The information has been successfully saved.</value>
   </data>
- <data name="String" xml:space="preserve">
+  <data name="String" xml:space="preserve">
     <value>The account registration process has started successfully. Please check your email to activate it.</value>
   </data>
   <data name="SummaryCheck" xml:space="preserve">
-    <value>Please complete all mandatory fields marked with an asterix (*) and verify the type of each data. </value>
+    <value>Please complete all mandatory fields marked with an asterix (*) and verify the type of each data.</value>
   </data>
   <data name="SummaryError" xml:space="preserve">
     <value>Warning! An error has ocurred</value>
@@ -274,6 +274,6 @@
     <value>*</value>
   </data>
   <data name="TranslationNotSaved" xml:space="preserve">
-    <value>The information is unsaved!  Are you sure you want to continue?</value>
+    <value>The information is unsaved!  Are you sure you want to continue?</value>
   </data>
 </root>

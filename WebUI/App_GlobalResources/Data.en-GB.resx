@@ -526,10 +526,10 @@
     <value>Location</value>
   </data>
   <data name="LocationPrevious" xml:space="preserve">
-    <value>Current Location: </value>
+    <value>Current Location:</value>
   </data>
   <data name="LocationSelected" xml:space="preserve">
-    <value>Selected Location: </value>
+    <value>Selected Location:</value>
   </data>
   <data name="Locator" xml:space="preserve">
     <value>Locator</value>
@@ -919,10 +919,10 @@
     <value>Add User</value>
   </data>
   <data name="ValidLoadRange" xml:space="preserve">
-    <value>Enabled Load Range </value>
+    <value>Enabled Load Range</value>
   </data>
   <data name="ValidLoadRangeExplanation" xml:space="preserve">
-    <value>Attention! You can upload data with dates within the valid load period paid for this Site.  The current valid time frame is from [from] to [to].</value>
+    <value>Attention! You can upload data with dates within the valid load period paid for this Site.  The current valid time frame is from [from] to [to].</value>
   </data>
   <data name="Value" xml:space="preserve">
     <value>Value</value>

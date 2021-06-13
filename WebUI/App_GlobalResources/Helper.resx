@@ -178,10 +178,10 @@
     <value>Seleccione el tipo de medidor para acceder a cada sección del medidor.</value>
   </data>
   <data name="MeterTransportAdd_aspx_cphContent_lblDescription" xml:space="preserve">
-    <value>Introduzca cualquier información útil del transporte/s que registran km/millas recorridos.</value>
+    <value>Introduzca cualquier información útil del transporte/s.</value>
   </data>
   <data name="MeterTransportAdd_aspx_cphContent_lblIdentification" xml:space="preserve">
-    <value>Introduzca aquí la identificación del transporte/s que registran km/millas.</value>
+    <value>Introduzca aquí la identificación del transporte/s.</value>
   </data>
   <data name="MeterTransportAdd_aspx_cphContent_lblUnits" xml:space="preserve">
     <value>Seleccione la unidad de medida.</value>
@@ -202,10 +202,10 @@
     <value>Seleccione el tipo de transporte.</value>
   </data>
   <data name="MeterWasteAdd_aspx_cphContent_lblDescription" xml:space="preserve">
-    <value>Introduzca cualquier información útil de la fuente/s que registran la generación de residuos, tipos, caracterización,etc.. </value>
+    <value>Introduzca cualquier información útil de la fuente/s de generación de residuos, tipos, caracterización,etc.. </value>
   </data>
   <data name="MeterWasteAdd_aspx_cphContent_lblIdentification" xml:space="preserve">
-    <value>Introduzca aquí la identificación de la fuente/s que registran la generación de residuos. </value>
+    <value>Introduzca aquí la identificación de la fuente/s de generación de residuos. </value>
   </data>
   <data name="MeterWasteAdd_aspx_cphContent_lblUnits" xml:space="preserve">
     <value>Seleccione la unidad de medida.</value>
@@ -274,7 +274,7 @@
     <value>Por favor ingrese el domicilio del Sitio.</value>
   </data>
   <data name="SiteAdd_aspx_cphContent_lblNumber" xml:space="preserve">
-    <value>Por favor ingrese la fecha de inicio</value>
+    <value>Por favor ingrese el número de identificación del Sitio.</value>
   </data>
   <data name="SiteAdd_aspx_cphContent_lblStart" xml:space="preserve">
     <value>Por favor ingrese la fecha de inicio</value>

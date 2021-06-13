@@ -121,7 +121,7 @@
     <value>Su credencial no tiene permisos para acceder a esta información.</value>
   </data>
   <data name="AccountActivationError" xml:space="preserve">
-    <value>El proceso de activación de la cuenta no se ha completado debido al siguiente error: [error]&lt;br/&gt;&lt;br/&gt;. Por favor contacte a los administradores del sistema en: &lt;a href="mailto:[mail]"&gt;[mail]&lt;/a&gt; para obtener ayuda.  </value>
+    <value>El proceso de activación de la cuenta no se ha completado debido al siguiente error: [error]&lt;br/&gt;&lt;br/&gt;. Por favor contacte a los administradores del sistema en: &lt;a href="mailto:[mail]"&gt;[mail]&lt;/a&gt; para obtener ayuda.  </value>
   </data>
   <data name="AccountActivationSuccessful" xml:space="preserve">
     <value>El proceso de registro de la cuenta se ha completado con éxito. Su cuenta ha sido activada. &lt;br/&gt;&lt;br/&gt; Usted ya puede ir al &lt;a href="../Default.aspx"&gt;sitio&lt;/a&gt; de EcoCyclus e ingresar.</value>
@@ -181,7 +181,7 @@
     <value>Por favor ingrese y reingrese su nueva contraseña para restablecer su cuenta.</value>
   </data>
   <data name="AccountResetSuccessful" xml:space="preserve">
-    <value>El proceso de restablecimiento de su contraseña se ha completado con éxito.  &lt;br/&gt;&lt;br/&gt; Usted ya puede ir al &lt;a href="../Default.aspx"&gt;sitio&lt;/a&gt; de EcoCyclus y e ingresar.</value>
+    <value>El proceso de restablecimiento de su contraseña se ha completado con éxito.  &lt;br/&gt;&lt;br/&gt; Usted ya puede ir al &lt;a href="../Default.aspx"&gt;sitio&lt;/a&gt; de EcoCyclus y e ingresar.</value>
   </data>
   <data name="AlertDeleteLoad" xml:space="preserve">
     <value>Advertencia! Eliminando los datos borrará toda la información desde este período hasta el final de la serie.</value>
