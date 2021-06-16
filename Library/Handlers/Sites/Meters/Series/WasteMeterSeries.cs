@@ -28,7 +28,7 @@ namespace CSI.Library.Handlers
             {
                 if (_series.ContainsKey(Convert.ToInt64(_dbRecord["IdSiteWasteMeterSerie"])))
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() != _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
                     {
                         _series.Remove(Convert.ToInt64(_dbRecord["IdSiteWasteMeterSerie"]));
                     }
@@ -57,7 +57,7 @@ namespace CSI.Library.Handlers
             {
                 if (_series.ContainsKey(Convert.ToInt64(_dbRecord["IdSiteWasteMeterSerie"])))
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() != _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
                     {
                         _series.Remove(Convert.ToInt64(_dbRecord["IdSiteWasteMeterSerie"]));
                     }

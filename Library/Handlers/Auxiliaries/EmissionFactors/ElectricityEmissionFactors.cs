@@ -118,7 +118,7 @@ namespace CSI.Library.Handlers
             {
                 if (_oItems.ContainsKey(Convert.ToInt64(_dbRecord["IdEmissionFactor"])))
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() != _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
                     {
                         _oItems.Remove(Convert.ToInt64(_dbRecord["IdEmissionFactor"]));
                     }
@@ -151,7 +151,7 @@ namespace CSI.Library.Handlers
             {
                 if (_oItems.ContainsKey(Convert.ToInt64(_dbRecord["IdEmissionFactor"])))
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() != _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
                     {
                         _oItems.Remove(Convert.ToInt64(_dbRecord["IdEmissionFactor"]));
                     }
@@ -184,7 +184,7 @@ namespace CSI.Library.Handlers
             {
                 if (_oItems.ContainsKey(Convert.ToInt64(Common.CastNullValues(_dbRecord["IdCountry"],0))))
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() != _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
                     {
                         _oItems.Remove(Convert.ToInt64(Common.CastNullValues(_dbRecord["IdCountry"],0)));
                     }

@@ -56,7 +56,7 @@ namespace CSI.Library.Handlers
             {
                 if (_sites.ContainsKey(Convert.ToInt64(_dbRecord["IdSite"])))
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() != _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
                     {
                         _sites.Remove(Convert.ToInt64(_dbRecord["IdSite"]));
                     }
