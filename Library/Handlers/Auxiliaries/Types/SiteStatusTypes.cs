@@ -38,6 +38,7 @@ namespace CSI.Library.Handlers
                 if (_insert)
                     _statusType = new Library.Objects.Auxiliaries.Types.StatusType(idStatusType, Convert.ToString(_dbRecord["IdLanguage"]), Convert.ToString(_dbRecord["Name"]));
 
+                _insert = true;
             }
             return _statusType;
         }

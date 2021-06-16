@@ -39,6 +39,7 @@ namespace CSI.Library.Handlers
                 if (_insert)
                     _transportsMeterEmissionFactor = new Library.Objects.Sites.Meters.EmissionFactors.TransportMeterEmissionFactor(idTransportMeterEmissionFactor, Convert.ToInt64(_dbRecord["IdTransportTypeEmissionFactor"]), credential);
 
+                _insert = true;
             }
             return _transportsMeterEmissionFactor;
         }
@@ -68,6 +69,7 @@ namespace CSI.Library.Handlers
                 if (_insert)
                     _transportsMeterEmissionFactor = new Library.Objects.Sites.Meters.EmissionFactors.TransportMeterEmissionFactor(Convert.ToInt64(_dbRecord["IdTransportMeterEmissionFactor"]), Convert.ToInt64(_dbRecord["IdTransportTypeEmissionFactor"]), credential);
 
+                _insert = true;
             }
             return _transportsMeterEmissionFactor;
         }

@@ -42,6 +42,7 @@ namespace CSI.Library.Handlers
                     _currency = new Library.Objects.Auxiliaries.Units.Currency(Convert.ToInt64(_dbRecord["IdCurrency"]), Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Symbol"]), Convert.ToDouble(_dbRecord["ConversionIndex"]), Convert.ToBoolean(_dbRecord["IsPattern"]), Convert.ToString(_dbRecord["PaymentSystemCode"]), credential);
                     _oItems.Add(_currency.IdCurrency, _currency);
                 }
+                _insert = true;
             }
             return _oItems;
         }
@@ -68,6 +69,7 @@ namespace CSI.Library.Handlers
                 if (_insert)
                     _currency = new Library.Objects.Auxiliaries.Units.Currency(Convert.ToInt64(_dbRecord["IdCurrency"]), Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Symbol"]), Convert.ToDouble(_dbRecord["ConversionIndex"]), Convert.ToBoolean(_dbRecord["IsPattern"]), Convert.ToString(_dbRecord["PaymentSystemCode"]), credential);
 
+                _insert = true;
             }
             return _currency;
         }

@@ -114,7 +114,7 @@ namespace CSI.Library.Handlers
 
                 else
                     _cost = new Objects.Auxiliaries.Units.Cost(Convert.ToDouble(Common.CastNullValues(_dbRecord["Cost"], 0)), new Objects.Auxiliaries.Units.Currency(Convert.ToInt64(_dbRecord["IdCurrency"]), Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Symbol"]), Convert.ToDouble(_dbRecord["ConversionIndex"]), Convert.ToBoolean(_dbRecord["IsPattern"]), Convert.ToString(_dbRecord["PaymentSystemCode"]), credential));
-            }
+           }
             return _cost;
         }
      

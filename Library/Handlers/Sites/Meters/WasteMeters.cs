@@ -37,6 +37,7 @@ namespace CSI.Library.Handlers
                 if (_insert)
                     _meter = new Library.Objects.Sites.Meters.WasteMeter(idMeter, Convert.ToInt64(_dbRecord["IdSite"]), Convert.ToString(_dbRecord["Identification"]), Convert.ToString(_dbRecord["Description"]), Convert.ToInt64(_dbRecord["IdDefaultUnit"]), credential);
 
+                _insert = true;
             }
             return _meter;
         }

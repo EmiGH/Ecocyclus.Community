@@ -38,6 +38,7 @@ namespace CSI.Library.Handlers
                 if (_insert)
                     _country = new Library.Objects.Auxiliaries.Geographic.Country(idCountry, Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Code"]), Convert.ToString(_dbRecord["PhoneCode"]), Convert.ToString(_dbRecord["PaymentSystemCode"]), credential);
 
+                _insert = true;
             }
             return _country;
         }
@@ -67,6 +68,7 @@ namespace CSI.Library.Handlers
                 if (_insert)
                     _country = new Library.Objects.Auxiliaries.Geographic.Country(Convert.ToInt64(_dbRecord["IdCountry"]), Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Code"]), Convert.ToString(_dbRecord["PhoneCode"]), Convert.ToString(_dbRecord["PaymentSystemCode"]), credential);
 
+                _insert = true;
             }
             return _country;
         }

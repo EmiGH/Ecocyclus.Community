@@ -39,6 +39,7 @@ namespace CSI.Library.Handlers
                 if (_insert)
                     _payment = new Library.Objects.Sites.Payments.Payment(Convert.ToInt64(_dbRecord["IdSitePayment"]), Convert.ToInt64(_dbRecord["IdCompanyUser"]), Convert.ToDateTime(_dbRecord["Timestamp"]), Convert.ToDateTime(_dbRecord["From"]), Convert.ToDateTime(_dbRecord["To"]), Convert.ToDouble(_dbRecord["Amount"]), new Objects.Auxiliaries.Units.Currency(Convert.ToInt64(_dbRecord["IdCurrency"]), Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Symbol"]), Convert.ToDouble(_dbRecord["ConversionIndex"]), Convert.ToBoolean(_dbRecord["IsPattern"]), Convert.ToString(_dbRecord["PaymentSystemCode"]), credential), Convert.ToString(_dbRecord["IdTransaction"]), Convert.ToString(Common.CastNullValues(_dbRecord["Data"], "")), credential);
 
+                _insert = true;
             }
             return _payment;
         }
@@ -71,6 +72,7 @@ namespace CSI.Library.Handlers
                     _payment = new Library.Objects.Sites.Payments.Payment(Convert.ToInt64(_dbRecord["IdSitePayment"]), Convert.ToInt64(_dbRecord["IdCompanyUser"]), Convert.ToDateTime(_dbRecord["Timestamp"]), Convert.ToDateTime(_dbRecord["From"]), Convert.ToDateTime(_dbRecord["To"]), Convert.ToDouble(_dbRecord["Amount"]), new Objects.Auxiliaries.Units.Currency(Convert.ToInt64(_dbRecord["IdCurrency"]), Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Symbol"]), Convert.ToDouble(_dbRecord["ConversionIndex"]), Convert.ToBoolean(_dbRecord["IsPattern"]), Convert.ToString(_dbRecord["PaymentSystemCode"]), credential), Convert.ToString(_dbRecord["IdTransaction"]), Convert.ToString(Common.CastNullValues(_dbRecord["Data"], "")), credential);
                     _oItems.Add(_payment.IdPayment, _payment);
                 }
+                _insert = true;
             }
             return _oItems;
         }
@@ -103,6 +105,7 @@ namespace CSI.Library.Handlers
                     _payment = new Library.Objects.Sites.Payments.Payment(Convert.ToInt64(_dbRecord["IdSitePayment"]), Convert.ToInt64(_dbRecord["IdCompanyUser"]), Convert.ToDateTime(_dbRecord["Timestamp"]), Convert.ToDateTime(_dbRecord["From"]), Convert.ToDateTime(_dbRecord["To"]), Convert.ToDouble(_dbRecord["Amount"]), new Objects.Auxiliaries.Units.Currency(Convert.ToInt64(_dbRecord["IdCurrency"]), Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Symbol"]), Convert.ToDouble(_dbRecord["ConversionIndex"]), Convert.ToBoolean(_dbRecord["IsPattern"]), Convert.ToString(_dbRecord["PaymentSystemCode"]), credential), Convert.ToString(_dbRecord["IdTransaction"]), Convert.ToString(Common.CastNullValues(_dbRecord["Data"], "")), credential);
                     _oItems.Add(_payment.IdPayment, _payment);
                 }
+                _insert = true;
             }
             return _oItems;
         }

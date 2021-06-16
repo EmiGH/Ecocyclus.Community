@@ -38,6 +38,7 @@ namespace CSI.Library.Handlers
                 if (_insert)
                     _wasteType = new Library.Objects.Auxiliaries.Types.WasteType(idWasteType, Convert.ToString(_dbRecord["IdLanguage"]), Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Description"]), Convert.ToInt64(Common.CastNullValues(_dbRecord["IdIcon"], 0)));
 
+                _insert = true;
             }
             return _wasteType;
         }

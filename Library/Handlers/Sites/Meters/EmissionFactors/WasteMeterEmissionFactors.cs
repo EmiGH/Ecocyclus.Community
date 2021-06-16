@@ -41,6 +41,7 @@ namespace CSI.Library.Handlers
                 if (_insert)
                     _wastesMeterEmissionFactor = new Library.Objects.Sites.Meters.EmissionFactors.WasteMeterEmissionFactor(idWasteMeterEmissionFactor, Convert.ToInt64(_dbRecord["IdWasteTypeEmissionFactor"]), credential);
 
+                _insert = true;
             }
             return _wastesMeterEmissionFactor;
         }
@@ -70,6 +71,7 @@ namespace CSI.Library.Handlers
                 if (_insert)
                     _wastesMeterEmissionFactor = new Library.Objects.Sites.Meters.EmissionFactors.WasteMeterEmissionFactor(Convert.ToInt64(_dbRecord["IdWasteMeterEmissionFactor"]), Convert.ToInt64(_dbRecord["IdWasteTypeEmissionFactor"]), credential);
 
+                _insert = true;
             }
             return _wastesMeterEmissionFactor;
         }

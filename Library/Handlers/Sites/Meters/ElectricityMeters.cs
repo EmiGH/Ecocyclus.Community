@@ -38,6 +38,7 @@ namespace CSI.Library.Handlers
                 if (_insert)
                     _meter = Library.Objects.Sites.Meters.fElectricityMeter.CreateMeter(idMeter, Convert.ToInt64(_dbRecord["IdSite"]), Convert.ToString(_dbRecord["Identification"]), Convert.ToString(_dbRecord["Description"]), Convert.ToDateTime(Common.CastNullValues(_dbRecord["InitialDate"], DateTime.MinValue)), Convert.ToDouble(Common.CastNullValues(_dbRecord["InitialReading"], -1)), Convert.ToInt64(Common.CastNullValues(_dbRecord["IdEmissionFactor"], 0)), Convert.ToInt16(_dbRecord["IdUnit"]), Convert.ToBoolean(_dbRecord["IsPhysicalMeter"]), Convert.ToInt16(_dbRecord["FrequencyQuantity"]), Convert.ToInt16(_dbRecord["FrequencyUnit"]), Convert.ToInt16(_dbRecord["AlertBeforeDays"]), Convert.ToInt16(_dbRecord["AlertAfterDays"]), Convert.ToBoolean(_dbRecord["AlertOnStart"]), credential);
 
+                _insert = true;
             }
             return _meter;
         }

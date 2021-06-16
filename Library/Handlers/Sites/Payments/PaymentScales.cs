@@ -39,6 +39,7 @@ namespace CSI.Library.Handlers
                 if (_insert)
                     _paymentScale = new Library.Objects.Sites.Payments.PaymentScale(idPaymentScale, Convert.ToInt64(_dbRecord["MinValue"]), Convert.ToInt64(_dbRecord["MaxValue"]), Convert.ToDouble(_dbRecord["Amount"]), new Objects.Auxiliaries.Units.Currency(Convert.ToInt64(_dbRecord["IdCurrency"]), Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Symbol"]), Convert.ToDouble(_dbRecord["ConversionIndex"]), Convert.ToBoolean(_dbRecord["IsPattern"]), Convert.ToString(_dbRecord["PaymentSystemCode"]), credential), Convert.ToInt32(_dbRecord["MonthsFree"]), Convert.ToDouble(_dbRecord["FirstPayment"]));
 
+                _insert = true;
             }
             return _paymentScale;
         }
@@ -148,6 +149,7 @@ namespace CSI.Library.Handlers
                 if (_insert)
                     _paymentScale = new Library.Objects.Sites.Payments.PaymentScale(Convert.ToInt64(_dbRecord["IdSitePaymentScale"]), Convert.ToInt64(_dbRecord["MinValue"]), Convert.ToInt64(_dbRecord["MaxValue"]), Convert.ToDouble(_dbRecord["Amount"]), new Objects.Auxiliaries.Units.Currency(Convert.ToInt64(_dbRecord["IdCurrency"]), Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Symbol"]), Convert.ToDouble(_dbRecord["ConversionIndex"]), Convert.ToBoolean(_dbRecord["IsPattern"]), Convert.ToString(_dbRecord["PaymentSystemCode"]), credential), Convert.ToInt32(_dbRecord["MonthsFree"]), Convert.ToDouble(_dbRecord["FirstPayment"]));
 
+                _insert = true;
             }
             return _paymentScale;
         }

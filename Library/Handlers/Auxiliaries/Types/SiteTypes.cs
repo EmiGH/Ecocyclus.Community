@@ -38,6 +38,7 @@ namespace CSI.Library.Handlers
                 if (_insert)
                     _siteType = new Library.Objects.Auxiliaries.Types.SiteType(idSiteType, Convert.ToString(_dbRecord["IdLanguage"]), Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Description"]));
 
+                _insert = true;
             }
             return _siteType;
         }

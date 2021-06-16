@@ -39,6 +39,7 @@ namespace CSI.Library.Handlers
                 if (_insert)
                     _fuelsMeterEmissionFactor = new Library.Objects.Sites.Meters.EmissionFactors.FuelMeterEmissionFactor(idFuelMeterEmissionFactor, Convert.ToInt64(_dbRecord["IdFuelTypeEmissionFactor"]), credential);
 
+                _insert = true;
             }
             return _fuelsMeterEmissionFactor;
         }
@@ -68,6 +69,7 @@ namespace CSI.Library.Handlers
                 if (_insert)
                     _fuelsMeterEmissionFactor = new Library.Objects.Sites.Meters.EmissionFactors.FuelMeterEmissionFactor(Convert.ToInt64(_dbRecord["IdFuelMeterEmissionFactor"]), Convert.ToInt64(_dbRecord["IdFuelTypeEmissionFactor"]), credential);
 
+                _insert = true;
             }
             return _fuelsMeterEmissionFactor;
         }
