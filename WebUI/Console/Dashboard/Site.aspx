@@ -94,11 +94,11 @@
                 <asp:Label ID="lblNumber" runat="server" CssClass="lblTitle"></asp:Label>
                 <asp:Label ID="lblNumberValue" runat="server" CssClass="lblValue"></asp:Label>
             </div>
-            <div class="divColumn column3 last">
+            <div class="divColumn column3">
                 <asp:Label ID="lblValue" runat="server" CssClass="lblTitle"></asp:Label>
                 <asp:Label ID="lblValueValue" runat="server" CssClass="lblValue"></asp:Label>
             </div>
-            <div class="divColumn column3">
+            <div class="divColumn column3 last">
                 <asp:Label ID="lblFloorSpace" runat="server" CssClass="lblTitle"></asp:Label>
                 <asp:Label ID="lblFloorSpaceValue" runat="server" CssClass="lblValue"></asp:Label>
             </div>

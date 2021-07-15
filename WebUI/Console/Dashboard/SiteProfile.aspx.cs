@@ -73,7 +73,6 @@ namespace CSI.WebUI.Console.Dashboard
         {
             //Titles
             lblSiteProperties.Text = Resources.Data.Properties;
-            lblSiteClient.Text = Resources.Data.Client;
             lblMap.Text = Resources.Data.Map;
 
             lblTitle.Text = Resources.Data.Title;
@@ -86,17 +85,6 @@ namespace CSI.WebUI.Console.Dashboard
             lblValue.Text = Resources.Data.Value;
             lblFloorSpace.Text = Resources.Data.FloorSpace;
             lblUnits.Text = Resources.Data.Units;
-            lblClient.Text = Resources.Data.Client;
-            lblAgent.Text = Resources.Data.Agent;
-            lblContractor.Text = Resources.Data.Contractor;
-            lblResponsible.Text = Resources.Data.Responsible;
-            lblManager.Text = Resources.Data.Manager;
-            lblTelephone.Text = Resources.Data.Telephone;
-            lblEmail.Text = Resources.Data.Email;
-            lblUrl.Text = Resources.Data.Url;
-            lblFacebook.Text = Resources.Data.Facebook;
-            lblTwitter.Text = Resources.Data.Twitter;
-            lblDescription.Text = Resources.Data.Description;
             
         }
         private void LoadSite()
@@ -123,17 +111,6 @@ namespace CSI.WebUI.Console.Dashboard
             lblValueValue.Text = _Site.Currency.Symbol + " " + _Site.Value.ToString() + " [" + _Site.Currency.Name + "]";
             lblFloorSpaceValue.Text = _Site.FloorSpace.ToString();
             lblUnitsValue.Text = _Site.Units.ToString();
-            lblClientValue.Text = _Site.Client;
-            lblAgentValue.Text = _Site.Agent;
-            lblContractorValue.Text = _Site.Contractor;
-            lblResponsibleValue.Text = _Site.Responsible;
-            lblManagerValue.Text = _Site.Manager;
-            lblTelephoneValue.Text = _contact.Telephone;
-            lblEmailValue.Text = _contact.Email;
-            lblUrlValue.Text = _contact.Website;
-            lblFacebookValue.Text = _contact.Facebook;
-            lblTwitterValue.Text = _contact.Twitter;
-            lblDescriptionValue.Text = _Site.Description;
             
         }
         

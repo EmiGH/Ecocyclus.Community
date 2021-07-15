@@ -178,7 +178,7 @@ namespace CSI.WebUI.Console.Dashboard.Meters
                 {
                     Int32 _index = Convert.ToInt32(((Button)_item.FindControl("btnGridDelete")).CommandArgument);
                     DateTime _date = Convert.ToDateTime(((Label)_item.FindControl("lblGridDate")).Text);
-                    Boolean _isRoundtrip = Convert.ToBoolean(((HiddenField)_item.FindControl("hdnGridIsRoundtrip")).Value);
+                    Boolean _isRoundtrip = false; //Convert.ToBoolean(((HiddenField)_item.FindControl("hdnGridIsRoundtrip")).Value);
                     String _plateNumber = ((Label)_item.FindControl("lblGridPlateNumber")).Text;
                     Library.Objects.Auxiliaries.Types.TransportType _type = I.GetTransportType(Convert.ToInt64(((HiddenField)_item.FindControl("hdnGridIdTransportType")).Value));
 

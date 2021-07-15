@@ -80,70 +80,22 @@
                 <asp:Label ID="lblNumber" runat="server" CssClass="lblTitle"></asp:Label>
                 <asp:Label ID="lblNumberValue" runat="server" CssClass="lblValue"></asp:Label>
             </div>
-            <div class="divColumn column3 margin  last">
+            <div class="divColumn column3">
                 <asp:Label ID="lblValue" runat="server" CssClass="lblTitle"></asp:Label>
                 <asp:Label ID="lblValueValue" runat="server" CssClass="lblValue"></asp:Label>
             </div>
-            <div class="divColumn column3 margin">
+            <div class="divColumn column3 last">
                 <asp:Label ID="lblFloorSpace" runat="server" CssClass="lblTitle"></asp:Label>
                 <asp:Label ID="lblFloorSpaceValue" runat="server" CssClass="lblValue"></asp:Label>
             </div>
-            <div class="divColumn column3 last margin">
+            <div class="divColumn column3">
                 <asp:Label ID="lblUnits" runat="server" CssClass="lblTitle"></asp:Label>
                 <asp:Label ID="lblUnitsValue" runat="server" CssClass="lblValue"></asp:Label>
             </div>
-            <div class="clear">
+            <div class="divColumn column1 margin last">
+                <asp:Label ID="Label1" runat="server" CssClass="lblTitle"></asp:Label>
+                <asp:Label ID="Label2" runat="server" CssClass="lblValue"></asp:Label>
             </div>
-            <div class="divTitle">
-                <asp:Label ID="lblSiteClient" runat="server"></asp:Label>
-            </div>
-            <div class="divColumn column2">
-                <asp:Label ID="lblClient" runat="server" CssClass="lblTitle"></asp:Label>
-                <asp:Label ID="lblClientValue" runat="server" CssClass="lblValue"></asp:Label>
-            </div>
-            <div class="divColumn column2 last">
-                <asp:Label ID="lblAgent" runat="server" CssClass="lblTitle"></asp:Label>
-                <asp:Label ID="lblAgentValue" runat="server" CssClass="lblValue"></asp:Label>
-            </div>
-            <div class="divColumn column2">
-                <asp:Label ID="lblContractor" runat="server" CssClass="lblTitle"></asp:Label>
-                <asp:Label ID="lblContractorValue" runat="server" CssClass="lblValue"></asp:Label>
-            </div>
-            <div class="divColumn column2 last">
-                <asp:Label ID="lblResponsible" runat="server" CssClass="lblTitle"></asp:Label>
-                <asp:Label ID="lblResponsibleValue" runat="server" CssClass="lblValue"></asp:Label>
-            </div>
-            <div class="divColumn column3">
-                <asp:Label ID="lblManager" runat="server" CssClass="lblTitle"></asp:Label>
-                <asp:Label ID="lblManagerValue" runat="server" CssClass="lblValue"></asp:Label>
-            </div>
-            <div class="divColumn column3">
-                <!-- Contact -->
-                <asp:Label ID="lblTelephone" runat="server" CssClass="lblTitle"></asp:Label>
-                <asp:Label ID="lblTelephoneValue" runat="server" CssClass="lblValue"></asp:Label>
-            </div>
-            <div class="divColumn column3 last">
-                <asp:Label ID="lblEmail" runat="server" CssClass="lblTitle"></asp:Label>
-                <asp:Label ID="lblEmailValue" runat="server" CssClass="lblValue"></asp:Label>
-            </div>
-            <div class="divColumn column3">
-                <asp:Label ID="lblUrl" runat="server" CssClass="lblTitle"></asp:Label>
-                <asp:Label ID="lblUrlValue" runat="server" CssClass="lblValue"></asp:Label>
-            </div>
-            <div class="divColumn column3">
-                <asp:Label ID="lblFacebook" runat="server" CssClass="lblTitle"></asp:Label>
-                <asp:Label ID="lblFacebookValue" runat="server" CssClass="lblValue"></asp:Label>
-            </div>
-            <div class="divColumn column3 last">
-                <asp:Label ID="lblTwitter" runat="server" CssClass="lblTitle"></asp:Label>
-                <asp:Label ID="lblTwitterValue" runat="server" CssClass="lblValue"></asp:Label>
-            </div>
-            <div class="divColumn column1 margin">
-                <asp:Label ID="lblDescription" runat="server" CssClass="lblTitle"></asp:Label>
-                <asp:Label ID="lblDescriptionValue" runat="server" CssClass="lblValue"></asp:Label>
-            </div>
-        </div>
-        <div class="clear">
         </div>
         <div class="divTitle">
             <asp:Label ID="lblMap" runat="server"></asp:Label>

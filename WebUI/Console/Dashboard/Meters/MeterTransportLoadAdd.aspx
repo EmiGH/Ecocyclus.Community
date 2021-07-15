@@ -296,9 +296,9 @@
                                 <th>
                                     <asp:Label ID="lblGridHeaderPlateNumber" runat="server"></asp:Label>
                                 </th>
-                                <th>
+                                <!--<th>
                                     <asp:Label ID="lblGridHeaderIsRoundtrip" runat="server"></asp:Label>
-                                </th>
+                                </th>-->
                                 <th class="thlast">
                                     <asp:Label ID="lblGridHeaderTransportType" runat="server"></asp:Label>
                                 </th>
@@ -317,10 +317,10 @@
                                         <td>
                                             <asp:Label ID="lblGridPlateNumber" runat="server"></asp:Label>
                                         </td>
-                                        <td>
+                                        <!--<td>
                                             <asp:Label ID="lblGridIsRoundtrip" runat="server"></asp:Label>
                                             <asp:HiddenField ID="hdnGridIsRoundtrip" runat="server" />
-                                        </td>
+                                        </td>-->
                                         <td class="tdlast">
                                             <asp:Label ID="lblGridTransportType" runat="server"></asp:Label>
                                             <asp:HiddenField ID="hdnGridIdTransportType" runat="server" />
@@ -348,10 +348,10 @@
                                         <td>
                                             <asp:Label ID="lblGridPlateNumber" runat="server"></asp:Label>
                                         </td>
-                                        <td>
+                                        <!--<td>
                                             <asp:Label ID="lblGridIsRoundtrip" runat="server"></asp:Label>
                                             <asp:HiddenField ID="hdnGridIsRoundtrip" runat="server" />
-                                        </td>
+                                        </td>-->
                                         <td class="tdlast">
                                             <asp:Label ID="lblGridTransportType" runat="server"></asp:Label>
                                             <asp:HiddenField ID="hdnGridIdTransportType" runat="server" />
