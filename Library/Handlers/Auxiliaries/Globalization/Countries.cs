@@ -26,7 +26,7 @@ namespace CSI.Library.Handlers
             {
                 if (_country!=null)
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                     {
                         _country = new Library.Objects.Auxiliaries.Geographic.Country(idCountry, Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Code"]), Convert.ToString(_dbRecord["PhoneCode"]), Convert.ToString(_dbRecord["PaymentSystemCode"]), credential);
                     }
@@ -56,7 +56,7 @@ namespace CSI.Library.Handlers
             {
                 if (_country != null)
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                     {
                         _country = new Library.Objects.Auxiliaries.Geographic.Country(Convert.ToInt64(_dbRecord["IdCountry"]), Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Code"]), Convert.ToString(_dbRecord["PhoneCode"]), Convert.ToString(_dbRecord["PaymentSystemCode"]), credential);
                     }
@@ -87,7 +87,7 @@ namespace CSI.Library.Handlers
             {
                 if (_oItems.ContainsKey(Convert.ToInt64(_dbRecord["IdCountry"])))
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                     {
                         _oItems.Remove(Convert.ToInt64(_dbRecord["IdCountry"]));
                     }

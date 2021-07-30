@@ -27,7 +27,7 @@ namespace CSI.Library.Handlers
             {
                 if (_transportsMeterEmissionFactor != null)
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                     {
                         _transportsMeterEmissionFactor = new Library.Objects.Sites.Meters.EmissionFactors.TransportMeterEmissionFactor(idTransportMeterEmissionFactor, Convert.ToInt64(_dbRecord["IdTransportTypeEmissionFactor"]), credential);
                     }
@@ -57,7 +57,7 @@ namespace CSI.Library.Handlers
             {
                 if (_transportsMeterEmissionFactor != null)
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                     {
                         _transportsMeterEmissionFactor = new Library.Objects.Sites.Meters.EmissionFactors.TransportMeterEmissionFactor(Convert.ToInt64(_dbRecord["IdTransportMeterEmissionFactor"]), Convert.ToInt64(_dbRecord["IdTransportTypeEmissionFactor"]), credential);
                     }
@@ -88,7 +88,7 @@ namespace CSI.Library.Handlers
             {
                 if (_oItems.ContainsKey(Convert.ToInt64(_dbRecord["IdTransportMeterEmissionFactor"])))
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                     {
                         _oItems.Remove(Convert.ToInt64(_dbRecord["IdTransportMeterEmissionFactor"]));
                     }

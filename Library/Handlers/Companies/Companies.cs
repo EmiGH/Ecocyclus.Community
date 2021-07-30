@@ -109,7 +109,7 @@ namespace CSI.Library.Handlers
             IEnumerable<System.Data.Common.DbDataRecord> _record = _dbCompanies.ReadTotalCost(idCompany, _idLanguage);
             foreach (System.Data.Common.DbDataRecord _dbRecord in _record)
             {
-                if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                     return new Objects.Auxiliaries.Units.Cost(Convert.ToDouble(string.IsNullOrEmpty(_dbRecord["Cost"].ToString()) ? 0: _dbRecord["Cost"]), new Objects.Auxiliaries.Units.Currency(Convert.ToInt64(_dbRecord["IdCurrency"]), Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Symbol"]), Convert.ToDouble(_dbRecord["ConversionIndex"]), Convert.ToBoolean(_dbRecord["IsPattern"]), Convert.ToString(_dbRecord["PaymentSystemCode"]), credential));
 
                 else

@@ -29,7 +29,7 @@ namespace CSI.Library.Handlers
             {
                 if (_wastesMeterEmissionFactor != null)
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                     {
                         _wastesMeterEmissionFactor = new Library.Objects.Sites.Meters.EmissionFactors.WasteMeterEmissionFactor(idWasteMeterEmissionFactor, Convert.ToInt64(_dbRecord["IdWasteTypeEmissionFactor"]), credential);
                     }
@@ -59,7 +59,7 @@ namespace CSI.Library.Handlers
             {
                 if (_wastesMeterEmissionFactor != null)
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                     {
                         _wastesMeterEmissionFactor = new Library.Objects.Sites.Meters.EmissionFactors.WasteMeterEmissionFactor(Convert.ToInt64(_dbRecord["IdWasteMeterEmissionFactor"]), Convert.ToInt64(_dbRecord["IdWasteTypeEmissionFactor"]), credential);
                     }
@@ -90,7 +90,7 @@ namespace CSI.Library.Handlers
             {
                 if (_oItems.ContainsKey(Convert.ToInt64(_dbRecord["IdWasteMeterEmissionFactor"])))
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                     {
                         _oItems.Remove(Convert.ToInt64(_dbRecord["IdWasteMeterEmissionFactor"]));
                     }

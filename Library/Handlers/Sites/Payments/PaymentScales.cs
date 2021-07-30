@@ -27,7 +27,7 @@ namespace CSI.Library.Handlers
             {
                 if (_paymentScale != null)
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                     {
                         _paymentScale = new Library.Objects.Sites.Payments.PaymentScale(idPaymentScale, Convert.ToInt64(_dbRecord["MinValue"]), Convert.ToInt64(_dbRecord["MaxValue"]), Convert.ToDouble(_dbRecord["Amount"]), new Objects.Auxiliaries.Units.Currency(Convert.ToInt64(_dbRecord["IdCurrency"]), Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Symbol"]), Convert.ToDouble(_dbRecord["ConversionIndex"]), Convert.ToBoolean(_dbRecord["IsPattern"]), Convert.ToString(_dbRecord["PaymentSystemCode"]), credential), Convert.ToInt32(_dbRecord["MonthsFree"]), Convert.ToDouble(_dbRecord["FirstPayment"]));
                     }
@@ -113,7 +113,7 @@ namespace CSI.Library.Handlers
                     if (Convert.ToInt64(Common.CastNullValues(_dbRecord["IdCountry"], 0)) == idCountry)
                     {
                         //If it is a country based record for the scale then ckeck the language of the unit
-                        if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                        if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                         {
                             //If country and language match replace scale
                             _insert = true;
@@ -131,7 +131,7 @@ namespace CSI.Library.Handlers
                         //If amounts concurr then check language
                         if (_paymentScale.Amount != Convert.ToDouble(_dbRecord["Amount"]))
                         {
-                            if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                            if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                             {
                                 //Amounts are the same then load new language specific scale
                                 _insert = true;

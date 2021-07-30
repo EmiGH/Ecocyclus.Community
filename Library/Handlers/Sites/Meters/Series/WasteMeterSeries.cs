@@ -28,7 +28,7 @@ namespace CSI.Library.Handlers
             {
                 if (_series.ContainsKey(Convert.ToInt64(_dbRecord["IdSiteWasteMeterSerie"])))
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                     {
                         _series.Remove(Convert.ToInt64(_dbRecord["IdSiteWasteMeterSerie"]));
                     }
@@ -58,7 +58,7 @@ namespace CSI.Library.Handlers
             {
                 if (_series.ContainsKey(Convert.ToInt64(_dbRecord["IdSiteWasteMeterSerie"])))
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                     {
                         _series.Remove(Convert.ToInt64(_dbRecord["IdSiteWasteMeterSerie"]));
                     }
@@ -87,7 +87,7 @@ namespace CSI.Library.Handlers
             Boolean _insert = true;
             foreach (System.Data.Common.DbDataRecord _dbRecord in _record)
             {
-                if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                 {
                     _serie = new Library.Objects.Sites.Meters.Series.WasteSerie(idSerie, Convert.ToInt64(_dbRecord["IdSiteWasteMeter"]), Convert.ToDateTime(_dbRecord["Date"]), Convert.ToInt64(_dbRecord["IdWasteType"]), Convert.ToDouble(_dbRecord["Value"]), Convert.ToDouble(_dbRecord["ValuePattern"]), Convert.ToDouble(_dbRecord["TotalCO2"]), new Objects.Auxiliaries.Units.Unit(Convert.ToInt64(_dbRecord["IdUnit"]), Convert.ToInt64(_dbRecord["IdMagnitude"]), Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Symbol"]), Convert.ToDouble(_dbRecord["Numerator"]), Convert.ToDouble(_dbRecord["Denominator"]), Convert.ToDouble(_dbRecord["Exponent"]), Convert.ToDouble(_dbRecord["Constant"]), Convert.ToBoolean(_dbRecord["IsPattern"]), credential), Convert.ToDouble(_dbRecord["EF"]), Convert.ToInt64(_dbRecord["IdWasteTypeEmissionFactor"]), Objects.Users.fUserOperator.CreateOperatorOther(Convert.ToInt64(_dbRecord["IdCompanyUser"]),Convert.ToInt64(_dbRecord["IdUser"]), Convert.ToInt64(_dbRecord["IdCompany"]), Convert.ToDateTime(_dbRecord["Timestamp"]), Convert.ToString(_dbRecord["Email"]), Convert.ToString(_dbRecord["Firstname"]), Convert.ToString(_dbRecord["Lastname"]), Convert.ToInt64(Common.CastNullValues(_dbRecord["IdPicture"],0)), Convert.ToString(_dbRecord["IdLanguage"]), Convert.ToBoolean(_dbRecord["IsManager"]), Convert.ToBoolean(_dbRecord["IsActive"]), credential), credential);
                     _insert = false;
@@ -110,7 +110,7 @@ namespace CSI.Library.Handlers
             Boolean _insert = true;
             foreach (System.Data.Common.DbDataRecord _dbRecord in _record)
             {
-                if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                 {
                     _serie = new Library.Objects.Sites.Meters.Series.WasteSerie(idSerie, Convert.ToInt64(_dbRecord["IdSiteWasteMeter"]), Convert.ToDateTime(_dbRecord["Date"]), Convert.ToInt64(_dbRecord["IdWasteType"]), Convert.ToDouble(_dbRecord["Value"]), Convert.ToDouble(_dbRecord["ValuePattern"]), Convert.ToDouble(_dbRecord["TotalCO2"]), new Objects.Auxiliaries.Units.Unit(Convert.ToInt64(_dbRecord["IdUnit"]), Convert.ToInt64(_dbRecord["IdMagnitude"]), Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Symbol"]), Convert.ToDouble(_dbRecord["Numerator"]), Convert.ToDouble(_dbRecord["Denominator"]), Convert.ToDouble(_dbRecord["Exponent"]), Convert.ToDouble(_dbRecord["Constant"]), Convert.ToBoolean(_dbRecord["IsPattern"]), credential), Convert.ToDouble(_dbRecord["EF"]), Convert.ToInt64(_dbRecord["IdWasteTypeEmissionFactor"]), Objects.Users.fUserOperator.CreateOperatorOther(Convert.ToInt64(_dbRecord["IdCompanyUser"]),Convert.ToInt64(_dbRecord["IdUser"]), Convert.ToInt64(_dbRecord["IdCompany"]), Convert.ToDateTime(_dbRecord["Timestamp"]), Convert.ToString(_dbRecord["Email"]), Convert.ToString(_dbRecord["Firstname"]), Convert.ToString(_dbRecord["Lastname"]), Convert.ToInt64(Common.CastNullValues(_dbRecord["IdPicture"],0)), Convert.ToString(_dbRecord["IdLanguage"]), Convert.ToBoolean(_dbRecord["IsManager"]), Convert.ToBoolean(_dbRecord["IsActive"]), credential), credential);
                     _insert = false;

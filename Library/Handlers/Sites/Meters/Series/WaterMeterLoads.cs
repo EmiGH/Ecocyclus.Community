@@ -29,7 +29,7 @@ namespace CSI.Library.Handlers
             {
                 if (_loads.ContainsKey(Convert.ToInt64(_dbRecord["IdSiteWaterMeterLoad"])))
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                     {
                         _loads.Remove(Convert.ToInt64(_dbRecord["IdSiteWaterMeterLoad"]));
                     }
@@ -59,7 +59,7 @@ namespace CSI.Library.Handlers
             {
                 if (_loads.ContainsKey(Convert.ToInt64(_dbRecord["IdSiteWaterMeterLoad"])))
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                     {
                         _loads.Remove(Convert.ToInt64(_dbRecord["IdSiteWaterMeterLoad"]));
                     }
@@ -88,7 +88,7 @@ namespace CSI.Library.Handlers
             Boolean _insert = true;
             foreach (System.Data.Common.DbDataRecord _dbRecord in _record)
             {
-                if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                 {
                     _load = new Library.Objects.Sites.Meters.Series.WaterLoad(Convert.ToInt64(_dbRecord["IdSiteWaterMeterLoad"]), Convert.ToInt64(_dbRecord["IdSiteWaterMeter"]), Objects.Users.fUserOperator.CreateOperatorOther(Convert.ToInt64(_dbRecord["IdCompanyUser"]),Convert.ToInt64(_dbRecord["IdUser"]), Convert.ToInt64(_dbRecord["IdCompany"]), Convert.ToDateTime(_dbRecord["Timestamp"]), Convert.ToString(_dbRecord["Email"]), Convert.ToString(_dbRecord["Firstname"]), Convert.ToString(_dbRecord["Lastname"]), Convert.ToInt64(Common.CastNullValues(_dbRecord["IdPicture"],0)), Convert.ToString(_dbRecord["IdLanguage"]), Convert.ToBoolean(_dbRecord["IsManager"]), Convert.ToBoolean(_dbRecord["IsActive"]), credential), Convert.ToDateTime(_dbRecord["DateFrom"]), Convert.ToDateTime(_dbRecord["DateTo"]), Convert.ToDouble(_dbRecord["Value"]), Convert.ToDouble(_dbRecord["ValueInput"]), new Objects.Auxiliaries.Units.Unit(Convert.ToInt64(_dbRecord["IdUnit"]), Convert.ToInt64(_dbRecord["IdMagnitude"]), Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Symbol"]), Convert.ToDouble(_dbRecord["Numerator"]), Convert.ToDouble(_dbRecord["Denominator"]), Convert.ToDouble(_dbRecord["Exponent"]), Convert.ToDouble(_dbRecord["Constant"]), Convert.ToBoolean(_dbRecord["IsPattern"]), credential), Convert.ToDouble(_dbRecord["EF"]), credential);
                     _insert = false;
@@ -111,7 +111,7 @@ namespace CSI.Library.Handlers
             Boolean _insert = true;
             foreach (System.Data.Common.DbDataRecord _dbRecord in _record)
             {
-                if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                 {
                     _load = new Library.Objects.Sites.Meters.Series.WaterLoad(Convert.ToInt64(_dbRecord["IdSiteWaterMeterLoad"]), Convert.ToInt64(_dbRecord["IdSiteWaterMeter"]), Objects.Users.fUserOperator.CreateOperatorOther(Convert.ToInt64(_dbRecord["IdCompanyUser"]),Convert.ToInt64(_dbRecord["IdUser"]), Convert.ToInt64(_dbRecord["IdCompany"]), Convert.ToDateTime(_dbRecord["Timestamp"]), Convert.ToString(_dbRecord["Email"]), Convert.ToString(_dbRecord["Firstname"]), Convert.ToString(_dbRecord["Lastname"]), Convert.ToInt64(Common.CastNullValues(_dbRecord["IdPicture"],0)), Convert.ToString(_dbRecord["IdLanguage"]), Convert.ToBoolean(_dbRecord["IsManager"]), Convert.ToBoolean(_dbRecord["IsActive"]), credential), Convert.ToDateTime(_dbRecord["DateFrom"]), Convert.ToDateTime(_dbRecord["DateTo"]), Convert.ToDouble(_dbRecord["Value"]), Convert.ToDouble(_dbRecord["ValueInput"]), new Objects.Auxiliaries.Units.Unit(Convert.ToInt64(_dbRecord["IdUnit"]), Convert.ToInt64(_dbRecord["IdMagnitude"]), Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Symbol"]), Convert.ToDouble(_dbRecord["Numerator"]), Convert.ToDouble(_dbRecord["Denominator"]), Convert.ToDouble(_dbRecord["Exponent"]), Convert.ToDouble(_dbRecord["Constant"]), Convert.ToBoolean(_dbRecord["IsPattern"]), credential), Convert.ToDouble(_dbRecord["EF"]), credential);
                     _insert = false;
@@ -134,7 +134,7 @@ namespace CSI.Library.Handlers
             Boolean _insert = true;
             foreach (System.Data.Common.DbDataRecord _dbRecord in _record)
             {
-                if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                 {
                     _load = new Library.Objects.Sites.Meters.Series.WaterLoad(Convert.ToInt64(_dbRecord["IdSiteWaterMeterLoad"]), Convert.ToInt64(_dbRecord["IdSiteWaterMeter"]), Objects.Users.fUserOperator.CreateOperatorOther(Convert.ToInt64(_dbRecord["IdCompanyUser"]),Convert.ToInt64(_dbRecord["IdUser"]), Convert.ToInt64(_dbRecord["IdCompany"]), Convert.ToDateTime(_dbRecord["Timestamp"]), Convert.ToString(_dbRecord["Email"]), Convert.ToString(_dbRecord["Firstname"]), Convert.ToString(_dbRecord["Lastname"]), Convert.ToInt64(Common.CastNullValues(_dbRecord["IdPicture"],0)), Convert.ToString(_dbRecord["IdLanguage"]), Convert.ToBoolean(_dbRecord["IsManager"]), Convert.ToBoolean(_dbRecord["IsActive"]), credential), Convert.ToDateTime(_dbRecord["DateFrom"]), Convert.ToDateTime(_dbRecord["DateTo"]), Convert.ToDouble(_dbRecord["Value"]), Convert.ToDouble(_dbRecord["ValueInput"]), new Objects.Auxiliaries.Units.Unit(Convert.ToInt64(_dbRecord["IdUnit"]), Convert.ToInt64(_dbRecord["IdMagnitude"]), Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Symbol"]), Convert.ToDouble(_dbRecord["Numerator"]), Convert.ToDouble(_dbRecord["Denominator"]), Convert.ToDouble(_dbRecord["Exponent"]), Convert.ToDouble(_dbRecord["Constant"]), Convert.ToBoolean(_dbRecord["IsPattern"]), credential), Convert.ToDouble(_dbRecord["EF"]), credential);
                     _insert = false;
@@ -157,7 +157,7 @@ namespace CSI.Library.Handlers
             Boolean _insert = true;
             foreach (System.Data.Common.DbDataRecord _dbRecord in _record)
             {
-                if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                 {
                     _load = new Library.Objects.Sites.Meters.Series.WaterLoad(Convert.ToInt64(_dbRecord["IdSiteWaterMeterLoad"]), Convert.ToInt64(_dbRecord["IdSiteWaterMeter"]), Objects.Users.fUserOperator.CreateOperatorOther(Convert.ToInt64(_dbRecord["IdCompanyUser"]),Convert.ToInt64(_dbRecord["IdUser"]), Convert.ToInt64(_dbRecord["IdCompany"]), Convert.ToDateTime(_dbRecord["Timestamp"]), Convert.ToString(_dbRecord["Email"]), Convert.ToString(_dbRecord["Firstname"]), Convert.ToString(_dbRecord["Lastname"]), Convert.ToInt64(Common.CastNullValues(_dbRecord["IdPicture"],0)), Convert.ToString(_dbRecord["IdLanguage"]), Convert.ToBoolean(_dbRecord["IsManager"]), Convert.ToBoolean(_dbRecord["IsActive"]), credential), Convert.ToDateTime(_dbRecord["DateFrom"]), Convert.ToDateTime(_dbRecord["DateTo"]), Convert.ToDouble(_dbRecord["Value"]), Convert.ToDouble(_dbRecord["ValueInput"]), new Objects.Auxiliaries.Units.Unit(Convert.ToInt64(_dbRecord["IdUnit"]), Convert.ToInt64(_dbRecord["IdMagnitude"]), Convert.ToString(_dbRecord["Name"]), Convert.ToString(_dbRecord["Symbol"]), Convert.ToDouble(_dbRecord["Numerator"]), Convert.ToDouble(_dbRecord["Denominator"]), Convert.ToDouble(_dbRecord["Exponent"]), Convert.ToDouble(_dbRecord["Constant"]), Convert.ToBoolean(_dbRecord["IsPattern"]), credential), Convert.ToDouble(_dbRecord["EF"]), credential);
                     _insert = false;

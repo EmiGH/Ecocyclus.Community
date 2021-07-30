@@ -29,7 +29,7 @@ namespace CSI.Library.Handlers
             {
                 if (_meter!=null)
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                     {
                         _meter = Library.Objects.Sites.Meters.fWaterMeter.CreateMeter(idMeter, Convert.ToInt64(_dbRecord["IdSite"]), Convert.ToString(_dbRecord["Identification"]), Convert.ToString(_dbRecord["Description"]), Convert.ToDateTime(Common.CastNullValues(_dbRecord["InitialDate"], DateTime.MinValue)), Convert.ToDouble(Common.CastNullValues(_dbRecord["InitialReading"], -1)), Convert.ToInt64(Common.CastNullValues(_dbRecord["IdEmissionFactor"], 0)), Convert.ToInt16(_dbRecord["IdUnit"]), Convert.ToBoolean(_dbRecord["IsPhysicalMeter"]), Convert.ToInt16(_dbRecord["FrequencyQuantity"]), Convert.ToInt16(_dbRecord["FrequencyUnit"]), Convert.ToInt16(_dbRecord["AlertBeforeDays"]), Convert.ToInt16(_dbRecord["AlertAfterDays"]), Convert.ToBoolean(_dbRecord["AlertOnStart"]), credential);
                         _insert = false;
@@ -57,7 +57,7 @@ namespace CSI.Library.Handlers
             {
                 if (_oItems.ContainsKey(Convert.ToInt64(_dbRecord["IdSiteWaterMeter"])))
                 {
-                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage)
+                    if (Convert.ToString(_dbRecord["IdLanguage"]).ToUpper() == _idLanguage.ToUpper())
                     {
                         _oItems.Remove(Convert.ToInt64(_dbRecord["IdSiteWaterMeter"]));
                     }
